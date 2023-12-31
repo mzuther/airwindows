@@ -3,7 +3,7 @@
 
 Welcome to AirwindoPedia! This is a complilation of the plugin-related bits from all my plugin posts. As such, this is as close to a full documentation of the Airwindows plugins as you'll find. In some cases I'll have added explanation, or I might be able to expand on things as this develops. Bear with me as I must do this while also doing everything else, and it will always be on me: as an open source dev, my experience is that people don't really step up to do the tedious stuff across entire libraries, so AirwindoPedia is there because I went through all the posts to consolidate them in one place for you :)
 
-We will start with some basic categorization: you can look these up below for further instruction. We'll use the categorization that was used in Surge Synthesizer when organizing my plugins for their purposes, but I will continue and mention plugins not used in Surge Synthesizer if I feel they fit the category. They won't be in alphabetical order, but in order of how well they fit the category and how good they are, and there will be plugins showing up in multiple categories and ones that don't appear at all.
+We will start with some basic categorization: you can look these up below for further instruction. We'll use the categorization that was used in SurgeSynthesizer when organizing my plugins for their purposes, but I will continue and mention plugins not used in SurgeSynthesizer if I feel they fit the category. They won't be in alphabetical order, but in order of how well they fit the category and how good they are, and there will be plugins showing up in multiple categories and ones that don't appear at all.
 
 Actually it turns out that other devs can use this file to do amazing things like populate menus and fill in entries for help files, so what you see below will end up including ALL the plugins eventually. Again, they're roughly in order of goodness, so try the ones at the beginning of the list first: those are also likely to be the most recent ones :)
 
@@ -48,7 +48,7 @@ ConsoleLABuss, ConsoleLAChannel, ConsoleMCBuss, ConsoleMCChannel, ConsoleMDBuss,
 <a name="categories_distortion"></a>
 ### Distortion
 
-Distortion, Edge, Dirt, Mackity, ZOutputStage, Density2, Density, Drive, Loud, Hard Vacuum, HighImpact, MultiBandDistortion
+Distortion, Edge, Dirt, Mackity, ZOutputStage, Density2, Density, Drive, Loud, HardVacuum, HighImpact, MultiBandDistortion
 
 <a name="categories_dithers"></a>
 ### Dithers
@@ -493,7 +493,7 @@ By request, a kind of bugfix!
 
 Understand, a simpler implementation of a biquad filter isn’t a ‘bug’, exactly. I may have not had everything figured out, but if you’re designing fixed filters or looking to tune in EQs on something in your mix, the biquad filters I’ve been making are actually better. Without the extra smoothing code they run more efficiently and eat less CPU, and they’re still useful, plus there’s less to them so they’re more approachable.
 
-But, a lot of musicians seem to enjoy cranking the filters around… and now that I’m using Bespoke all the time, I can put an LFO literally on any damn thing by rightclicking it. And it wasn’t all that difficult to do… I rolled it in to some documentation upgrades I did on the advice of Paul from Surge Synthesizer. One thing about hanging out with the open source music people is, stuff starts happening faster than you could possibly imagine. I had a crash bug in Bespoke on some strange things I needed to build into my main music making procedures, and Ryan had a fix the next MORNING. It’s daunting and wonderful to hang out with these earnest, motivated people.
+But, a lot of musicians seem to enjoy cranking the filters around… and now that I’m using Bespoke all the time, I can put an LFO literally on any damn thing by rightclicking it. And it wasn’t all that difficult to do… I rolled it in to some documentation upgrades I did on the advice of Paul from SurgeSynthesizer. One thing about hanging out with the open source music people is, stuff starts happening faster than you could possibly imagine. I had a crash bug in Bespoke on some strange things I needed to build into my main music making procedures, and Ryan had a fix the next MORNING. It’s daunting and wonderful to hang out with these earnest, motivated people.
 
 You’ll see more on that, sooner than you think.
 
@@ -2557,7 +2557,7 @@ Fracture2 is straight up a West Coast wavefolder, in a plugin. You've got Drive,
 
 Fracture makes the signal go exponential before folding. What this means is, if it's at zero you'll get a simple wavefold. With a sine, that'll create a distinct overtone (stronger than the original Fracture) which will slow down as it nears the top, then reverse. As you increase Fracture, the pitch of the wavefold increases because the wave you feed in will start folding faster and faster the more it folds: it will also open up the unfolded part of the wave, making it more dynamic. On non-tonal sounds, this makes the effect dryer and punchier and more aggressive.
 
-Threshold is by request from a fan who asked in Youtube comments, and whom I've got some things in common with. The idea is basically, can you make the folding part only take up a certain amount of space, like back to the zero point but not past? Turns out you can! And what this does is, it lets you have a volume control on the fold part. So, at zero threshold, you have a soft clip (or, with Fracture, a weird expando-clip like High Impact). As you increase it, the wavefold comes out of the clipping, expanding down (or up) from the flat-top of the wave, with 0.5 going to the center of the waveform and 1.0 doing a full-amplitude wavefold.
+Threshold is by request from a fan who asked in Youtube comments, and whom I've got some things in common with. The idea is basically, can you make the folding part only take up a certain amount of space, like back to the zero point but not past? Turns out you can! And what this does is, it lets you have a volume control on the fold part. So, at zero threshold, you have a soft clip (or, with Fracture, a weird expando-clip like HighImpact). As you increase it, the wavefold comes out of the clipping, expanding down (or up) from the flat-top of the wave, with 0.5 going to the center of the waveform and 1.0 doing a full-amplitude wavefold.
 
 Because this effect lends itself to the Rack port of my plugins (where you can feed audio rates into any controls), all the controls except Fracture are smoothed for better automation. I don't do this all the time, but it just seems to be the kind of effect where you might be sending sine waves into it (revealing zipper noises) and then modulating it like crazy, so it's using the same smoothing that's in the Z2-series filters.
 
@@ -2767,7 +2767,7 @@ Time to revisit an Airwindows classic!
 
 This is one of the plugins Airwindows ‘made its bones’ on, brought up to date and converted to VST for Mac, Windows and Linux (and made open source!)
 
-Hard Vacuum refers to vacuum tubes, and as you’d expect it’s a saturation device but with some interesting twists. It’s got a warmth control that brings in second harmonic and nonlinearity like you might see in a class A tube design, but set up to be abused if you’d like to produce exaggerated effects (that aren’t really ‘warm’ anymore, but if you want to play nice, don’t push this control too far). It’s got a nice Airwindows sine-based saturation curve… and it’s got a control called Aura that will bring out sparkly highs and hot searing overtones you might not have heard from a plugin before.
+HardVacuum refers to vacuum tubes, and as you’d expect it’s a saturation device but with some interesting twists. It’s got a warmth control that brings in second harmonic and nonlinearity like you might see in a class A tube design, but set up to be abused if you’d like to produce exaggerated effects (that aren’t really ‘warm’ anymore, but if you want to play nice, don’t push this control too far). It’s got a nice Airwindows sine-based saturation curve… and it’s got a control called Aura that will bring out sparkly highs and hot searing overtones you might not have heard from a plugin before.
 
 The way that one works is thus: I saw scope traces of tube circuits that were showing slanty tops on squarewaves, like the power supplies weren’t keeping up. It became an obsession to make plugin saturation do that, and I came up with something that turned into Aura. Note that this is NOT ‘analog modeling’, not as people normally mean it: I’m rarely interested in running hapless audio through lots of math pretending to be electronic parts. I generally want a simple, unexpected algorithm that’ll do what I intend with minimal unnecessary math, because I find that overprocessing digital audio hurts the tone.
 
@@ -2804,22 +2804,22 @@ Thing is, the person who’d requested this is the same one who requested Hermep
 So, now Hermepass has a companion, HermeTrim. This is exactly the same as EveryTrim, only it’s 1.5 dB plus and minus. It’s more a mastering tool: make tiny little tweaks to get the master just right. EveryTrim will sound just as good, but this one’s geared towards non-mixing purposes. Hope you like it.
 
 
-<a name="plugins_high"></a>
-### High
+<a name="plugins_highimpact"></a>
+### HighImpact
 
-_High Impact is distorted grit and punch without fatness. This is also another little window into Airwindows history, as this is the point where I began putting out the for-pay plugins for free through Patreon. The post is presented in its entirety as a picture of where I was at on April 9, 2017. By now I have put out more than 300 plugins and I'm still going, but this was when I'd done 47 and all the most sought-after ones were still being held back as goals… here is the original post._
+_HighImpact is distorted grit and punch without fatness. This is also another little window into Airwindows history, as this is the point where I began putting out the for-pay plugins for free through Patreon. The post is presented in its entirety as a picture of where I was at on April 9, 2017. By now I have put out more than 300 plugins and I'm still going, but this was when I'd done 47 and all the most sought-after ones were still being held back as goals… here is the original post._
 
 Sometimes it’s all in the name.
 
-High Impact has been one of the Airwindows secret weapons for a long time. It’s a pretty basic idea: know how Density distorts and makes audio huge and fat, and Drive distorts and doesn’t make stuff as fat? High Impact answers the question, ‘what if you could distort and not make things fatter AT ALL’.
+HighImpact has been one of the Airwindows secret weapons for a long time. It’s a pretty basic idea: know how Density distorts and makes audio huge and fat, and Drive distorts and doesn’t make stuff as fat? HighImpact answers the question, ‘what if you could distort and not make things fatter AT ALL’.
 
-This is not EQ I’m talking about, though it can come off like EQ depending on what you feed into it. High Impact combines a distortion and anti-distortion circuit to reshape the transfer function of the audio, as follows: crank it up, and quiet subtle samples aren’t turned up much. Then medium samples are turned up a LOT, and then the loudest samples are distorted and hit a wall past which they can’t go. The result is an obvious distort which doesn’t bloat things. It’s a ‘dial-a-rasp’, or ‘dial-a-slam’ for percussive noises, and though the concept is two different kinds of overdrive combined, it’s an Airwindows plugin so it’s not overprocessed, it’s super raw.
+This is not EQ I’m talking about, though it can come off like EQ depending on what you feed into it. HighImpact combines a distortion and anti-distortion circuit to reshape the transfer function of the audio, as follows: crank it up, and quiet subtle samples aren’t turned up much. Then medium samples are turned up a LOT, and then the loudest samples are distorted and hit a wall past which they can’t go. The result is an obvious distort which doesn’t bloat things. It’s a ‘dial-a-rasp’, or ‘dial-a-slam’ for percussive noises, and though the concept is two different kinds of overdrive combined, it’s an Airwindows plugin so it’s not overprocessed, it’s super raw.
 
-That suits this plugin super well, and that’s why the AU-only High Impact has been a secret weapon for many people for years—and now it’s out for Mac and PC VST.
+That suits this plugin super well, and that’s why the AU-only HighImpact has been a secret weapon for many people for years—and now it’s out for Mac and PC VST.
 
 A word about the ‘secret weapon’ thing: I hate that. Do as I do, and communicate openly. Airwindows plugins are not preset things that you hide somewhere to add magic sauce to your mixes. They require intention, and there’s no one right way to use them: Airwindows plugins are like if a certain mic modeler you can rent that offers ‘silky expensive microphone models’ had just a blank ugly faceplate with just one knob, ‘silky’. And you could use it as a guitar stompbox if you wanted, not even a microphone anymore, and it was no longer connected to a ‘magic gear item’ so you’d have to ask, ‘HOW silky does this sound need to be, in my mix?’ because there was no one right answer.
 
-That’s what Airwindows is like. For High Impact, read ‘raspy’ or ‘mean’ or ‘grindy’, whatever describes the sound for you. Now you’ve got an extra parameter: instead of just bass, treble, loud, soft (or even fat and thin) you’ve got ‘aggro’ on a knob. That can relate to any bit of audio you’re working with… and your ‘secret sauce’ is not the plugin, but your sense of taste (or tastelessness) in using and abusing it. So, don’t keep Airwindows plugins a secret weapon. I hate that. Tell people what you’re using, so I can get more supporters and keep doing all this, on a bigger and bigger scale.
+That’s what Airwindows is like. For HighImpact, read ‘raspy’ or ‘mean’ or ‘grindy’, whatever describes the sound for you. Now you’ve got an extra parameter: instead of just bass, treble, loud, soft (or even fat and thin) you’ve got ‘aggro’ on a knob. That can relate to any bit of audio you’re working with… and your ‘secret sauce’ is not the plugin, but your sense of taste (or tastelessness) in using and abusing it. So, don’t keep Airwindows plugins a secret weapon. I hate that. Tell people what you’re using, so I can get more supporters and keep doing all this, on a bigger and bigger scale.
 
 Speaking of which, I have a Patreon milestone! As of a couple days ago, I hit $600 a month, and I’ve recently changed that to be the point where I start releasing the Kagi catalog! Now, people sometimes bail as the first of the month rolls around (and also I don’t get paid quite the full amount shown). So, it’s possible this milestone will go poof as we reach May, in which case we’re still waiting. BUT, if the dust settles and it’s still over $600 going into May, I will put out Iron Oxide 4 (the second most popular plugin I have EVER made) as free AU/VST!
 
@@ -5045,7 +5045,7 @@ Here’s the last plugin I had in the pipeline, ready to post: no reason not to 
 
 StereoFX is a classic Airwindows plugin brought up to date and VSTified: it does three things that can contour the stereo image. None of them are as well behaved as Wider, but they’re interestingly different.
 
-Stereo Wide basically runs the code from High Impact on the side channel. It gives a really aggressive widening effect (which will cancel in mono of course) and can bring an edgy quality to the wideness of your stereo channel.
+Stereo Wide basically runs the code from HighImpact on the side channel. It gives a really aggressive widening effect (which will cancel in mono of course) and can bring an edgy quality to the wideness of your stereo channel.
 
 Mono Bass is simply a highpass on the side channel: adjust to taste, by ear. It’s a very simple highpass, not that steep.
 
@@ -6234,3 +6234,385 @@ If you're going for automation, the Z2 filters are the ones that interpolate the
 This concludes the AirwindoPedia. Expect this file to be expanded as new plugins come in. Might end up needing one of these for the Free Studio sample instruments, eventually…
 
 _-chris_
+
+
+[Acceleration]: #plugins_acceleration
+[Acceleration2]: #plugins_acceleration2
+[ADClip7]: #plugins_adclip7
+[ADT]: #plugins_adt
+[Air]: #plugins_air
+[Air2]: #plugins_air2
+[Apicolypse]: #plugins_apicolypse
+[AQuickVoiceClip]: #plugins_aquickvoiceclip
+[AtmosphereBuss]: #plugins_atmospherebuss
+[AtmosphereChannel]: #plugins_atmospherechannel
+[Aura]: #plugins_aura
+[AutoPan]: #plugins_autopan
+[Average]: #plugins_average
+[AverMatrix]: #plugins_avermatrix
+[Balanced]: #plugins_balanced
+[BassAmp]: #plugins_bassamp
+[BassDrive]: #plugins_bassdrive
+[BassKit]: #plugins_basskit
+[Baxandall]: #plugins_baxandall
+[Baxandall2]: #plugins_baxandall2
+[Beam]: #plugins_beam
+[BigAmp]: #plugins_bigamp
+[Biquad]: #plugins_biquad
+[Biquad2]: #plugins_biquad2
+[BiquadDouble]: #plugins_biquaddouble
+[BiquadOneHalf]: #plugins_biquadonehalf
+[BiquadPlus]: #plugins_biquadplus
+[BiquadTriple]: #plugins_biquadtriple
+[Bite]: #plugins_bite
+[BitGlitter]: #plugins_bitglitter
+[BitShiftGain]: #plugins_bitshiftgain
+[BitShiftPan]: #plugins_bitshiftpan
+[BlockParty]: #plugins_blockparty
+[BrassRider]: #plugins_brassrider
+[BrightAmbience]: #plugins_brightambience
+[BrightAmbience2]: #plugins_brightambience2
+[BrightAmbience3]: #plugins_brightambience3
+[BuildATPDF]: #plugins_buildatpdf
+[BussColors4]: #plugins_busscolors4
+[ButterComp]: #plugins_buttercomp
+[ButterComp2]: #plugins_buttercomp2
+[C5RawBuss]: #plugins_c5rawbuss
+[C5RawConsole]: #plugins_c5rawconsole
+[Cabs]: #plugins_cabs
+[Calibre]: #plugins_calibre
+[Capacitor]: #plugins_capacitor
+[Capacitor2]: #plugins_capacitor2
+[Chamber]: #plugins_chamber
+[Chamber2]: #plugins_chamber2
+[Channel4]: #plugins_channel4
+[Channel5]: #plugins_channel5
+[Channel6]: #plugins_channel6
+[Channel7]: #plugins_channel7
+[Channel8]: #plugins_channel8
+[Channel9]: #plugins_channel9
+[Chorus]: #plugins_chorus
+[ChorusEnsemble]: #plugins_chorusensemble
+[ChromeOxide]: #plugins_chromeoxide
+[Cider]: #plugins_cider
+[ClearCoat]: #plugins_clearcoat
+[ClipOnly]: #plugins_cliponly
+[ClipOnly2]: #plugins_cliponly2
+[ClipSoftly]: #plugins_clipsoftly
+[Coils]: #plugins_coils
+[Coils2]: #plugins_coils2
+[Cojones]: #plugins_cojones
+[Compresaturator]: #plugins_compresaturator
+[Console0Buss]: #plugins_console0buss
+[Console0Channel]: #plugins_console0channel
+[Console4Buss]: #plugins_console4buss
+[Console4Channel]: #plugins_console4channel
+[Console5Buss]: #plugins_console5buss
+[Console5Channel]: #plugins_console5channel
+[Console5DarkCh]: #plugins_console5darkch
+[Console6Buss]: #plugins_console6buss
+[Console6Channel]: #plugins_console6channel
+[Console7Buss]: #plugins_console7buss
+[Console7Cascade]: #plugins_console7cascade
+[Console7Channel]: #plugins_console7channel
+[Console7Crunch]: #plugins_console7crunch
+[Console8BussHype]: #plugins_console8busshype
+[Console8BussIn]: #plugins_console8bussin
+[Console8BussOut]: #plugins_console8bussout
+[Console8ChannelHype]: #plugins_console8channelhype
+[Console8ChannelIn]: #plugins_console8channelin
+[Console8ChannelOut]: #plugins_console8channelout
+[Console8LiteBuss]: #plugins_console8litebuss
+[Console8LiteChannel]: #plugins_console8litechannel
+[Console8SubHype]: #plugins_console8subhype
+[Console8SubIn]: #plugins_console8subin
+[Console8SubOut]: #plugins_console8subout
+[ConsoleLABuss]: #plugins_consolelabuss
+[ConsoleLAChannel]: #plugins_consolelachannel
+[ConsoleMCBuss]: #plugins_consolemcbuss
+[ConsoleMCChannel]: #plugins_consolemcchannel
+[ConsoleMDBuss]: #plugins_consolemdbuss
+[ConsoleMDChannel]: #plugins_consolemdchannel
+[Creature]: #plugins_creature
+[CrickBass]: #plugins_crickbass
+[CrunchyGrooveWear]: #plugins_crunchygroovewear
+[Crystal]: #plugins_crystal
+[CStrip]: #plugins_cstrip
+[CStrip2]: #plugins_cstrip2
+[curve]: #plugins_curve
+[Dark]: #plugins_dark
+[DarkNoise]: #plugins_darknoise
+[DCVoltage]: #plugins_dcvoltage
+[DeBess]: #plugins_debess
+[Deckwrecka]: #plugins_deckwrecka
+[DeEss]: #plugins_deess
+[DeHiss]: #plugins_dehiss
+[Density]: #plugins_density
+[Density2]: #plugins_density2
+[DeRez]: #plugins_derez
+[DeRez2]: #plugins_derez2
+[Desk]: #plugins_desk
+[Desk4]: #plugins_desk4
+[DigitalBlack]: #plugins_digitalblack
+[Dirt]: #plugins_dirt
+[Distance]: #plugins_distance
+[Distance2]: #plugins_distance2
+[Distortion]: #plugins_distortion
+[Ditherbox]: #plugins_ditherbox
+[DitherFloat]: #plugins_ditherfloat
+[DitherMeDiskers]: #plugins_dithermediskers
+[DitherMeTimbers]: #plugins_dithermetimbers
+[Doublelay]: #plugins_doublelay
+[DoublePaul]: #plugins_doublepaul
+[Drive]: #plugins_drive
+[DrumSlam]: #plugins_drumslam
+[DubCenter]: #plugins_dubcenter
+[Dubly]: #plugins_dubly
+[DubSub]: #plugins_dubsub
+[DustBunny]: #plugins_dustbunny
+[Dynamics]: #plugins_dynamics
+[Dyno]: #plugins_dyno
+[Edge]: #plugins_edge
+[EdIsDim]: #plugins_edisdim
+[Elation]: #plugins_elation
+[ElectroHat]: #plugins_electrohat
+[Energy]: #plugins_energy
+[Energy2]: #plugins_energy2
+[Ensemble]: #plugins_ensemble
+[EQ]: #plugins_eq
+[EveryConsole]: #plugins_everyconsole
+[EverySlew]: #plugins_everyslew
+[EveryTrim]: #plugins_everytrim
+[Exciter]: #plugins_exciter
+[Facet]: #plugins_facet
+[FathomFive]: #plugins_fathomfive
+[FireAmp]: #plugins_fireamp
+[Flipity]: #plugins_flipity
+[Floor]: #plugins_floor
+[Flutter]: #plugins_flutter
+[Focus]: #plugins_focus
+[Fracture]: #plugins_fracture
+[Fracture2]: #plugins_fracture2
+[FromTape]: #plugins_fromtape
+[Galactic]: #plugins_galactic
+[Galactic2]: #plugins_galactic2
+[GalacticVibe]: #plugins_galacticvibe
+[Gatelope]: #plugins_gatelope
+[GlitchShifter]: #plugins_glitchshifter
+[GoldenSlew]: #plugins_goldenslew
+[Golem]: #plugins_golem
+[GrindAmp]: #plugins_grindamp
+[Gringer]: #plugins_gringer
+[GrooveWear]: #plugins_groovewear
+[GuitarConditioner]: #plugins_guitarconditioner
+[HardVacuum]: #plugins_hardvacuum
+[Hermepass]: #plugins_hermepass
+[HermeTrim]: #plugins_hermetrim
+[HighGlossDither]: #plugins_highglossdither
+[HighImpact]: #plugins_highimpact
+[Highpass]: #plugins_highpass
+[Highpass2]: #plugins_highpass2
+[Holt]: #plugins_holt
+[Holt2]: #plugins_holt2
+[Hombre]: #plugins_hombre
+[Huge]: #plugins_huge
+[Hull]: #plugins_hull
+[Hull2]: #plugins_hull2
+[Hype]: #plugins_hype
+[Hypersonic]: #plugins_hypersonic
+[HypersonX]: #plugins_hypersonx
+[Infinity]: #plugins_infinity
+[Infinity2]: #plugins_infinity2
+[Inflamer]: #plugins_inflamer
+[Infrasonic]: #plugins_infrasonic
+[Interstage]: #plugins_interstage
+[IronOxide5]: #plugins_ironoxide5
+[IronOxideClassic]: #plugins_ironoxideclassic
+[IronOxideClassic2]: #plugins_ironoxideclassic2
+[Isolator]: #plugins_isolator
+[Isolator2]: #plugins_isolator2
+[kCathedral]: #plugins_kcathedral
+[kChamberAR]: #plugins_kchamberar
+[kPlateA]: #plugins_kplatea
+[kPlateB]: #plugins_kplateb
+[kPlateC]: #plugins_kplatec
+[kPlateD]: #plugins_kplated
+[LeadAmp]: #plugins_leadamp
+[LeftoMono]: #plugins_leftomono
+[LilAmp]: #plugins_lilamp
+[Logical4]: #plugins_logical4
+[Loud]: #plugins_loud
+[Lowpass]: #plugins_lowpass
+[Lowpass2]: #plugins_lowpass2
+[LRFlipTimer]: #plugins_lrfliptimer
+[Luxor]: #plugins_luxor
+[MackEQ]: #plugins_mackeq
+[Mackity]: #plugins_mackity
+[MatrixVerb]: #plugins_matrixverb
+[Melt]: #plugins_melt
+[MidAmp]: #plugins_midamp
+[MidSide]: #plugins_midside
+[Mojo]: #plugins_mojo
+[Monitoring]: #plugins_monitoring
+[Monitoring2]: #plugins_monitoring2
+[Monitoring3]: #plugins_monitoring3
+[MoNoam]: #plugins_monoam
+[MultiBandDistortion]: #plugins_multibanddistortion
+[MV]: #plugins_mv
+[MV2]: #plugins_mv2
+[NaturalizeDither]: #plugins_naturalizedither
+[NCSeventeen]: #plugins_ncseventeen
+[Neverland]: #plugins_neverland
+[Nikola]: #plugins_nikola
+[NodeDither]: #plugins_nodedither
+[Noise]: #plugins_noise
+[NonlinearSpace]: #plugins_nonlinearspace
+[NotJustAnotherCD]: #plugins_notjustanothercd
+[NotJustAnotherDither]: #plugins_notjustanotherdither
+[OneCornerClip]: #plugins_onecornerclip
+[OrbitKick]: #plugins_orbitkick
+[Pafnuty]: #plugins_pafnuty
+[Pafnuty2]: #plugins_pafnuty2
+[PaulDither]: #plugins_pauldither
+[PaulWide]: #plugins_paulwide
+[PDBuss]: #plugins_pdbuss
+[PDChannel]: #plugins_pdchannel
+[PeaksOnly]: #plugins_peaksonly
+[Pear]: #plugins_pear
+[PhaseNudge]: #plugins_phasenudge
+[PitchDelay]: #plugins_pitchdelay
+[PitchNasty]: #plugins_pitchnasty
+[PlatinumSlew]: #plugins_platinumslew
+[PocketVerbs]: #plugins_pocketverbs
+[Pockey]: #plugins_pockey
+[Pockey2]: #plugins_pockey2
+[Podcast]: #plugins_podcast
+[PodcastDeluxe]: #plugins_podcastdeluxe
+[Point]: #plugins_point
+[Pop]: #plugins_pop
+[Pop2]: #plugins_pop2
+[PowerSag]: #plugins_powersag
+[PowerSag2]: #plugins_powersag2
+[Precious]: #plugins_precious
+[Preponderant]: #plugins_preponderant
+[Pressure4]: #plugins_pressure4
+[Pressure5]: #plugins_pressure5
+[PurestAir]: #plugins_purestair
+[PurestConsole2Buss]: #plugins_purestconsole2buss
+[PurestConsole2Channel]: #plugins_purestconsole2channel
+[PurestConsole3Buss]: #plugins_purestconsole3buss
+[PurestConsole3Channel]: #plugins_purestconsole3channel
+[PurestConsoleBuss]: #plugins_purestconsolebuss
+[PurestConsoleChannel]: #plugins_purestconsolechannel
+[PurestDrive]: #plugins_purestdrive
+[PurestEcho]: #plugins_purestecho
+[PurestFade]: #plugins_purestfade
+[PurestGain]: #plugins_purestgain
+[PurestSquish]: #plugins_purestsquish
+[PurestWarm]: #plugins_purestwarm
+[PurestWarm2]: #plugins_purestwarm2
+[Pyewacket]: #plugins_pyewacket
+[RawGlitters]: #plugins_rawglitters
+[RawTimbers]: #plugins_rawtimbers
+[Recurve]: #plugins_recurve
+[Remap]: #plugins_remap
+[ResEQ]: #plugins_reseq
+[ResEQ2]: #plugins_reseq2
+[Reverb]: #plugins_reverb
+[Righteous4]: #plugins_righteous4
+[RightoMono]: #plugins_rightomono
+[SampleDelay]: #plugins_sampledelay
+[Shape]: #plugins_shape
+[SideDull]: #plugins_sidedull
+[Sidepass]: #plugins_sidepass
+[Silhouette]: #plugins_silhouette
+[Sinew]: #plugins_sinew
+[SingleEndedTriode]: #plugins_singleendedtriode
+[Slew]: #plugins_slew
+[Slew2]: #plugins_slew2
+[Slew3]: #plugins_slew3
+[SlewOnly]: #plugins_slewonly
+[SlewSonic]: #plugins_slewsonic
+[Smooth]: #plugins_smooth
+[SoftGate]: #plugins_softgate
+[SpatializeDither]: #plugins_spatializedither
+[Spiral]: #plugins_spiral
+[Spiral2]: #plugins_spiral2
+[Srsly]: #plugins_srsly
+[Srsly2]: #plugins_srsly2
+[StarChild]: #plugins_starchild
+[StarChild2]: #plugins_starchild2
+[StereoChorus]: #plugins_stereochorus
+[StereoDoubler]: #plugins_stereodoubler
+[StereoEnsemble]: #plugins_stereoensemble
+[StereoFX]: #plugins_stereofx
+[StudioTan]: #plugins_studiotan
+[SubsOnly]: #plugins_subsonly
+[SubTight]: #plugins_subtight
+[Surge]: #plugins_surge
+[SurgeSynthesizer]: https://surge-synthesizer.github.io/
+[SurgeTide]: #plugins_surgetide
+[Sweeten]: #plugins_sweeten
+[Swell]: #plugins_swell
+[Tape]: #plugins_tape
+[TapeDelay]: #plugins_tapedelay
+[TapeDelay2]: #plugins_tapedelay2
+[TapeDither]: #plugins_tapedither
+[TapeDust]: #plugins_tapedust
+[TapeFat]: #plugins_tapefat
+[Texturize]: #plugins_texturize
+[TexturizeMS]: #plugins_texturizems
+[Thunder]: #plugins_thunder
+[ToneSlant]: #plugins_toneslant
+[ToTape5]: #plugins_totape5
+[ToTape6]: #plugins_totape6
+[ToVinyl4]: #plugins_tovinyl4
+[TPDFDither]: #plugins_tpdfdither
+[TPDFWide]: #plugins_tpdfwide
+[TransDesk]: #plugins_transdesk
+[Tremolo]: #plugins_tremolo
+[TremoSquare]: #plugins_tremosquare
+[TripleSpread]: #plugins_triplespread
+[Tube]: #plugins_tube
+[Tube2]: #plugins_tube2
+[TubeDesk]: #plugins_tubedesk
+[uLawDecode]: #plugins_ulawdecode
+[uLawEncode]: #plugins_ulawencode
+[Ultrasonic]: #plugins_ultrasonic
+[UltrasonicLite]: #plugins_ultrasoniclite
+[UltrasonicMed]: #plugins_ultrasonicmed
+[UltrasonX]: #plugins_ultrasonx
+[UnBox]: #plugins_unbox
+[VariMu]: #plugins_varimu
+[Verbity]: #plugins_verbity
+[Verbity2]: #plugins_verbity2
+[Vibrato]: #plugins_vibrato
+[VinylDither]: #plugins_vinyldither
+[VoiceOfTheStarship]: #plugins_voiceofthestarship
+[VoiceTrick]: #plugins_voicetrick
+[Weight]: #plugins_weight
+[Wider]: #plugins_wider
+[XBandpass]: #plugins_xbandpass
+[XHighpass]: #plugins_xhighpass
+[XLowpass]: #plugins_xlowpass
+[XNotch]: #plugins_xnotch
+[XRegion]: #plugins_xregion
+[YBandpass]: #plugins_ybandpass
+[YHighpass]: #plugins_yhighpass
+[YLowpass]: #plugins_ylowpass
+[YNotBandpass]: #plugins_ynotbandpass
+[YNotch]: #plugins_ynotch
+[YNotHighpass]: #plugins_ynothighpass
+[YNotLowpass]: #plugins_ynotlowpass
+[YNotNotch]: #plugins_ynotnotch
+[ZBandpass]: #plugins_zbandpass
+[ZBandpass2]: #plugins_zbandpass2
+[ZHighpass]: #plugins_zhighpass
+[ZHighpass2]: #plugins_zhighpass2
+[ZLowpass]: #plugins_zlowpass
+[ZLowpass2]: #plugins_zlowpass2
+[ZNotch]: #plugins_znotch
+[ZNotch2]: #plugins_znotch2
+[ZOutputStage]: #plugins_zoutputstage
+[ZRegion]: #plugins_zregion
+[ZRegion2]: #plugins_zregion2

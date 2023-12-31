@@ -1,7 +1,12 @@
 #!/usr/bin/env python3
 
+import re
+
+
 input_filename = 'Airwindopedia.txt'
 output_filename = 'AirwindoPedia.md'
+
+headers = {}
 
 
 def paragraphify(contents):
@@ -40,13 +45,15 @@ def paragraphify(contents):
     return output
 
 
-header_ids = {}
-
 def add_header_ids(contents):
-    global header_ids
+    global headers
 
     output = ''
     current_h2_id = ''
+    header_ids = []
+
+    headers['SurgeSynthesizer'] = ['surge_synthesizer', 'https://surge-synthesizer.github.io/']
+
     for line in contents.split('\n#'):
         if not line:
             continue
@@ -68,12 +75,40 @@ def add_header_ids(contents):
             header_id = f'{current_h2_id}_{header_id}'
 
         assert header_id not in header_ids, f'duplicate header "{header_id}"'
-        header_ids[header_id] = header
+
+        header_ids.append(header_id)
+        if header_id.startswith('plugins_'):
+            header_link = f'#{header_id}'
+            headers[header] = [header_id, header_link]
 
         # https://stackoverflow.com/a/7015050
         output += f'<a name="{header_id}"></a>\n'
         output += f'#{line}' + '\n'
 
+    return output
+
+
+def add_internal_links(contents):
+    link_definitions = ''
+
+    for header in sorted(headers.keys(), key=str.lower):
+        _, header_link = headers[header]
+        link_definitions += f'[{header}]: {header_link}\n'
+
+    # add guards to headers
+    contents = re.sub(r'([#]+) (\w+)', r'\1\2', contents)
+
+    output = ''
+    for word in re.split(r'([#]?\w+)', contents):
+        # if word in headers:
+        #     word = f'[{word}][]'
+        output += word
+
+    # remove guards from headers
+    output = re.sub(r'([#]+)(\w+)', r'\1 \2', output)
+
+    # add link definitions to end of document
+    output += f'\n\n{link_definitions}'
     return output
 
 
@@ -101,14 +136,18 @@ if __name__ == '__main__':
     with open(input_filename, 'r') as f:
         contents = f.read()
 
+    contents = contents.replace('AirwindowsPedia', 'AirwindoPedia')
+    contents = contents.replace('Airwindowspedia', 'AirwindoPedia')
+    contents = contents.replace('Airwindopedia', 'AirwindoPedia')
+    contents = contents.replace('AirwindowPedia', 'AirwindoPedia')
+
+    contents = contents.replace('Hard Vacuum', 'HardVacuum')
+    contents = contents.replace('High Impact', 'HighImpact')
+    contents = contents.replace('Surge Synthesizer', 'SurgeSynthesizer')
+
     result = paragraphify(contents)
-
-    result = result.replace('AirwindowsPedia', 'AirwindoPedia')
-    result = result.replace('Airwindowspedia', 'AirwindoPedia')
-    result = result.replace('Airwindopedia', 'AirwindoPedia')
-    result = result.replace('AirwindowPedia', 'AirwindoPedia')
-
     result = add_header_ids(result)
+    result = add_internal_links(result)
     result = clean_whitespace(result)
 
     with open(output_filename, 'w') as f:
