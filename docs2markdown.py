@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+import textwrap
 import re
 
 
@@ -119,6 +120,19 @@ def clean_whitespace(contents):
 
     # convert double tabs to code blocks
     contents = contents.replace('\t\t', '    ')
+
+    temp = ''
+    for paragraph in contents.splitlines():
+        if paragraph:
+            temp += textwrap.fill(
+                paragraph,
+                width=80,
+                replace_whitespace=False,
+                break_long_words=False,
+                drop_whitespace=False,
+                break_on_hyphens=False)
+        temp += '\n'
+    contents = temp
 
     # remove trailing and leading whitespace
     contents = contents.strip()
