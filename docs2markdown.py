@@ -101,8 +101,8 @@ def add_internal_links(contents):
 
     output = ''
     for word in re.split(r'([#]?\w+)', contents):
-        # if word in headers:
-        #     word = f'[{word}][]'
+        if word in headers:
+            word = f'[{word}][]'
         output += word
 
     # remove guards from headers
