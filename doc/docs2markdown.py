@@ -4,7 +4,7 @@ import textwrap
 import re
 
 
-input_filename = 'Airwindopedia.txt'
+input_filename = '../Airwindopedia.txt'
 output_filename = 'AirwindoPedia.md'
 
 headers = {}
@@ -146,7 +146,6 @@ def clean_whitespace(contents):
 
 
 if __name__ == '__main__':
-    print()
     with open(input_filename, 'r') as f:
         contents = f.read()
 
@@ -165,8 +164,5 @@ if __name__ == '__main__':
     result = clean_whitespace(result)
 
     with open(output_filename, 'w') as f:
-        print(f'Writing "{output_filename}" ...')
+        print(f'AirwindoPedia: Text -> Markdown...')
         f.write(result)
-
-    print('Done.')
-    print()
