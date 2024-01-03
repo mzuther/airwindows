@@ -27,6 +27,14 @@ order of goodness, so try the ones at the beginning of the list first: those are
 
 <a name="categories"></a>
 ## Categories
+<a name="categories_starterkit"></a>
+### Starterkit
+
+[Baxandall][], [Capacitor2][], [Channel9][], [ClipOnly2][], [Console7Buss][],
+[Console7Cascade][], [Console7Channel][], [DeBess][], [Focus][], [Galactic][],
+[Hypersonic][], [Interstage][], [Monitoring][], [Pressure5][], [PurestGain][],
+[Srsly2][], [Verbity][]
+
 <a name="categories_ambience"></a>
 ### Ambience
 

@@ -19,7 +19,12 @@ def paragraphify(contents):
             # leading space simplifies adding header IDs
             output = '\n# AirwindoPedia\n\n'
             output += f'{introduction}\n\n'
-            output += '## Categories\n'
+            output += '''## Categories
+### Starterkit
+
+Baxandall, Capacitor2, Channel9, ClipOnly2, Console7Buss, Console7Cascade, Console7Channel, DeBess, Focus, Galactic, Hypersonic, Interstage, Monitoring, Pressure5, PurestGain, Srsly2, Verbity
+
+'''
 
             for subparagraph in categories.split('\n'):
                 if not subparagraph:
