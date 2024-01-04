@@ -12,11 +12,11 @@ all the posts to consolidate them in one place for you :)
 
 We will start with some basic categorization: you can look these up below for
 further instruction. We'll use the categorization that was used in
-[SurgeSynthesizer][] when organizing my plugins for their purposes, but I will
-continue and mention plugins not used in [SurgeSynthesizer][] if I feel they fit
- the category. They won't be in alphabetical order, but in order of how well
-they fit the category and how good they are, and there will be plugins showing
-up in multiple categories and ones that don't appear at all.
+[SurgeSynthesizer] when organizing my plugins for their purposes, but I will
+continue and mention plugins not used in [SurgeSynthesizer] if I feel they fit
+the category. They won't be in alphabetical order, but in order of how well they
+ fit the category and how good they are, and there will be plugins showing up in
+ multiple categories and ones that don't appear at all.
 
 Actually it turns out that other devs can use this file to do amazing things
 like populate menus and fill in entries for help files, so what you see below
@@ -30,186 +30,486 @@ order of goodness, so try the ones at the beginning of the list first: those are
 <a name="categories_starterkit"></a>
 ### Starterkit
 
-[Baxandall][], [Capacitor2][], [Channel9][], [ClipOnly2][], [Console7Buss][],
-[Console7Cascade][], [Console7Channel][], [DeBess][], [Focus][], [Galactic][],
-[Hypersonic][], [Interstage][], [Monitoring][], [Pressure5][], [PurestGain][],
-[Srsly2][], [Verbity][]
+[Baxandall],
+[Capacitor2],
+[Channel9],
+[ClipOnly2],
+[Console7Buss],
+[Console7Cascade],
+[Console7Channel],
+[DeBess],
+[Focus],
+[Galactic],
+[Hypersonic],
+[Interstage],
+[Monitoring],
+[Pressure5],
+[PurestGain],
+[Srsly2],
+[Verbity]
 
 <a name="categories_ambience"></a>
 ### Ambience
 
-[ClearCoat][], [TapeDelay2][], [Doublelay][], [PitchDelay][], [SampleDelay][],
-[BrightAmbience3][], [TripleSpread][], [Melt][], [MV2][], [MV][], [ADT][],
-[kChamberAR][], [StereoChorus][], [PurestEcho][], [TapeDelay][], [StarChild2][],
- [StarChild][], [Hombre][], [BrightAmbience2][], [BrightAmbience][],
-[StereoEnsemble][], [StereoDoubler][], [Chorus][], [ChorusEnsemble][],
-[Ensemble][]
+[ClearCoat],
+[TapeDelay2],
+[Doublelay],
+[PitchDelay],
+[SampleDelay],
+[BrightAmbience3],
+[TripleSpread],
+[Melt],
+[MV2],
+[MV],
+[ADT],
+[kChamberAR],
+[StereoChorus],
+[PurestEcho],
+[TapeDelay],
+[StarChild2],
+[StarChild],
+[Hombre],
+[BrightAmbience2],
+[BrightAmbience],
+[StereoEnsemble],
+[StereoDoubler],
+[Chorus],
+[ChorusEnsemble],
+[Ensemble]
 
 <a name="categories_amp_sims"></a>
 ### Amp Sims
 
-[GrindAmp][], [FireAmp][], [LeadAmp][], [CrickBass][], [LilAmp][], [MidAmp][],
-[BigAmp][], [Cabs][], [BassDrive][], [BassAmp][]
+[GrindAmp],
+[FireAmp],
+[LeadAmp],
+[CrickBass],
+[LilAmp],
+[MidAmp],
+[BigAmp],
+[Cabs],
+[BassDrive],
+[BassAmp]
 
 <a name="categories_bass"></a>
 ### Bass
 
-[OrbitKick][], [Hermepass][], [BassKit][], [DubCenter][], [DubSub][], [Floor][],
- [Infrasonic][], [FathomFive][]
+[OrbitKick],
+[Hermepass],
+[BassKit],
+[DubCenter],
+[DubSub],
+[Floor],
+[Infrasonic],
+[FathomFive]
 
 <a name="categories_biquads"></a>
 ### Biquads
 
-[BiquadPlus][], [Biquad][], [BiquadDouble][], [BiquadOneHalf][],
-[BiquadTriple][], [Biquad2][]
+[BiquadPlus],
+[Biquad],
+[BiquadDouble],
+[BiquadOneHalf],
+[BiquadTriple],
+[Biquad2]
 
 <a name="categories_brightness"></a>
 ### Brightness
 
-[PlatinumSlew][], [DeBess][], [GoldenSlew][], [Sinew][], [SlewSonic][],
-[Acceleration2][], [DeEss][], [Smooth][], [EverySlew][], [Slew3][], [Slew2][],
-[Slew][], [Air2][], [Air][], [PurestAir][], [Acceleration][], [DeHiss][],
-[Hypersonic][], [HypersonX][], [Ultrasonic][], [UltrasonicLite][],
-[UltrasonicMed][], [UltrasonX][]
+[PlatinumSlew],
+[DeBess],
+[GoldenSlew],
+[Sinew],
+[SlewSonic],
+[Acceleration2],
+[DeEss],
+[Smooth],
+[EverySlew],
+[Slew3],
+[Slew2],
+[Slew],
+[Air2],
+[Air],
+[PurestAir],
+[Acceleration],
+[DeHiss],
+[Hypersonic],
+[HypersonX],
+[Ultrasonic],
+[UltrasonicLite],
+[UltrasonicMed],
+[UltrasonX]
 
 <a name="categories_clipping"></a>
 ### Clipping
 
-[ClipOnly2][], [ClipSoftly][], [OneCornerClip][], [ADClip7][],
-[AQuickVoiceClip][], [ClipOnly][]
+[ClipOnly2],
+[ClipSoftly],
+[OneCornerClip],
+[ADClip7],
+[AQuickVoiceClip],
+[ClipOnly]
 
 <a name="categories_consoles"></a>
 ### Consoles
 
-[ConsoleLABuss][], [ConsoleLAChannel][], [ConsoleMCBuss][],
-[ConsoleMCChannel][], [ConsoleMDBuss][], [ConsoleMDChannel][],
-[Console8LiteChannel][], [Console8LiteBuss][], [Console8BussHype][],
-[Console8BussIn][], [Console8BussOut][], [Console8ChannelHype][],
-[Console8ChannelIn][], [Console8ChannelOut][], [Console8SubHype][],
-[Console8SubIn][], [Console8SubOut][], [Console0Channel][], [Console0Buss][],
-[PurestConsole3Buss][], [PurestConsole3Channel][], [PurestConsole2Buss][],
-[PurestConsole2Channel][], [Console7Buss][], [Console7Channel][],
-[Console7Cascade][], [Console7Crunch][], [PurestConsoleBuss][],
-[PurestConsoleChannel][],[Console6Buss][], [Console6Channel][], [PDBuss][],
-[PDChannel][], [Console5Buss][], [Console5Channel][], [Console5DarkCh][],
-[C5RawBuss][], C5RawChannel, [AtmosphereBuss][], [AtmosphereChannel][],
-[Console4Buss][], [Console4Channel][], [EveryConsole][]
+[ConsoleLABuss],
+[ConsoleLAChannel],
+[ConsoleMCBuss],
+[ConsoleMCChannel],
+[ConsoleMDBuss],
+[ConsoleMDChannel],
+[Console8LiteChannel],
+[Console8LiteBuss],
+[Console8BussHype],
+[Console8BussIn],
+[Console8BussOut],
+[Console8ChannelHype],
+[Console8ChannelIn],
+[Console8ChannelOut],
+[Console8SubHype],
+[Console8SubIn],
+[Console8SubOut],
+[Console0Channel],
+[Console0Buss],
+[PurestConsole3Buss],
+[PurestConsole3Channel],
+[PurestConsole2Buss],
+[PurestConsole2Channel],
+[Console7Buss],
+[Console7Channel],
+[Console7Cascade],
+[Console7Crunch],
+[PurestConsoleBuss],
+[PurestConsoleChannel],
+[Console6Buss],
+[Console6Channel],
+[PDBuss],
+[PDChannel],
+[Console5Buss],
+[Console5Channel],
+[Console5DarkCh],
+[C5RawBuss],
+C5RawChannel,
+[AtmosphereBuss],
+[AtmosphereChannel],
+[Console4Buss],
+[Console4Channel],
+[EveryConsole]
 
 <a name="categories_distortion"></a>
 ### Distortion
 
-[Distortion][], [Edge][], [Dirt][], [Mackity][], [ZOutputStage][], [Density2][],
- [Density][], [Drive][], [Loud][], [HardVacuum][], [HighImpact][],
-[MultiBandDistortion][]
+[Distortion],
+[Edge],
+[Dirt],
+[Mackity],
+[ZOutputStage],
+[Density2],
+[Density],
+[Drive],
+[Loud],
+[HardVacuum],
+[HighImpact],
+[MultiBandDistortion]
 
 <a name="categories_dithers"></a>
 ### Dithers
 
-[Dark][], [PaulWide][], [PaulDither][], [TPDFWide][], [TPDFDither][],
-[NotJustAnotherDither][], [NotJustAnotherCD][], [Beam][], [TapeDither][],
-[SpatializeDither][], [VinylDither][], [DoublePaul][], [Ditherbox][],
-[BuildATPDF][], [NodeDither][], [StudioTan][], [DitherMeTimbers][],
-[DitherMeDiskers][], [RawTimbers][], [RawGlitters][], [NaturalizeDither][],
-[HighGlossDither][], [DitherFloat][]
+[Dark],
+[PaulWide],
+[PaulDither],
+[TPDFWide],
+[TPDFDither],
+[NotJustAnotherDither],
+[NotJustAnotherCD],
+[Beam],
+[TapeDither],
+[SpatializeDither],
+[VinylDither],
+[DoublePaul],
+[Ditherbox],
+[BuildATPDF],
+[NodeDither],
+[StudioTan],
+[DitherMeTimbers],
+[DitherMeDiskers],
+[RawTimbers],
+[RawGlitters],
+[NaturalizeDither],
+[HighGlossDither],
+[DitherFloat]
 
 <a name="categories_dynamics"></a>
 ### Dynamics
 
-[Pop2][], [Pressure5][], [Dynamics][], [Pop][], [DigitalBlack][], [Logical4][],
-[VariMu][], [ButterComp2][], [curve][], [Recurve][], [Pyewacket][],
-[BlockParty][], [SoftGate][], [Thunder][], [Compresaturator][], [DrumSlam][],
-[ButterComp][], [BrassRider][], [Point][], [Gatelope][], [PodcastDeluxe][],
-[Podcast][], [Swell][], [PurestSquish][], [Pressure4][], [Surge][],
-[SurgeTide][]
+[Pop2],
+[Pressure5],
+[Dynamics],
+[Pop],
+[DigitalBlack],
+[Logical4],
+[VariMu],
+[ButterComp2],
+[curve],
+[Recurve],
+[Pyewacket],
+[BlockParty],
+[SoftGate],
+[Thunder],
+[Compresaturator],
+[DrumSlam],
+[ButterComp],
+[BrassRider],
+[Point],
+[Gatelope],
+[PodcastDeluxe],
+[Podcast],
+[Swell],
+[PurestSquish],
+[Pressure4],
+[Surge],
+[SurgeTide]
 
 <a name="categories_effects"></a>
 ### Effects
 
-[GalacticVibe][], [Fracture2][], [Dubly][], [Pafnuty2][], [PitchNasty][],
-[GuitarConditioner][], [Aura][], [TremoSquare][], [Tremolo][],
-[GlitchShifter][], [Gringer][], [Exciter][], [Energy2][], [Energy][], [Facet][],
- [Fracture][], [PowerSag2][], [PowerSag][], [Preponderant][], [Nikola][]
+[GalacticVibe],
+[Fracture2],
+[Dubly],
+[Pafnuty2],
+[PitchNasty],
+[GuitarConditioner],
+[Aura],
+[TremoSquare],
+[Tremolo],
+[GlitchShifter],
+[Gringer],
+[Exciter],
+[Energy2],
+[Energy],
+[Facet],
+[Fracture],
+[PowerSag2],
+[PowerSag],
+[Preponderant],
+[Nikola]
 
 <a name="categories_filter"></a>
 ### Filter
 
-[Baxandall2][], [Capacitor2][], [Pear][], [ResEQ2][], [SubTight][], [CStrip2][],
- [Weight][], [Isolator2][], [Holt2][], [Holt][], [ToneSlant][], [AverMatrix][],
-[Average][], [MackEQ][], [Baxandall][], [Hull][], [EQ][], [Capacitor][],
-[Isolator][], [TapeFat][], [ResEQ][], [Lowpass2][], [Highpass2][],
-[Distance2][], [Distance][], [Lowpass][], [Highpass][]
+[Baxandall2],
+[Capacitor2],
+[Pear],
+[ResEQ2],
+[SubTight],
+[CStrip2],
+[Weight],
+[Isolator2],
+[Holt2],
+[Holt],
+[ToneSlant],
+[AverMatrix],
+[Average],
+[MackEQ],
+[Baxandall],
+[Hull],
+[EQ],
+[Capacitor],
+[Isolator],
+[TapeFat],
+[ResEQ],
+[Lowpass2],
+[Highpass2],
+[Distance2],
+[Distance],
+[Lowpass],
+[Highpass]
 
 <a name="categories_lo_fi"></a>
 ### Lo-Fi
 
-[Pockey2][], [Flutter][], [CrunchyGrooveWear][], [GrooveWear][], [Pockey][],
-[DeRez2][], [BitGlitter][], [DeRez][], [ChromeOxide][], [Cojones][],
-[Vibrato][], [Bite][], [Deckwrecka][], [DustBunny][]
+[Pockey2],
+[Flutter],
+[CrunchyGrooveWear],
+[GrooveWear],
+[Pockey],
+[DeRez2],
+[BitGlitter],
+[DeRez],
+[ChromeOxide],
+[Cojones],
+[Vibrato],
+[Bite],
+[Deckwrecka],
+[DustBunny]
 
 <a name="categories_noise"></a>
 ### Noise
 
-[Noise][], [Texturize][], [TexturizeMS][], [VoiceOfTheStarship][],
-[DarkNoise][], [ElectroHat][], [Silhouette][], [TapeDust][]
+[Noise],
+[Texturize],
+[TexturizeMS],
+[VoiceOfTheStarship],
+[DarkNoise],
+[ElectroHat],
+[Silhouette],
+[TapeDust]
 
 <a name="categories_reverb"></a>
 ### Reverb
 
-[kPlateD][], [kPlateB][], [kPlateA][], [kPlateC][], [Verbity2][], [Galactic][],
-[Galactic2][], [kCathedral][], [Verbity][], [Chamber2][], [Chamber][],
-[Infinity2][], [NonlinearSpace][], [Infinity][], [MatrixVerb][],
-[PocketVerbs][], [Reverb][]
+[kPlateD],
+[kPlateB],
+[kPlateA],
+[kPlateC],
+[Verbity2],
+[Galactic],
+[Galactic2],
+[kCathedral],
+[Verbity],
+[Chamber2],
+[Chamber],
+[Infinity2],
+[NonlinearSpace],
+[Infinity],
+[MatrixVerb],
+[PocketVerbs],
+[Reverb]
 
 <a name="categories_saturation"></a>
 ### Saturation
 
-[Creature][], [Huge][], [NCSeventeen][], [Tube2][], [Tube][], [Spiral2][],
-[PurestDrive][], [Focus][], [Mojo][], [Dyno][], [Spiral][], [UnBox][],
-[Desk4][], [Righteous4][]
+[Creature],
+[Huge],
+[NCSeventeen],
+[Tube2],
+[Tube],
+[Spiral2],
+[PurestDrive],
+[Focus],
+[Mojo],
+[Dyno],
+[Spiral],
+[UnBox],
+[Desk4],
+[Righteous4]
 
 <a name="categories_stereo"></a>
 ### Stereo
 
-[Srsly][], [Srsly2][], [Wider][], [StereoFX][], [ToVinyl4][], [AutoPan][],
-[LRFlipTimer][], [Sidepass][], [SideDull][]
+[Srsly],
+[Srsly2],
+[Wider],
+[StereoFX],
+[ToVinyl4],
+[AutoPan],
+[LRFlipTimer],
+[Sidepass],
+[SideDull]
 
 <a name="categories_subtlety"></a>
 ### Subtlety
 
-[Hype][], [Shape][], [Inflamer][], [Sweeten][], [PurestWarm2][], [PurestWarm][],
- [Coils2][], [Interstage][], [PhaseNudge][], [Remap][], [SingleEndedTriode][],
-[Coils][], [Desk][], [TransDesk][], [TubeDesk][]
+[Hype],
+[Shape],
+[Inflamer],
+[Sweeten],
+[PurestWarm2],
+[PurestWarm],
+[Coils2],
+[Interstage],
+[PhaseNudge],
+[Remap],
+[SingleEndedTriode],
+[Coils],
+[Desk],
+[TransDesk],
+[TubeDesk]
 
 <a name="categories_tape"></a>
 ### Tape
 
-[ToTape6][], [FromTape][], [Tape][], [IronOxideClassic2][], [IronOxide5][],
-[ToTape5][], [IronOxideClassic][]
+[ToTape6],
+[FromTape],
+[Tape],
+[IronOxideClassic2],
+[IronOxide5],
+[ToTape5],
+[IronOxideClassic]
 
 <a name="categories_tone_color"></a>
 ### Tone Color
 
-[BussColors4][], [Channel9][], [Apicolypse][], [Neverland][], [Elation][],
-[Calibre][], [Cider][], [Crystal][], [Precious][], [Luxor][], [Channel8][],
-[Channel7][], [Channel6][], [Channel5][], [Channel4][]
+[BussColors4],
+[Channel9],
+[Apicolypse],
+[Neverland],
+[Elation],
+[Calibre],
+[Cider],
+[Crystal],
+[Precious],
+[Luxor],
+[Channel8],
+[Channel7],
+[Channel6],
+[Channel5],
+[Channel4]
 
 <a name="categories_utility"></a>
 ### Utility
 
-[Monitoring3][], [Monitoring2][], [Monitoring][], [BitShiftPan][],
-[BitShiftGain][], [PurestGain][], [PurestFade][], [EveryTrim][], [HermeTrim][],
-[SlewOnly][], [SubsOnly][], [PeaksOnly][], [Golem][], [DCVoltage][],
-[EdIsDim][], [MidSide][], [uLawEncode][], [uLawDecode][], [RightoMono][],
-[LeftoMono][], [Balanced][], [Flipity][], [MoNoam][], [VoiceTrick][]
+[Monitoring3],
+[Monitoring2],
+[Monitoring],
+[BitShiftPan],
+[BitShiftGain],
+[PurestGain],
+[PurestFade],
+[EveryTrim],
+[HermeTrim],
+[SlewOnly],
+[SubsOnly],
+[PeaksOnly],
+[Golem],
+[DCVoltage],
+[EdIsDim],
+[MidSide],
+[uLawEncode],
+[uLawDecode],
+[RightoMono],
+[LeftoMono],
+[Balanced],
+[Flipity],
+[MoNoam],
+[VoiceTrick]
 
 <a name="categories_xyz_filters"></a>
 ### XYZ Filters
 
-[ZBandpass2][], [ZHighpass2][], [ZLowpass2][], [ZNotch2][], [ZRegion2][],
-[ZBandpass][], [ZHighpass][], [ZLowpass][], [ZNotch][], [ZRegion][],
-[YBandpass][], [YNotBandpass][], [YHighpass][], [YNotHighpass][], [YLowpass][],
-[YNotLowpass][], [YNotch][], [XBandpass][]. [XHighpass][], [XLowpass][],
-[XNotch][], [XRegion][]
+[ZBandpass2],
+[ZHighpass2],
+[ZLowpass2],
+[ZNotch2],
+[ZRegion2],
+[ZBandpass],
+[ZHighpass],
+[ZLowpass],
+[ZNotch],
+[ZRegion],
+[YBandpass],
+[YNotBandpass],
+[YHighpass],
+[YNotHighpass],
+[YLowpass],
+[YNotLowpass],
+[YNotch],
+[XBandpass].
+[XHighpass],
+[XLowpass],
+[XNotch],
+[XRegion]
 
 
 <a name="plugins"></a>
@@ -220,23 +520,23 @@ order of goodness, so try the ones at the beginning of the list first: those are
 _Acceleration is an acceleration limiter that tames edge, leaves brightness._
 
 As requested, I’ve made a dedicated acceleration limiter, like the one in
-[ToVinyl4][]. You don’t have to mess with Groove Wear, or highpass anything: as
-a result, this ends up being the ‘high end’ acceleration limiter, mastering
-grade and useful in situations where ToVinyl might be overkill (ToVinyl was made
- in an era where I still had to make ‘amazing marketable plugins with lots of
-features so people would pay $50 quickly before it got all pirated etc’)
+[ToVinyl4]. You don’t have to mess with Groove Wear, or highpass anything: as a
+result, this ends up being the ‘high end’ acceleration limiter, mastering grade
+and useful in situations where ToVinyl might be overkill (ToVinyl was made in an
+ era where I still had to make ‘amazing marketable plugins with lots of features
+ so people would pay $50 quickly before it got all pirated etc’)
 
 Ah, I remember those days ;P
 
-But now, it’s different because [Acceleration][] is free! AU, Mac and PC VST
-(stay tuned for a surprise on that front) and if you can’t pay, go ahead and use
- it anyway. If you can, please do because I think the usefulness of me doing
-this work will become increasingly obvious, and the usefulness of me
-opensourcing plugin code has also become increasingly obvious. And it’s brought
-you [Acceleration][], here and now.
+But now, it’s different because [Acceleration] is free! AU, Mac and PC VST (stay
+ tuned for a surprise on that front) and if you can’t pay, go ahead and use it
+anyway. If you can, please do because I think the usefulness of me doing this
+work will become increasingly obvious, and the usefulness of me opensourcing
+plugin code has also become increasingly obvious. And it’s brought you
+[Acceleration], here and now.
 
-The reason to be excited about that is, [Acceleration][]’s not a simple filter.
-It pretty much targets exactly the digital behavior that creates Gibb effect
+The reason to be excited about that is, [Acceleration]’s not a simple filter. It
+ pretty much targets exactly the digital behavior that creates Gibb effect
 overshoots (the reason you often have to pad heavily limited material down to
 stop it being crackly and glare-y) and would probably work very well as
 literally an acceleration limiter for record cutting heads. But, in a largely
@@ -246,21 +546,21 @@ brightness while not sounding like it’s doing anything. Check the video (it
 should be relatively obvious if you’ve got half decent tweeters) and try it out.
  The key is to not try and get the apparent volume of the highs to be less:
 instead, you’re going after the character, or the presentation. If highs seem to
- be coming forward with nasty spikey extra energy, [Acceleration][] will fix
-that tonal problem without altering the basic mix balance.
+ be coming forward with nasty spikey extra energy, [Acceleration] will fix that
+tonal problem without altering the basic mix balance.
 
 
 <a name="plugins_acceleration2"></a>
 ### Acceleration2
 
-_Acceleration2 is [Acceleration][], better! Updated for high sample rate and
-more extreme effect._
+_Acceleration2 is [Acceleration], better! Updated for high sample rate and more
+extreme effect._
 
-[Acceleration2][] is an updated version of my high-frequency limiter,
-[Acceleration][]. It’s like a brightness control that doesn’t really take away
-apparent brightness, just glues it really hard. [Acceleration][] limiting is
-what you’d use mastering to vinyl, to avoid burning out the cutting head: it
-will get you a nice retro tone without obviously coloring things. It is not an
+[Acceleration2] is an updated version of my high-frequency limiter,
+[Acceleration]. It’s like a brightness control that doesn’t really take away
+apparent brightness, just glues it really hard. [Acceleration] limiting is what
+you’d use mastering to vinyl, to avoid burning out the cutting head: it will get
+ you a nice retro tone without obviously coloring things. It is not an
 ’emulation’ of any specific gear: real mastering engineers are not looking for
 ’emulation of Neumann sound’ or anything like that, they’re looking to get the
 functionality of this in the most colorless way.
@@ -268,13 +568,13 @@ functionality of this in the most colorless way.
 It’s been updated to work exactly the same at all sample rates (the previous one
  had issues adapting to them) and now has more intense depth of effect: if you
 crank it up you can make things real soft and dull. Don’t do that :) the purpose
- is not to do what you could do with an [EQ][], the purpose is to glue things
-and take the edge off the super-highs without harming the sparkle and air of the
- recording. [Acceleration2][] can do that real well: you might even find it
-useful if you’re doing very digital mixes and avoiding my other stuff like
-Console7. If you put this on the mix buss of an otherwise super-digital mix, you
- can make the highs prettier without making them any darker or duller. Do that
-by applying only small amounts of the Limit control.
+ is not to do what you could do with an [EQ], the purpose is to glue things and
+take the edge off the super-highs without harming the sparkle and air of the
+recording. [Acceleration2] can do that real well: you might even find it useful
+if you’re doing very digital mixes and avoiding my other stuff like Console7. If
+ you put this on the mix buss of an otherwise super-digital mix, you can make
+the highs prettier without making them any darker or duller. Do that by applying
+ only small amounts of the Limit control.
 
 
 <a name="plugins_adclip7"></a>
@@ -320,8 +620,8 @@ were presumably very sophisticated, which tends to just make the breaking point
 more obvious when you hit it.
 
 The Airwindows version is a completely different, cruder and more direct version
- of doing the same thing, so when you slam the heck out of [ADClip7][], you get
-a deep bass slam that ‘overhangs’ a bit to add weight, and still fits into the
+ of doing the same thing, so when you slam the heck out of [ADClip7], you get a
+deep bass slam that ‘overhangs’ a bit to add weight, and still fits into the
 clipped output. And you get the softened, analog-style clips to add ‘heat’ and
 overtones, but you also get a high-mids reinforcement that normally just
 highlights bright transients that would otherwise be lost to the clipping. And
@@ -334,7 +634,7 @@ output down, so instead of hearing everything get bigger and louder, you just
 listen for the point that the clipping’s adversely affecting the sound. Then you
  can flip back to normal mode, if that’s what you wanted (maximum loudness
 without blatant grunge). Or, you can ignore the slam and use gain-matched mode
-as I demonstrate in the video: [ADClip7][] already suppresses intersample peaks
+as I demonstrate in the video: [ADClip7] already suppresses intersample peaks
 when they’re part of clipping, already reinforces energy lost to clipping, so
 you can use it in conjunction with a tool like Youlean’s loudness meter to dial
 in a specific intersample peak level for iTunes or other such picky streaming
@@ -353,7 +653,7 @@ predominates: it’s not necessarily great to throw in a bunch of ‘enhance’ 
 just because you can. If you’re hearing that much of it that you’re tempted to
 use it as an effect, you’re definitely also over-slamming your music.
 
-So my recommendation in 2017 heading to 2018, is to use [ADClip7][] in
+So my recommendation in 2017 heading to 2018, is to use [ADClip7] in
 gain-matched mode, to keep that ‘true peak’ measurement within the Mastered For
 iTunes requirements. I’m sure not everybody will stick to that, but I’m happy to
  say it is actually quite good for doing that, and if people want to smash stuff
@@ -369,13 +669,13 @@ LUFS meter! They’re available to us all, now.
 
 _ADT is a double short delay tap with saturation._
 
-[ADT][] means ‘artificial double-tracking’. You could also call it fixed
-flanging. It’s a single short delay, as heard on lots of Beatles tracks. It’s
-now my job to explain what’s different about the Airwindows [ADT][], what you
-can do with it beyond the obvious ‘stick it on like a preset and pretend you are
- a Beatle’, and why you’d bother.
+[ADT] means ‘artificial double-tracking’. You could also call it fixed flanging.
+ It’s a single short delay, as heard on lots of Beatles tracks. It’s now my job
+to explain what’s different about the Airwindows [ADT], what you can do with it
+beyond the obvious ‘stick it on like a preset and pretend you are a Beatle’, and
+ why you’d bother.
 
-With the Airwindows [ADT][], you get two delay taps (making it A3T?) and an
+With the Airwindows [ADT], you get two delay taps (making it A3T?) and an
 important feature: the mix sliders used to apply the delayed taps are
 ‘attenuverters’. That’s a word from Modular Synthesizer Land, which means you
 get both output level control and the ability to invert the output. Here’s why
@@ -402,70 +702,69 @@ If you blend two taps that are both inverted, you can cut bass while averaging
 out the comb-filter effects. If the taps are in phase (not inverted) what you’re
  doing is reinforcing the bass, because the cancellation effects will run out
 below a certain frequency and just add together. All this is using very quick
-delays, though [ADT][] lets you lengthen them to where they’re slapbacks. Don’t
-be too distracted by that, part of what makes [ADT][] its own effect is the
-ability to shape the tone with delays too quick to hear as echoes.
+delays, though [ADT] lets you lengthen them to where they’re slapbacks. Don’t be
+ too distracted by that, part of what makes [ADT] its own effect is the ability
+to shape the tone with delays too quick to hear as echoes.
 
 Finally, now that you know you can cut bass using these very quick delays, or
-reinforce it, or any combination you like… there’s a headroom control. [ADT][]
+reinforce it, or any combination you like… there’s a headroom control. [ADT]
 will distort like crazy using low headroom. That can be used as a distortion
-effect… but it’s not just ordinary distortion, it’s a combination of [Spiral][]
+effect… but it’s not just ordinary distortion, it’s a combination of [Spiral]
 into Console5’s buss (PurestConsole, for clarity and well-behavedness). These
 don’t perfectly cancel out. Instead, it produces a slightly leaned-out, skinnier
- tone to complement the way [ADT][] fattens things up. If you’re using it to
-thin bass, it’ll be even more effective. If you’re reinforcing the body of the
-sound, it’ll color things in a subtle but interesting way. And of course if you
-love it, you can set up mixes that way (swap out [Console5Channel][] for
-original [Spiral][], either on mix elements you’d like a little thinner and more
- energetic, or the whole thing). Sometimes there are new types of coloration
-that owe nothing to [EQ][] or traditional processing: this is one of those
-times.
+ tone to complement the way [ADT] fattens things up. If you’re using it to thin
+bass, it’ll be even more effective. If you’re reinforcing the body of the sound,
+ it’ll color things in a subtle but interesting way. And of course if you love
+it, you can set up mixes that way (swap out [Console5Channel] for original
+[Spiral], either on mix elements you’d like a little thinner and more energetic,
+ or the whole thing). Sometimes there are new types of coloration that owe
+nothing to [EQ] or traditional processing: this is one of those times.
 
 
 <a name="plugins_air"></a>
 ### Air
 
-_Air is a different bright [EQ][] from any other. Requires 44.1K._
+_Air is a different bright [EQ] from any other. Requires 44.1K._
 
-See [Air2][] for more on this. [Air][] is the same, but simpler, and restricted
-to one sample rate so that if you're at a higher sample rate, the effects will
+See [Air2] for more on this. [Air] is the same, but simpler, and restricted to
+one sample rate so that if you're at a higher sample rate, the effects will
 shift up in frequency, possibly making them inaudible.
 
 
 <a name="plugins_air2"></a>
 ### Air2
 
-_Air2 is a different bright [EQ][] with silk tone and high sample rate support._
+_Air2 is a different bright [EQ] with silk tone and high sample rate support._
 
-Here’s what you get: [Air2][] has three treble-boost bands, Hiss, Glitter and
-[Air][]. The first two are very like what’s in [Energy2][], but [Air2][] is NOT
-the same: it’s a different algorithm, not done the samw way [Energy2][]’s ‘Rat’
-band is done, and it has a broader, softer air band that’s less ‘raw harsh
-energy injection’ and more ‘bright and pretty’.
+Here’s what you get: [Air2] has three treble-boost bands, Hiss, Glitter and
+[Air]. The first two are very like what’s in [Energy2], but [Air2] is NOT the
+same: it’s a different algorithm, not done the samw way [Energy2]’s ‘Rat’ band
+is done, and it has a broader, softer air band that’s less ‘raw harsh energy
+injection’ and more ‘bright and pretty’.
 
 And then, they all run through a ‘Silk’ control… inspired by but NOT the same as
  the Neve Portico Silk circuit. That is a real hardware transformer biased into
-second harmonic creation by a DC current. [Air2][]’s Silk control is the same
+second harmonic creation by a DC current. [Air2]’s Silk control is the same
 thing as Single Ended Triode (which you can download and use already) but only
-applied to the highs out of [Air2][], so it’s the same general concept but is
-not a clone of the Portico preamp. Plus if they freak out I will rename it to
-‘Sow’s Ear’: it’s part of a treble brightener and the same basic functionality
-and as far as I’m concerned, nothing is stopping me from asymmetrically
-distorting highs, and Silk is the best general term for what that does. Except
-with mine you can push it too far for effect, because of course you can :)
+applied to the highs out of [Air2], so it’s the same general concept but is not
+a clone of the Portico preamp. Plus if they freak out I will rename it to ‘Sow’s
+ Ear’: it’s part of a treble brightener and the same basic functionality and as
+far as I’m concerned, nothing is stopping me from asymmetrically distorting
+highs, and Silk is the best general term for what that does. Except with mine
+you can push it too far for effect, because of course you can :)
 
-And finally, unlike [Energy2][], the Dry/Wet control for [Air2][] strikes a new
-balance between the [Energy][] style of increasing the effect, and the
-traditional Dry/Wet control. New with [Air2][], you can now turn it to full-wet
-and get ONLY the output of the brightener bands. They’re not exactly filters but
- they act like it, and by adjusting them against each other you can produce
-insanely treble-boosted sounds and wipe out everything else using Dry/Wet. The
-way it works is, up to 75% (0.75) you still have full volume Dry. It won’t
-re-balance your track, just add whatever [Air2][] highs you’re looking for.
-Then, between 0.75 and 1 (full Wet) the dry goes away, so if you crank it up all
- the way you get the fullest extreme, but for most normal use it’s like
-[Energy2][], taking an unvarying dry signal (which is NOT undersampled) and
-adding however much of the effect you like.
+And finally, unlike [Energy2], the Dry/Wet control for [Air2] strikes a new
+balance between the [Energy] style of increasing the effect, and the traditional
+ Dry/Wet control. New with [Air2], you can now turn it to full-wet and get ONLY
+the output of the brightener bands. They’re not exactly filters but they act
+like it, and by adjusting them against each other you can produce insanely
+treble-boosted sounds and wipe out everything else using Dry/Wet. The way it
+works is, up to 75% (0.75) you still have full volume Dry. It won’t re-balance
+your track, just add whatever [Air2] highs you’re looking for. Then, between
+0.75 and 1 (full Wet) the dry goes away, so if you crank it up all the way you
+get the fullest extreme, but for most normal use it’s like [Energy2], taking an
+unvarying dry signal (which is NOT undersampled) and adding however much of the
+effect you like.
 
 
 <a name="plugins_apicolypse"></a>
@@ -473,20 +772,20 @@ adding however much of the effect you like.
 
 _Apicolypse is a re-release of my old API-style color adder, exacly as it was._
 
-[Apicolypse][] works the same way [Neverland][] did. It’s a drop-in replacement
-for old mixes, and was a precursor to BussColors. It’s got a simpler method of
+[Apicolypse] works the same way [Neverland] did. It’s a drop-in replacement for
+old mixes, and was a precursor to BussColors. It’s got a simpler method of
 generating its dynamic impulses, making them a sort of continuous spectrum
-between the low-level and high-level sounds. Like [Neverland][], it’s 44.1K
-though it will still function at any rate you like (sort of pitched up): like
-[Neverland][], it’s got a hardness control that at 0 is the ‘[Density][]’
-algorithm, at 1.0 is straight digital clipping at the extreme, and at any
-setting between is a sort of hybrid that turned out to not be the greatest: a
-switch from perfectly clean, to soft-clip at any desired transition point.
-Technically if you had it so it only kicked in on hot peaks, it’d be hard to
-find fault with it: I don’t recommend setting it (on this or any Character plug
-or ‘[Crystal][]’) to a position where soft-clip kicks in at very low level.
-Either do Hardness at zero, or high enough that most of the audio stays
-‘un-distorted’: you can do what you like, though, I’m not the boss of you :)
+between the low-level and high-level sounds. Like [Neverland], it’s 44.1K though
+ it will still function at any rate you like (sort of pitched up): like
+[Neverland], it’s got a hardness control that at 0 is the ‘[Density]’ algorithm,
+ at 1.0 is straight digital clipping at the extreme, and at any setting between
+is a sort of hybrid that turned out to not be the greatest: a switch from
+perfectly clean, to soft-clip at any desired transition point. Technically if
+you had it so it only kicked in on hot peaks, it’d be hard to find fault with
+it: I don’t recommend setting it (on this or any Character plug or ‘[Crystal]’)
+to a position where soft-clip kicks in at very low level. Either do Hardness at
+zero, or high enough that most of the audio stays ‘un-distorted’: you can do
+what you like, though, I’m not the boss of you :)
 
 
 <a name="plugins_aquickvoiceclip"></a>
@@ -534,17 +833,17 @@ breakthroughs, and if they work out, I’ll be keeping them.
 
 First, this is a multi-stage slew clipper. The effect’s a bit like PDConsole, a
 gluing and taming of bright digital highs: but, where PDConsole uses the
-algorithm of [PurestDrive][] to get a more analog mixing-desk kind of sound,
+algorithm of [PurestDrive] to get a more analog mixing-desk kind of sound,
 Atmosphere’s many stages of slew clipping (across fourteen samples, each with a
 different maximum slew) enforces the behavior of free air and acoustic distance.
  This has been a goal for quite a while, but I’ve never got results like these
-before (might be worth fitting a more exaggerated version into a ‘[Distance][]
-2’, if people like). It’s not calibrated to overwhelm, but the scale of your mix
- should be huge, and since it’s an extended-window slew clipping effect your
+before (might be worth fitting a more exaggerated version into a ‘[Distance] 2’,
+ if people like). It’s not calibrated to overwhelm, but the scale of your mix
+should be huge, and since it’s an extended-window slew clipping effect your
 quieter, subtler sounds don’t get muddied.
 
 This type of processing steps on the annoying digital harshness with a heavy
-foot, but doesn’t directly [EQ][]: the results you get will depend on what it
+foot, but doesn’t directly [EQ]: the results you get will depend on what it
 would be like to have your sound blasting away through a perfect playback system
  at a distance of ten to thirty feet. If you need up-close, bright and loud
 sounds, you’ll need to use another system (such as PurestConsole), this one is
@@ -558,11 +857,11 @@ come into its own summing orchestral stuff from virtual instruments (or anything
 <a name="plugins_aura"></a>
 ### Aura
 
-_Aura is a new kind of resonant lowpass [EQ][]._
+_Aura is a new kind of resonant lowpass [EQ]._
 
 So this turned out to be a bear to bring up to date, because the original code
 was insane. I’m not quite sure how I got there, and I was still bugfixing long
-after the demo video was made. You’ll find the actual version of [Aura][] has a
+after the demo video was made. You’ll find the actual version of [Aura] has a
 slightly wider range, better adjustability in the low range, and the Dry/Wet
 control gets a touch of added functionality: as you go full wet, the resonant
 quality gets enhanced, so be sure and explore the half-wet or barely-wet
@@ -573,7 +872,7 @@ And this one is a bit scary as it seems to be channeling analog filters. I agree
  that it would be great to have this principle work as a full-range, synth-style
  filter that goes all the way into the bass. I can’t do it, though: it freaks
 out when I try, and it took endless hacking just to expand it a bit from what
-you see in the video. This is the algorithm derived from [GrooveWear][], which
+you see in the video. This is the algorithm derived from [GrooveWear], which
 averages the rate of change OF the rate of change of the waveform. It’s not even
  slightly normal. You get what you get.
 
@@ -581,15 +880,15 @@ But what you get, is a lowpass with a striking resonant edge that’s implemente
 in a totally new way, and which has no pre-ring at all… and the way it gets its
 sound gives it an extraordinary sonority. Pretty much anything in audio that
 you’d want to project loudly as if from an acoustic space, can be given a sheen
-and glisten and sonority with [Aura][]. I’ve got it extending down fairly low
-into the midrange if you’re at 44.1K or so: that should help if you need to use
-it at high sample rates, because the technique for doing it is not exactly
+and glisten and sonority with [Aura]. I’ve got it extending down fairly low into
+ the midrange if you’re at 44.1K or so: that should help if you need to use it
+at high sample rates, because the technique for doing it is not exactly
 cooperative and I found no way to simply tune it down: everything’s so geared to
  slew rate between samples that it’s best used for treble effects. I think it’s
 got a useful tonality for its treble manipulations, and I’ve spent a lot of time
  coming up with interesting ways to cut or enhance treble. This one’s good at
 what it does. You can really do stuff with the texture of your mix by
-aggressively using [Aura][] on suitable elements.
+aggressively using [Aura] on suitable elements.
 
 
 <a name="plugins_autopan"></a>
@@ -649,34 +948,33 @@ the classic Scream Tracker resonant lowpass is known to be broken, and that has
 a real character to it. And even the Roland Supersaw is known to have some
 quirks that make it what it is…
 
-[Average][] has a fantastic tonality once you accept the response quirks. You
-can dial in the notches to suppress unwanted content, and (in a post-video
-revision) it’s got a dry-wet control so you can moderate the effect—and,
-typically for Airwindows, if this dry/wet is set to full wet, the calculations
-for doing that drop out of the plugin entirely so you’re not doing an
-unnecessary multiply.
+[Average] has a fantastic tonality once you accept the response quirks. You can
+dial in the notches to suppress unwanted content, and (in a post-video revision)
+ it’s got a dry-wet control so you can moderate the effect—and, typically for
+Airwindows, if this dry/wet is set to full wet, the calculations for doing that
+drop out of the plugin entirely so you’re not doing an unnecessary multiply.
 
 
 <a name="plugins_avermatrix"></a>
 ### AverMatrix
 
-_AverMatrix turns averaging into a full-featured [EQ][]._
+_AverMatrix turns averaging into a full-featured [EQ]._
 
-My [Average][] plugin is pretty handy. It gives you from one to ten taps of
-simple averaging, as a continuously variable thing. At higher settings, there
-are comb-filtery artifacts that come in as a result of how averaging works, but
-you can tune them with the filter setting and they sound pretty natural… and
+My [Average] plugin is pretty handy. It gives you from one to ten taps of simple
+ averaging, as a continuously variable thing. At higher settings, there are
+comb-filtery artifacts that come in as a result of how averaging works, but you
+can tune them with the filter setting and they sound pretty natural… and
 averaging has very good time response because it doesn’t have an IIR ‘tail’, so
 it’s very clean-sounding in ways normal filters aren’t.
 
-[AverMatrix][] takes that, and gives you one to ten POLES of filtering like in
-the first [Average][]. That’s continuous too: you can have three and a half
-poles, no trouble (it just generates the third pole and then fades halfway into
-it) so the subtlety of adjustment is great.
+[AverMatrix] takes that, and gives you one to ten POLES of filtering like in the
+ first [Average]. That’s continuous too: you can have three and a half poles, no
+ trouble (it just generates the third pole and then fades halfway into it) so
+the subtlety of adjustment is great.
 
-AND, also by request, [AverMatrix][] uses the Inv/Dry/Wet trick some of my other
- plugins use, and it’s a great idea to include. Go to full ‘inverse’ and
-[AverMatrix][] is made to keep the dry and subtract the inverted wet from it…
+AND, also by request, [AverMatrix] uses the Inv/Dry/Wet trick some of my other
+plugins use, and it’s a great idea to include. Go to full ‘inverse’ and
+[AverMatrix] is made to keep the dry and subtract the inverted wet from it…
 which means, now it’s a highpass. An amazing-sounding highpass, with great
 clarity and airy-ness and just as clean transient behavior, and just like
 applying dry/wet on the regular averaging, you can apply dry/inverse to give
@@ -697,9 +995,9 @@ microphone. (your settings will be sample-rate dependent so tune it again if you
 _Balanced lets you run an XLR input into a stereo input, sum it to mono, and use
  it._
 
-[Balanced][] is inspired by the adorably tiny Teenage Engineering TX-6 mixer.
-You might know that the TX-6 is notorious for being wildly overpriced as a small
- line mixer, since you can get a Bastl Dude for one-twelveth the price and have
+[Balanced] is inspired by the adorably tiny Teenage Engineering TX-6 mixer. You
+might know that the TX-6 is notorious for being wildly overpriced as a small
+line mixer, since you can get a Bastl Dude for one-twelveth the price and have
 almost as many inputs (five jacks to plug in, rather than six). If you multiply
 that by twelve you've got sixty jacks, ten times as many inputs per dollar, and
 pretty much as tiny.
@@ -710,7 +1008,7 @@ granted, but 32 bit audio). And that means it can serve other functions, like
 replacing other multichannel converters… and it's normal for multichannel
 converters to be sort of costly.
 
-But how much can it replace? Enter Airwindows [Balanced][] (and some patchcords
+But how much can it replace? Enter Airwindows [Balanced] (and some patchcords
 you will have to make).
 
 Firstly, with breakout cables (also very expensive, from Teenage Engineering)
@@ -719,22 +1017,21 @@ untouched: the TX-6 will do stuff ITB on input before sending the result to your
  DAW, but I don't think it can operate on sides of its stereo channels, so the
 processing has to match.
 
-With Airwindows [Balanced][], you can plug a balanced, professional XLR output
+With Airwindows [Balanced], you can plug a balanced, professional XLR output
 into your TX-6 (or ANY consumer grade stereo input of any kind) and turn it into
  a mono channel with all the benefits of balanced operation. In fact if your
 poor-quality consumer input hums or buzzes the same on both channels, Airwindows
- [Balanced][] will cancel that out as if it was interference in the analog
-domain. It flips one of the sides and then sums to mono, with a handy gain trim
-based on [BitShiftGain][] to let you gain-stage stuff that might come in very
-quiet.
+ [Balanced] will cancel that out as if it was interference in the analog domain.
+ It flips one of the sides and then sums to mono, with a handy gain trim based
+on [BitShiftGain] to let you gain-stage stuff that might come in very quiet.
 
-The reason that's an interesting option is this: with Airwindows [Balanced][]
-and Teenage Engineering TX-6, you can record certain things at professional
-quality in multichannel WITHOUT professional mic pres. And that makes TX-6 the
-budget option. Completely aside from its tininess and portability… or the fact
-that everything in this portable rig is internally battery powered and can
-exist, in any combination of professional mic input and stereo line input, miles
- away from mains power.
+The reason that's an interesting option is this: with Airwindows [Balanced] and
+Teenage Engineering TX-6, you can record certain things at professional quality
+in multichannel WITHOUT professional mic pres. And that makes TX-6 the budget
+option. Completely aside from its tininess and portability… or the fact that
+everything in this portable rig is internally battery powered and can exist, in
+any combination of professional mic input and stereo line input, miles away from
+ mains power.
 
 The key here is that you can get a battery-powered 48v phantom power box (I'm
 using Xvive P1s, which charge off a laptop or charger) and power a high-headroom
@@ -758,12 +1055,12 @@ into condenser mic into DAW' scenario, this setup with the Xvive P1 and TX-6
 compares most closely with APIs and Lavrys, just without 96k capability, and
 everything on the budget side comes off as congested and flat by comparison.
 
-My hope is that Airwindows [Balanced][] also helps other recording situations.
-You should be able to take a hot XLR condenser mic, a 48V phantom power box,
-make the cable (these do not exist as far as I know) and a cheap old laptop with
- a 1/8" stereo line input, and get a respectable and good sound as a mono
-capture… also entirely on batteries, and anywhere. My hope is that if you're not
- buying tiny $1000 digital mixers on a whim you can still get value out of this.
+My hope is that Airwindows [Balanced] also helps other recording situations. You
+ should be able to take a hot XLR condenser mic, a 48V phantom power box, make
+the cable (these do not exist as far as I know) and a cheap old laptop with a
+1/8" stereo line input, and get a respectable and good sound as a mono capture…
+also entirely on batteries, and anywhere. My hope is that if you're not buying
+tiny $1000 digital mixers on a whim you can still get value out of this.
 
 But if you're able to get the TX-6 and scorned it, check out what I was able to
 make it do. I could have put up four other mics, all on things that would crush
@@ -772,7 +1069,7 @@ the laptop to anywhere I wanted to record, and also would never have to set a
 level because by definition nothing the mics can do can ever overload the inputs
  in a negative way. That makes setup quicker. Just saying.
 
-I can give you [Balanced][]. You gotta make the cables yourself, as I did :)
+I can give you [Balanced]. You gotta make the cables yourself, as I did :)
 
 
 <a name="plugins_bassamp"></a>
@@ -780,7 +1077,7 @@ I can give you [Balanced][]. You gotta make the cables yourself, as I did :)
 
 _BassAmp is an old plugin with new tweaks, that gives some bass guitar tones._
 
-This is [BassAmp][]. (I’ve been asked to do amp sim type plugins, so it’s a
+This is [BassAmp]. (I’ve been asked to do amp sim type plugins, so it’s a
 start). Back in the day I experimented with some of these things, though I’ve
 always been more interested in wiring up physical hardware, especially for
 guitar distortions and things. I’ve brought this one up to date in some ways,
@@ -790,7 +1087,7 @@ dithering to the floating point bus, and so on.
 It’s got basically a bright channel, midrange (which is just dry, as a slider),
 a bass channel with a characteristic woolly tone that has a kind of noisy blur
 on the small amount of treble it does have, and a ‘sub’ channel that really
-doesn’t work, so use it as a crazy special effect. [BassKit][] might get you a
+doesn’t work, so use it as a crazy special effect. [BassKit] might get you a
 cleaner sub-octave, but this will give you a trashy sub-octave that’s mostly
 garbage, even on a single-note line. So you’ll be leaving it off, I think.
 
@@ -800,12 +1097,12 @@ garbage, even on a single-note line. So you’ll be leaving it off, I think.
 
 _BassDrive is an old secret weapon, like a kind of bass amp._
 
-There was this plugin called [BassDrive][]… and it was a secret weapon. It was
+There was this plugin called [BassDrive]… and it was a secret weapon. It was
 unlike any Airwindows plugin because it ran on painfully hard-coded biquad
 filter code, looked up from calculators online: which also meant it was locked
 to 44.1K (at least, to get the expected behavior). But it was also unlike anyone
  else’s plugin of that nature, because it used lots of Airwindows overdrive
-inside it. The controls seemed to say normal [EQ][] things like ‘bass, mid,
+inside it. The controls seemed to say normal [EQ] things like ‘bass, mid,
 treble’, but they didn’t give you those things, they gave you funny bands voiced
  in a weird way.
 
@@ -829,7 +1126,7 @@ eccentric it is, but sometimes that’s the point. I’m working on a bunch of s
 If you hate it, it’s not getting any better, abandon it with a clear conscience.
  On the other hand if its dark magic speaks to you… then hey, enjoy the new
 weapon. And rest assured that people who need good behavior out of their plugins
- will not be finding your secret, because [BassDrive][] will scare them away
+ will not be finding your secret, because [BassDrive] will scare them away
 first.
 
 
@@ -838,42 +1135,42 @@ first.
 
 _BassKit is centered bass reinforcement with subs fill. Clean and controllable._
 
-This is much like [DubSub][] or [DubCenter][], except it’s strictly mono bass
-and is designed to be super controllable. The controls are simplified and kind
-of optimized so only good-sounding results come out. You need to have good
-subwoofers (or use [SubsOnly][] to test) to use the Sub output, otherwise you
-may not be able to hear what you’re doing as it’s much deeper and more filtered
-than you get with most [DubSub][] patches (the filters are somewhat rearranged).
+This is much like [DubSub] or [DubCenter], except it’s strictly mono bass and is
+ designed to be super controllable. The controls are simplified and kind of
+optimized so only good-sounding results come out. You need to have good
+subwoofers (or use [SubsOnly] to test) to use the Sub output, otherwise you may
+not be able to hear what you’re doing as it’s much deeper and more filtered than
+ you get with most [DubSub] patches (the filters are somewhat rearranged).
 
 The Bass reinforcement works like if you were using the head bump in ToTape,
-except it’s mono-only so it will only reinforce usefully. Because [BassKit][] is
- meant for mastering and 2-buss duties, and not the full range of madness
-available in [DubSub][]/[DubCenter][], it uses the bass and sub augmentation
-ONLY as additions to dry: never ‘wet only’. You can exaggerate it, but the
-intention is to make it easy to add bass and subs in a sensible, controlled way.
- I hope it proves useful, and I know it will be more well-behaved than
-[DubSub][] in case that one was too unmanageable for normal use :)
+except it’s mono-only so it will only reinforce usefully. Because [BassKit] is
+meant for mastering and 2-buss duties, and not the full range of madness
+available in [DubSub]/[DubCenter], it uses the bass and sub augmentation ONLY as
+ additions to dry: never ‘wet only’. You can exaggerate it, but the intention is
+ to make it easy to add bass and subs in a sensible, controlled way. I hope it
+proves useful, and I know it will be more well-behaved than [DubSub] in case
+that one was too unmanageable for normal use :)
 
 
 <a name="plugins_baxandall"></a>
 ### Baxandall
 
-_Baxandall is a killer general-purpose [EQ][]._
+_Baxandall is a killer general-purpose [EQ]._
 
-[Baxandall][] starts with a two-band filter that, zeroed out, subtracts an
-inverse lowpass from a lowpass and gives you bit-identical, perfectly
-transparent sound. That’s if you’re being subtle. If you boost or cut, lows or
-highs, it gives you the gentle broad boosts you expect, centered on the vital
-midrange. As you get more intense with the boosting, it gets more extreme, to
-where if you’re doing double boosts to get an intense exaggerated sound, a mids
-notch will naturally develop to accentuate the boosting. The whole voicing
-shifts to accomodate what you want to do with it, and you can play bass against
-treble or vice versa to get really wild voicings, such as for extreme [EQ][]
-treatments (in terms of lows or highs)… but using the same natural Airwindows
-[Baxandall][] tonality, so it won’t sound ‘filtery’, it’ll sound like it was
-meant to be that way.
+[Baxandall] starts with a two-band filter that, zeroed out, subtracts an inverse
+ lowpass from a lowpass and gives you bit-identical, perfectly transparent
+sound. That’s if you’re being subtle. If you boost or cut, lows or highs, it
+gives you the gentle broad boosts you expect, centered on the vital midrange. As
+ you get more intense with the boosting, it gets more extreme, to where if
+you’re doing double boosts to get an intense exaggerated sound, a mids notch
+will naturally develop to accentuate the boosting. The whole voicing shifts to
+accomodate what you want to do with it, and you can play bass against treble or
+vice versa to get really wild voicings, such as for extreme [EQ] treatments (in
+terms of lows or highs)… but using the same natural Airwindows [Baxandall]
+tonality, so it won’t sound ‘filtery’, it’ll sound like it was meant to be that
+way.
 
-Airwindows [Baxandall][] uses my interleaved biquad filters (original, purest
+Airwindows [Baxandall] uses my interleaved biquad filters (original, purest
 form, not meant for rapid automation) that run inside a Console5 instance to
 deepen the sound of the filter.
 
@@ -881,35 +1178,35 @@ deepen the sound of the filter.
 <a name="plugins_baxandall2"></a>
 ### Baxandall2
 
-_Baxandall2 is [Baxandall][], extended and made more powerful._
+_Baxandall2 is [Baxandall], extended and made more powerful._
 
 Sometimes the only way you can make something bigger is to strip it down. I'd
 been exploring EQs for the purposes of putting one in a future Console version,
-and revisited [Baxandall][]… well, by the time I was done, a lot was different
-and a lot was still the same. It still uses my interleaved biquad filters (an
+and revisited [Baxandall]… well, by the time I was done, a lot was different and
+ a lot was still the same. It still uses my interleaved biquad filters (an
 unusual choice that helps the shallowness of the filter slopes in this very
-'broad strokes' [EQ][]). It still uses the technique of sweeping those filter
+'broad strokes' [EQ]). It still uses the technique of sweeping those filter
 center points to make increasingly extreme effects as you get crazier with it:
-it gets almost synth-like, starting with general 'tilt [EQ][]' effects of great
+it gets almost synth-like, starting with general 'tilt [EQ]' effects of great
 subtlety but bringing in wild boosts as you crank it. The purpose of that is to
 do the sort of anti-Soothe thing I favor: if you have a track and it's carrying
 highs, in no way do you need to also have full bass on it. Instead, you build a
 mix out of composite parts each of which bring a different voicing to the mix.
-And [Baxandall2][] is designed to get you to whatever broad [EQ][] place you
-need, from a place of naturalness.
+And [Baxandall2] is designed to get you to whatever broad [EQ] place you need,
+from a place of naturalness.
 
 But there's nothing natural about the cranked-up 24dB boosts and cuts you can
 now do. This is newly tuned with the filter sweeping to take you straight past
-the original [Baxandall][]'s settings into wild new places. Also, the original
-[Baxandall][] was made more forgiving by running it inside an internal Console
+the original [Baxandall]'s settings into wild new places. Also, the original
+[Baxandall] was made more forgiving by running it inside an internal Console
 processing, analog-ifying it. But it turns out that I can leave that to actual
-Console versions and strip [Baxandall2][] down to the guts of it, which actually
- gave it a lot more power.
+Console versions and strip [Baxandall2] down to the guts of it, which actually
+gave it a lot more power.
 
-This is [Baxandall][] in the form that I will need it, for doing things with.
-But since it's Airwindows, you can use it too. And you can still use the
-original [Baxandall][], that's not going anywhere and has its own merits.
-[Baxandall2][] is just… more, at any cost, no holds barred. Hope you like it.
+This is [Baxandall] in the form that I will need it, for doing things with. But
+since it's Airwindows, you can use it too. And you can still use the original
+[Baxandall], that's not going anywhere and has its own merits. [Baxandall2] is
+just… more, at any cost, no holds barred. Hope you like it.
 
 
 <a name="plugins_beam"></a>
@@ -917,31 +1214,31 @@ original [Baxandall][], that's not going anywhere and has its own merits.
 
 _Beam is a wordlength reducer that tries to heighten sonority._
 
-[Beam][]’s a wordlength reducer like [Dark][], but instead of seeking to always
-give you the least departure from whatever trajectory the audio’s on (like
-[Dark][]: and that suppresses highs, including noise in the highs), [Beam][]
-seeks to make all waveforms converge on the same angle (either ascending, or
-descending). Imagine a world of triangle-waves, the deepest frequencies taking
-the most energy, and progressively quieter until high frequencies are in balance
- with the lows. That’s [Beam][]. [Beam][] has a ‘focus’ control that sort of
-optimizes the frequency range it’s providing a window into (as in, lower
-settings SEEM to encourage focus on deeper sounds, higher settings SEEMS to
-highlight the treble, and the 0.5 is set to zero in on where our hearing’s most
-sensitive.) And it uses those frequencies, across a broad range of possible
-sounds, to emphasize the energy and depth of the audio to shocking effect.
+[Beam]’s a wordlength reducer like [Dark], but instead of seeking to always give
+ you the least departure from whatever trajectory the audio’s on (like [Dark]:
+and that suppresses highs, including noise in the highs), [Beam] seeks to make
+all waveforms converge on the same angle (either ascending, or descending).
+Imagine a world of triangle-waves, the deepest frequencies taking the most
+energy, and progressively quieter until high frequencies are in balance with the
+ lows. That’s [Beam]. [Beam] has a ‘focus’ control that sort of optimizes the
+frequency range it’s providing a window into (as in, lower settings SEEM to
+encourage focus on deeper sounds, higher settings SEEMS to highlight the treble,
+ and the 0.5 is set to zero in on where our hearing’s most sensitive.) And it
+uses those frequencies, across a broad range of possible sounds, to emphasize
+the energy and depth of the audio to shocking effect.
 
 Except, it’s not. It doesn’t know what a frequency is. It’s only ‘dithering’ in
 such a way as to try and accentuate certain waveform slope angles, and has no
 real power to do even that beyond statistical averaging of a bunch of samples.
 
-On top of that, its noise floor is WEIRD. [Dark][] gates into silence, sort of
-well-behavedly. Normal dithers become noise seamlessly. [Beam][] goes nuts and
+On top of that, its noise floor is WEIRD. [Dark] gates into silence, sort of
+well-behavedly. Normal dithers become noise seamlessly. [Beam] goes nuts and
 screams, and the only thing I can say for it is, raw truncation is worse. It’s
 super weird… and yet, even while it’s doing that, the background audio retains a
  startling depth and personality. Or at least so it seems… even more than
-[Dark][], with this one you turn up [DeRez][] and nothing happens to the sound
-at all. You don’t even hear the noise until it’s silly loud. (there will be a
-series of dither reissues with [DeRez][], both for auditioning and for lo-fi
+[Dark], with this one you turn up [DeRez] and nothing happens to the sound at
+all. You don’t even hear the noise until it’s silly loud. (there will be a
+series of dither reissues with [DeRez], both for auditioning and for lo-fi
 duties.) It might even be a ‘sonic maximizer’, putting tone qualities into the
 audio that weren’t there to begin with.
 
@@ -950,11 +1247,11 @@ know it’s doing what I made it to do. But nobody knows what you get if you
 sculpt audio, not by frequencies or loudness, but by reinforcing certain
 waveform slope angles, because to my knowledge nobody has ever wanted to do that
  or had a way to make it happen, even in subtle ways like this. And now that
-I’ve done it, I’m not certain it’s better than [Dark][]. I understand what
-[Dark][]’s doing, and why that’s useful. This is a wilder beast. Looking forward
- to getting people’s reactions… because one of these may replace NJAD in my
-flagship Airwindows plugin, [Monitoring][]. (followup: turns out it is [Dark][]
-in [Monitoring2][])
+I’ve done it, I’m not certain it’s better than [Dark]. I understand what
+[Dark]’s doing, and why that’s useful. This is a wilder beast. Looking forward
+to getting people’s reactions… because one of these may replace NJAD in my
+flagship Airwindows plugin, [Monitoring]. (followup: turns out it is [Dark] in
+[Monitoring2])
 
 
 <a name="plugins_bigamp"></a>
@@ -962,14 +1259,14 @@ in [Monitoring2][])
 
 _BigAmp is a very flexible amplike thing with a taste for the bizarre._
 
-Let’s go a little farther! [BigAmp][] steps even farther away from what you
-might call ‘realistic’ amp sim behavior. It’s more like the Z series filters, or
- perhaps the X filters: you can make it act sort of ‘normal’, but it also lets
-you twist the knobs way beyond what’s realistic. So, you can use [BigAmp][] for
+Let’s go a little farther! [BigAmp] steps even farther away from what you might
+call ‘realistic’ amp sim behavior. It’s more like the Z series filters, or
+perhaps the X filters: you can make it act sort of ‘normal’, but it also lets
+you twist the knobs way beyond what’s realistic. So, you can use [BigAmp] for
 layering, or to supplement a sound, or just do strange things. There’s one more
 amp sim before I get into other, different plugins (and indeed different whole
 things like the sample instruments I’m developing, as heard in ‘Skronk’ and
-these demos) but [BigAmp][] is perhaps the widest-ranging of the lot.
+these demos) but [BigAmp] is perhaps the widest-ranging of the lot.
 
 
 <a name="plugins_biquad"></a>
@@ -1007,15 +1304,15 @@ others on output. They’re a mixing of multiple copies of the signal.
 That means Console applies to the biquad filter.
 
 We already knew that, of course: I’ve long observed that you can put Console (or
- [BussColors4][]/ConsoleBuss4) around a bog-standard DAW [EQ][] and get an
-enhanced sound out of it. Mind you, I wasn’t controlling that [EQ][], but it
-still worked. But now, I have Console5 (not 6, but I COULD do 6 in the right
-context) built right into [Biquad][]. So, it does expect to have a signal
-between -1 and 1 (or lower than 0dBFS in the DAW), and that means [Biquad][]
-itself can’t remove huge DC offsets ten times the size of the audio content. (It
- can still remove smaller offsets just fine). And it runs into basically
-[PurestConsoleChannel][], does the biquad, then uses [PurestConsoleBuss][] and
-goes out to an inverse/dry/wet control (which itself has multiple uses).
+ [BussColors4]/ConsoleBuss4) around a bog-standard DAW [EQ] and get an enhanced
+sound out of it. Mind you, I wasn’t controlling that [EQ], but it still worked.
+But now, I have Console5 (not 6, but I COULD do 6 in the right context) built
+right into [Biquad]. So, it does expect to have a signal between -1 and 1 (or
+lower than 0dBFS in the DAW), and that means [Biquad] itself can’t remove huge
+DC offsets ten times the size of the audio content. (It can still remove smaller
+ offsets just fine). And it runs into basically [PurestConsoleChannel], does the
+ biquad, then uses [PurestConsoleBuss] and goes out to an inverse/dry/wet
+control (which itself has multiple uses).
 
 What’s a biquad, you ask? The Airwindows biquad uses four of the six common
 biquad options (I prefer to do shelves with subtractive/additive use of filtered
@@ -1027,7 +1324,7 @@ frequency (in ‘amount of the audio range’) from ‘zero’ to ‘one’. The
 to be used by ear, plus it will always cover DC to Nyquist at any sample rate.
 Zero is not really DC, because that kills the biquad: also, One is not really
 the Nyquist frequency (half the sample rate) for the same reason. But, they act
-a lot like they range that far, because the high resolution lets [Biquad][]
+a lot like they range that far, because the high resolution lets [Biquad]
 calculate things accurately even that far out of the normal range.
 
 They don’t update/recalculate every sample, but the way I’ve defined the data
@@ -1039,7 +1336,7 @@ ultimate sample-instrument tone shaper to sit ‘under the hood’ and voice
 somebody’s musical product after the sample-playback stuff is taken care of.
 You’ll be seeing a lot of stuff come out that uses this code, as there are many
 plugins that require this type of filter to work, often ones that will benefit
-from the sonic improvements that are part of [Biquad][].
+from the sonic improvements that are part of [Biquad].
 
 More will be revealed. Suffice to say this is a very useful building block
 that’ll allow for some very special plugins.
@@ -1075,7 +1372,7 @@ gets super twitchy, so part of what I’ve done is just stabilizing things. I
 tried for ages to come up with some bizarre hack to force the filter back into
 stability: no dice. So, the range has been limited a little, the Q doesn’t
 adjust below a Q of 1, and it reacts really slowly, because that was the only
-way I could get it to behave at all. (the original [Biquad][] can sometimes be
+way I could get it to behave at all. (the original [Biquad] can sometimes be
 better behaved, because it’s only recalculating coefficients every new buffer.
 So, zipper noise. When you get rid of that your troubles get infinitely worse,
 with biquads)
@@ -1083,12 +1380,12 @@ with biquads)
 I’ve also got the resonance (on low and highpass) working differently. I’m
 scaling back loudness, but I’m also applying a distortion, then averaging after
 that, to try and get an ‘overdriving filter effect’ not present in the purer
-original [Biquad][]. You can go quieter into [Biquad2][] and avoid this, or not
-use as much resonance: I feel it’s kind of like the Roland Alpha Juno filter
+original [Biquad]. You can go quieter into [Biquad2] and avoid this, or not use
+as much resonance: I feel it’s kind of like the Roland Alpha Juno filter
 resonance distortion, not an everyday thing but when it pops up it has its own
 distinct quality that’s interesting.
 
-Anyway here’s [Biquad2][] ;)
+Anyway here’s [Biquad2] ;)
 
 
 <a name="plugins_biquaddouble"></a>
@@ -1116,9 +1413,9 @@ Why do this at all?
 Because I sometimes like mocking up effects and plugins out of component parts.
 And if I was to use a stacked biquad filter as part of something else, it’s just
  more convenient to dial in the correct settings and get the tone exactly right:
- I could use two ‘[Biquad][]’ instances, but remember that [BiquadDouble][]
-stacks its filters INSIDE the Console processing, so it might not be as good to
-fake it, plus I’d have to set both the [Biquad][] instances the same…
+ I could use two ‘[Biquad]’ instances, but remember that [BiquadDouble] stacks
+its filters INSIDE the Console processing, so it might not be as good to fake
+it, plus I’d have to set both the [Biquad] instances the same…
 
 The real answer is ‘because that’s how I roll’. Nobody asked for this. But maybe
  you reach for a biquad filter for simple tone shaping, and you keep trying to
@@ -1131,27 +1428,26 @@ right for every purpose. Or not. But you can’t know until you try :)
 <a name="plugins_biquadonehalf"></a>
 ### BiquadOneHalf
 
-_BiquadOneHalf is an interleaved biquad filter like [Biquad][]._
+_BiquadOneHalf is an interleaved biquad filter like [Biquad]._
 
-[BiquadOneHalf][] is tech that’s going into my future plugins. You have to set
-the frequency twice as high as you would using [Biquad][], and it can only go up
- to 1/4 Nyquist, but the way it interacts with the sampling frequency is special
- and works very well for some types of filtering. You’ll be getting more
-developed plugins of that nature soon, and all through January, but for now I
-got this: working version of the new [Biquad][] filter variation, that you can
-use on stuff.
+[BiquadOneHalf] is tech that’s going into my future plugins. You have to set the
+ frequency twice as high as you would using [Biquad], and it can only go up to
+1/4 Nyquist, but the way it interacts with the sampling frequency is special and
+ works very well for some types of filtering. You’ll be getting more developed
+plugins of that nature soon, and all through January, but for now I got this:
+working version of the new [Biquad] filter variation, that you can use on stuff.
 
 It’s the first version, not the ‘sweepable’ version, because this is going to
-find its way into fixed-frequency EQs, ‘head bump’ etc… compare it to [Biquad][]
- remembering to use twice the frequency you otherwise would. It’s happiest on
-bass or midrange: much like regular [Biquad][], trying to force it to get real
+find its way into fixed-frequency EQs, ‘head bump’ etc… compare it to [Biquad]
+remembering to use twice the frequency you otherwise would. It’s happiest on
+bass or midrange: much like regular [Biquad], trying to force it to get real
 close to its high frequency limit can get messy.
 
 
 <a name="plugins_biquadplus"></a>
 ### BiquadPlus
 
-_BiquadPlus is [Biquad][] plus zipper noise suppression! For twiddling the
+_BiquadPlus is [Biquad] plus zipper noise suppression! For twiddling the
 controls._
 
 By request, a kind of bugfix!
@@ -1166,8 +1462,8 @@ them so they’re more approachable.
 But, a lot of musicians seem to enjoy cranking the filters around… and now that
 I’m using Bespoke all the time, I can put an LFO literally on any damn thing by
 rightclicking it. And it wasn’t all that difficult to do… I rolled it in to some
- documentation upgrades I did on the advice of Paul from [SurgeSynthesizer][].
-One thing about hanging out with the open source music people is, stuff starts
+ documentation upgrades I did on the advice of Paul from [SurgeSynthesizer]. One
+ thing about hanging out with the open source music people is, stuff starts
 happening faster than you could possibly imagine. I had a crash bug in Bespoke
 on some strange things I needed to build into my main music making procedures,
 and Ryan had a fix the next MORNING. It’s daunting and wonderful to hang out
@@ -1175,7 +1471,7 @@ with these earnest, motivated people.
 
 You’ll see more on that, sooner than you think.
 
-But right now… enjoy a cleaner, smoother [Biquad][], plus zipper noise
+But right now… enjoy a cleaner, smoother [Biquad], plus zipper noise
 suppression! I needed to come up with my Airwindows way to accomplish this, and
 got it done. More to come.
 
@@ -1186,21 +1482,20 @@ got it done. More to come.
 _BiquadTriple is a handy Airwindows cascaded biquad filter: steeper roll-off
 before resonance._
 
-Here’s another utility plugin! This is the same as [BiquadDouble][], except it’s
- three stacked biquads. Otherwise the same: you get to set the frequency, Q etc.
- for all the filters in parallel. This saves time over doing three instances of
-[Biquad][], plus they’re run in series inside Console inside the plugin, so
-there will be a deeper tone out of this one.
+Here’s another utility plugin! This is the same as [BiquadDouble], except it’s
+three stacked biquads. Otherwise the same: you get to set the frequency, Q etc.
+for all the filters in parallel. This saves time over doing three instances of
+[Biquad], plus they’re run in series inside Console inside the plugin, so there
+will be a deeper tone out of this one.
 
 It’s for if you wanted to get steeper filter slopes without the cutoff going
-resonant. This, like [BiquadDouble][], is very much ‘tools to make tools’, for
-if you’re mocking up some kind of effect and know you’re going to be using
-filters. You can test out what you’ll use in your effect, this way. Note: seems
-like the inv/dry/wet is really just wet/dry/wet, and I have too many new and
-more worthwhile plugins to put out to fuss over it so I’d advise just taking
-[BiquadTriple][] as it is. I’d be using it as full-wet anyway though you can
-bleed in dry for more of a shelf effect if you’re doing a steep rolloff of some
-kind.
+resonant. This, like [BiquadDouble], is very much ‘tools to make tools’, for if
+you’re mocking up some kind of effect and know you’re going to be using filters.
+ You can test out what you’ll use in your effect, this way. Note: seems like the
+ inv/dry/wet is really just wet/dry/wet, and I have too many new and more
+worthwhile plugins to put out to fuss over it so I’d advise just taking
+[BiquadTriple] as it is. I’d be using it as full-wet anyway though you can bleed
+ in dry for more of a shelf effect if you’re doing a steep rolloff of some kind.
 
 I expect to be doing some more variations on this as there are known ways to
 stack filters where the Q factors are very specific and staggered: however,
@@ -1217,8 +1512,8 @@ isolator-style effect would be good. Bear in mind the biquads can be fussy about
 
 _Bite is an unusual edge-maker._
 
-[Bite][] puts on a sort of midrange edge. At high sample rates it’ll be more of
-a trebly edge. It’s no specific frequency, so much as it’s just a harshening
+[Bite] puts on a sort of midrange edge. At high sample rates it’ll be more of a
+trebly edge. It’s no specific frequency, so much as it’s just a harshening
 factor: you can also use it inversely, to take out midrange edge. It runs a
 couple samples of latency: on VST that works as a couple samples of delay.
 Again: an experiment, a science project.
@@ -1229,38 +1524,37 @@ Again: an experiment, a science project.
 
 _BitGlitter is an old-sampler style digital lo-fi plugin._
 
-[DeRez][] is the simpler, purer bit and frequency crusher, and is still the best
- ‘analog setting’ bitcrusher (because it lets you use floating-point or
+[DeRez] is the simpler, purer bit and frequency crusher, and is still the best
+‘analog setting’ bitcrusher (because it lets you use floating-point or
 fractional frequency and bit crushes). It’s a very pure example of those things
 and you can make it gate with a touch of DC offset from DC Voltage, and it’s
 even got a touch of grit softening when it frequency crushes to improve its
 tone.
 
-[BitGlitter][], however, isn’t [DeRez][]. [BitGlitter][]’s something a lot more
+[BitGlitter], however, isn’t [DeRez]. [BitGlitter]’s something a lot more
 sophisticated: a kind of sampler emulator. At every stage it’s designed not for
 bitcrush alone, but to get the particular tonalities you can get out of
 primitive old samplers. An earlier attempt intentionally went after the old Akai
- sound, but currently [BitGlitter][] has no specific model. It’s just there to
+ sound, but currently [BitGlitter] has no specific model. It’s just there to
 dial in a kind of punchy grit that will make beats sit well against other
 elements: the video demonstates this.
 
 Now, I know there are people who get mad when I make plugins like these. They
 say, ‘stop making the sound worse!’ and I understand what they mean, but sorry,
 I won’t stop because I know there are elements to certain ‘bad’ sounds that
-aren’t just ‘bad’ but usefully different. [BitGlitter][] maximizes this as much
-as I can, and might be the go-to textural element for this sort of thing if
+aren’t just ‘bad’ but usefully different. [BitGlitter] maximizes this as much as
+ I can, and might be the go-to textural element for this sort of thing if
 generic bitcrushing etc. just never works for you. And then for some people I
 think it’ll immediately be their best friend, but I don’t need to explain to
 that crew what this is. For those who aren’t used to ‘crappy old sampler’ magic…
 
-First, [BitGlitter][]’s got gain trim going into a stage of [Spiral][]
-analog-style saturation. You can overdrive the input effectively. Then, it does
-a hint of bitcrushing and splits into two separate frequency crushers, each set
-slightly different. This isn’t ‘accurate’ to any real retro sampler, but it
-helps broaden the sound. The output of these are blended and given an output
-gain and a dry/wet in case you need to sneak a little clarity back in there, and
- a slight averaging blur is added to the blend to further emulate analog
-circuitry.
+First, [BitGlitter]’s got gain trim going into a stage of [Spiral] analog-style
+saturation. You can overdrive the input effectively. Then, it does a hint of
+bitcrushing and splits into two separate frequency crushers, each set slightly
+different. This isn’t ‘accurate’ to any real retro sampler, but it helps broaden
+ the sound. The output of these are blended and given an output gain and a
+dry/wet in case you need to sneak a little clarity back in there, and a slight
+averaging blur is added to the blend to further emulate analog circuitry.
 
 The result is a coarser, more opaque sound which still lacks modern digital
 ‘edge’: you can plainly see on a metering plugin like Voxengo SPAN how the highs
@@ -1269,9 +1563,9 @@ impact-maker. Especially if you go for darker regions of the Bit Glitter
 control, you can use this to add ridiculous amounts of midrange punch in that
 ‘retro hip-hop’ kind of way. There’s a visceralness and aliveness to the grunge
 because it’s made by an algorithm to act like analog gear might: you won’t get
-the same result out of just a pile of typical DAW bitcrush and [EQ][].
-[BitGlitter][] will do the extreme damage you might be looking for, but it’ll do
- it with a personality that contributes instead of detracts.
+the same result out of just a pile of typical DAW bitcrush and [EQ].
+[BitGlitter] will do the extreme damage you might be looking for, but it’ll do
+it with a personality that contributes instead of detracts.
 
 
 <a name="plugins_bitshiftgain"></a>
@@ -1282,14 +1576,14 @@ ONLY._
 
 Here is one final trick for clean gain aficionados.
 
-Turns out the only way to get cleaner gain trim than [PurestGain][], with its
-high mathematical precision and noise shaping… is not to do any of that. No
-fancy math, no noise shaping or dither. Just a very narrowly defined boost or
-cut, in the form of a ‘bit shift’.
+Turns out the only way to get cleaner gain trim than [PurestGain], with its high
+ mathematical precision and noise shaping… is not to do any of that. No fancy
+math, no noise shaping or dither. Just a very narrowly defined boost or cut, in
+the form of a ‘bit shift’.
 
 Doing this means your waveform is scaled up or down by increments of 6 dB
 exactly. No 3 db, no 9, no 7 or even 6.001! Only 6 or 12 or 18 and so on, up or
-down. Select the number of bits you want to shift, and [BitShiftGain][] applies
+down. Select the number of bits you want to shift, and [BitShiftGain] applies
 the exact number, not even calculating it in floating-point through repeated
 operations: from a look-up table to make sure it’s absolutely exact and precise.
 
@@ -1307,9 +1601,9 @@ and 8 bits up after, and have a perfect 16 bit dither. Or a 17 bit, if that
 pleases you… or shift 16 bits down so you can hear what your dither’s noise
 floor acts like (we’ll be doing lots of that when I start bringing out the
 dithers). +-16 bits of gain trim is a very big boost or cut. The overall range
-of [BitShiftGain][] is huge. But the real magic of [BitShiftGain][] is the sheer
- simplicity of the concept. Provided your math is truly, rigorously accurate and
- your implementation’s perfect, gain trim with bit shift is the only way in
+of [BitShiftGain] is huge. But the real magic of [BitShiftGain] is the sheer
+simplicity of the concept. Provided your math is truly, rigorously accurate and
+your implementation’s perfect, gain trim with bit shift is the only way in
 digital (fixed OR floating point) where you can apply a change, and the word
 length of your audio doesn’t have to expand, AND every sample which remains in
 your audio continues to be in exactly the same relation to all the others.
@@ -1317,8 +1611,8 @@ your audio continues to be in exactly the same relation to all the others.
 Digital audio is like some crystalline structure: it’s fragile, brittle, and
 suffers tiny fractures at the tiniest alterations. There’s almost nothing you
 can do in digital audio that’s not going to cause some damage. But as long as
-you stick to 6 dB steps and rigidly control the implementation ([BitShiftGain][]
- doesn’t even store the audio in a temporary variable!), you can chip away at
+you stick to 6 dB steps and rigidly control the implementation ([BitShiftGain]
+doesn’t even store the audio in a temporary variable!), you can chip away at
 that least significant bit, and the whole minutes-or-hours-long crystalline
 structure of digital bits can remain perfectly intact above it.
 
@@ -1330,9 +1624,9 @@ _BitShiftPan gives you a gain and a pan control that are ONLY done using bit
 shifts._
 
 This is a request from YouTube comments, but I had no idea how well it'd work
-out! [BitShiftGain][] is a long-standing secret weapon of mine. On almost every
-video, I'm losslessly dropping 6dB using [BitShiftGain][]. But what would you
-get if you applied this to pan?
+out! [BitShiftGain] is a long-standing secret weapon of mine. On almost every
+video, I'm losslessly dropping 6dB using [BitShiftGain]. But what would you get
+if you applied this to pan?
 
 You'd get a pan where center was quite a bit louder than sides (there's no 3 dB
 pan law from bit shifts), but the first steps to left and right are QUITE a lot
@@ -1347,11 +1641,11 @@ BUT.
 If you can construct a mix this way, you can construct a mix where every single
 gain setting, every pan position, every location in the mix, is Bit Shift Gain:
 utterly and completely lossless. No requantization, just like with
-[BitShiftGain][] itself, but in full stereo (within these constraints). You're
+[BitShiftGain] itself, but in full stereo (within these constraints). You're
 picking locations, but they're not LCR locations, they're a range of potential
 locations.
 
-There's more. Mixing with [BitShiftGain][] in mono is impossibly crude. 6dB
+There's more. Mixing with [BitShiftGain] in mono is impossibly crude. 6dB
 increments are seemingly impossible to mix with, absurd, insulting to even
 consider. But if you tick a track one step over to the side… that's now 3dB
 down, not 6. You've losslessly cut one side 6dB while leaving the other one
@@ -1374,14 +1668,14 @@ the mantissa of every audio sample is EXACTLY as captured by the converter. Once
  it's mixed, you'll get a composite, but everything being fed to the mix buss at
  every level in every position is exactly the raw sample… scaled to fit.
 
-If you liked [BitShiftGain][] for its utterly uncompromising transparency,
-beyond anything else even possible… now you have it, but with panning.
+If you liked [BitShiftGain] for its utterly uncompromising transparency, beyond
+anything else even possible… now you have it, but with panning.
 
 If this approach, so ruthless in the desire to hang on to raw unprocessed
 intensity from the original digital captures, seems interesting… next week is
 Console Zero, built from the ground up to work using almost entirely bit shifts
 even inside the saturation/antisaturation calculations and anti-alias filtering.
- [BitShiftPan][] is an ultimately clean gain trim, and apart from the 'steppy'
+ [BitShiftPan] is an ultimately clean gain trim, and apart from the 'steppy'
 positioning and lack of pan law, it's very normal and approachable. Console
 Zero… is radical.
 
@@ -1394,36 +1688,36 @@ would happen as a result?
 
 _BlockParty is like a moderately saturated analog limiter._
 
-What do you get when you cross an Airwindows compressor, with [OneCornerClip][]?
+What do you get when you cross an Airwindows compressor, with [OneCornerClip]?
 
 Pretty much this. Okay, so it wasn’t a very difficult riddle, was it?
 
-[BlockParty][] acts like a somewhat distorty limiter. It’s not at all about
+[BlockParty] acts like a somewhat distorty limiter. It’s not at all about
 lookahead (in fact it doesn’t have any) or preserving tones pristinely. Instead,
  it takes the onset of sounds that would compress, and manipulates the attack in
- the way that [OneCornerClip][] does. The threshold gets kicked way down, and
+ the way that [OneCornerClip] does. The threshold gets kicked way down, and
 gradually expands to full scale, and since the threshold’s determining
-compression, that means [BlockParty][] doesn’t have a stable compression
+compression, that means [BlockParty] doesn’t have a stable compression
 threshold. It’s interactive with the audio you’re giving it.
 
-Because it’s on the [OneCornerClip][] model, that means it’s a mostly-compressor
- with [OneCornerClip][]-like behaviors. That means bass which blooms and has
+Because it’s on the [OneCornerClip] model, that means it’s a mostly-compressor
+with [OneCornerClip]-like behaviors. That means bass which blooms and has
 fullness even under heavy load, and highs that don’t poke out or distract. The
 result is a thing that sounds real analog-y but not super clean. You can use
 very small amounts of it (there’s a lot of gain on tap) to do peak limiting for
 loudness maximizing, or you can slam things into it for effect. It’s called
-[BlockParty][] because heavily limited stuff sounds like blocks of loudness:
-it’ll get you some of those sounds, but not as cleanly as your classic ‘loudness
- war’ limiters. It’ll also smash drums and things in its own distinctive way,
-which might be its strongest suit. On the end of it is a clipping stage to make
-sure nothing you do will ever produce overs. The clipping stage is AFTER the
-dry/wet, so to get a true dry you’ve got to turn it off: this is because raw
-digital clipping is another style of loudenating, so if you were going super-hot
- into [BlockParty][] and wanted to dial in some pure digital clipping you could
-use the dry/wet to do it (or, if including some dry would have given you overs
-because your direct buss signal includes overs).
+[BlockParty] because heavily limited stuff sounds like blocks of loudness: it’ll
+ get you some of those sounds, but not as cleanly as your classic ‘loudness war’
+ limiters. It’ll also smash drums and things in its own distinctive way, which
+might be its strongest suit. On the end of it is a clipping stage to make sure
+nothing you do will ever produce overs. The clipping stage is AFTER the dry/wet,
+ so to get a true dry you’ve got to turn it off: this is because raw digital
+clipping is another style of loudenating, so if you were going super-hot into
+[BlockParty] and wanted to dial in some pure digital clipping you could use the
+dry/wet to do it (or, if including some dry would have given you overs because
+your direct buss signal includes overs).
 
-[BlockParty][] is a fierce loudenator with a voice and style all its own, using
+[BlockParty] is a fierce loudenator with a voice and style all its own, using
 techniques that are distinctly Airwindows. It might be just what you needed, or
 it might be a little too grungy for you… but either way, there’s nothing quite
 like it, so check it out.
@@ -1441,7 +1735,7 @@ musicians about ‘stop buying DAWs! Stop buying mic pres and plugins and becomi
  one user, Tim. If so, it’s okay. This is a weird trick, a very specialized
 little toy. I do think it’s good at its strange purpose, though.
 
-[BrassRider][] is a drum overhead rider for metal mixers.
+[BrassRider] is a drum overhead rider for metal mixers.
 
 Here’s the situation. If you are doing a metal mix of extreme brutality, you are
  probably making very intense, sculpted spot-mic sounds. You probably have a mic
@@ -1453,16 +1747,16 @@ drummer’, ‘classic rock’ snare and tom sounds poking through from the over
  and you hate them. Yet, there are some cymbal crashes that should get into the
 mix. What to do?
 
-[BrassRider][] does one thing (one weird trick!) to help you. It watches for
+[BrassRider] does one thing (one weird trick!) to help you. It watches for
 crashes (noise like white noise) and it cranks the volume WAY up when that goes
 beyond a threshold. You turn up the threshold control to start engaging this
 behavior. There’s a dry wet control that you might not even use if your mixes
 are truly brutal and heavy (who needs reality?)
 
-So then, [BrassRider][] is cranking your overheads when the crashes are hit. So
+So then, [BrassRider] is cranking your overheads when the crashes are hit. So
 what you do is you bury the overhead mics in the mix, completely. And you use
-[BrassRider][] to make them peek out only when there has to be a decent hint of
-crash cymbal in there. And most of the time, [BrassRider][] totally kills the
+[BrassRider] to make them peek out only when there has to be a decent hint of
+crash cymbal in there. And most of the time, [BrassRider] totally kills the
 overheads so your drum sounds have maximum sculpted brutality and work the way
 you want them.
 
@@ -1481,7 +1775,7 @@ already dialing it in, a wild mad light in your eyes, well… you’re welcome :
 
 _BrightAmbience is a plugin for very bright gated reverbs._
 
-[BrightAmbience][] is one of the old secret weapons of classic Airwindows. It’s
+[BrightAmbience] is one of the old secret weapons of classic Airwindows. It’s
 nasty enough to be pretty unique, and nice enough to be useable. What it does,
 is it sets up a BIG pile of delay taps spaced by prime numbers. There’s a decay
 control and a sustain control: the sustain will help with its CPU hungriness,
@@ -1505,10 +1799,10 @@ you shorter sustains and denser shininess)
 <a name="plugins_brightambience2"></a>
 ### BrightAmbience2
 
-_BrightAmbience2 is more [BrightAmbience][] with better tone and more slapbacky
+_BrightAmbience2 is more [BrightAmbience] with better tone and more slapbacky
 effects._
 
-This is just like [BrightAmbience][], except different in pretty much every
+This is just like [BrightAmbience], except different in pretty much every
 detail. Techwise (skip to next paragraph if you like) it is using a totally
 different prime number series, ‘super-primes’ for its delay spacing, and then
 it’s offsetting alternately left and right delay taps to the next prime number
@@ -1534,7 +1828,7 @@ Instead you want to use it like your lead vocals alone go into a special
 chamber. Might also be an inspiring thing to monitor while tracking: I sure had
 fun playing with it in my headphones, and if it’s on your mix while tracking you
  might not have to print it on the actual vocal track. Everything about it is
-evolved from [BrightAmbience][], even the algorithm that makes it.
+evolved from [BrightAmbience], even the algorithm that makes it.
 
 Oh, also if you’re a coder and want to get your hands on the delay taps, it took
  hours of looking up and typing in specific prime numbers, as there is no such
@@ -1558,20 +1852,20 @@ want with it… so don’t say I never gave you nothin’ :D
 
 _BrightAmbience3 adds undersampling for high sample rates, and better feedback._
 
-[BrightAmbience][] is a very old plugin. The original was all about taking
-sounds coming in, and transforming them into lengths of extruded and very bright
- reverb. [BrightAmbience2][] transformed that, in turn, into a more adaptable
+[BrightAmbience] is a very old plugin. The original was all about taking sounds
+coming in, and transforming them into lengths of extruded and very bright
+reverb. [BrightAmbience2] transformed that, in turn, into a more adaptable
 creation that used inter-aural delays to create a subtle stereo effect like an
 aura around mono content.
 
-[BrightAmbience3][] adds undersampling. Now high sample rate mixes retain a
+[BrightAmbience3] adds undersampling. Now high sample rate mixes retain a
 consistent tone and reverb length to what the CD-rate plugin would do… and it’s
 more CPU-efficient running at the elevated rates… and the subtle darkening in
 tone makes it worth a re-listen.
 
 But now, on top of all that, we’ve got a new way to apply feedback at the
 ‘wider’ reverb settings, which allows you to feed THOSE back too. And that
-means, [BrightAmbience3][] has just taken on a new life for a variety of vibey,
+means, [BrightAmbience3] has just taken on a new life for a variety of vibey,
 distinctly analog-feeling blurred delay effects. Even the really wide reverb
 settings will still feed back at full crank (though they just give you a sort of
  droney resonant quality) and the medium settings produce a variety of unusual
@@ -1581,8 +1875,8 @@ flavors begin to take over… you can’t get clean infinite regeneration that w
 but tune it to taste and dial back the feedback control until you have enough
 echo for your purposes.
 
-Or, ignore the feedback and just use it as [BrightAmbience][], but with a
-greater range of effect at higher sample rates, and a richer tone thanks to the
+Or, ignore the feedback and just use it as [BrightAmbience], but with a greater
+range of effect at higher sample rates, and a richer tone thanks to the
 undersampling.
 
 
@@ -1591,21 +1885,21 @@ undersampling.
 
 _BuildATPDF is a dither-making toolkit._
 
-I've explained how [DoublePaul][] was made: taking a TPDF highpass dither, and
+I've explained how [DoublePaul] was made: taking a TPDF highpass dither, and
 including additional nearby samples to cause the tone of the noise to be more
 high-pitched.
 
 Wouldn’t be fair if I didn’t give you a chance to play with it yourself :)
 
-To use [BuildATPDF][] the way I used it, set the middle sliders to -1 and +1.
-Then adjust the other sliders until you’ve tailored the sound of the noise in a
-way you like. With the other sliders at 0, you have [PaulDither][]. If the
-surrounding sliders ‘oscillate’ (going minus, plus, minus, plus) you have more
-of what [DoublePaul][] is. Tailor the highpass in ways gentle or obvious, or
-even darken the highpass while leaving its dither functionality intact! It’s the
- combination of a -1 and +1 tap that gives you highpassed TPDF. (This won’t work
- with +1 and +1, because it’s the same random noise passing through the plugin:
-it needs to play a positive node against a negative node)
+To use [BuildATPDF] the way I used it, set the middle sliders to -1 and +1. Then
+ adjust the other sliders until you’ve tailored the sound of the noise in a way
+you like. With the other sliders at 0, you have [PaulDither]. If the surrounding
+ sliders ‘oscillate’ (going minus, plus, minus, plus) you have more of what
+[DoublePaul] is. Tailor the highpass in ways gentle or obvious, or even darken
+the highpass while leaving its dither functionality intact! It’s the combination
+ of a -1 and +1 tap that gives you highpassed TPDF. (This won’t work with +1 and
+ +1, because it’s the same random noise passing through the plugin: it needs to
+play a positive node against a negative node)
 
 Or, you can set up the -1 and +1 taps, and then just play with the sliders to
 see what it sounds like!
@@ -1637,9 +1931,9 @@ efficiency with all of the tone quality I wanted, limited to 44.1K.
 
 UNTIL NOW :)
 
-Try it. [BussColors4][] is the newest version of BussColors, and it works at any
- sample rate and gets you the same sound. Better, in fact: I like what it does a
- lot better at 96K and 192K. It also doesn’t greatly expand processing and CPU
+Try it. [BussColors4] is the newest version of BussColors, and it works at any
+sample rate and gets you the same sound. Better, in fact: I like what it does a
+lot better at 96K and 192K. It also doesn’t greatly expand processing and CPU
 hit at higher sample rates. I think this one’s a real highlight of the
 Airwindows arsenal. It would definitely be worth your $50, like its predecessors
  (well, I always did give existing BussColors users free updates for life, I
@@ -1648,16 +1942,15 @@ and/or CPU-hungry options and I think it will clobber all comers.
 
 The sources of the models in BussColors are as follows:
 
-[Dark][] (originally [Cider][]) is a Focusrite and resembles an MCI console a
-bit
+[Dark] (originally [Cider]) is a Focusrite and resembles an MCI console a bit
 Rock (also seen in the Logical compressor) is from SSL impulses, obviously it's
 SSL in nature
-Lush (originally [Neverland][]) is from Neve impulses
-Vibe (originally in the [Elation][] compressor) is from LA-2A impulses
-Holo (originally in [Precious][]) is from Precision8 impulses
+Lush (originally [Neverland]) is from Neve impulses
+Vibe (originally in the [Elation] compressor) is from LA-2A impulses
+Holo (originally in [Precious]) is from Precision8 impulses
 Punch (originally in APIcolypse) is from API impulses
-Steel (originally in [Calibre][]) is something else, I don't remember what
-[Tube][] (originally [Luxor][]) is from Manley Massive Passive impulses
+Steel (originally in [Calibre]) is something else, I don't remember what
+[Tube] (originally [Luxor]) is from Manley Massive Passive impulses
 
 All of these run a form of dynamic convolution which means they are never
 EXACTLY what the source impulses would have them be: it's more complicated than
@@ -1671,7 +1964,7 @@ original gear sourced the impulses. In the end, they're BussColors(4).
 _ButterComp is my softest, smoothest compressor._
 
 Sometimes a plugin can be a sort of cult favorite. That’s the story of
-[ButterComp][], a compressor of great subtlety that’s no use for quite a few
+[ButterComp], a compressor of great subtlety that’s no use for quite a few
 normal compressor tasks… but still has a fervent following. I’ve been begged for
  the new version of this one (not merely VST, but revamped with all the current
 Airwindows sophistication and purity) and I’m delighted to bring it, though I
@@ -1684,7 +1977,7 @@ working on variations and until other people try to copy it. They’re free to,
 but it’ll be possible to test that quite easily with special audio files).
 
 It’s a bipolar, interleaved compressor (with rather slow attack and release: a
-version with access to much faster dynamics is available in [CStrip][]). This
+version with access to much faster dynamics is available in [CStrip]). This
 one’s the original, the cult classic. What is a bipolar, or an interleaved
 compressor? For the purposes of Buttercomp, it’s four totally independent
 compressors per channel. Two are sensitive to positive swing, and flip back and
@@ -1699,45 +1992,45 @@ What happens is this: the tone of things gets some added second harmonic,
 wherever the compression is more strong on one side than the other. High
 frequencies take on a particular airy openness, since they too get second
 harmonic, plus individual sample spikes can only affect one out of four
-compressors: [ButterComp][] deals with all samples only as samples relative to
+compressors: [ButterComp] deals with all samples only as samples relative to
 other samples, and doesn’t get thrown off by isolated samples that don’t
 represent the actual waveform. It’s got a sound, but the sound is hard to define
  because of its extreme fluidity and purity.
 
-If this sounds like your idea of fun, enjoy [ButterComp][]. If you’re looking
-for the ‘all buttons in’ mode, I’ll get back to the drawing board and probably
-do something totally different for you. This compressor is not for everybody.
-Also, if you start slamming it really hard (demonstrated in the video), it’ll
-volume invert: you can squish it down to become more quiet than the quiet
-passages, but still it will retain its tone quality. It’s perhaps best used as a
- particular kind of ‘glue’ compressor, at which it is exceptional… or maybe I
-should say, it’s unique. Start working with it and you’ll soon work out whether
-you’re part of the [ButterComp][] cult. Not everybody will be, and it’s only one
- type of sound… but nothing else can get that sound, and this is why I’ve kept
-this purest form of the algorithm available.
+If this sounds like your idea of fun, enjoy [ButterComp]. If you’re looking for
+the ‘all buttons in’ mode, I’ll get back to the drawing board and probably do
+something totally different for you. This compressor is not for everybody. Also,
+ if you start slamming it really hard (demonstrated in the video), it’ll volume
+invert: you can squish it down to become more quiet than the quiet passages, but
+ still it will retain its tone quality. It’s perhaps best used as a particular
+kind of ‘glue’ compressor, at which it is exceptional… or maybe I should say,
+it’s unique. Start working with it and you’ll soon work out whether you’re part
+of the [ButterComp] cult. Not everybody will be, and it’s only one type of
+sound… but nothing else can get that sound, and this is why I’ve kept this
+purest form of the algorithm available.
 
 
 <a name="plugins_buttercomp2"></a>
 ### ButterComp2
 
-_ButterComp2 is improved [ButterComp][] with an output control and sound
+_ButterComp2 is improved [ButterComp] with an output control and sound
 upgrades._
 
-So here’s what happened: in working on the new [ButterComp][], I found a
-mistake. Because of a thing C programming lets you do (assign, in an if
-statement) it turned out the original [ButterComp][] didn’t actually use the
-interleaved compressors after all. The one in [CStrip][] does, but actual
-[ButterComp][] (which has its own distinct fans!) doesn’t. It’s strictly a
-bi-polar compressor: it does each half of the wave different, and blends them.
+So here’s what happened: in working on the new [ButterComp], I found a mistake.
+Because of a thing C programming lets you do (assign, in an if statement) it
+turned out the original [ButterComp] didn’t actually use the interleaved
+compressors after all. The one in [CStrip] does, but actual [ButterComp] (which
+has its own distinct fans!) doesn’t. It’s strictly a bi-polar compressor: it
+does each half of the wave different, and blends them.
 
 Because of this, I’ve made the source code (also being released) represent what
 the plugin actually does in practice. It’s a little simplified, and it’s worth
 paying attention to, for people who like the simplest most minimal form of
-[ButterComp][].
+[ButterComp].
 
-But, because of this, I get to release [ButterComp2][] as very much its own
-thing! I even came up with a subtle tweak: it modifies its release just a touch,
- slowing it when the signal’s hot. That’s on a sample-by-sample basis… and it’s
+But, because of this, I get to release [ButterComp2] as very much its own thing!
+ I even came up with a subtle tweak: it modifies its release just a touch,
+slowing it when the signal’s hot. That’s on a sample-by-sample basis… and it’s
 on the OUTPUT of the compressor. So, this further smoothing effect is subject to
  the output level control. And the dry/wet. In fact if you had it all dry, the
 release modification is therefore as if you had it on the input… making it blend
@@ -1751,10 +2044,10 @@ each, there is indeed the four distinct compressors working in parallel. The
 whole thing is very gentle (hence the name) but you’ll get a glue and tonal
 reshaping out of it as it will even out the bulk of the waveform, making it
 balanced between positive and negative. It’ll also soak up treble detail in a
-characteristic way, and you’ll really hear the quality of [ButterComp2][] on
+characteristic way, and you’ll really hear the quality of [ButterComp2] on
 ambiences and reverb tails. It’ll float things in space in this holographic way…
  I thought it made for a significant tonal improvement over the simpler
-[ButterComp][].
+[ButterComp].
 
 
 <a name="plugins_c5rawbuss"></a>
@@ -1784,7 +2077,7 @@ which watches for silences as a good place to pull back on DC, and set up the
 final Console5 that way. I released PurestConsole to offer a cleaner, clearer
 version that totally avoids the problem in the first place. I released
 PDConsole, because if you can’t have the original Console5 tone algorithm, why
-not have PurestConsole crossed with [PurestDrive][] (which doesn’t have the DC
+not have PurestConsole crossed with [PurestDrive] (which doesn’t have the DC
 issue)?
 
 All the time, there were SOME sorts of audio that were fine… or mostly fine…
@@ -1798,12 +2091,12 @@ UNTIL NOW :D
 
 Don’t use this Console5 version if you’re not willing to work with it and keep
 an eye on it. Much like the plugin DC Voltage, which simply turns the output
-into a fixed DC offset for signal-processing or testing purposes,
-[C5RawConsole][] is capable of giving you signals that are bad for your gear.
-The final Console5 is very nice and automatically handles DC problems,
-PurestConsole can’t possibly give you DC issues, neither can PDConsole, and you
-can mix and match these if you like. There’s plenty of Console5 stuff out there
-if you just want to get some sounds and go.
+into a fixed DC offset for signal-processing or testing purposes, [C5RawConsole]
+ is capable of giving you signals that are bad for your gear. The final Console5
+ is very nice and automatically handles DC problems, PurestConsole can’t
+possibly give you DC issues, neither can PDConsole, and you can mix and match
+these if you like. There’s plenty of Console5 stuff out there if you just want
+to get some sounds and go.
 
 But, that original algorithm captured people’s hearts. The way it handled the
 fabric of sound was something a little special… so now, that original Console5
@@ -1829,17 +2122,17 @@ your mix, that tells you that you need to apply some). You can treat it like
 there’s a built-in highpass as part of the circuitry of the Console, and tune
 the dominance of your subs very conveniently without having to run an extra
 highpass (much less a multi-pole, steep-cutoff highpass). I guarantee
-[C5RawConsole][] can be used for this, because it dials between the extremes
+[C5RawConsole] can be used for this, because it dials between the extremes
 nicely, from noticeable subs reduction at 1.0 to absolutely no reduction at 0.0,
- with a really really extreme exaggeratedly logarithmic [curve][] making it so
-the middle setting is still pretty much no bass rolloff.
+ with a really really extreme exaggeratedly logarithmic [curve] making it so the
+ middle setting is still pretty much no bass rolloff.
 
 I think this should give people a chance to play. I could’ve stuck with the
 final Console5, in practical terms I think that’s the one most people should
 use. But Airwindows people like pushing the limits, so I needed to make that
-possible. Now, if you use [C5RawConsole][] and leave the centering force off,
-you have that untame, primitive version that came out first and was gone in mere
- hours in a frenzy of bugfixing. It’s what I made when testing obsessively
+possible. Now, if you use [C5RawConsole] and leave the centering force off, you
+have that untame, primitive version that came out first and was gone in mere
+hours in a frenzy of bugfixing. It’s what I made when testing obsessively
 against the ‘choir’ sounds, trying to get something special while still mourning
  the loss of my Mom, who sang in a choir. That’s where that first Console5 came
 from, and it pleases me to (with caution) bring back that original tone, and let
@@ -1861,11 +2154,11 @@ enthusiasm for going to great lengths to digitally fake all the colorations of
 some amp/speaker or other, because when the soul’s not there the color is
 irrelevant.
 
-This is different. I took on the challenge of updating my old [Cabs][] plugin:
+This is different. I took on the challenge of updating my old [Cabs] plugin:
 originally dynamically convolved cab impulses, except they hadn’t been MADE with
  that in mind so it became a series of wild experiments. I wasn’t happy… then.
 
-[Cabs][] completely overhauled everything I’d attempted. It’s undersampled, so
+[Cabs] completely overhauled everything I’d attempted. It’s undersampled, so
 it’ll run on whatever sample rate you like, efficiently. It’s got the same
 tricks of allowing you to heighten the particular speaker coloration it uses, or
  dial it right back to nothing.
@@ -1879,7 +2172,7 @@ destruction of audio signals through ultimate volume, such as a Space Shuttle
 takeoff, and what happens to the waveforms there.
 
 I think you should listen to it. Careful that you don’t jump for odd settings
-right away and get confused: for instance, settings of Room [Loud][] beyond say
+right away and get confused: for instance, settings of Room [Loud] beyond say
 0.6 are not really real-world things. Settings of the cab tone intensity beyond
 0.6 or 0.7 might be a bit weird. The way the cabs take on character and
 intensity is related to cab size: everything is basically related to everything
@@ -1891,11 +2184,10 @@ OR… or… or!
 
 You can use the range of adjustment here, with the controls that give you a
 basic idea of ‘what you’re doing and how you want it’, combined with for
-instance [Edge][] or the upcoming [Dirt][] plugin (softer saturation) to get
-tones that DO NOT EXIST but act like real amps in significant ways. You can get
-tones that you can’t get in the real world, and dial them in to match what’s in
-your head: in some cases maybe to a point that the real world amps couldn’t
-reach.
+instance [Edge] or the upcoming [Dirt] plugin (softer saturation) to get tones
+that DO NOT EXIST but act like real amps in significant ways. You can get tones
+that you can’t get in the real world, and dial them in to match what’s in your
+head: in some cases maybe to a point that the real world amps couldn’t reach.
 
 And track through them because the whole rig (when using entirely Airwindows
 plugins) runs NO LATENCY, so it’ll feel as close as it can to the real thing,
@@ -1917,7 +2209,7 @@ drums, you name it!
 
 _Calibre is a re-release of another old Character plugin._
 
-[Calibre][] is another Character plugin, re-released in AU and VST form. This
+[Calibre] is another Character plugin, re-released in AU and VST form. This
 one’s got kind of a steely quality and if you hype the Character control there’s
  a point where bass cancels out: weird variation on a tone control! Also, that
 means if you duplicated the track (or used Blue Cat Patchwork or something) and
@@ -1941,7 +2233,7 @@ demonstrate that, because due to the way it works it has a little characteristic
  response quirk at 1/3 the sampling rate: nothing that hurts the sound, just an
 odd little notch under some circumstances.
 
-Because it’s a typically Airwindowsy, not-normal [EQ][] algorithm, nobody has
+Because it’s a typically Airwindowsy, not-normal [EQ] algorithm, nobody has
 tried it, and because of the little quirk, if anybody did try it they knew they
 had to reject it, because it wasn’t perfect. It had a quirk! And even if they
 experimented, they probably weren’t that invested in concepts like the sequence
@@ -1975,7 +2267,7 @@ supported by Patreon, I am.
 <a name="plugins_capacitor2"></a>
 ### Capacitor2
 
-_Capacitor2 is [Capacitor][] with extra analog modeling and mojo._
+_Capacitor2 is [Capacitor] with extra analog modeling and mojo._
 
 Didn’t see this coming!
 
@@ -1987,8 +2279,8 @@ much? As much as 50% for a little over six volts. It’s pretty linear. Thing is
 the signal is ALSO a voltage. What if it tended to modulate the cutoff? As part
 of analog modeling?
 
-I have plugins, the old [Lowpass][] and [Highpass][], which frequency-modulate
-the cutoff based on the input signal. But they did it symmetrically… what about
+I have plugins, the old [Lowpass] and [Highpass], which frequency-modulate the
+cutoff based on the input signal. But they did it symmetrically… what about
 doing it the way the real-world capacitor would do it? What would you get, in
 the event that other capacitors had some of this behavior? It seemed like you
 might get a lot of even harmonics, and people tend to like that. Why not give it
@@ -1996,7 +2288,7 @@ might get a lot of even harmonics, and people tend to like that. Why not give it
 
 And that’s how something interesting got discovered.
 
-[Capacitor2][] is [Capacitor][], already a popular plugin, but with this analog
+[Capacitor2] is [Capacitor], already a popular plugin, but with this analog
 modeling built in. There’s a ‘NonLin’ control that lets you crank up the
 distortedness from very minimal, to quite extreme. It’s sensitive to input level
  (naturally) so that’s another reason to have it on a control.
@@ -2007,7 +2299,7 @@ distinctive way. You may not have heard anything quite like this… or if you’
 been using analog gear, maybe you’re used to hearing it. I really didn’t plan
 for the result I got: if real-world caps have any of this behavior, it explains
 a lot. Literally all that’s happening is modulating the cutoff frequency of the
-rather Airwindows-y [Capacitor][] algorithm. There’s no dynamics processing in
+rather Airwindows-y [Capacitor] algorithm. There’s no dynamics processing in
 there at all, but the result is incredibly dynamic. (you can even use it to
 boost narrow bandpasses for effect!)
 
@@ -2035,15 +2327,15 @@ bigger they start approximating to the golden ratio.
 
 Yoicks, scooby! We’d better try it! AND THEN…
 
-[Chamber][] is a feedforward reverb, using three banks of four delays each in a
+[Chamber] is a feedforward reverb, using three banks of four delays each in a
 Householder feedback matrix, except it’s feedforward. Only the very end feeds
-back into the beginning again, just like [Verbity][], just like [Galactic][] (it
- is dual-mono like [Verbity][], as its peculiar merits fit well with a dual-mono
- arrangement). And the delays go to a longest delay (maximum delay size) and
-each one in turn, back to the first, is exactly the golden ratio smaller than
-the previous. It’s like a big spiral of delay times, perfect to lots of decimal
+back into the beginning again, just like [Verbity], just like [Galactic] (it is
+dual-mono like [Verbity], as its peculiar merits fit well with a dual-mono
+arrangement). And the delays go to a longest delay (maximum delay size) and each
+ one in turn, back to the first, is exactly the golden ratio smaller than the
+previous. It’s like a big spiral of delay times, perfect to lots of decimal
 places. If you listen to just one instance of each delay (by turning Longness to
- zero, and [Chamber][] lets you HAVE literally zero feedback), that’s a weird
+ zero, and [Chamber] lets you HAVE literally zero feedback), that’s a weird
 stuttery slapback. By itself, an arbitrary little chirp, a complicated slapback
 that doesn’t sound particularly interesting.
 
@@ -2055,41 +2347,40 @@ This was an astounding discovery. It means you can dial in any degree of
 feedback or none, use any delay time (everything’s calculated out on the fly),
 do anything with it and it’ll adapt. It’ll always sound like a chamber, hence
 the name, but it’s maybe more malleable than any reverb I’ve ever made. And to
-make it even more malleable, [Chamber][]’s Darkness control is tweaked so that
-the fall-off over time is always accurate to the sound of audio decaying in air
-in a theoretically ultimate room (studied from recordings of giant underground
+make it even more malleable, [Chamber]’s Darkness control is tweaked so that the
+ fall-off over time is always accurate to the sound of audio decaying in air in
+a theoretically ultimate room (studied from recordings of giant underground
 concrete cisterns) but the tone-shaping is darkened using very warm, basic IIR
 filters. And on top of that, a new control for the feedforward reverbs: since
-[Chamber][] is such a studio tool, I gave it a highpass. So you can plunk it on
-any sort of buss or channel, run it mostly dry, bring in the reverb ([Chamber][]
- and [Verbity][] are designed so as you add verb, the dry remains unaltered
-until you get to 0.5 on the Wetness control, at which point the verb is at full
-volume and you start fading the dry signal) and then begin dialing back the
-bassiness of the reverb without touching the dry. Very useful for a chamber or
-plate send, and built right in!
+[Chamber] is such a studio tool, I gave it a highpass. So you can plunk it on
+any sort of buss or channel, run it mostly dry, bring in the reverb ([Chamber]
+and [Verbity] are designed so as you add verb, the dry remains unaltered until
+you get to 0.5 on the Wetness control, at which point the verb is at full volume
+ and you start fading the dry signal) and then begin dialing back the bassiness
+of the reverb without touching the dry. Very useful for a chamber or plate send,
+ and built right in!
 
 Hope you like it. Oh, and one more thing: in working on this, I found a bug that
  was in the Undersampling code I use. The bug was making a bit of unwanted edge,
  only in high sample rate stuff, only above 20kHz. I’d had someone discover this
- in [Verbity][], but I didn’t know what to do other than filter it at the time,
+ in [Verbity], but I didn’t know what to do other than filter it at the time,
 and hadn’t done anything yet.
 
-So now (as of right now: redownload what you need) [Verbity][], [Galactic][],
-[IronOxideClassic2][], and [Chamber][] are FIXED. Go back and redownload them,
-or get them out of the collections for various different platforms. They have
-all had the ultrasonic noise cleaned up: there is still a touch of audio there
-as part of the algorithm, but it turns out it’s much less than I thought and
-that’s reflected in cleaner sound. It should not change saved mixes
-significantly as it is entirely supersonic, but if it did it would only help as
-the traces of noise weren’t useful for any purpose, they were a bug, samples
-being slightly out of order at 96 and 192k. No change at 44.1 or 48k.
+So now (as of right now: redownload what you need) [Verbity], [Galactic],
+[IronOxideClassic2], and [Chamber] are FIXED. Go back and redownload them, or
+get them out of the collections for various different platforms. They have all
+had the ultrasonic noise cleaned up: there is still a touch of audio there as
+part of the algorithm, but it turns out it’s much less than I thought and that’s
+ reflected in cleaner sound. It should not change saved mixes significantly as
+it is entirely supersonic, but if it did it would only help as the traces of
+noise weren’t useful for any purpose, they were a bug, samples being slightly
+out of order at 96 and 192k. No change at 44.1 or 48k.
 
-[Chamber][] actually goes a step farther, in that I added more code that subtly
+[Chamber] actually goes a step farther, in that I added more code that subtly
 averages the supersonic samples… that can apply to new plugins going forward,
-but [Verbity][], [Galactic][], and [IronOxideClassic2][] don’t have that as it
-could work like a tone change. So, compare the new [Verbity][] to [Chamber][] if
- you’d like to check out the tiny amount of added depth we’ll have going
-forward.
+but [Verbity], [Galactic], and [IronOxideClassic2] don’t have that as it could
+work like a tone change. So, compare the new [Verbity] to [Chamber] if you’d
+like to check out the tiny amount of added depth we’ll have going forward.
 
 
 <a name="plugins_chamber2"></a>
@@ -2099,23 +2390,23 @@ _Chamber2 is a feedforward reverb, a blur delay, and a glitch topping!_
 
 Sometimes you just want to watch the glitch BURN…
 
-So here's what happened. I wanted to try a modification to [Chamber][]. It's a
+So here's what happened. I wanted to try a modification to [Chamber]. It's a
 reverb where every delay time inside the feedforward network was exactly the
 golden ratio of the next. Why? Why not, I thought. What happened with that was,
 I got a sort of oddly-colored echo, but one that turned into very seamless
 reverb as long as you had some regeneration in there. Interesting! And so I
 coded a reverb where some of the delay taps were quite tiny, and that's
-[Chamber][].
+[Chamber].
 
 But what would happen if it wasn't always the golden ratio? What if you tried
 other ratios?
 
 Well, nothing for it but to try it, right? And I had to take ALL the delays
 inside, and make them potentially full length echoes, meaning the amount of
-memory it takes is WAY larger than what original [Chamber][] wants. You can get
+memory it takes is WAY larger than what original [Chamber] wants. You can get
 the original tones out of it, but in doing that you're wasting huge amounts of
 delay buffer. The plugin just doesn't see them at all, and they sit there doing
-nothing. So, don't use [Chamber2][] where [Chamber][] will do.
+nothing. So, don't use [Chamber2] where [Chamber] will do.
 
 What happens when you have the 'thick' control at 0? You have the most
 expensive, wasteful, CPU and memory hogging delay ever. You've got over 4000
@@ -2123,8 +2414,8 @@ delays, all precisely the same. So don't do that either (note: if it were only
 that simple)
 
 But what if you put 'thick' slightly off 0? You now have a blur echo. You've got
- a delay which is also a [Chamber][] reverb in which all the echoes are ALMOST
-the same. And you can dial in the blurriness of this echo. Not only that,
+ a delay which is also a [Chamber] reverb in which all the echoes are ALMOST the
+ same. And you can dial in the blurriness of this echo. Not only that,
 regeneration will further blur the echo. So you can take the no-blur setting,
 and sweep the 'thick' control higher while regenerating. And it'll (somewhat
 glitchily: you are buffer smashing) blur its way from direct echo into a chamber
@@ -2141,14 +2432,14 @@ sample buffers when you went to the chamber reverb effect. Boom, there it is, at
 Obviously this is extremely nasty. But it's also a shocking, bold effect with a
 tinge of the accidental. And when the effect turns up in the VCV Rack dailies,
 or is used in Bespoke or wherever… it's an open invitation to throw crazy LFOs
-and sample-and-hold on the 'thick' control, and just use [Chamber2][] as a
-glitchy noise generator. It'll grab buffer snippets from its delay mode, it'll
-blur them into reverb, it'll throw other echo bits on top of that: a proper mad
+and sample-and-hold on the 'thick' control, and just use [Chamber2] as a glitchy
+ noise generator. It'll grab buffer snippets from its delay mode, it'll blur
+them into reverb, it'll throw other echo bits on top of that: a proper mad
 scientist laboratory for sonic mayhem, from your friendly neighborhood Chris.
 
 You can dial in nice verb/echo hybrid sounds and use those too, I won't stop
 you. I'm just making sure everyone understands the possibilities of this one.
-[Chamber2][] glitches in very special ways. Hope you like it :)
+[Chamber2] glitches in very special ways. Hope you like it :)
 
 
 <a name="plugins_channel4"></a>
@@ -2156,21 +2447,21 @@ you. I'm just making sure everyone understands the possibilities of this one.
 
 _Channel4 is a tone coloring plugin that gives more of an analog feel._
 
-[Channel4][] uses a very good-sounding saturation function, a calibrated slew
+[Channel4] uses a very good-sounding saturation function, a calibrated slew
 clipper and a highpass to approximate the tone coloration of a recording
 console. (the plugin Console4 approximates the space and depth on the mix buss,
 which is different.) Because the bandwidth-limiters are set up based on
-measurements of real gear (through impulse responses), [Channel4][]’s console
-type is labeled ‘Neve/API/SSL’. It doesn’t actually contain any of those things
-or any convolution kernels, but the presentation of the sound ought to suggest
+measurements of real gear (through impulse responses), [Channel4]’s console type
+ is labeled ‘Neve/API/SSL’. It doesn’t actually contain any of those things or
+any convolution kernels, but the presentation of the sound ought to suggest
 those voicings.
 
 There’s also an argument for doing it that way, because in many cases you can’t
 hear those limitations unless they’re being way overloaded. Channel’s a very
 clean, pure ‘coloration’ plugin, especially with the drive kept at 50% or under.
  It’ll voice extreme sounds the way it’s labeled, but you would struggle to
-consistently set plugins like [Slew][] to those targets because mostly you can’t
- hear what it’s doing, especially on normal/musical sounds.
+consistently set plugins like [Slew] to those targets because mostly you can’t
+hear what it’s doing, especially on normal/musical sounds.
 
 
 <a name="plugins_channel5"></a>
@@ -2183,7 +2474,7 @@ with new methods for some of my stuff it was an obvious choice. I’ve been aske
 for an extra Output level control, which it has (for those of you who are really
  into level matching, can’t fault you for that though sometimes I think it’s not
  relevant) but if you set Output to 1.0 it bypasses itself and becomes exactly,
-exactly the same as [Channel4][].
+exactly the same as [Channel4].
 
 Except for two things, which first appeared in Atmosphere: this lets you A/B
 them with the original versions, using Channel 4 and 5.
@@ -2205,12 +2496,12 @@ nothingness.
 Two, it noise shapes to the floating point buss differently, and on the one hand
  I bet you can’t consistently hear it but on the other, I think it matters.
 Before, I used an interleaving technique much like I often use in IIR filters
-and plugs such as [Capacitor][]. It related to the sample rate by forcing
+and plugs such as [Capacitor]. It related to the sample rate by forcing
 everything to be considered as the interaction between two or more samples, and
 the energy being brought back into the output audio provided corrections at high
  frequencies. What began with Atmosphere, and what you’ll (maybe) hear with
-[Channel5][], is a completely different and more radical approach. These plugins
- noise shape ALL the error energy back into the audio. It accumulates, sticks
+[Channel5], is a completely different and more radical approach. These plugins
+noise shape ALL the error energy back into the audio. It accumulates, sticks
 around, and so it can contribute to bass energy in tiny amounts because it
 persists over thousands and thousands of samples. There’s a ‘pull-back’ in the
 form of multiplying the amount by something like 0.999999, which will bleed
@@ -2238,9 +2529,9 @@ But I do feel that one eventually senses the full range of a sound one works
 with, and more importantly if I can make something better I will do so, without
 hesitating.
 
-Have fun playing with [Channel5][]. And if anyone needs to sound the alarm and
-say HEY! You need to stop using the new stuff! That noise is driving me crazy,
-and your noise shaping sounds awful now!
+Have fun playing with [Channel5]. And if anyone needs to sound the alarm and say
+ HEY! You need to stop using the new stuff! That noise is driving me crazy, and
+your noise shaping sounds awful now!
 
 …well, that’d be pretty funny :)
 
@@ -2248,14 +2539,14 @@ and your noise shaping sounds awful now!
 <a name="plugins_channel6"></a>
 ### Channel6
 
-_Channel6 uses the [Spiral][] algorithm._
+_Channel6 uses the [Spiral] algorithm._
 
 I use the plugin Channel to test out my latest code regarding things like how to
  prevent denormalized numbers, what’s the best noise shaping to return to the
 floating point buss, and so on. That’s because after a fairly brief debug period
  (at first, the model-choosing popup wasn’t actually changing anything and you
 always got SSL behavior) the plugin was established as a totally complete
-plugin: it always used the same ‘[Density][]’ algorithm for the saturation, it
+plugin: it always used the same ‘[Density]’ algorithm for the saturation, it
 always blended that with dry signal using a drive control that was really a
 dry/wet control (which gave it its openness at partial settings), and it always
 used the same slew clipping and simple IIR highpass code each time, which was so
@@ -2271,7 +2562,7 @@ rivals in blind testing.
 
 Instead they picked the latest Channel, and used its settings of ‘API’ and
 ‘Neve’ and ‘SSL’ (in other words ‘slew clipping and a simple highpass and
-[Density][]’, no real ’emulation’ just shaping set to calibrated amounts), and
+[Density]’, no real ’emulation’ just shaping set to calibrated amounts), and
 that free plugin was the one that clobbered the pricey rivals. And soon blind
 testing went out of fashion, because such shenanigans get embarrassing I guess
 :) And I didn’t get any sales out of it as Channel was free, but it was fun to
@@ -2280,18 +2571,18 @@ watch.
 So will this be…
 
 Channel is back in version 6, and there’s one key change. The distortion
-algorithm which I thought was unbeatable has now been beaten by [Spiral][]… so
-now Channel uses [Spiral][], not [Density][], for its distortion model! For once
- this should be a plainly audible change: [Spiral][]’s less fat-sounding than
-the [Density][] algorithm. (I fixed the bug with the dry/wet control in the
-video: now dry doesn’t clip)
+algorithm which I thought was unbeatable has now been beaten by [Spiral]… so now
+ Channel uses [Spiral], not [Density], for its distortion model! For once this
+should be a plainly audible change: [Spiral]’s less fat-sounding than the
+[Density] algorithm. (I fixed the bug with the dry/wet control in the video: now
+ dry doesn’t clip)
 
 What won’t change is this: you’d be surprised how little ‘processing’ can give
 you a great, analog-style sound. Literally all Channel does is apply a very
 simple IIR highpass, add a distortion that’s very clear and pure-sounding, and
 do a slew clipping set so high that it will almost never kick in. The highpass
 isn’t very steep, because it’s just one stage of interleaved IIR filter (a trick
- I use in a more complicated way in [Capacitor][]). These are subtle, gentle
+ I use in a more complicated way in [Capacitor]). These are subtle, gentle
 differences… but they’re done with absolutely minimal processing, not tons of
 processing, and the data integrity is kept pristine through long double math and
  noise shaping to the floating point buss. In simpler terms: this doesn’t suck
@@ -2305,71 +2596,71 @@ impressively low CPU compared to other plugins of this type.
 
 _Channel7 improves slew clipping and lets you blend Channel 6 and 5._
 
-Short and sweet. You know how [Interstage][] got an update because the slew
+Short and sweet. You know how [Interstage] got an update because the slew
 clipping was too intense on high sample rates? This applied to Channel, too. So,
- [Channel7][] now handles high sample rates better than any previous Channel.
+ [Channel7] now handles high sample rates better than any previous Channel.
 
-There’s more: [Channel5][] was the last one with the ‘[Density][]’ algorithm,
-that’s extra fat-sounding. [Channel6][] got the [Spiral][] algorithm, much purer
- and clearer… but without that fatness effect [Density][] gets. My attempts to
-make a special algorithm that does both gave me [Mojo][] and [Dyno][]… neither
-of which are Channel or a replacement for either [Spiral][] or [Density][].
+There’s more: [Channel5] was the last one with the ‘[Density]’ algorithm, that’s
+ extra fat-sounding. [Channel6] got the [Spiral] algorithm, much purer and
+clearer… but without that fatness effect [Density] gets. My attempts to make a
+special algorithm that does both gave me [Mojo] and [Dyno]… neither of which are
+ Channel or a replacement for either [Spiral] or [Density].
 
-So, [Channel7][] simply goes to 200%, not 100%. Up to 100% it’s the same as
-[Channel6][], but with the slew clipping fix. From 100% to 200% it does a
-crossfade into [Channel5][]’s [Density][] algorithm—so it ends up being best of
-all possible worlds. You can seamlessly go from perfectly clean, to the purest
+So, [Channel7] simply goes to 200%, not 100%. Up to 100% it’s the same as
+[Channel6], but with the slew clipping fix. From 100% to 200% it does a
+crossfade into [Channel5]’s [Density] algorithm—so it ends up being best of all
+possible worlds. You can seamlessly go from perfectly clean, to the purest
 saturation there is, and beyond that to add any degree of fatness you like to
-the sound (and it fades between [Spiral][] and [Density][], so there’s extra
+the sound (and it fades between [Spiral] and [Density], so there’s extra
 subtlety to the way it transitions).
 
-[Channel7][]: yeah, you’re pretty much going to want this upgrade no matter
-which Channel you liked. It is all of the best, more effective than ever.
+[Channel7]: yeah, you’re pretty much going to want this upgrade no matter which
+Channel you liked. It is all of the best, more effective than ever.
 
 
 <a name="plugins_channel8"></a>
 ### Channel8
 
-_Channel8 is [Channel7][] with updates from [Capacitor2][] and [Slew3][]. More
-and better of what Channel is._
+_Channel8 is [Channel7] with updates from [Capacitor2] and [Slew3]. More and
+better of what Channel is._
 
-[Channel8][] is a subtle ‘analogifier’ that applies saturation boosts, subtle
+[Channel8] is a subtle ‘analogifier’ that applies saturation boosts, subtle
 highpass filtering, and slew clipping. What that means is, there’s a ‘drive’
 knob you can turn up to boost things, and you can pick three ‘flavors’ you might
  recognize. They’re not really the consoles associated with those things, but
 they are calibrated to take effect about the same way, and when you use
-[Channel8][] (on tracks, on the mix buss, wherever) you add a little ‘analog
+[Channel8] (on tracks, on the mix buss, wherever) you add a little ‘analog
 flavor’ by restricting what the audio can do, in ways that are characteristic of
  real analog gear’s limitations. This restricting can help make things sound
 bigger and more solid.
 
 This is basically the newest evolution of Channel, which has always been one of
-my most popular plugins. It uses the improvements in [Capacitor2][] and
-[Slew3][], so basically it’s still relatively subtle, still very much Channel,
-but it’s taken on a new level in quality and natural tone. I’m real happy with
-it, and I’ll be returning to trying to fix up my video setup etc (and finishing
-up the dither re-releases, etc etc) knowing that I’ve dropped a nice audio bomb
-on the world. If you ever liked Channel, this should make you real happy.
+my most popular plugins. It uses the improvements in [Capacitor2] and [Slew3],
+so basically it’s still relatively subtle, still very much Channel, but it’s
+taken on a new level in quality and natural tone. I’m real happy with it, and
+I’ll be returning to trying to fix up my video setup etc (and finishing up the
+dither re-releases, etc etc) knowing that I’ve dropped a nice audio bomb on the
+world. If you ever liked Channel, this should make you real happy.
 
 
 <a name="plugins_channel9"></a>
 ### Channel9
 
-_Channel9 is [Channel8][] with ultrasonic filtering, and new Teac and Mackie
-'low end' settings._
+_Channel9 is [Channel8] with ultrasonic filtering, and new Teac and Mackie 'low
+end' settings._
 
-[Channel9][] retains everything it had—the two-stage drive control, the newly
+[Channel9] retains everything it had—the two-stage drive control, the newly
 improved highpass, the slew clipping—the same calibrated Airwindows algorithms
 to not clone, but give you the general sense of various fancy name brand
 consoles in a cleaner, less ’emulated’ way which lets the music through…
 
-But now, [Channel9][] has the same ultrasonic aliasing-filtering that’s come to
-Console and other recent Airwindows plugins. In a new way! Because [Channel9][]
+But now, [Channel9] has the same ultrasonic aliasing-filtering that’s come to
+Console and other recent Airwindows plugins. In a new way! Because [Channel9]
 isn’t just sticking to ’20k’ as its definition of supersonic. Instead,
-[Channel9][] steepens its filter with a teeny resonant peak at this cutoff
-point… and then selects it in keeping with what the real console would be doing,
- if you had it! The Neve is the most extended, well beyond 20k. The SSL cuts off
- tighter, gives more audible sparkle (due to the additional gain stages in a
+[Channel9] steepens its filter with a teeny resonant peak at this cutoff point…
+and then selects it in keeping with what the real console would be doing, if you
+ had it! The Neve is the most extended, well beyond 20k. The SSL cuts off
+tighter, gives more audible sparkle (due to the additional gain stages in a
 really huge SSL desk, the cutoff will be steeper over the entire desk). API is
 between the two. The lift at the peak comes before the saturation stage, for
 better smoothness when the console is being driven.
@@ -2384,11 +2675,11 @@ that doesn’t belong in Channel, but it’s the correct kind of dark and vibey.
  the Mackie’s my take on what you get out of the classic vintage 1202: A hair
 leaner than the Teac, but brighter. They both grind a bit harder than any of the
  big expensive desks, they both have slightly more exaggerated reshaping of the
-deep bass (using the [Capacitor2][] algorithm, like the others), they both
-control the brightest highs much like you’d get in a classic old low end mixer.
-It’s two new settings that follow entirely different rules than the big guns,
-for folks who know how to use an actual mixer much like metal guitarists use a
-[Tube][] Screamer.
+deep bass (using the [Capacitor2] algorithm, like the others), they both control
+ the brightest highs much like you’d get in a classic old low end mixer. It’s
+two new settings that follow entirely different rules than the big guns, for
+folks who know how to use an actual mixer much like metal guitarists use a
+[Tube] Screamer.
 
 You can still have your fancy desk models (only better: the ultrasonic filtering
  brings just the right additional distinction to the models) but now you can go
@@ -2398,14 +2689,14 @@ synthetic sounds into an appealing result. And since it’s Channel… it won’
  the noise of the real ones, it won’t have weird extra colorations, it’ll honor
 more of your real mix as it reshapes it: sort of best of both worlds! You can
 always add funky colorations or noise to your digital mix, but you can’t remove
-that stuff from the real mixers. [Channel9][] will shape your sound in ‘classic’
- ways but along Airwindows lines: getting out of the way so your sound is
+that stuff from the real mixers. [Channel9] will shape your sound in ‘classic’
+ways but along Airwindows lines: getting out of the way so your sound is
 interfered with as little as possible.
 
-[Channel9][] can be used anywhere you like. If you’re doing a Console mix, I’d
-put it after ConsoleBuss. If you’re not doing a Console mix, you can literally
-do anything you want with it: it’s a subtle distortion/fattener combined with a
-set of careful tone shaping algorithms. Hope you like it!
+[Channel9] can be used anywhere you like. If you’re doing a Console mix, I’d put
+ it after ConsoleBuss. If you’re not doing a Console mix, you can literally do
+anything you want with it: it’s a subtle distortion/fattener combined with a set
+ of careful tone shaping algorithms. Hope you like it!
 
 
 <a name="plugins_chorus"></a>
@@ -2413,10 +2704,10 @@ set of careful tone shaping algorithms. Hope you like it!
 
 _Chorus is a mono chorus, also works as a vibrato._
 
-Here’s the start of some modulation plugins: [Chorus][] will give you a nice
-basic mono chorusing effect, sweeping one moving delay tap against the dry
-signal. What makes it unusual is a pile of odd Airwindows things to adjust it
-this way and that.
+Here’s the start of some modulation plugins: [Chorus] will give you a nice basic
+ mono chorusing effect, sweeping one moving delay tap against the dry signal.
+What makes it unusual is a pile of odd Airwindows things to adjust it this way
+and that.
 
 The sweep is done with a peculiar Airwindows interpolation which both applies a
 bit of an averaging function, and also a subtle lift to highs to compensate for
@@ -2424,15 +2715,14 @@ that. The idea is to have the moving part be totally fluid, analog-like, even
 though it’s digital.
 
 To drive that, there’s a treble boost going into this smoothing delay tap, and
-it’s based on the Airwindows [Energy][] algorithms: that means this plugin
+it’s based on the Airwindows [Energy] algorithms: that means this plugin
 interacts with the raw sample rate in two different ways. It’s designed to make
 it so, whatever the sample rate, the sounds project through to the most extreme
-highs without edge or dullness. That means [Chorus][] won’t sound exactly the
-same at 44.1K, 96K and so on: it will try to deliver the most finely tuned
-treble for each sample rate, whatever that is, and the tonality might be
-different. Also, since it’s running a delay buffer, it’s giving you full use of
-the buffer at all times: the broader settings might be more useful at high
-sample rates.
+highs without edge or dullness. That means [Chorus] won’t sound exactly the same
+ at 44.1K, 96K and so on: it will try to deliver the most finely tuned treble
+for each sample rate, whatever that is, and the tonality might be different.
+Also, since it’s running a delay buffer, it’s giving you full use of the buffer
+at all times: the broader settings might be more useful at high sample rates.
 
 In general, this should be pretty approachable. Hope you like the tone: there’s
 more where that came from.
@@ -2444,8 +2734,8 @@ more where that came from.
 _ChorusEnsemble is a more complex, multi-tap mono chorus._
 
 Here we can fill out the Airwindows palette of modulation plugins a bit… like
-[Chorus][], this is using my special slightly dark interpolation with a little
-pre-sparkle to get an adaptable, rich chorusing effect. But [ChorusEnsemble][]
+[Chorus], this is using my special slightly dark interpolation with a little
+pre-sparkle to get an adaptable, rich chorusing effect. But [ChorusEnsemble]
 uses a bank of chorus taps to get a more complex, textured sound that’s farther
 from the original. You can set it wrongly, so don’t assume all the settings are
 appropriate: that said, a little care should give you nice lush chorusing
@@ -2491,11 +2781,10 @@ And now you can have it. Mulch away! You don’t have to obliterate a track to g
 
 _Cider is a re-release of another old Character plugin._
 
-[Cider][] is another Character plugin. Works like the last few, sounds kinda
-like an MCI console? This plugin was posted on a week full of troubles, so
-there's very little instruction about it. It's a tone coloring plugin, and you
-can find a more current version of this sound in [BussColors4][] on the [Dark][]
- setting.
+[Cider] is another Character plugin. Works like the last few, sounds kinda like
+an MCI console? This plugin was posted on a week full of troubles, so there's
+very little instruction about it. It's a tone coloring plugin, and you can find
+a more current version of this sound in [BussColors4] on the [Dark] setting.
 
 
 <a name="plugins_clearcoat"></a>
@@ -2512,51 +2801,50 @@ What's that for? First of all, it's for me. I'm using it immediately on album
 mixes. But beyond that, it's an example of something very Airwindows-like: once
 I get access to something, I share it. I wasn't able to do sounds like these
 when I did the kPlate reverbs. I tried. My tools for making the Householder
-matrix stuff hadn't evolved enough yet: this is why [kChamberAR][] sounds the
-way it does. I had bright ambiences, but they were very artificial (though,
-nifty in their own right)
+matrix stuff hadn't evolved enough yet: this is why [kChamberAR] sounds the way
+it does. I had bright ambiences, but they were very artificial (though, nifty in
+ their own right)
 
 And this is what I'm sharing now: I got it to work. Next stage unlocked, with
-not one but effectively seventeen bright ambiences in one. [ClearCoat][] is the
+not one but effectively seventeen bright ambiences in one. [ClearCoat] is the
 one-stop shop for sparkle and atmosphere. It's not about lingering verb tails:
 the space it produces is dual-mono and remains tied to the sound that's creating
  it, and while there is feedback in the algorithm, it's calculated to be exactly
  halfway between the purity of infinite sustain, and the purity of
-[BitShiftGain][] in the feedback path cutting the feedback by 6.08 dB. The idea
+[BitShiftGain] in the feedback path cutting the feedback by 6.08 dB. The idea
 there is to produce a consistent tone in the feedback path while allowing it to
 bloom a little. Basically more Chris from Airwindows experimentation: see if you
  like the results in the sense of space the plugin creates.
 
-On top of that, I'm exploring a refinement of [SubTight][], the same plugin that
- backfired on me in ConsoleMC. I think if I scale it to sample rate a certain
+On top of that, I'm exploring a refinement of [SubTight], the same plugin that
+backfired on me in ConsoleMC. I think if I scale it to sample rate a certain
 way, that might tame it, and the kind of energy it brought is perfect for this
 plugin. The brightening and subs-cutting is happening after the reverb matrix,
 to enliven the space.
 
 It's simple to use: top slider picks a setting, bottom slider is your dry/wet.
 Add just a bit for in-line air on an instrument or submix, go all-wet for use on
- an aux. I'm using it as my Verb 1, with the upcoming [kCathedral][] for Verb 2.
+ an aux. I'm using it as my Verb 1, with the upcoming [kCathedral] for Verb 2.
 
 Why go for specifically this effect? The theory here is simple: you get better
 mixes when you're serving a purpose rather than throwing tone colors around just
- to make them happen. [ClearCoat][] is there to be an extremely refined and
+ to make them happen. [ClearCoat] is there to be an extremely refined and
 intense form of 'nearfield reflections', like singing in a bathroom, or drumming
  in a live drum room. Yes, you can turn it way up and it'll sound like a really
 bright reverb, like a small (to medium) room with tile or stone walls. But what
 you can also do is turn it right down once you have the tone color you want… and
  then HINT at that tone color, with it.
 
-And if you do that, [ClearCoat][] ought to give you the gloss you're looking
-for, while minimally affecting the rest of the mix. No clutter, no excess
-energy, no trace of a tone character beyond what you need, and a cleaner mix as
-a result.
+And if you do that, [ClearCoat] ought to give you the gloss you're looking for,
+while minimally affecting the rest of the mix. No clutter, no excess energy, no
+trace of a tone character beyond what you need, and a cleaner mix as a result.
 
-Let me know if [ClearCoat][] works for you, and especially whether it's acting
-OK at diverse sample rates with the changes I made in [SubTight][]. If so, I can
- and will update the actual [SubTight][] plugin AND ConsoleMC to correspond (if
-you're working at 1x sample rates there will be no change for you, but if you're
- working 2x or 4x or oversampling 2x or 4x, you might not have to compensate for
- the brightness as much to get your sound)
+Let me know if [ClearCoat] works for you, and especially whether it's acting OK
+at diverse sample rates with the changes I made in [SubTight]. If so, I can and
+will update the actual [SubTight] plugin AND ConsoleMC to correspond (if you're
+working at 1x sample rates there will be no change for you, but if you're
+working 2x or 4x or oversampling 2x or 4x, you might not have to compensate for
+the brightness as much to get your sound)
 
 
 <a name="plugins_cliponly"></a>
@@ -2571,15 +2859,15 @@ mathematical constants. For instance, a common value used in reverb allpass
 filters is 0.618… which can be continued into a mathematical constant, the
 Golden Ratio (0.618033988749894848204586). It’s common for these things to turn
 up in disparate situations, so I look for them. And in the code where
-[OneCornerClip][] rapidly converges onto full clipping with the broadest
-resulting variation of clip onset tonality, I found it zeroing in on cos(x) == x
- (0.739085133215160641655312) and selecting that optimal value for the guts of
-the thing I ended up with [ClipOnly][].
+[OneCornerClip] rapidly converges onto full clipping with the broadest resulting
+ variation of clip onset tonality, I found it zeroing in on cos(x) == x
+(0.739085133215160641655312) and selecting that optimal value for the guts of
+the thing I ended up with [ClipOnly].
 
 If you watch the video (one of the least necessary to watch for instructions:
 it’s a clipper at -0.2dB) you’ll see a lot about the other factors that went
-into [ClipOnly][]. I show ADClip and its many controls, but then make an
-impassioned case for designs like [ClipOnly][], a known quantity with a
+into [ClipOnly]. I show ADClip and its many controls, but then make an
+impassioned case for designs like [ClipOnly], a known quantity with a
 predictable sound and no controls or adjustments whatsoever. Under normal
 circumstances there should be nothing you’d want or need to adjust, since the
 clip level combined with the anti-glare prevents any ‘digital reconstruction
@@ -2591,21 +2879,21 @@ a mix).
 
 In fact, you should not be thinking of that OR me while tracking your music and
 mixing it, you should be thinking about the sounds you’re making, and any
-distraction into the lands of ‘oh gee Chris is so clever, [ClipOnly][] was well
+distraction into the lands of ‘oh gee Chris is so clever, [ClipOnly] was well
 worth the money, look at all these knobs’ is hurting you even as it rewards me,
 the plugin developer, with attention.
 
-And THIS is why I program things like [ClipOnly][], where possible. It might be
+And THIS is why I program things like [ClipOnly], where possible. It might be
 the most forgiving safety clipper yet, as far as avoiding glare and harshness
 (I’m measuring extreme highs as much as 12 db down from the max under heavy
 load, and usually clippers by their nature exaggerate ‘crunch’ even when
-perfectly implemented). But [ClipOnly][] is also part of a concept that I can
-run with now that I use Patreon: I get to make stuff that’s not showing off,
-either with controls or concepts or fancy faceplates, and just delivers the
-sonic goods.
+perfectly implemented). But [ClipOnly] is also part of a concept that I can run
+with now that I use Patreon: I get to make stuff that’s not showing off, either
+with controls or concepts or fancy faceplates, and just delivers the sonic
+goods.
 
-I hope you like [ClipOnly][], but I also hope you quickly stop noticing anything
- about it, so you can focus on your mixing. You should be able to work into it,
+I hope you like [ClipOnly], but I also hope you quickly stop noticing anything
+about it, so you can focus on your mixing. You should be able to work into it,
 even hit it with heavy load and severe clipping for effect, without fussing or
 being distracted. The best silver bullet plugins are not the trickiest :)
 
@@ -2616,10 +2904,10 @@ being distracted. The best silver bullet plugins are not the trickiest :)
 _ClipOnly2 suppresses the brightness of digital clipping without affecting
 unclipped samples, at any sample rate._
 
-[ClipOnly2][] is the heart of my mastering-grade clipping algorithm. Instead of
+[ClipOnly2] is the heart of my mastering-grade clipping algorithm. Instead of
 trying to define the cleanest possible nasty sharp edge, or doing a soft-clip
-thing, [ClipOnly][] passes through ALL nonclipped samples totally untouched… but
- when you get a clipped sample, what [ClipOnly][] does is it takes the sample
+thing, [ClipOnly] passes through ALL nonclipped samples totally untouched… but
+when you get a clipped sample, what [ClipOnly] does is it takes the sample
 entering clipping, and the sample exiting clipping, and it interpolates between
 the last unclipped sample and the clipped stuff. So, it is synthesizing a soft
 entry and exit from what is otherwise total hard clipping, and if only the one
@@ -2630,34 +2918,34 @@ This produces a hard-clip suitable for safety clipper purposes, which is purely
 highs than you’d get from any pure hard-clip, no matter how oversampled. It’s an
  alternate technique, and is also pretty CPU-efficient.
 
-[ClipOnly2][] takes this principle and changes the ‘one sample’ to ‘the space of
- one sample at 44.1k’. Same tone, same ear-friendly approach to clipping extreme
- highs, except that now it’s effective at high sample rates. I’m demonstrating
-it and its predecessor at 96k, but [ClipOnly2][] is designed to work up to 700k
-or so, in case people get giddy with their newfound power :)
+[ClipOnly2] takes this principle and changes the ‘one sample’ to ‘the space of
+one sample at 44.1k’. Same tone, same ear-friendly approach to clipping extreme
+highs, except that now it’s effective at high sample rates. I’m demonstrating it
+ and its predecessor at 96k, but [ClipOnly2] is designed to work up to 700k or
+so, in case people get giddy with their newfound power :)
 
 
 <a name="plugins_clipsoftly"></a>
 ### ClipSoftly
 
-_ClipSoftly is [ClipOnly2][] but as a softclipper: a very handy building block._
+_ClipSoftly is [ClipOnly2] but as a softclipper: a very handy building block._
 
-What more needs be said? [ClipSoftly][] is ultimate softclipping, using the
-techniques used on [ClipOnly2][] for softening the edge of the hard clipping,
-but on the softest possible clipping. Where [ClipOnly2][] manipulates the onsets
- of the brightest transients to give you pure hard-clipping without digital
-grit, [ClipSoftly][] is doing that without even hardclipping.
+What more needs be said? [ClipSoftly] is ultimate softclipping, using the
+techniques used on [ClipOnly2] for softening the edge of the hard clipping, but
+on the softest possible clipping. Where [ClipOnly2] manipulates the onsets of
+the brightest transients to give you pure hard-clipping without digital grit,
+[ClipSoftly] is doing that without even hardclipping.
 
-So what we have here, basically, is a control-less (like [ClipOnly][] and
-[ClipOnly2][]) safety clipper, but it's a saturation effect. It's also a
-building block I (or others) can use inside larger plugins or new versions of
-Console, much like the recent [Pop2][] uses [ClipOnly2][] on the output, to give
- you the ability for really aggressive attacks.
+So what we have here, basically, is a control-less (like [ClipOnly] and
+[ClipOnly2]) safety clipper, but it's a saturation effect. It's also a building
+block I (or others) can use inside larger plugins or new versions of Console,
+much like the recent [Pop2] uses [ClipOnly2] on the output, to give you the
+ability for really aggressive attacks.
 
-You'd use something like [ClipOnly2][] in mastering specifically because it
-won't touch the values of any unclipped samples. [ClipSoftly][] is different: it
- will touch the values of ALL samples, reshaping the whole sound to make it
-bigger, fatter, tubier.
+You'd use something like [ClipOnly2] in mastering specifically because it won't
+touch the values of any unclipped samples. [ClipSoftly] is different: it will
+touch the values of ALL samples, reshaping the whole sound to make it bigger,
+fatter, tubier.
 
 I hope you like it, and the way it'll affect my plugins going forward :)
 
@@ -2667,14 +2955,14 @@ I hope you like it, and the way it'll affect my plugins going forward :)
 
 _Coils models the types of distortion you'll find in transformers._
 
-[Coils][] is like the inverse of [Focus][]. Instead of boosting/distorting UP
-the mids, it saturates DOWN the extreme highs and lows leaving the mids
-untouched. Because it’s a fixed mid shape mimicking the Neve transformer picture
- I was shown, the biquad doesn’t have to run inside Console as it’s not a high-Q
- filter at all (you’ll notice way more of an effect on steep filters) so it
-trades off that effect for less processing. The saturation is the [Density][]
-algorithm, but without clipping, so if you trash it you get wrap-around on the
-transfer function [curve][], which works out to be kinda transformery.
+[Coils] is like the inverse of [Focus]. Instead of boosting/distorting UP the
+mids, it saturates DOWN the extreme highs and lows leaving the mids untouched.
+Because it’s a fixed mid shape mimicking the Neve transformer picture I was
+shown, the biquad doesn’t have to run inside Console as it’s not a high-Q filter
+ at all (you’ll notice way more of an effect on steep filters) so it trades off
+that effect for less processing. The saturation is the [Density] algorithm, but
+without clipping, so if you trash it you get wrap-around on the transfer
+function [curve], which works out to be kinda transformery.
 
 The top control increasingly distorts (still kinda subtle), the middle one DC
 biases the core (second harmonics!) which does more when you’re less saturated,
@@ -2686,9 +2974,9 @@ and then there’s a dry/wet. Enjoy :)
 
 _Coils2 is a transformer overdrive emulator._
 
-This is to [Coils][] what [Srsly2][] was to [Srsly][]. In other words, [Coils][]
- was always ultra subtle. [Coils2][] lets you dial up the cheapness until the
-tone is wrecked (if you so choose).
+This is to [Coils] what [Srsly2] was to [Srsly]. In other words, [Coils] was
+always ultra subtle. [Coils2] lets you dial up the cheapness until the tone is
+wrecked (if you so choose).
 
 There’s two controls, Saturation and Cheapness. Saturation determines what
 happens outside the ‘resonant band’, and Cheapness narrows the band in which the
@@ -2711,11 +2999,11 @@ That’s a lot of talk to say: play with the knobs. They should do what they’r
 labeled to do, and as long as you’re not thinking ‘turn everything up all the
 way’ you’ll be fine. It’s meant to pass through a great deal of sonority even
 for tiny cheap transformers, just in such a way that you can really hear it this
- time. [Coils2][] is still in the spirit of [Coils][], in that you’ll get the
-most accurate ‘modeling’ by not treating it as its own stompbox. It’s the output
- stage, for shaping and sculpting things that already exist. You might combine
-it with tube distortion effects to get an ‘amp-like’ character, or use it subtly
- on a 2-buss to tighten lows and give you more impact and vibe. Remember to not
+ time. [Coils2] is still in the spirit of [Coils], in that you’ll get the most
+accurate ‘modeling’ by not treating it as its own stompbox. It’s the output
+stage, for shaping and sculpting things that already exist. You might combine it
+ with tube distortion effects to get an ‘amp-like’ character, or use it subtly
+on a 2-buss to tighten lows and give you more impact and vibe. Remember to not
 use too much saturation and cheapness for full mixes :)
 
 
@@ -2724,23 +3012,23 @@ use too much saturation and cheapness for full mixes :)
 
 _Cojones is a new kind of distorty._
 
-[Cojones][] is one of the promised releases from back when I started all this.
-What’s interesting is, [Cojones][] is also the seeds of Dither Me Timbers and
-[StudioTan][]. That’s because it does a similar thing: it tracks the trajectory
-of the waveform (over five instead of three samples) and either heightens or
-minimizes any disparities it finds. It’s called [Cojones][], because I thought
-it highlighted that sort of quality in voices and guitars, though it’s easy to
-just make it be distorty and strange.
+[Cojones] is one of the promised releases from back when I started all this.
+What’s interesting is, [Cojones] is also the seeds of Dither Me Timbers and
+[StudioTan]. That’s because it does a similar thing: it tracks the trajectory of
+ the waveform (over five instead of three samples) and either heightens or
+minimizes any disparities it finds. It’s called [Cojones], because I thought it
+highlighted that sort of quality in voices and guitars, though it’s easy to just
+ make it be distorty and strange.
 
-You’ll find that boosting [Cojones][] can give a peculiar sort of midrangey
+You’ll find that boosting [Cojones] can give a peculiar sort of midrangey
 sonority. I’m not going to say it’s GOOD sounding, but it is at least
 distinctive. There’s also a ‘breathy’ which is more three-sample stuff like
-Dither Me Timbers and [StudioTan][], and a ‘body’ control that can beef up or
-cut bass and low mids.
+Dither Me Timbers and [StudioTan], and a ‘body’ control that can beef up or cut
+bass and low mids.
 
 Pretty much play with it and if you hate it, throw it away and curse its name
 and mine. It’s all the rage! :D seriously, if you’re the sort to like this, you
-know who you are. If you’ve been putting Dither Me Timbers or [StudioTan][] in
+know who you are. If you’ve been putting Dither Me Timbers or [StudioTan] in
 places that aren’t the output dither, you need to try this instead as you’ll get
  a lot more out of it. And if its seasoning seems way too spicy and always
 produces trebly grit, try very slight amounts of its mojo, as this is one that’s
@@ -2795,10 +3083,10 @@ everyone can have. It's easy to get external hardware to do some of these
 things, but that's costly. Console Zero can be used by everybody… if, that is,
 you can deal with the demands it makes.
 
-Console Zero is the Airwindows Console concept, crossed with the
-[BitShiftGain][] concept, and pushed literally as far as it can possibly go. It
-has built-in gain and pan… kinda. It has aliasing-suppression filtering… kinda.
-It does the saturate on channels and then anti-saturate on the buss… kinda.
+Console Zero is the Airwindows Console concept, crossed with the [BitShiftGain]
+concept, and pushed literally as far as it can possibly go. It has built-in gain
+ and pan… kinda. It has aliasing-suppression filtering… kinda. It does the
+saturate on channels and then anti-saturate on the buss… kinda.
 
 Everything, everything is sacrificed to the Mantissa Gods. The idea is, with
 many analog-to-digital converters, with even fairly humble ones you can get
@@ -2808,7 +3096,7 @@ all goes to hell when you start trying to work with it in the box.
 
 Even on a system like Console8, with NO other processing, there might be
 hundreds of mathematical operations on every channel, thousands. Things like
-sine and arcsine functions do a lot of processing to be accurate. [Biquad][]
+sine and arcsine functions do a lot of processing to be accurate. [Biquad]
 filters can get you nice accurate filtering, but require lots of math operations
  to function. The stuff modern mix topologies get up to could be tens of
 thousands of calculations, PER sample, PER channel on the way to the final mix.
@@ -2822,8 +3110,8 @@ system. Including the aliasing-suppresion filtering. Eight, if I remember
 correctly… for the ENTIRE chain.
 
 How? By leaning on bit shifting, to an insane, excessive degree. It's a giant
-trade-off. All level and pan is done with built-in [BitShiftPan][]. (even on the
- buss, and you shouldn't touch it… but why not? The point is that it doesn't
+trade-off. All level and pan is done with built-in [BitShiftPan]. (even on the
+buss, and you shouldn't touch it… but why not? The point is that it doesn't
 alter any mantissas). That is mixing in 6 dB increments, 3 if you count moving
 stuff one notch to the side to make it quieter. The filtering is strictly simple
  averaging. One operation, and a bit shift to get back the original gain: the
@@ -3015,8 +3303,8 @@ _Console5DarkCh is a richer, warmer Console system._
 Console5 uses some more ‘expensive’ math operations, where previous Consoles
 tried to do their thing while keeping the Channel component as low-CPU as they
 possibly could. This might mean a heavier CPU cost, or it might be not that much
- of a difference. It’s a change (the math here more closely resembles
-[Density][] or [PurestDrive][]).
+ of a difference. It’s a change (the math here more closely resembles [Density]
+or [PurestDrive]).
 
 What do you gain? Using this more advanced math means there are functions which
 can exactly ‘undistort’ what comes in (more on that property later: there’s a
@@ -3030,37 +3318,37 @@ compared to the raw digital mix.
 
 This is not a thing you’d struggle to hear (listen for depth and space, not
 frequency changes). This is not a thing that’d get washed out in mp3 encoding
-(in fact, because of the way it restricts slews in [Console5Buss][], it’ll
+(in fact, because of the way it restricts slews in [Console5Buss], it’ll
 actually help encoding a teeny bit, because superhigh frequencies waste
 bandwidth better used on the mids). This is the new Console, and it should be a
 real revelation to mix through, no matter what style or genre you’re working in.
 
 As seen in the video, if you’ve got a DAW that can enable/disable plugins on
 selected channels, you can audition it with one mouse click to switch. Console5
-works like this: you want [Console5Channel][] on every channel feeding the
-2-buss (with all submixing and all post-plugin faders at unity gain), and
-[Console5Buss][] first on the 2-buss. That’s all, just replace digital summing
+works like this: you want [Console5Channel] on every channel feeding the 2-buss
+(with all submixing and all post-plugin faders at unity gain), and
+[Console5Buss] first on the 2-buss. That’s all, just replace digital summing
 with this system. If you can do post-fader plugins, you can use the faders
 (otherwise, best use the trims on the Console5Channels, or any earlier gain
 trim). The point is to replace your digital summing network with the Console5
 system.
 
 If you have that mastered, you can start playing with stuff like putting things
-‘inside’ Console: delays, reverbs, EQs. Plain digital [EQ][] in particular
-benefits from being post-[Console5Channel][] on the track. Gain stage everything
- so you’re not slamming [Console5Buss][] more than about +3 dB: it should
-survive hot peaks but there’s no special benefit to clipping it, and
-[Console5Buss][] will clip there. Ideally, you’ll frame a mix with Console5 in
-place, and you may find you don’t need to do nearly as much ‘twitchy DAW stuff’
-to get things sounding acceptable. Console5 addresses the root of the problem in
- a way no other ‘console emulation’ does. (if they do, you’ll find they have
-exactly the same constraints: needing to keep unity gain between Channel and
-Buss plugins is a dead giveaway they are using the Airwindows design)
+‘inside’ Console: delays, reverbs, EQs. Plain digital [EQ] in particular
+benefits from being post-[Console5Channel] on the track. Gain stage everything
+so you’re not slamming [Console5Buss] more than about +3 dB: it should survive
+hot peaks but there’s no special benefit to clipping it, and [Console5Buss] will
+ clip there. Ideally, you’ll frame a mix with Console5 in place, and you may
+find you don’t need to do nearly as much ‘twitchy DAW stuff’ to get things
+sounding acceptable. Console5 addresses the root of the problem in a way no
+other ‘console emulation’ does. (if they do, you’ll find they have exactly the
+same constraints: needing to keep unity gain between Channel and Buss plugins is
+ a dead giveaway they are using the Airwindows design)
 
 This is the Console version that can generate DC offset from sawtooth waveforms
 due to its interaction with slew rate handling, and the final Console5 you can
 get attempts to accomodate that. For the launch version (with a different
-DC-block strategy in place), use [C5RawConsole][].
+DC-block strategy in place), use [C5RawConsole].
 
 
 <a name="plugins_console6buss"></a>
@@ -3120,13 +3408,13 @@ mixing console that can be overstressed. You can still put full scale single
 tracks through there, losslessly, because that’s what any Console does. You can
 mix into it provided you don’t stress the buss too hard (or don’t mind the
 distortion you get). Gain stage before hitting the Channel plugins, one
-[Console6Channel][] plugin on each sound source with unity gain through the mix
-structure into the [Console6Buss][] plugin. If you need to slam stuff louder
-afterward you must do it AFTER the [Console6Buss][] plugin, in whatever way you
-like. Console is always a digital mix buss replacement without an [EQ][]-style
+[Console6Channel] plugin on each sound source with unity gain through the mix
+structure into the [Console6Buss] plugin. If you need to slam stuff louder
+afterward you must do it AFTER the [Console6Buss] plugin, in whatever way you
+like. Console is always a digital mix buss replacement without an [EQ]-style
 sound of its own, so if you want further color you need to use other plugins
 outside Console. If you’re daring or just curious you can use things between the
- plugins (‘inside’ Console) such as a DAW [EQ][], echoes, subtle reverb etc. If
+ plugins (‘inside’ Console) such as a DAW [EQ], echoes, subtle reverb etc. If
 you choose wrongly, it’ll distort or be weird, and things like EQs will be much
 more sensitive than usual to boosts and cuts.
 
@@ -3157,20 +3445,19 @@ That’s been the case for six previous versions of Console, and now it’s
 Console7. Here’s what’s new, that I didn’t have before.
 
 Every stage of the Console system now runs ultrasonic filtering. Not ‘the
-[Ultrasonic][] filter’, which is heavier in CPU and steeper: it’s a system
+[Ultrasonic] filter’, which is heavier in CPU and steeper: it’s a system
 designed and built for Console, optimised for use with Console. It’s a gentler,
-less phase-smeary version equivalent to the [Isolator][] filter across the
-entire Console system, but set up backwards: the Channel plugins lead off with
-the steepest stage of filtering, causing highs to hit the saturation in a
-particular way. Then, on the Buss plugins, the remaining two stages use
-decreasing resonances, so the end result is as flat as [Isolator][]’s
-fifth-order Butterworth filtering: but one stage runs before the processing, and
- one after. Doing this causes aliasing to be repeatedly removed at every step it
- might occur, rather than trying to whack it completely on input and then
-expecting the whole chain to be clean. You can still drop [Ultrasonic][] in
-there, anyplace that you think needs extra attention… but this is actually
-better. Especially if you’re working at 192k (but it’s designed to be fantastic
-at 96k).
+less phase-smeary version equivalent to the [Isolator] filter across the entire
+Console system, but set up backwards: the Channel plugins lead off with the
+steepest stage of filtering, causing highs to hit the saturation in a particular
+ way. Then, on the Buss plugins, the remaining two stages use decreasing
+resonances, so the end result is as flat as [Isolator]’s fifth-order Butterworth
+ filtering: but one stage runs before the processing, and one after. Doing this
+causes aliasing to be repeatedly removed at every step it might occur, rather
+than trying to whack it completely on input and then expecting the whole chain
+to be clean. You can still drop [Ultrasonic] in there, anyplace that you think
+needs extra attention… but this is actually better. Especially if you’re working
+ at 192k (but it’s designed to be fantastic at 96k).
 
 Every channel and the buss now gets a dedicated seed value for the dithering to
 the floating point buss. This might seem (and in fact is) a mighty subtle point,
@@ -3182,10 +3469,10 @@ dedicated noise for dithering, even though it’s just to the floating point bus
 now the new standard for how they’re built.
 
 Every channel and the buss now has a dedicated saturation/anti-saturation
-algorithm that ONLY exists in Console7. It’s based off of a blend of [Spiral][],
- and [Density][], with the first instance of [Spiral][] run as a ConsoleBuss
+algorithm that ONLY exists in Console7. It’s based off of a blend of [Spiral],
+and [Density], with the first instance of [Spiral] run as a ConsoleBuss
 algorithm, ever. They go to the trouble of blending between this new
-[Spiral][]/antiSpiral sort of Console, and the [Density][]-based one as seen in
+[Spiral]/antiSpiral sort of Console, and the [Density]-based one as seen in
 Console5 and PurestConsole, because doing this allowed a tweak in the way
 channels hit saturation, where the harmonics are generated in a balanced way, a
 smoother onset of saturation than I’ve ever had before in a plugin. Console7
@@ -3199,8 +3486,8 @@ All the channel plugins now default to 0.772 on the gain control. That, not 1.0,
  its own way, but that’s normally kept at 1.0). Unlike any previous Console, and
  opposite to what you get if you use the DAW faders, these channels saturate
 MORE as you push them, and saturate LESS if you pull them back. By the way the
-[Density][] algorithm works, that means stuff tends to come forward as you nudge
- the gain up, and drop back into the soundstage if you pull the gain back. It
+[Density] algorithm works, that means stuff tends to come forward as you nudge
+the gain up, and drop back into the soundstage if you pull the gain back. It
 opens up in a very literal way when you pull channels back, like some idealized
 analog console. What that means is, if you use these controls (they are smoothed
  for zero zipper noise) stuff will practically mix itself: the mix ought to fall
@@ -3216,31 +3503,31 @@ another way to get back to (automatable) analog console days.
 <a name="plugins_console7cascade"></a>
 ### Console7Cascade
 
-_Console7Cascade is a drop-in replacement for [Console7Channel][] that allows
-for MUCH higher gain._
+_Console7Cascade is a drop-in replacement for [Console7Channel] that allows for
+MUCH higher gain._
 
 I heard you liked slamming consoles. So I put five individually
 ultrasonic-filtered stages of slamming into your console so you can slam console
  while you Console7 :D
 
 This is pretty straightforward. It’s a drop-in replacement for
-[Console7Channel][], right down to the gain staging that works with the trim
+[Console7Channel], right down to the gain staging that works with the trim
 control to fit the result into the mix.
 
 The difference is, this uses FIVE gain stages of the same processing in
-[Console7Channel][]. And of course it’s always better (I’m learning) to filter
+[Console7Channel]. And of course it’s always better (I’m learning) to filter
 more gently between individual stages, rather than try to super-filter all at
-once and then do all the distorting. And so, [Console7Cascade][] is born: turns
+once and then do all the distorting. And so, [Console7Cascade] is born: turns
 out to be a very very ‘consoley’ type of crunch.
 
 By that I mean it seems to barely crunch at all. It just intensifies and gets
 REALLY LOUD. Might work as a guitar amp sim too? It worked so well for me on my
 drums that I might end up just using it by default for that: just all of the
-channels, all get [Console7Cascade][]. You could also put it in place on a
-submix… or all the submixes, if you’re kind of insane. This produces a really
-intense tubey loud effect with very little scratchyness or grind. I’m pretty
-sure it’ll be kind of brutal on the CPU as it’s not only an [Ultrasonic][], but
-also five Console7Channels, each of which run two sine functions.
+channels, all get [Console7Cascade]. You could also put it in place on a submix…
+ or all the submixes, if you’re kind of insane. This produces a really intense
+tubey loud effect with very little scratchyness or grind. I’m pretty sure it’ll
+be kind of brutal on the CPU as it’s not only an [Ultrasonic], but also five
+Console7Channels, each of which run two sine functions.
 
 You might just find it was all worth it, though. Why compress when you can
 cascade Console7Channels?
@@ -3249,23 +3536,23 @@ cascade Console7Channels?
 <a name="plugins_console7crunch"></a>
 ### Console7Crunch
 
-_Console7Crunch shows you Cascade but with its [EQ][] weighted for more edge and
- grit._
+_Console7Crunch shows you Cascade but with its [EQ] weighted for more edge and
+grit._
 
-[Console7Crunch][] is a variation on [Console7Cascade][], to experiment with
+[Console7Crunch] is a variation on [Console7Cascade], to experiment with
 something. Cascade stacked up distortion algorithms inside an instance of
-[Ultrasonic][], basically. For that reason, it distorted the super-highs very
+[Ultrasonic], basically. For that reason, it distorted the super-highs very
 early on, and compensated for this in later stages, rolling off brightness and
-smoothing the distortion out. Well, with experiments like [UltrasonX][], and
-some upcoming even-more-intense filtering of that nature, I wanted to do a
-variation on [Console7Cascade][] where the ONLY thing I changed was the order of
- the filtering. They’re supposed to combine to a perfectly flat multistage
-filter, and they do… but the way it hits nonlinearities and clipping is a whole
-other story.
+smoothing the distortion out. Well, with experiments like [UltrasonX], and some
+upcoming even-more-intense filtering of that nature, I wanted to do a variation
+on [Console7Cascade] where the ONLY thing I changed was the order of the
+filtering. They’re supposed to combine to a perfectly flat multistage filter,
+and they do… but the way it hits nonlinearities and clipping is a whole other
+story.
 
-The result is a [Console7Cascade][] that’s more crunchy, with more obvious
+The result is a [Console7Cascade] that’s more crunchy, with more obvious
 clipping and an additional ability to deliver distorted punch in the extreme
-highs: [Console7Crunch][]. It’s not wildly different (all this is meant to be
+highs: [Console7Crunch]. It’s not wildly different (all this is meant to be
 ultrasonic! But of course it affects everything anyhow) but it’s a noticeably
 different color for when you’re looking for higher gain in the Console7 system.
 I hope you like it, and I found the experiment interesting.
@@ -3320,8 +3607,8 @@ working and has become all the more important to commit to.
 
 But what makes Console8 that much better?
 
-[Ultrasonic][] filtering at 24k, distributed among more stages than ever before
-in a Console version, for extended highs (and it switches off at lower sample
+[Ultrasonic] filtering at 24k, distributed among more stages than ever before in
+ a Console version, for extended highs (and it switches off at lower sample
 rates when it wouldn’t be helping, for lower CPU and more direct sound)
 
 Distributed highpass filtering emulating real analog gear. This is a new filter
@@ -3352,15 +3639,15 @@ The output of the BussOut goes directly to your converter, your file etc. and
 you’re done :)
 
 Don’t use any added processing between BussOut and the file or converter. It
-uses a version of [ClipOnly2][] plus a new wordlength reducer that doesn’t exist
- anywhere else and is a hybrid between my old Ten Nines process and Airwindows
-[Dark][]. It only does 24 bit and if you must make 16 bit you can add a 16 bit
+uses a version of [ClipOnly2] plus a new wordlength reducer that doesn’t exist
+anywhere else and is a hybrid between my old Ten Nines process and Airwindows
+[Dark]. It only does 24 bit and if you must make 16 bit you can add a 16 bit
 dither (but you don’t need to make 16 bit, this is 2022, come on). This
 wordlength reducer is specially optimized for Console8, so if you’re using one
-of my existing [Monitoring][] plugins that applies a wordlength reducer, switch
-it off when not in use (I’ll produce a ‘plain’ [Monitoring][] that doesn’t
-interfere, though [Monitoring2][] is probably going to end up arriving at the
-same output as [Console8BussOut][])
+of my existing [Monitoring] plugins that applies a wordlength reducer, switch it
+ off when not in use (I’ll produce a ‘plain’ [Monitoring] that doesn’t
+interfere, though [Monitoring2] is probably going to end up arriving at the same
+ output as [Console8BussOut])
 
 I realize this is a lot to take in but in practice it should all just work and
 fall into place very naturally. The Out plugins all have faders, which are good
@@ -3368,8 +3655,8 @@ to assign to midi controllers so you can adjust them with physical controls and
 not the mouse. I have mine working with a TX-6 :) They’re designed so that 0.5
 is unity: less than that fades down to zero, and more than that gives you about
 12dB of boost in each stage. That’s also true for the master buss, except it
-also drives into the [ClipOnly2][] so it gets a punchier ‘slam’ than the
-channels and submixes get if you push those.
+also drives into the [ClipOnly2] so it gets a punchier ‘slam’ than the channels
+and submixes get if you push those.
 
 It’s not really intended for ‘everything is louder than everything else’
 overloudenated nonsense but will probably do that better than anything else you
@@ -3383,19 +3670,19 @@ to the Buss, and you’re done. Easy to explain :)
 <a name="plugins_console8busshype"></a>
 ### Console8BussHype
 
-_Console8BussHype swaps out for [Console8BussIn][], for a brighter sparklier
+_Console8BussHype swaps out for [Console8BussIn], for a brighter sparklier
 circuit._
 
 <a name="plugins_console8channelhype"></a>
 ### Console8ChannelHype
 
-_Console8ChannelHype swaps out for [Console8ChannelIn][], for a brighter
-sparklier circuit._
+_Console8ChannelHype swaps out for [Console8ChannelIn], for a brighter sparklier
+ circuit._
 
 <a name="plugins_console8subhype"></a>
 ### Console8SubHype
 
-_Console8SubHype swaps out for [Console8SubIn][], for a brighter sparklier
+_Console8SubHype swaps out for [Console8SubIn], for a brighter sparklier
 circuit._
 
 The original Console8 had a treble soften that was too weird to let people have.
@@ -3409,14 +3696,14 @@ forever.
 
 Here it is :)
 
-Here’s what you need to know: the plugins [Console8ChannelHype][],
-[Console8SubHype][], and [Console8BussHype][] have no controls, and you can swap
- them out with [Console8ChannelIn][], [Console8SubIn][], and [Console8BussIn][].
- Those are the plugins that have the treble softening at each stage, and those
-are the ones you replace. The more stages you replace, the more hyped and trebly
- the result will be: maybe not to the extent of taking an [EQ][] and cranking
-it, but the whole tonality is different. The In plugins have a solidness, more
-tough-sounding and physical: the [Hype][] plugins are softer, more ethereal.
+Here’s what you need to know: the plugins [Console8ChannelHype],
+[Console8SubHype], and [Console8BussHype] have no controls, and you can swap
+them out with [Console8ChannelIn], [Console8SubIn], and [Console8BussIn]. Those
+are the plugins that have the treble softening at each stage, and those are the
+ones you replace. The more stages you replace, the more hyped and trebly the
+result will be: maybe not to the extent of taking an [EQ] and cranking it, but
+the whole tonality is different. The In plugins have a solidness, more
+tough-sounding and physical: the [Hype] plugins are softer, more ethereal.
 They’re still manipulating the sound and are actually softening high-mids and
 treble, but the presence band is sticking out.
 
@@ -3438,14 +3725,14 @@ about textural values like solidness versus ethereal spaceyness, physical versus
  abstract, hard versus soft, not stuff you can just boil down to frequencies and
  DB values. It means direct access to tone options that are distinctly
 different, and applying them to not only sounds but the way the mix comes
-together. [Hype][] on an individual track versus [Hype][] on the buss are the
-same amount of ‘hype’, but totally different things in the final mix, and I
-can’t tell you which are going to be better for you.
+together. [Hype] on an individual track versus [Hype] on the buss are the same
+amount of ‘hype’, but totally different things in the final mix, and I can’t
+tell you which are going to be better for you.
 
 So I won’t. Console8Hype is your secret weapon and where you incorporate it is
 your affair: even other people knowing about Console8 might not hit upon the way
- you integrate [Hype][] stages into the mix. This post may well drop out of
-sight quickly as Console8Hype is another layer of tricky on top of the already
+ you integrate [Hype] stages into the mix. This post may well drop out of sight
+quickly as Console8Hype is another layer of tricky on top of the already
 demanding Console8… and that’s fine. I’ll be using it, and I’ll answer questions
  about it, but not everybody needs to ‘get’ this.
 
@@ -3479,9 +3766,9 @@ It's designed from the ground up to bring all the Console8 features but in
 simpler, traditional Airwindows Console form. You put the channel plugins last
 on each channel, have the faders at unity gain, and put the buss plugin first on
  the buss. Everything else, from the custom highpassing to the treble softening
-to the ability to boost the buss output into an on-board version of
-[ClipOnly2][], is there in the simpler form, easier to set up and ready to bring
- analog tone to your DAW mix.
+to the ability to boost the buss output into an on-board version of [ClipOnly2],
+ is there in the simpler form, easier to set up and ready to bring analog tone
+to your DAW mix.
 
 When using it, set it up like any pre-8 version of Console. Use it as a
 replacement for Console8, though each plugin is roughly equivalent to a Console8
@@ -3510,8 +3797,8 @@ records it didn't make… because it's the production model of a whole lineage o
 West Coast custom recording consoles with similar designs and circuitry. And you
  can still get them, apparently, the company lives… but I don't know where, or
 for how much, or how, as there's no sign of prices or any way to get them.
-There's none on [Reverb][], Vintage King doesn't have any, good luck even
-finding channel strips…
+There's none on [Reverb], Vintage King doesn't have any, good luck even finding
+channel strips…
 
 Meet the Quad Eight.
 
@@ -3567,32 +3854,32 @@ Audio mixer. This is what it took, to retire that glorious beast.
 
 It's a channel strip that functions like a normal Console Channel, except it's
 got treble, a sweepable mid that only boosts (like the classic MCI mid boost),
-bass, a fader that runs before the [EQ][] section like the classic MCI, and a
+bass, a fader that runs before the [EQ] section like the classic MCI, and a
 special pan switching network that's like an evil cousin of LCR panning. And
 it's a summing buss that brings the summing character of the big MCI desks with
 a gnarly analog dirtiness that's not simply 'add a distortion box' but is
 actually a modification of other recent and unique work I've put out.
 
-ConsoleMC draws on the following recent plugins: [Creature][]. [SubTight][].
-[Sinew][]. [ResEQ2][]. [Pear][]. [BitShiftPan][]. There is not a single normal
-DSP algorithm in this thing unless you count sin() and asin() functions. It is
-ALL built out of current, 2023 Airwindows plugins that have all been pretty well
- received, sometimes with a fair bit of excitement. I told you all this was
+ConsoleMC draws on the following recent plugins: [Creature]. [SubTight].
+[Sinew]. [ResEQ2]. [Pear]. [BitShiftPan]. There is not a single normal DSP
+algorithm in this thing unless you count sin() and asin() functions. It is ALL
+built out of current, 2023 Airwindows plugins that have all been pretty well
+received, sometimes with a fair bit of excitement. I told you all this was
 working up to something. This is it.
 
 Specifically, this is the first 'it' to come together: I've got at least five
 other big console concepts that deserve this treatment, but ConsoleMC is right
 here for you to jump into, right now. There's a couple reverbs in the demo,
-including [kCathedral][] which is a call-out to the corresponding Bricasti
-patch. Those are for later.
+including [kCathedral] which is a call-out to the corresponding Bricasti patch.
+Those are for later.
 
 ConsoleMC is designed around running at 96k (or possibly 192k if you're so
 inclined) but ought to work at 44.1k. If you're at low sample rate and seek to
 oversample it 2x or 4x it shouldn't do it any harm.
 
 ConsoleMC is NOT flat when set neutrally: use ConsoleMD for that. ConsoleMC, in
-its debugged form, uses the technique from [SubTight][] to rein in subsonic
-bass, and this ends up applying a touch of very high-frequency 'air' that was
+its debugged form, uses the technique from [SubTight] to rein in subsonic bass,
+and this ends up applying a touch of very high-frequency 'air' that was
 unexpected. The original release also didn't scale this effect to sample rate
 (it's a very new algorithm that didn't seem to work that way at first) but the
 Redux version, which becomes the go-to version of ConsoleMC, does scale to high
@@ -3622,37 +3909,37 @@ Audio mixer. This is what it took, to retire that glorious beast.
 
 It's a channel strip that functions like a normal Console Channel, except it's
 got treble, a sweepable mid that only boosts (like the classic MCI mid boost),
-bass, a fader that runs before the [EQ][] section like the classic MCI, and a
+bass, a fader that runs before the [EQ] section like the classic MCI, and a
 special pan switching network that's like an evil cousin of LCR panning. And
 it's a summing buss that brings the summing character of the big MCI desks with
 a gnarly analog dirtiness that's not simply 'add a distortion box' but is
 actually a modification of other recent and unique work I've put out.
 
-ConsoleMD draws on the following recent plugins: [Creature][]. NOT [SubTight][].
- [Sinew][]. [ResEQ2][]. [Pear][]. [BitShiftPan][]. There is not a single normal
-DSP algorithm in this thing unless you count sin() and asin() functions. It is
-ALL built out of current, 2023 Airwindows plugins that have all been pretty well
- received, sometimes with a fair bit of excitement. I told you all this was
+ConsoleMD draws on the following recent plugins: [Creature]. NOT [SubTight].
+[Sinew]. [ResEQ2]. [Pear]. [BitShiftPan]. There is not a single normal DSP
+algorithm in this thing unless you count sin() and asin() functions. It is ALL
+built out of current, 2023 Airwindows plugins that have all been pretty well
+received, sometimes with a fair bit of excitement. I told you all this was
 working up to something. This is it.
 
 Specifically, this is the first 'it' to come together: I've got at least five
 other big console concepts that deserve this treatment, but ConsoleMD is right
 here for you to jump into, right now. There's a couple reverbs in the demo,
-including [kCathedral][] which is a call-out to the corresponding Bricasti
-patch. Those are for later.
+including [kCathedral] which is a call-out to the corresponding Bricasti patch.
+Those are for later.
 
 ConsoleMD is designed around running at 96k (or possibly 192k if you're so
 inclined) but ought to work at 44.1k. If you're at low sample rate and seek to
 oversample it 2x or 4x it shouldn't do it any harm.
 
-All of the [EQ][] options are designed to be pristine when flat (mids, being
-boost only, are flat at 0.0 boost, not 0.5) and bring in multiple stages as you
-crank them harder and harder, whether it's the highs and mids getting
-increasingly saturated or the mids getting increasingly high-Q, allowing for
-everything from clarity to tonal extremeness thoroughly beyond what any real MCI
- console would do. This is not a clone, it's a tone in its own right, that tries
- to do the same job as some of the greatest big analog consoles ever to exist,
-but does it by the unforgiving and touchy rules of digital.
+All of the [EQ] options are designed to be pristine when flat (mids, being boost
+ only, are flat at 0.0 boost, not 0.5) and bring in multiple stages as you crank
+ them harder and harder, whether it's the highs and mids getting increasingly
+saturated or the mids getting increasingly high-Q, allowing for everything from
+clarity to tonal extremeness thoroughly beyond what any real MCI console would
+do. This is not a clone, it's a tone in its own right, that tries to do the same
+ job as some of the greatest big analog consoles ever to exist, but does it by
+the unforgiving and touchy rules of digital.
 
 I hope it brings you joy, and helps you get your sound as it helps me get mine.
 
@@ -3664,20 +3951,20 @@ _Creature is a soft slew saturator, a new class of noisechanger._
 
 So here's something new: didn't exist before, even I didn't have it.
 
-[Creature][] is a soft slew saturator. It's a way of working with applying a
-sin() function to slew clipping. In fact it applies an unbounded sin() function,
- so it might be technically considered a slew wavefolder? Because that's what
+[Creature] is a soft slew saturator. It's a way of working with applying a sin()
+ function to slew clipping. In fact it applies an unbounded sin() function, so
+it might be technically considered a slew wavefolder? Because that's what
 everybody needed, was a slew wavefolder. How useful, nerdy, and pointless.
 
 Not so much. Listen to this little monster.
 
-[Creature][] is up to 32 (or more, at high sample rates) soft slew saturators,
+[Creature] is up to 32 (or more, at high sample rates) soft slew saturators,
 stacked up like the poles of a filter. It acts like a distortion, except it's
 not a distortion. It acts like a filter, but it's even less of a filter. Its
 interaction with sample rate is really strange (has to scale up with the square
 root of the sample rate multiplier!)
 
-And what [Creature][] really does, is roar.
+And what [Creature] really does, is roar.
 
 As you keep adding Depth, the gain and the thunder increase unreasonably. The
 total force on tap is pretty ridiculous, and it keeps getting harder to control
@@ -3687,13 +3974,13 @@ ever heard. Using it in phase, in Wet mode, unleashes a monstrous overdrive with
  humongous bass that refuses to lose weight even at impossibly high gains (real
 interesting on drum rooms!)
 
-There is no overdrive. There is no [EQ][]. There is no highpass.
+There is no overdrive. There is no [EQ]. There is no highpass.
 
-It's just [Creature][], which is very much its own beast. It's also a very, very
- simple algorithm (isn't that so often the way?) so especially at low Depth
+It's just [Creature], which is very much its own beast. It's also a very, very
+simple algorithm (isn't that so often the way?) so especially at low Depth
 settings, all this monstrousness can be yours for almost no CPU. I'll be finding
  ways to put this to use, but as always, you've got it fresh from the plugin
-forges. Be careful, and have fun with your new [Creature][].
+forges. Be careful, and have fun with your new [Creature].
 
 
 <a name="plugins_crickbass"></a>
@@ -3702,7 +3989,7 @@ forges. Be careful, and have fun with your new [Creature][].
 _CrickBass is a flexible but aggressive bass tone for dual pickups._
 
 I consider this a utility plugin, and maybe it'll find utility with you too.
-What's a [CrickBass][]?
+What's a [CrickBass]?
 
 Chris's Rickenbacker Bass, set up with two DI inputs for neck pickup on the left
  and bridge pickup on the right.
@@ -3718,28 +4005,28 @@ right up by the neck, thin and relatively low impedance, and would seem to be a
 good candidate for clean and accurate low-end.
 
 And that's not what Chris Squire did, and when you hear and play through
-[CrickBass][] you understand why that's not what he did. Squire liked to
+[CrickBass] you understand why that's not what he did. Squire liked to
 overdrive, not the bridge, but the neck pickup. That rattly clangy bridge was
 kept clean, even though it sounds amazing cranked through an amp.
 
-[CrickBass][] is a composite of the Airwindows plugins [BigAmp][] and
-[LilAmp][], with [BigAmp][] on the left to take the neck pickup and distort it,
-and [LilAmp][] on the right to give the right amplike qualities to the bridge
-pickup. Both share the same set of drive and tone controls, but the controls
-cover different ranges on the different amps to produce a range of sounds that
-should all work and adapt to any stereo bass (as in, neck and bridge pickups on
-separate outputs). Use the controls on the bass to make subtler adjustments.
-Adjust the drive for how much gain you should have, remembering that the neck
-pickup is supposed to overdrive enough for a huge foundation of the sound, and
-that the bridge pickup is meant to be cleaner but not necessarily totally free
-of grit. Then adjust the tone so that clicks, string handling and so on, hit
-with the tone quality of whatever snare you're making the bass merge with.
+[CrickBass] is a composite of the Airwindows plugins [BigAmp] and [LilAmp], with
+ [BigAmp] on the left to take the neck pickup and distort it, and [LilAmp] on
+the right to give the right amplike qualities to the bridge pickup. Both share
+the same set of drive and tone controls, but the controls cover different ranges
+ on the different amps to produce a range of sounds that should all work and
+adapt to any stereo bass (as in, neck and bridge pickups on separate outputs).
+Use the controls on the bass to make subtler adjustments. Adjust the drive for
+how much gain you should have, remembering that the neck pickup is supposed to
+overdrive enough for a huge foundation of the sound, and that the bridge pickup
+is meant to be cleaner but not necessarily totally free of grit. Then adjust the
+ tone so that clicks, string handling and so on, hit with the tone quality of
+whatever snare you're making the bass merge with.
 
 Both of these amp sims make a point of applying anti-aliasing filtering as part
-of the [EQ][] filtering that helps mimic a cab, so they're far from full-range
-but good at sounding analog. Even when set up to be bright as hell, that's still
- 'bass amp' bright rather than 'supertweeter' bright. The idea is to match other
- elements in the track with your bass string percussive noises, so they jump
+of the [EQ] filtering that helps mimic a cab, so they're far from full-range but
+ good at sounding analog. Even when set up to be bright as hell, that's still
+'bass amp' bright rather than 'supertweeter' bright. The idea is to match other
+elements in the track with your bass string percussive noises, so they jump
 right out and hit like a train.
 
 And then if you're NOT aiming for a really abrasive proggy tone… handle the
@@ -3762,8 +4049,8 @@ the neck (and the bridge!) and a real short-cut for bass DI tracking. Since this
  is a plugin, you can track right through it (zero latency) and then if you must
  do something else in the final mix, you still can. But it's meant to deliver
 this sort of tone in the most direct, no-fuss way imaginable. I'm looking
-forward to using this on everything: the extreme rawness of [BigAmp][] and
-[LilAmp][] turned out to be ideal for this purpose. If it's also useful to you,
+forward to using this on everything: the extreme rawness of [BigAmp] and
+[LilAmp] turned out to be ideal for this purpose. If it's also useful to you,
 then yay! Bonus. Or of course misuse it, run breaks or synths or drums into it.
 Have fun!
 
@@ -3771,10 +4058,10 @@ Have fun!
 <a name="plugins_crunchygroovewear"></a>
 ### CrunchyGrooveWear
 
-_CrunchyGrooveWear is a version of [GrooveWear][] for more edge and distortion._
+_CrunchyGrooveWear is a version of [GrooveWear] for more edge and distortion._
 
-[GrooveWear][] began as a feature on ToVinyl. It defaulted to ‘on a tiny bit’
-and gave a slight treble lift and sculpting of the highs, following its working
+[GrooveWear] began as a feature on ToVinyl. It defaulted to ‘on a tiny bit’ and
+gave a slight treble lift and sculpting of the highs, following its working
 principle: averaging/smoothing the rate of change of the signal, something
 that’s not normally present in audio processing. This would cause the output to
 try and ‘keep going’ at the speed it was moving, like a phono cartridge needle
@@ -3783,16 +4070,16 @@ that had weight and inertia.
 The thing is, it was also implemented with a bug (or possibly just an unwitting
 choice). It’d overshoot, and bring on a kind of treble zing that was distorted
 and didn’t always work for everybody. When I split this feature out into a
-dedicated plugin, [GrooveWear][], I found out through trying to incorporate a
+dedicated plugin, [GrooveWear], I found out through trying to incorporate a
 dry/wet control that I could apply half the effect and then the ‘groove wear’
 wouldn’t overshoot. And it produced a treble-eroding plugin with a different
 operating principle than normal EQs, with the same ‘glue’ effect but none of the
- tizz or distortion. And that’s [GrooveWear][], and I considered it a good
-bugfix and came up with a way to run the dry/wet control in four stages so you
-could have the new ‘glue’ over an even wider frequency range, from a ‘purest’
-one stage to twice the intensity of the original thing in ToVinyl. I still see
-that as the ‘groove wear’ to have, for realistically getting a ‘vinyl warmth’
-effect, and I stand by that version.
+ tizz or distortion. And that’s [GrooveWear], and I considered it a good bugfix
+and came up with a way to run the dry/wet control in four stages so you could
+have the new ‘glue’ over an even wider frequency range, from a ‘purest’ one
+stage to twice the intensity of the original thing in ToVinyl. I still see that
+as the ‘groove wear’ to have, for realistically getting a ‘vinyl warmth’ effect,
+ and I stand by that version.
 
 And yet… some folks missed the zing. So, this is for them.
 
@@ -3806,9 +4093,9 @@ can get a really intense sort of treble hype that’s not like traditional EQs.
 It’s more exciter-like, and has no pre-echo even though it seems like it’s a
 very high Q filter with lots of resonance. It’s crunchy and adds zing and
 character and if you’re actually seeking fake zip of an interesting color,
-[CrunchyGrooveWear][] has lots of potential. Remember, if you’re looking for the
- most extreme crunch, use 0.25, 0.5, 0.75 or 1.0 as intermediate settings
-actively take highs away again ([GrooveWear][] functions linearly so it doesn’t
+[CrunchyGrooveWear] has lots of potential. Remember, if you’re looking for the
+most extreme crunch, use 0.25, 0.5, 0.75 or 1.0 as intermediate settings
+actively take highs away again ([GrooveWear] functions linearly so it doesn’t
 have this behavior). But you’ve got the full range of adjustments, because
 sometimes it’s nice to let a plugin into the wild that’s extremely weird and
 untame. This one’s born to be a secret weapon because it’s strange and
@@ -3820,11 +4107,11 @@ unpredictable.
 
 _Crystal is a tone shaper and buss soft-clipper._
 
-[Crystal][]’s the first of the Character reissues, by request: I know there’s
-the possibility for this to become people’s favorite plugin, because it already
-is one user’s favorite buss plugin and he begged me to rerelease it with updated
- code and VST compatibility. This is the result. Tonally it’s exactly the same
-as the classic ‘magic’ Audio Unit, but it’s got the denormalization and noise
+[Crystal]’s the first of the Character reissues, by request: I know there’s the
+possibility for this to become people’s favorite plugin, because it already is
+one user’s favorite buss plugin and he begged me to rerelease it with updated
+code and VST compatibility. This is the result. Tonally it’s exactly the same as
+ the classic ‘magic’ Audio Unit, but it’s got the denormalization and noise
 shaping to the floating point buss of 2018 and beyond.
 
 The controls you’ll be interested in are Hardness and Personality. Hardness
@@ -3837,7 +4124,7 @@ clipping. Though this dirties up the sound a little, it lets you dial the
 overdriven midrange sticks out.
 
 Personality is a precursor to what became BussColors (and there are other
-flavors to come) but in [Crystal][] it’s a little different. The BussColors
+flavors to come) but in [Crystal] it’s a little different. The BussColors
 algorithms are taken from hardware convolution impulses, and there’s a
 time-constant making the interpolation between ‘loud’ and ‘soft’ impulses happen
  over several samples. In the Character plugins, this didn’t happen. It was
@@ -3845,20 +4132,20 @@ sample-by-sample, so on the one hand there was no dynamic behavior, just each
 sample got a fixed convolution behavior.
 
 On the other hand (and it took me a while to properly understand this) every
-convolution sample got its own, separate dynamic behavior. The [curve][] was
+convolution sample got its own, separate dynamic behavior. The [curve] was
 different for each one, so it became a more tightly controlled little kernel
 rather than a set of possible kernels. There are still people who swear these
 were the great ones, and I’ve learned to pay closer attention to such things.
 
-And the thing is, [Crystal][]’s not using a hardware sample. Unlike anything in
-BussColors, [Crystal][]’s using a data set that comes from doing a brickwall
+And the thing is, [Crystal]’s not using a hardware sample. Unlike anything in
+BussColors, [Crystal]’s using a data set that comes from doing a brickwall
 filter: if I remember correctly, two different ones at different Q/steepness,
 and then generating the dynamic behavior out of that. So it’s doing a
-treble-restricting [EQ][] behavior (a FIR filter), but then it manipulates that.
- The question is, do you like what it does? Some people really, really liked
-this one. Not everything about it is in line with how I usually do things.
-That’s why it’s different. Maybe it’s right up your alley? Let your ears guide
-you, and have fun checking it out.
+treble-restricting [EQ] behavior (a FIR filter), but then it manipulates that.
+The question is, do you like what it does? Some people really, really liked this
+ one. Not everything about it is in line with how I usually do things. That’s
+why it’s different. Maybe it’s right up your alley? Let your ears guide you, and
+ have fun checking it out.
 
 
 <a name="plugins_cstrip"></a>
@@ -3867,38 +4154,38 @@ you, and have fun checking it out.
 _CStrip is an Airwindows channel strip._
 
 Sometimes, Airwindows dabbles with what you might call ‘the normal’ plugins: for
- instance, [CStrip][]. I was asked to make a channel strip, and while I usually
+ instance, [CStrip]. I was asked to make a channel strip, and while I usually
 prefer to do things in a more modular sense, it seemed like a fine idea, and so
 now there’s an Airwindows channel strip, with sort of the usual things you might
  find there.
 
 Sort of. ;)
 
-It’s never quite that simple with Airwindows. So, you’ve got a three band
-[EQ][], but if you boost the top you get traces of the ‘[Energy][]’ plugin just
-to add some aggressiveness to the extreme highs for heavy boosts. You’ve got
-crossover frequencies, you’ve got highpass and lowpass, but the highpass and
-lowpass aren’t normal algorithms either: they’re designed for ‘trapping in’
-already bandlimited sounds to get the most out of them. There’s a gate, but it’s
- an Airwindows gate where the release is designed to pull the audio back in the
+It’s never quite that simple with Airwindows. So, you’ve got a three band [EQ],
+but if you boost the top you get traces of the ‘[Energy]’ plugin just to add
+some aggressiveness to the extreme highs for heavy boosts. You’ve got crossover
+frequencies, you’ve got highpass and lowpass, but the highpass and lowpass
+aren’t normal algorithms either: they’re designed for ‘trapping in’ already
+bandlimited sounds to get the most out of them. There’s a gate, but it’s an
+Airwindows gate where the release is designed to pull the audio back in the
 sound picture, not just volume-ramp it. There’s a time delay control that exists
  only to give the track a micro-delay relative to other tracks for groove
-purposes. And there’s the compressor… [CStrip][] uses the [ButterComp][]
-algorithm plus a speed control that lets you do odd things like increase the
-speed hugely. [ButterComp][] compresses interleaved samples in Class AB, so
-that’s four independent compressors per channel. If you crank the speed under
-heavy compression you can get artifacts (for normal behavior, keep the speed a
-lot lower).
+purposes. And there’s the compressor… [CStrip] uses the [ButterComp] algorithm
+plus a speed control that lets you do odd things like increase the speed hugely.
+ [ButterComp] compresses interleaved samples in Class AB, so that’s four
+independent compressors per channel. If you crank the speed under heavy
+compression you can get artifacts (for normal behavior, keep the speed a lot
+lower).
 
-The whole idea with [CStrip][] was to do the channel strip, but take it out into
- stranger realms where it can be used for various sonic destruction. It may not
+The whole idea with [CStrip] was to do the channel strip, but take it out into
+stranger realms where it can be used for various sonic destruction. It may not
 be the last of such plugins: some new stuff coming out is giving me ideas for
 other ‘combination’ plugins, especially ones where the algorithms can be
 interwoven to produce effects you literally couldn’t have out of discrete
 plugins. (one day, I’ll be open sourcing all of that and telling other plugin
 coders all about it)
 
-[CStrip][] also uses a technique I came to rely on, where if a component of the
+[CStrip] also uses a technique I came to rely on, where if a component of the
 plugin isn’t being used (for instance, the lowpass and highpass when set to
 their extremes switch off) then it gets completely bypassed, and not even the
 math of the component is used: this is sort of like how ‘unity gain’ in code
@@ -3906,56 +4193,54 @@ isn’t the same as ‘bypass’. (if you’re in floating point and you’re mu
 by 1.0, you’re also doing a math operation at a given exponent and this can wipe
  out floating point values at very different levels of detail)
 
-But that’s getting too wonky: I hope you enjoy [CStrip][].
+But that’s getting too wonky: I hope you enjoy [CStrip].
 
 
 <a name="plugins_cstrip2"></a>
 ### CStrip2
 
-_CStrip2 refines and optimizes [CStrip][], by request!_
+_CStrip2 refines and optimizes [CStrip], by request!_
 
 It's been a while since we've seen an Airwindows channel strip! Here's why
-[CStrip2][] is here.
+[CStrip2] is here.
 
 First, I was asked to do it. Specifically, I was asked to take the delay-trim
-and gate out of [CStrip][], and also to replace the highpass and lowpass with
-[Capacitor][], and keep the compressor exactly as it is, and also could I put a
+and gate out of [CStrip], and also to replace the highpass and lowpass with
+[Capacitor], and keep the compressor exactly as it is, and also could I put a
 saturation effect on the end? That sort of thing doesn't always click with me,
 but hang on a moment, there's more.
 
 Second, we've got an Airwindows port to VCV Rack (which might expand to a CLAP,
 or more, along the same lines) but it's limited to ten controls. There are only
-two Airwindows plugins with more than ten controls. One is [Pafnuty][] (which
-would be well suited to Rack or Rack-like environments). The other… is
-[CStrip][].
+two Airwindows plugins with more than ten controls. One is [Pafnuty] (which
+would be well suited to Rack or Rack-like environments). The other… is [CStrip].
 
-Or WAS, because [CStrip2][] is here!
+Or WAS, because [CStrip2] is here!
 
-There are also related things. It seems to me the [EQ][] technique I use might
-fit in future versions of Console that include built-in [EQ][], and model famous
- recording desks, especially old ones. That's not to say the [CStrip][] [EQ][]
-is designed to do that, because it's not: but it covers some interesting bases,
+There are also related things. It seems to me the [EQ] technique I use might fit
+ in future versions of Console that include built-in [EQ], and model famous
+recording desks, especially old ones. That's not to say the [CStrip] [EQ] is
+designed to do that, because it's not: but it covers some interesting bases,
 like saturating boosts to bring them forward and unsaturating cuts to drop them
 back, and the relatively shallow slopes lend themselves to fixed-frequency built
- in [EQ][] bands. There are classic desk topologies where the channels and
-busses have idiosyncratic choices for the [EQ][] bands, and to model that would
-tend to bring outputs into the realms of classic albums done on those desks.
-I've got more Console summing algorithms in the works to support this
-exploration.
+ in [EQ] bands. There are classic desk topologies where the channels and busses
+have idiosyncratic choices for the [EQ] bands, and to model that would tend to
+bring outputs into the realms of classic albums done on those desks. I've got
+more Console summing algorithms in the works to support this exploration.
 
 Oh, and that output saturation goes like this: 0 to 1/3 is dry signal, 1/3 to
-2/3 crossfades into [Spiral][] like it is on the plugin Channel (versions 7, 8
-and 9 have this) and 2/3 to 1 crossfades into the [Density][] algorithm for
-maximum fatness and drive. This is probably going to be fun for people to play
-with, or leave it below 1/3 if you want clean output.
+2/3 crossfades into [Spiral] like it is on the plugin Channel (versions 7, 8 and
+ 9 have this) and 2/3 to 1 crossfades into the [Density] algorithm for maximum
+fatness and drive. This is probably going to be fun for people to play with, or
+leave it below 1/3 if you want clean output.
 
-That's [CStrip2][]! I hope you like it :)
+That's [CStrip2]! I hope you like it :)
 
 
 <a name="plugins_curve"></a>
 ### curve
 
-_curve is the simplest, purest form of [Recurve][] with no extra boosts._
+_curve is the simplest, purest form of [Recurve] with no extra boosts._
 
 sometimes you just want the effect to be lowercase.
 
@@ -3971,8 +4256,8 @@ probably, but in this form it can sit on nearly any track, unnoticed, quietly
 balancing levels in lowercase.
 
 you could put it on everything, even though compression multiplies (you get the
-ratio of all the different compressions, times each other). [curve][] is so calm
- and gentle that even putting it on all tracks and stems and then the 2-buss
+ratio of all the different compressions, times each other). [curve] is so calm
+and gentle that even putting it on all tracks and stems and then the 2-buss
 still shouldn’t give you a heavily compressed sound.
 
 people have asked whether you can still do airwindows patreon for one dollar a
@@ -3983,7 +4268,7 @@ hey, if you gotta share the love i cannot argue as it would be most hypocritical
  given my own fierce affections for the music producing community.
 
 i was helping clean up my late dad’s house and got a book called archy and
-mehitabel. whether it influenced [curve][] will have to remain a mystery to the
+mehitabel. whether it influenced [curve] will have to remain a mystery to the
 non-literary. suffice to say there’s a dance in the old plugin-monger yet.
 whatthehell, whatthehell
 
@@ -4005,14 +4290,14 @@ the funnest thing I’ve done all year.
 
 Why? Because I’m back to the dithers again. I figured out a way (or two) to go
 EVEN FARTHER in the direction I’d chosen. And it worked: it worked super well,
-and you can have it. Introducing Airwindows [Dark][].
+and you can have it. Introducing Airwindows [Dark].
 
 How does it work? It’s very simple, really. Much like Not Just Another Dither
 (NJAD, my previous best) it analyzes the results of the audio, depending on
 whether the dither rounds up or down. With correct TPDF dither, it’s a factor of
  randomness, a noise that breaks up patterns in the output. With NJAD, it runs a
  Benford Realness calculation and uses that (for a more natural-sounding audio
-output). But [Dark][]?
+output). But [Dark]?
 
 It simply works out the average trajectory of where the audio’s going. It’s
 following the lower frequencies, suppressing the highs. And then it makes its
@@ -4040,39 +4325,39 @@ anything you can do with filtering or normal processing. If you need depth and
 space, if you need rich black silence behind your mix, this beats NJAD… soundly.
 
 I hope you like it. The demonstration at 8 bit wordlength in the video ought to
-show you what to expect. [Dark][] is yours to use (in fact, you can have the
-source code under the MIT license!). For now, if you are using [Monitoring][]
-you’ll need to switch it off to use [Dark][], as [Monitoring][] defaults to a 24
- bit wordlength reduction using NJAD and I’m not prepared to simply update it
-and have it default to [Dark][] for all things.
+show you what to expect. [Dark] is yours to use (in fact, you can have the
+source code under the MIT license!). For now, if you are using [Monitoring]
+you’ll need to switch it off to use [Dark], as [Monitoring] defaults to a 24 bit
+ wordlength reduction using NJAD and I’m not prepared to simply update it and
+have it default to [Dark] for all things.
 
-Though I’m tempted. ;) (in fact, this is what [Monitoring2][] became)
+Though I’m tempted. ;) (in fact, this is what [Monitoring2] became)
 
-And in turn, within two weeks, [Dark][] became [Dark][] Redux: same [Dark][],
-exactly as before, BUT now it has one added control. [DeRez][]! Just like in the
- [DeRez][] plugin, it zooms seamlessly down to 1 (or 0) bits. It’s continuous,
-not discrete: you can do one and a half bits or whatever, play it by ear. Except
- that unlike the [DeRez][] plugin, it’s still [Dark][]… so you can hear more
-clearly what the new wordlength reducer is doing.
+And in turn, within two weeks, [Dark] became [Dark] Redux: same [Dark], exactly
+as before, BUT now it has one added control. [DeRez]! Just like in the [DeRez]
+plugin, it zooms seamlessly down to 1 (or 0) bits. It’s continuous, not
+discrete: you can do one and a half bits or whatever, play it by ear. Except
+that unlike the [DeRez] plugin, it’s still [Dark]… so you can hear more clearly
+what the new wordlength reducer is doing.
 
 It defaults to 0, which is exactly as it was before. Both the 24 and 16 bit
 settings derez, which means you can take it to 0 bit (silence) with 16 bit,
 switch to 24 bit, and the result is you’re listening to 8 bit. (if you need
-really specific behavior, you can use [BitShiftGain][] before and after the
-plugin to get exact bit values).
+really specific behavior, you can use [BitShiftGain] before and after the plugin
+ to get exact bit values).
 
 This makes it possible to do old school sampling effects, dark bitcrushed
-sounds. It also demonstrates that the [Dark][] algorithm is a bit special,
-because you have to really trash the wordlength to deteriorate the tone much.
-It’s more like a slightly noisier, slightly funkier, slightly gated grunge tone,
- even though the output is literally just bitcrushing. There isn’t even any
-smoothing applied to get the ‘dark’ tonality, it’s literally all a wordlength
-reducer, and with [DeRez][] at 0 it’s exactly the original [Dark][] plugin.
+sounds. It also demonstrates that the [Dark] algorithm is a bit special, because
+ you have to really trash the wordlength to deteriorate the tone much. It’s more
+ like a slightly noisier, slightly funkier, slightly gated grunge tone, even
+though the output is literally just bitcrushing. There isn’t even any smoothing
+applied to get the ‘dark’ tonality, it’s literally all a wordlength reducer, and
+ with [DeRez] at 0 it’s exactly the original [Dark] plugin.
 
-If there’s a problem or if you need to not see a control marked ‘[DeRez][]’, my
+If there’s a problem or if you need to not see a control marked ‘[DeRez]’, my
 updates-in-place always leave the original file there, in this case renamed to
 DarkOriginal. They have the same ID and DAWs ought to be able to handle swapping
- the new one in, even on existing projects that use [Dark][], it’s just to make
+ the new one in, even on existing projects that use [Dark], it’s just to make
 sure people can get back the original release if they ever need to.
 
 
@@ -4082,7 +4367,7 @@ sure people can get back the original release if they ever need to.
 _DarkNoise is an alternative method for producing bassier noise directly. Sound
 design stuff._
 
-[DarkNoise][] is a technical experiment, that might be useful for sound design
+[DarkNoise] is a technical experiment, that might be useful for sound design
 folks, or game coders, or people coding things like algorithmic clap effects.
 It’s basically a way to generate noise directly that’s more midrangey, or more
 bassy, without having to filter it (though there’s a filter included, too!)
@@ -4092,20 +4377,19 @@ noise. (or if you use an algorithm like my dithering-to-the-floating-point,
 which is not crypto-grade noise but runs more CPU-efficiently). And if you take
 a value and add rand() to it every sample, that’s Brownian noise (something
 moves, but randomly) but it generates DC offset and needs to get filtered. I’ve
-also done clever forms of noise like [VoiceOfTheStarship][] (there in your
-NewUpdates.zip download for free, try it and compare with [DarkNoise][]) which
-do the brownian noise, but at regular intervals it forces the random noise
-always to move TOWARDS zero, suppressing the DC naturally.
+also done clever forms of noise like [VoiceOfTheStarship] (there in your
+NewUpdates.zip download for free, try it and compare with [DarkNoise]) which do
+the brownian noise, but at regular intervals it forces the random noise always
+to move TOWARDS zero, suppressing the DC naturally.
 
 This is different. I’m not sure it’s better but it’s different, and what it does
  is: say you’re keeping a list of values that are all random. And you’re
 replacing them with new random values, and you get your output by adding ’em
 together. Now, imagine that for each random number you put in, that tells you
-the next position in the list to replace. That’s [DarkNoise][]. It has a
-brighter top-end than [VoiceOfTheStarship][], and runs just as fast, but
-requires you keep a big pile of numbers around. However, you don’t have to
-actually add them all every sample. It’s in the code, how to work around that
-part.
+the next position in the list to replace. That’s [DarkNoise]. It has a brighter
+top-end than [VoiceOfTheStarship], and runs just as fast, but requires you keep
+a big pile of numbers around. However, you don’t have to actually add them all
+every sample. It’s in the code, how to work around that part.
 
 Enjoy the plugin if you like weird noise sources: again, might be sound design,
 maybe you’d like to gate it along with something? Gate it along with your snare
@@ -4152,42 +4436,42 @@ plugin.
 <a name="plugins_debess"></a>
 ### DeBess
 
-_DeBess is an improved [DeEss][], with perfect rejection of non-ess audio._
+_DeBess is an improved [DeEss], with perfect rejection of non-ess audio._
 
-Meet [DeBess][].
+Meet [DeBess].
 
 Named because, for some of you at least, it is at last The Best De Ess. Period.
 Ever.
 
 …assuming certain conditions.
 
-[DeBess][] is an extension of my former [DeEss][], which itself was the high
-point of several earlier attempts at a special de-esser with an unusual
-algorithm for finding specifically ess content and rejecting anything else in
-that frequency range, no matter how many overtones it had. [DeEss][] used a set
-of sample comparisons to try and find esses, and was very successful at this…
-except some folks had trouble getting it to engage, and others needed it to be
-more perfect at rejecting even the faintest softening of other content.
+[DeBess] is an extension of my former [DeEss], which itself was the high point
+of several earlier attempts at a special de-esser with an unusual algorithm for
+finding specifically ess content and rejecting anything else in that frequency
+range, no matter how many overtones it had. [DeEss] used a set of sample
+comparisons to try and find esses, and was very successful at this… except some
+folks had trouble getting it to engage, and others needed it to be more perfect
+at rejecting even the faintest softening of other content.
 
-[DeBess][] does this by extending the sample comparison window a LOT. In fact,
-it’s now a slider! You can set it to be even blurrier than [DeEss][] if you
-like… or barely crack it open to replicate the original [DeEss][]… or crank it
-up for high isolation de-essing. If you are recording on prosumer equipment or
-using moving-coil microphones, you might not get enough change between samples
-to engage [DeBess][]. Same if you’re using high sample rates and your mics do
-NOT extend right up as far as the sampling lets you: [DeBess][] is not for
-taking stage mics and making them lisp. It is very distinctly for taking the
-most high-end of vocal tracks and de-essing only the ess sounds out of them,
-with zero cost to anything else. Whatever you’re using, if your esses are
-blowing out the highest treble (which is exactly what you need a de-esser for)
-then it ought to work for you.
+[DeBess] does this by extending the sample comparison window a LOT. In fact,
+it’s now a slider! You can set it to be even blurrier than [DeEss] if you like…
+or barely crack it open to replicate the original [DeEss]… or crank it up for
+high isolation de-essing. If you are recording on prosumer equipment or using
+moving-coil microphones, you might not get enough change between samples to
+engage [DeBess]. Same if you’re using high sample rates and your mics do NOT
+extend right up as far as the sampling lets you: [DeBess] is not for taking
+stage mics and making them lisp. It is very distinctly for taking the most
+high-end of vocal tracks and de-essing only the ess sounds out of them, with
+zero cost to anything else. Whatever you’re using, if your esses are blowing out
+ the highest treble (which is exactly what you need a de-esser for) then it
+ought to work for you.
 
-If you’re using high sample rate and struggling to get [DeBess][] action and
+If you’re using high sample rate and struggling to get [DeBess] action and
 you’re going to be treble boosting for that ultra-bright voice sound, try
-brightening BEFORE [DeBess][] and you’ll probably be able to get what you need.
-It wants very bright esses to work with, so it can duck and darken them. Use the
- filter control to shape a better [EQ][] on your esses, rather than just trying
-to duck ’em.
+brightening BEFORE [DeBess] and you’ll probably be able to get what you need. It
+ wants very bright esses to work with, so it can duck and darken them. Use the
+filter control to shape a better [EQ] on your esses, rather than just trying to
+duck ’em.
 
 
 <a name="plugins_deckwrecka"></a>
@@ -4198,9 +4482,9 @@ _Deckwrecka fattens and dirties up beats._
 Back in the day, I was asked by composer Alan Gold to create a special plugin.
 How special? To give you some idea, you might recognize the name quicker as
 Agzilla… or the DECKWRECKA. And so, that became the name of the plugin,
-appearing on the [Deckwrecka][] blog, then lost to time.
+appearing on the [Deckwrecka] blog, then lost to time.
 
-Until now! Hope this sits well with the eponymous [Deckwrecka][]. It was always
+Until now! Hope this sits well with the eponymous [Deckwrecka]. It was always
 free and now it’s doubly free because it’s open source too. Now it’s brought up
 to date with the most recent Airwindows technologies, and it’s available in VST
 form for the first time ever. :D
@@ -4220,16 +4504,16 @@ hip-hop, or whatever elements need to be more beefy and sub-rattling.
 
 _DeEss is the best de-essing solution there is. A go-to utility plugin._
 
-The Airwindows [DeEss][] works by tracking slew rates, not by filtering and
+The Airwindows [DeEss] works by tracking slew rates, not by filtering and
 frequencies. It keeps a string of recent slew rates, and if it sees high slews
 that keep going back and forth (flipping direction) that’s how it triggers. It
 doesn’t trigger on things like square wave or sawtooth waves, because those
 aren’t going back and forth fast enough to be an ess. It’s purely mechanical:
-the trigger for [DeEss][] happens instantly and way more powerfully on real
-esses, making it extremely easy to set. It’s not fiddly, just crank up the
-effect so you can plainly hear where it hits and use that (don’t overtrigger,
-for the bad esses you’ll get a HUGE powerful trigger even when everything else
-is totally clear of de-essing)
+the trigger for [DeEss] happens instantly and way more powerfully on real esses,
+ making it extremely easy to set. It’s not fiddly, just crank up the effect so
+you can plainly hear where it hits and use that (don’t overtrigger, for the bad
+esses you’ll get a HUGE powerful trigger even when everything else is totally
+clear of de-essing)
 
 Then you use the ducking control and the treble rolloff to tailor the kind of
 esses you do want. The tone thing lets you have darker esses that are still very
@@ -4263,9 +4547,9 @@ Airwindows plugins. It’s literally the smoothest saturation you can have in a
 plugin: the transfer function’s a sine. This is what’s in Channel, too: there
 are many ways to adapt such a simple mathematical function.
 
-But there’s more! Because [Density][] runs multiple stages, allowing it to bulk
-up the tone into an overblown, insanely fat and saturated distort-fest. And then
- you can highpass just the distorted stuff alone, and trim its output gain, and
+But there’s more! Because [Density] runs multiple stages, allowing it to bulk up
+ the tone into an overblown, insanely fat and saturated distort-fest. And then
+you can highpass just the distorted stuff alone, and trim its output gain, and
 mix it with the unfiltered dry to produce lots of tonal possibilities. And then
 there’s the spatial positioning factor: saturating stuff this way brings it
 forward in the mix. You can also isolate midrangey elements and bring them
@@ -4275,7 +4559,7 @@ And then there’s the negative values: if you UNsaturate, you get a thinned out
 lean tone and it drops back instead of pushing forward. And you can blend that
 too.
 
-[Density][]’s one of the better utility plugins. It’s there to reshape tones in
+[Density]’s one of the better utility plugins. It’s there to reshape tones in
 myriad ways, mostly having to do with fatness or thinness, also having to do
 with upfrontness or recedingness. It can also give articulation to sounds that
 are murky, or simply produce the hugest fattest roaring wall of grunge you ever
@@ -4285,20 +4569,19 @@ heard.
 <a name="plugins_density2"></a>
 ### Density2
 
-_Density2 is a different color for [Density][], some old code I had that people
+_Density2 is a different color for [Density], some old code I had that people
 wanted._
 
 So in the absence of somebody coming forth and saying ‘this is on my quadrillion
  selling hit record’… weirder things have happened, occasionally to me… you
-should consider this as an alternate tone for [Density][]. It’s been around for
-a while, but people wanted to see it again: specifically, to see it run on
-modern machines and in VST and so on. How could I say no? I’ve altered it as
-little as possible: there were always some weird things about it, but I
-refactored it to retain EVERYTHING unintentional or unusual. I gave it modern
-Airwindows handling of denormalized numbers, and it dithers to floating point
-instead of using the noise shaping to floating point that I used back then.
-Everything else is just as it was: no ‘fixing’ or making it do what I ‘meant to
-do’.
+should consider this as an alternate tone for [Density]. It’s been around for a
+while, but people wanted to see it again: specifically, to see it run on modern
+machines and in VST and so on. How could I say no? I’ve altered it as little as
+possible: there were always some weird things about it, but I refactored it to
+retain EVERYTHING unintentional or unusual. I gave it modern Airwindows handling
+ of denormalized numbers, and it dithers to floating point instead of using the
+noise shaping to floating point that I used back then. Everything else is just
+as it was: no ‘fixing’ or making it do what I ‘meant to do’.
 
 …this is on somebody's quadrillion selling hit record. I'm still not going to
 tell you who, or how they used it. <3
@@ -4311,18 +4594,18 @@ _DeRez is an analog-style bit and sample rate crusher with continuous
 adjustments. This entry includes the Patreon blurb from mid-2018, because the
 things it says about the build systems, what they target and why I'm doing it,
 are still relevant today. That makes that stuff its own sort of AirwindoPedia
-entry as part of the [DeRez][] entry._
+entry as part of the [DeRez] entry._
 
 What would an analog bitcrusher even be? It doesn’t even make sense. You’ve got
 sixteen bits, eight bits, twelve bits: you can’t have, like, eight and a half
 bits.
 
-Sure you can! [DeRez][] is here! Its dark magic can be yours! If you don’t
-believe in dark magic, the source code can be and is yours under the MIT
-license. Folks who are constructing strange models of things like obscure old
-digital gear should find this useful: do whatever compansion thing you had in
-mind using for instance PurestConsole, then use [DeRez][] to dial in the right
-amount of bitcrunch.
+Sure you can! [DeRez] is here! Its dark magic can be yours! If you don’t believe
+ in dark magic, the source code can be and is yours under the MIT license. Folks
+ who are constructing strange models of things like obscure old digital gear
+should find this useful: do whatever compansion thing you had in mind using for
+instance PurestConsole, then use [DeRez] to dial in the right amount of
+bitcrunch.
 
 Here’s how you use it: slide the Frequency control down, to continuously sweep
 the sample-rate crushing. Slide the Resolution control down, to continuously
@@ -4383,20 +4666,19 @@ heard. It won’t fix the world, but it definitely is able to keep me going :)
 
 _DeRez2 brings more authentic retro-digital hardware tones._
 
-[DeRez][] is the Airwindows bitcrusher that interpolates a sample between
+[DeRez] is the Airwindows bitcrusher that interpolates a sample between
 sample-rate-crushed outputs so the top end is smooth rather than gritty, and the
  only (far as I know) ANALOG bitcrusher (or at least floating point
 resolution?). That means you can set it to 32 and a third K sample rate, and
 seven point one three five bits. By ear, please: if you are needing to set a
 third of a K of sample rate without hearing it, I can’t help you. The point
-being, [DeRez][] was already cool as a continuous-rate rate-crusher and
-arbitrary bit depth linear bitcrusher. I don’t think anyone else has that (of
-course now they can: it’s open source MIT license, so just credit Airwindows and
- code away)
+being, [DeRez] was already cool as a continuous-rate rate-crusher and arbitrary
+bit depth linear bitcrusher. I don’t think anyone else has that (of course now
+they can: it’s open source MIT license, so just credit Airwindows and code away)
 
 How do you make that not just better but way better?
 
-[DeRez2][]’s ‘Hard’ control maxes out as the previous plugin (with a few
+[DeRez2]’s ‘Hard’ control maxes out as the previous plugin (with a few
 behind-the-scenes upgrades, but exactly the same algorithm at the heart). But
 the interesting part is when you turn it OFF: set ‘Hard’ to zero. Two things
 happen.
@@ -4421,15 +4703,14 @@ different because it winds up sounding completely right.
 
 I’ve been asked for dedicated emulations of vintage sampler gear. Instead, try
 this: no copying, but a new way to get that kind of tonality and dial it in to
-taste. If you need the darkening and texture of classic samplers, [DeRez2][]
-will do the same job in a new way with features the real retro gear didn’t have.
+taste. If you need the darkening and texture of classic samplers, [DeRez2] will
+do the same job in a new way with features the real retro gear didn’t have.
 
 Why does this one have the dry/wet? Because since the rate-crusher uses the
 previous sample for transitions, blending it with dry makes the transitions
 further softened with averaging. You can fade between pristine and clear, dark
 and cloudy, and totally retro-sampler thanks to that effect (which wouldn’t have
- happened with the previous [DeRez][], though you can try it on full Hard and
-see)
+ happened with the previous [DeRez], though you can try it on full Hard and see)
 
 What’s with the halfway settings between Soft and Hard? It engages wet/dry
 balance on the uLaws inside the plugin. If you do that to uLaw, you get weird
@@ -4446,11 +4727,11 @@ for a unique result.
 
 _Desk is classic Airwindows subtle analog modeling._
 
-[Desk][] is a little bit like a precursor to ‘[PurestDrive][]’. It’s entirely an
- analog modeler, with a behavior that’s far from a plugin stomp-box distortion.
+[Desk] is a little bit like a precursor to ‘[PurestDrive]’. It’s entirely an
+analog modeler, with a behavior that’s far from a plugin stomp-box distortion.
 It glues and thickens the sound, with a headroom of about 30 dB, much like a
 true analog console (those don’t turn into distorto-pedals the instant you hit 0
- dB). [Desk][] is the canonical version of this type of sound processing.
+ dB). [Desk] is the canonical version of this type of sound processing.
 
 Note that it’s not tricky to use like Console4. It’s not calibrated to work as a
  ConsoleChannel replacement (that’s the most recent Desk3, which is one of the
@@ -4460,8 +4741,8 @@ adjustable like some of these plugins. In normal operation you’re miles from
 clipping it anyway, and get only a subtle glue and tone shaping.
 
 But what it IS… is classic Airwindows tone coloring brought up to 2017
-standards. You can stick [Desk][] on any channel, any submix or buss, the
-2-buss, or all of the above. The more places you put it, the more obvious the
+standards. You can stick [Desk] on any channel, any submix or buss, the 2-buss,
+or all of the above. The more places you put it, the more obvious the
 analogifying becomes. And since it’s Airwindows tone and transparency, you can
 put it up against any ‘analog modeler’ by anybody, at any price or subscription
 fee, and it should beat everything and give a bigger, punchier sound. If it’s
@@ -4469,30 +4750,29 @@ fee, and it should beat everything and give a bigger, punchier sound. If it’s
 digital sludge and glitter, this is the one.
 
 As a further note, the reason I've been willing to engage in hype like the above
- is a fundamental Airwindows principle: less is more. What [Desk][] does is very
- simple and minimal. Doing less to the digital signal generally hurts the tone
+ is a fundamental Airwindows principle: less is more. What [Desk] does is very
+simple and minimal. Doing less to the digital signal generally hurts the tone
 less. So, as long as you're getting enough 'analog tone shaping' cues in the
-particular ways [Desk][] does them, it is actually true that if you find a
-plugin that does this as minimally as possible, with the fewest math operations,
- it is likely to sound bigger and punchier and better than more elaborate
-processing.
+particular ways [Desk] does them, it is actually true that if you find a plugin
+that does this as minimally as possible, with the fewest math operations, it is
+likely to sound bigger and punchier and better than more elaborate processing.
 
 
 <a name="plugins_desk4"></a>
 ### Desk4
 
 _Desk4 is distinctive analog coloration (a tuneable version of the control-less
-[Desk][] plugins)_
+[Desk] plugins)_
 
 Though I’ve put out BussColors to mimic existing audio hardware, it was always
 my intention to create analog-ifying plugins that weren’t about cloning existing
- gear: that produced their own distinctive sound. The first [Desk][] plugins
-([Desk][], [TransDesk][], [TubeDesk][]) were made in this way, using audio DSP
-which isn’t typical.
+ gear: that produced their own distinctive sound. The first [Desk] plugins
+([Desk], [TransDesk], [TubeDesk]) were made in this way, using audio DSP which
+isn’t typical.
 
 As this line of experimentation evolved, it led me to what we’ve got here.
-[Desk4][] is the latest refinement of the [Desk][] line, now for Mac and PC VST
-(as well as AU)… and free.
+[Desk4] is the latest refinement of the [Desk] line, now for Mac and PC VST (as
+well as AU)… and free.
 
 The drive control is a boost as you might expect. Turn it up for more slam and
 dirt. It’s very soft, textured, rich-in-nutrients dirt, but it’s basically
@@ -4500,22 +4780,22 @@ dirt. It’s very soft, textured, rich-in-nutrients dirt, but it’s basically
 
 Treble Choke is more unusual: don’t overcrank this control or you’ll generate
 artifacts such as uncontrolled DC. It’s not a normal algorithm and not a
-traditional [EQ][] or even a saturation: as you can tell from the weird behavior
- when you crank it. Use it subtly and you’ll have a brightness conditioner not
+traditional [EQ] or even a saturation: as you can tell from the weird behavior
+when you crank it. Use it subtly and you’ll have a brightness conditioner not
 found outside quality analog gear. Since it’s a plugin, you can also push the
 extremes of the behavior, just don’t get too carried away. It’s designed to let
 you break it with extreme settings, so it’ll be flexible across different kinds
 of audio.
 
 The power sag and frequency controls are the heart of some behaviors in the
-earlier [TubeDesk][] and [TransDesk][]: you can make your imaginary analog
-hardware overload its power supply. Cranking the frequency slider moves the area
- of interest down, for tube power supply sag behaviors. Tiny settings work over
-a tiny range of samples, causing the effect to hit higher frequencies. If you
-hear an obvious effect, you’re probably applying too much… unless you
-intentionally want to crap out the audio, in which case this is a uniquely
-aggressive way of doing that. It’ll add grunge in an entirely different way from
- simple distortion, so you can do both.
+earlier [TubeDesk] and [TransDesk]: you can make your imaginary analog hardware
+overload its power supply. Cranking the frequency slider moves the area of
+interest down, for tube power supply sag behaviors. Tiny settings work over a
+tiny range of samples, causing the effect to hit higher frequencies. If you hear
+ an obvious effect, you’re probably applying too much… unless you intentionally
+want to crap out the audio, in which case this is a uniquely aggressive way of
+doing that. It’ll add grunge in an entirely different way from simple
+distortion, so you can do both.
 
 
 <a name="plugins_digitalblack"></a>
@@ -4525,24 +4805,24 @@ _DigitalBlack is a quick, staccato gate._
 
 So here’s a gate. And here is why you should care :D
 
-[DigitalBlack][] is real simple on the surface: a threshold, and a dry/wet
+[DigitalBlack] is real simple on the surface: a threshold, and a dry/wet
 control. But what it does is more complicated. This isn’t a ‘gently fade to
-silence’ gate like [SoftGate][], or a ‘special effect’ like [Gatelope][].
-[DigitalBlack][] was designed for one purpose: tightening up staccato
+silence’ gate like [SoftGate], or a ‘special effect’ like [Gatelope].
+[DigitalBlack] was designed for one purpose: tightening up staccato
 direct-recorded tracks. I’m demonstrating it with a worst-case scenario because
 that’s all I had: I don’t get to do music, mostly, except for my live jams. But
 I had a drum room track where you can get some idea: play with it yourself if
 you’re curious, it’s free.
 
-[DigitalBlack][] does three things that are interesting, two of which are pretty
- unique. Firstly, it uses hysteresis to prevent ‘sputtering’. That’s pretty
+[DigitalBlack] does three things that are interesting, two of which are pretty
+unique. Firstly, it uses hysteresis to prevent ‘sputtering’. That’s pretty
 normal. Second, it fades not with a simple volume, instead it fades into
-negative [Density][] (bulk of the sound attenuated, only the transients stick
-out) which has the effect of sounding like it’s fading backwards away from you,
-very quick. This gives it a physical motion not common to gates. And third, it
+negative [Density] (bulk of the sound attenuated, only the transients stick out)
+ which has the effect of sounding like it’s fading backwards away from you, very
+ quick. This gives it a physical motion not common to gates. And third, it
 tracks zero crossings in a special way so that the ‘silence’ time it has to
-traverse, before hitting the negative [Density][] area and then true silence, is
- related to the bassiness of the content.
+traverse, before hitting the negative [Density] area and then true silence, is
+related to the bassiness of the content.
 
 What this means is, if you’re hitting it with bassy content it’ll handle that
 gracefully. If you’ve got loads of midrange, it’ll gate that tighter. And if
@@ -4554,30 +4834,29 @@ and R so it’s dual-mono) Even in my demo you can hear that some of those attac
  are chopped off insanely fast. You’ll probably recognize pretty quickly if this
  is the gate for you. Try it on something like a DI guitar going into heavy
 ampsims, and see if you can’t get good results out of it. Put it on something
-like a kick or on individual drum mics (that you’re not already using
-[Gatelope][] on), or on anything that needs to be insanely tight and quick to
-gate itself. It might be just what you needed. (for linked gentler slower gating
- to silence, try [SoftGate][]: for a gate that also acts like envelope filters,
-use [Gatelope][])
+like a kick or on individual drum mics (that you’re not already using [Gatelope]
+ on), or on anything that needs to be insanely tight and quick to gate itself.
+It might be just what you needed. (for linked gentler slower gating to silence,
+try [SoftGate]: for a gate that also acts like envelope filters, use [Gatelope])
 
 
 <a name="plugins_dirt"></a>
 ### Dirt
 
-_Dirt is a soft-clip distortion in the spirit of [Edge][]._
+_Dirt is a soft-clip distortion in the spirit of [Edge]._
 
-In the event that you’d like a softer, tubier [Edge][]… I’ve got you covered.
+In the event that you’d like a softer, tubier [Edge]… I’ve got you covered.
 
-If you liked Airwindows [Edge][], this is a variation. It doesn’t go nearly as
+If you liked Airwindows [Edge], this is a variation. It doesn’t go nearly as
 high gain but it’s got a much softer clip to it, and the same controls set up
 the same way (so highpass/lowpass settings ought to match if you want them to).
-My intent with it was to have a companion plugin to [Edge][] for use with ITB
-guitars: I’d be using it with [Cabs][], but folks who need full-on IRs might try
- that too, or sandwiching your IR between [Dirt][] and [Cabs][] as a final
+My intent with it was to have a companion plugin to [Edge] for use with ITB
+guitars: I’d be using it with [Cabs], but folks who need full-on IRs might try
+that too, or sandwiching your IR between [Dirt] and [Cabs] as a final
 tone/presentation tweak.
 
 I hope you like it… and not just on guitars. In line with my current ultrasonic
-filtering approach, you’ll get more mileage out of this and [Edge][] at high
+filtering approach, you’ll get more mileage out of this and [Edge] at high
 sample rates, but the lowpass will let you get some space between you and
 aliasing no matter what sample rate you’re at.
 
@@ -4587,14 +4866,14 @@ aliasing no matter what sample rate you’re at.
 
 _Distance is a sound design or reverb far-away-izer._
 
-Here’s another utility plugin: [Distance][] is specifically set up to mimic
+Here’s another utility plugin: [Distance] is specifically set up to mimic
 through-air high frequency attenuation. It’s from my initial wave of Airwindows
 plugins, come to VST and with a new twist: though in the video it’s a
 one-knobber, when you download it you’ll find that it’s got a Dry/Wet control,
 just to expand the things you can do with it. That’s new! I try to listen to
 people, even when it’s tempting to make it a super-dedicated one-trick pony.
 
-As you can see from how it behaves, [Distance][] is a lot more complicated than
+As you can see from how it behaves, [Distance] is a lot more complicated than
 just running a shelf. For that reason, I suggest this plugin for sound design
 and creative mixing purposes. Don’t try to use it for mastering or 2-buss, I
 feel it’s too intensely colored. However, for creative use it’s exactly what it
@@ -4610,15 +4889,15 @@ the output of the reverb algorithm)
 
 _Distance2 is a versatile space shaper for creating depth._
 
-As requested, this is the unholy hybrid of [Distance][] and Atmosphere. This one
- doesn’t work like a Console5 system, it’s strictly ‘put it on and get a sound’,
- but I wasn’t expecting how cool it would be. Turns out this thing is completely
- absurdly good at taking tracks like drums, and making them huge and pounding
-and stage-like, without even the use of reverb or compression.
+As requested, this is the unholy hybrid of [Distance] and Atmosphere. This one
+doesn’t work like a Console5 system, it’s strictly ‘put it on and get a sound’,
+but I wasn’t expecting how cool it would be. Turns out this thing is completely
+absurdly good at taking tracks like drums, and making them huge and pounding and
+ stage-like, without even the use of reverb or compression.
 
-The beginning of the video’s about using [Distance2][] as a loudenator, though I
- think using it on a full mix is overkill (maybe you want SOME elements to be up
- front and present). Bear in mind that you can keep the Atmosphere control set
+The beginning of the video’s about using [Distance2] as a loudenator, though I
+think using it on a full mix is overkill (maybe you want SOME elements to be up
+front and present). Bear in mind that you can keep the Atmosphere control set
 very low and still get an effect: the equivalent to the Atmosphere mixing system
  is to have it incredibly low, like 0.1 or less. The more you push it, the more
 nasty it’ll get, because that algorithm alone is NOT enough to make a distance
@@ -4634,9 +4913,9 @@ into a single control to deliver good-sounding results no matter what setting
 you used… and where I chose to give you access to the wrongest possible settings
  because people NEED to break rules sometimes. Somebody out there is going to be
  able to get a great sound by taking the right source, and obliterating it with
-extreme [Distance2][] settings, and who am I to stand in the way? And you can
-also apply a dry/wet that will conceal the wreckage: surprisingly small amounts
-of dry signal will mask the amount of distortion going on.
+extreme [Distance2] settings, and who am I to stand in the way? And you can also
+ apply a dry/wet that will conceal the wreckage: surprisingly small amounts of
+dry signal will mask the amount of distortion going on.
 
 And the reason I’m able to put out a plugin where I KNOW that some people will
 set it wrongly and then hate it, is my Patreon. The thing about Patreon is that
@@ -4661,14 +4940,14 @@ fun.
 ### Distortion
 
 _Distortion is a slightly dark analog-style distortion with several presets,
-like [Focus][]._
+like [Focus]._
 
 I think this one ought to go over well. People often want ‘analog-style
 distortion’. Here’s a collection of Airwindows distortion algorithms in a handy
 plugin with a new twist: it’s optimized for high sample rate in an innovative
 way.
 
-What does that mean? [Distortion][] is a slightly ‘dark’ distortion plugin. Not
+What does that mean? [Distortion] is a slightly ‘dark’ distortion plugin. Not
 only are the algorithms pretty smooth (with some exceptions: check the end of
 the video for one!), it uses sample averaging to stop extreme highs from getting
  through. At 44.1k, there’s an averaging stage before the distortion, darkening
@@ -4676,8 +4955,8 @@ the output but also interfering with aliasing. Averaging also has some tonal
 benefits to midrange and bass, so this gives the plugin more of a ‘voice’.
 That’s at 44.1k, CD quality.
 
-But, if you use higher rates like 96k or 192k, [Distortion][] begins to use more
- ‘poles’ of simple averaging. It’ll bring in averaging after the distortion,
+But, if you use higher rates like 96k or 192k, [Distortion] begins to use more
+‘poles’ of simple averaging. It’ll bring in averaging after the distortion,
 softening the tone. It’ll use more and more stages of this treble-softening,
 still always on just the most recent two samples, even though that becomes more
 and more finely grained as the sample rate goes up. Because of how averaging
@@ -4691,27 +4970,27 @@ as the sample rate goes up. I think 96k is a sweet spot for this: at 96k, still
 a basically normal sample rate, you get extremely warm and fluid distortion,
 even when pushed to extremes.
 
-If you like extremes, look into the final two distortion modes. In
-[Distortion][], the modes [Mojo][] and [Dyno][] operate in their purest form,
-where the distortion shape can curl around again to produce strange effects if
-you slam them ruthlessly. In the video you see me discovering this on [Mojo][],
-running a simple DI bass at far too high a volume into [Mojo][], and then
-doubling it up to make crazy organic synth-like effects. Other modes like
-[Density][], [Drive][] or [Spiral][] will just go to ultra-clipping normally.
+If you like extremes, look into the final two distortion modes. In [Distortion],
+ the modes [Mojo] and [Dyno] operate in their purest form, where the distortion
+shape can curl around again to produce strange effects if you slam them
+ruthlessly. In the video you see me discovering this on [Mojo], running a simple
+ DI bass at far too high a volume into [Mojo], and then doubling it up to make
+crazy organic synth-like effects. Other modes like [Density], [Drive] or
+[Spiral] will just go to ultra-clipping normally.
 
-[Distortion][] will give you truly warm overdrive effects, especially at high
+[Distortion] will give you truly warm overdrive effects, especially at high
 sample rates, without a bunch of fake analog modeling. I don’t recommend using
 it on everything (because maybe some sounds are good WITH extended high-end,
 especially if you’re working at 96k and all) but as always, I’m not the boss of
 you.
 
 Again, the notable thing about this relative to other cascaded
-aliasing-suppressed distortions like [Console7Cascade][] is that [Distortion][]
-is doing it all with simple averaging filters. That will give you a distinct,
+aliasing-suppressed distortions like [Console7Cascade] is that [Distortion] is
+doing it all with simple averaging filters. That will give you a distinct,
 softer sound without the clarity you get from multi-pole biquad rolloffs.
-[Distortion][] is for when you want warm, warm, warm and are OK with letting the
- highs soften, plus if you want to pick different sorts of crunch edge (not
-often a feature on Airwindows plugins).
+[Distortion] is for when you want warm, warm, warm and are OK with letting the
+highs soften, plus if you want to pick different sorts of crunch edge (not often
+ a feature on Airwindows plugins).
 
 
 <a name="plugins_ditherbox"></a>
@@ -4723,20 +5002,20 @@ monitoring tools._
 This one’s fairly simple to explain. It’s (nearly) every Airwindows dither
 plugin in one box, with a control to select between them.
 
-Well, there’s a bit more: [Ditherbox][] comes with 16 bit versions built in (the
- individual plugins are based on 24 bit, with the exception of
-[NotJustAnotherCD][]). So rather than messing around with [BitShiftGain][]
-(which will still give you any weird bit depth you could wish for) you can
-output to CD-quality 16 bit directly from [Ditherbox][]. That was kind of
-waiting for [Ditherbox][] to come out, didn’t want to steal all of its thunder.
+Well, there’s a bit more: [Ditherbox] comes with 16 bit versions built in (the
+individual plugins are based on 24 bit, with the exception of
+[NotJustAnotherCD]). So rather than messing around with [BitShiftGain] (which
+will still give you any weird bit depth you could wish for) you can output to
+CD-quality 16 bit directly from [Ditherbox]. That was kind of waiting for
+[Ditherbox] to come out, didn’t want to steal all of its thunder.
 
-Oh, did I say thunder? [Ditherbox][] also comes with monitoring tools:
-calibrated [SlewOnly][] and [SubsOnly][] playback, where it’s supposed to give
-you roughly the same levels and dynamics from full bandwidth, [SlewOnly][] and
-[SubsOnly][]. Might not be exactly the same, but if one of them is wildly
-different from the full bandwidth you might have a look at the mix.
+Oh, did I say thunder? [Ditherbox] also comes with monitoring tools: calibrated
+[SlewOnly] and [SubsOnly] playback, where it’s supposed to give you roughly the
+same levels and dynamics from full bandwidth, [SlewOnly] and [SubsOnly]. Might
+not be exactly the same, but if one of them is wildly different from the full
+bandwidth you might have a look at the mix.
 
-Lastly, it has a new trick: [Silhouette][]! The idea behind this one is simple:
+Lastly, it has a new trick: [Silhouette]! The idea behind this one is simple:
 calibrated noise replaces your mix. If you can still hear beats and dynamic
 behavior, or best of all if your music is kind of recognizable, it’s a good
 sign! That means your mix is communicating information dynamically. If it’s just
@@ -4748,29 +5027,29 @@ dynamic texture of your drum impacts.
 
 This plugin marks the open-sourcing of everything I’ve ever done dither-wise,
 including the Benford Realness-based Not Just Another Dither (named by the
-internet!). Seemed sensible, as they are all included in [Ditherbox][] (well…
-actually the TPDF-based stuff like [TapeDither][], [NodeDither][],
-[PaulDither][], [DoublePaul][] didn’t get included as they weren’t in the
-original [Ditherbox][]. I’m kind of exhausted doing this one and VSTing it and
-opensourcing everything: there was a lot of fussy porting work and barely room
-to move the slider on the VST: forgive, plz?)
+internet!). Seemed sensible, as they are all included in [Ditherbox] (well…
+actually the TPDF-based stuff like [TapeDither], [NodeDither], [PaulDither],
+[DoublePaul] didn’t get included as they weren’t in the original [Ditherbox].
+I’m kind of exhausted doing this one and VSTing it and opensourcing everything:
+there was a lot of fussy porting work and barely room to move the slider on the
+VST: forgive, plz?)
 
 Anyhow, with MOST of the Airwindows dither work represented, hopefully this is
 fun to fool with. I do still recommend Not Just Another Dither on general
 principles, as in practical terms it’s the best one. You can still put
-[TapeDither][] on outputs going to a mix, I’m just saying, it all culminated in
+[TapeDither] on outputs going to a mix, I’m just saying, it all culminated in
 NJAD.
 
-As a follow-up in 2022 (not 2018, when this came out), [Ditherbox][] is somewhat
- out of date. The version of NJAD in it isn't the most current: [Monitoring][]
-has a better one. [Monitoring][] also has Peaks, which is superior to
-[Silhouette][] at the task [Silhouette][] is for. One of the reasons
-[Ditherbox][] still exists is, if someone got into it and REALLY liked the
-version of NJAD in there, it's all very well making improvements but I should
-keep unaltered versions of things. And that's what [Ditherbox][] is now: it's
-not a go-to in my opinion, but if someone was depending on it, it got through a
-series of additional ports (like to signed AU and VST for Mac M1 processors,
-native) without anything about it changing. This has value of its own.
+As a follow-up in 2022 (not 2018, when this came out), [Ditherbox] is somewhat
+out of date. The version of NJAD in it isn't the most current: [Monitoring] has
+a better one. [Monitoring] also has Peaks, which is superior to [Silhouette] at
+the task [Silhouette] is for. One of the reasons [Ditherbox] still exists is, if
+ someone got into it and REALLY liked the version of NJAD in there, it's all
+very well making improvements but I should keep unaltered versions of things.
+And that's what [Ditherbox] is now: it's not a go-to in my opinion, but if
+someone was depending on it, it got through a series of additional ports (like
+to signed AU and VST for Mac M1 processors, native) without anything about it
+changing. This has value of its own.
 
 
 <a name="plugins_ditherfloat"></a>
@@ -4784,14 +5063,14 @@ This AirwindoPedia entry contains the most current public domain source code for
 precision buss (which would mean you'd have to be using something longer like
 long double for your internal processing).
 
-[DitherFloat][] is NOT for putting in mixes to 'dither the plugins'. It is a
-demo, and the only use you could possibly do with it is to put it on a double
+[DitherFloat] is NOT for putting in mixes to 'dither the plugins'. It is a demo,
+ and the only use you could possibly do with it is to put it on a double
 precision buss and dither to save as 32 bit floating point instead of double. I
-don't think that's productive. Again, [DitherFloat][] is NOT a plugin to use on
+don't think that's productive. Again, [DitherFloat] is NOT a plugin to use on
 things to make them more dithered. It's a proof of concept, like putting
-'[DeRez][]' onto dither plugins to hear how that works. You can literally hear
-the truncation in floating-point mantissas using this plugin, and what it sounds
- like when those are dithered. On to the original post when this came out…
+'[DeRez]' onto dither plugins to hear how that works. You can literally hear the
+ truncation in floating-point mantissas using this plugin, and what it sounds
+like when those are dithered. On to the original post when this came out…
 
 This began as a challenge. A forum poster said you couldn’t dither floating
 point outputs, and posted a link to a study explaining why.
@@ -4811,9 +5090,9 @@ according to the waveform causing a kind of distortion. If you have a low sine
 wave you’ll hear the ripple effect of flat dither, and the argument is that
 dithering floating point is like that only more so (and so, nobody ever tried).
 
-[DitherFloat][] demonstrates this, and it’s not true. You can TPDF dither (even
-[PaulDither][], like I’m using here) floating point. The noise doesn’t fluctuate
- according to the waveform represented in the mantissa. It fluctuates according
+[DitherFloat] demonstrates this, and it’s not true. You can TPDF dither (even
+[PaulDither], like I’m using here) floating point. The noise doesn’t fluctuate
+according to the waveform represented in the mantissa. It fluctuates according
 to the value in the EXPONENT, because it has to, because the quantization noise
 also fluctuates wildly in volume. And if you get it right, you end up with no
 truncation distortion at all, just like using TPDF to fixed point.
@@ -4822,19 +5101,19 @@ The video explains more and shows it working. It’s practically impossible to
 hear ONE stage of 32 bit truncation (may be literally impossible, I think) but
 you can cheat and hear it as obviously as you like. You just add a huge offset
 to the number, convert it to float, and then subtract the offset again: and
-that’s what [DitherFloat][] does. It’s a demo. It shows you there’s still
+that’s what [DitherFloat] does. It’s a demo. It shows you there’s still
 truncation in floats, and it shows you the way TPDF dither completely removes
 the truncation distortion. It linearizes the signal so that no trace of the
 truncation is present (that’s how correct dither works).
 
-You can’t add [DitherFloat][] after existing plugins to fix them: even though
-you can use it (with zero offset) to export a 64 bit buss to 32 bit float and
-dither it, by itself [DitherFloat][] can’t fix existing plugins. You would have
-to put the code for the dithering, into every single plugin that outputs 32 bit
-floats. Every MacOS plugin, every singlereplacing VST (every older VST
-implementation before they implemented 64 bit buss). For the Airwindows library
-that would involve personally revising every plugin I’ve released under the
-VST/Patreon years, many hundreds of plugins.
+You can’t add [DitherFloat] after existing plugins to fix them: even though you
+can use it (with zero offset) to export a 64 bit buss to 32 bit float and dither
+ it, by itself [DitherFloat] can’t fix existing plugins. You would have to put
+the code for the dithering, into every single plugin that outputs 32 bit floats.
+ Every MacOS plugin, every singlereplacing VST (every older VST implementation
+before they implemented 64 bit buss). For the Airwindows library that would
+involve personally revising every plugin I’ve released under the VST/Patreon
+years, many hundreds of plugins.
 
 So I did. :D
 
@@ -4843,7 +5122,7 @@ floats. In 2021, I experimented and decided to make my internal busses double
 precision instead of long double, as I wasn't able to find a difference and
 thought it would save some CPU; at that point, Airwindows plugins running on the
  VST double processing buss began outputting directly without a dither stage,
-for a slight efficiency boost. They still have the [DitherFloat][] code in case
+for a slight efficiency boost. They still have the [DitherFloat] code in case
 the random number needs to get used, but the application of the dither is
 meaningless when the buss is already double, so that bit is commented out.)
 
@@ -4988,8 +5267,8 @@ below that noise floor) it replaces faint musical content with faint rustles and
  sputterings, not unlike a vinyl record’s artifacts. It’s entirely correlated
 with the audio, and closely matched in volume to what the audio would have been…
  far below what we’re used to experiencing as a digital noise floor. And it’s
-combined with the [EQ][] behavior of Dither Me Timbers, producing a behavior
-where the audio goes first dark, then quiet, as it drops beneath perception.
+combined with the [EQ] behavior of Dither Me Timbers, producing a behavior where
+ the audio goes first dark, then quiet, as it drops beneath perception.
 
 This produces an effect you can’t get anywhere else, which contrasts with Not
 Just Another Dither completely. Instead of sparkling detail, you get depth like
@@ -5022,28 +5301,28 @@ sound better through tubes or tape or anything to cut the dryness and
 shallowness of it… odds are you’re going to love Dither Me Timbers. It is as
 wrong as a pirate at a garden party: it’s not even a dither at all, but a filter
  and a bizarre noise shaper. It’s a trick, a stunt, a mockery of ‘correct dither
- behavior’. It’s an [EQ][], a tone-changer.
+ behavior’. It’s an [EQ], a tone-changer.
 
 And there’s nothing else like it… and it’s yours. Enjoy :)
 
 Note: there is a more sophisticated version of this behavior in Airwindows
-[Dark][]. The difference is, Dither Me Timbers only looks for a tiny
-micro-environment, within three samples. [Dark][] extrapolates outward to work
-out which option will best make the WHOLE sound darker, not just a tiny
+[Dark]. The difference is, Dither Me Timbers only looks for a tiny
+micro-environment, within three samples. [Dark] extrapolates outward to work out
+ which option will best make the WHOLE sound darker, not just a tiny
 three-sample area.
 
 
 <a name="plugins_doublelay"></a>
 ### Doublelay
 
-_Doublelay is [StereoDoubler][] with independent delays and feedback._
+_Doublelay is [StereoDoubler] with independent delays and feedback._
 
 This one was a request: I have a weakness for doing plugins for folks who worked
  on records I grew up listening to on vinyl. So often we recognize only the rock
  stars, but the guys behind the desks do so much to help the magic happen. And
 this plugin is there to bring the magic. It was a GREAT suggestion.
 
-[Doublelay][] starts with Stereo Doubler, then adds delay taps to the
+[Doublelay] starts with Stereo Doubler, then adds delay taps to the
 pitch-shifted L and R independently, and then it also lets you feed back the
 results into the input again, in a secret combination that nobody knowing me
 will be surprised to know is the Golden Ratio. It's 0.618.... direct feedback,
@@ -5062,13 +5341,13 @@ shifts, or have one side not be a delay and the other side be a big delay: turns
  based effect, the added ambience you create will not fill up nearly as much
 space as a full-on reverb might do. Truly a great way to fill up some mix space
 with what you've already got in the tracks, and go on from there if you like.
-And I hope you do like [Doublelay][].
+And I hope you do like [Doublelay].
 
 
 <a name="plugins_doublepaul"></a>
 ### DoublePaul
 
-_DoublePaul is like [PaulDither][] but more so._
+_DoublePaul is like [PaulDither] but more so._
 
 This is for sort of a special purpose.
 
@@ -5077,7 +5356,7 @@ I’ve got an outrageous custom dither (well, wordlength reducer: there’s no n
  that I recommend.
 
 However, I’ve got a mastering engineer friend (Hi Bob!) who favors another
-dither of mine, [PaulDither][]. The reason is, it’s traditional TPDF dither. It
+dither of mine, [PaulDither]. The reason is, it’s traditional TPDF dither. It
 handles dithering duties perfectly (with a slight Airwindows-izing: the weight
 of the final noise floor is balanced to make one ‘bit’ function as zero, and to
 make the dither activate adjacent bits on either side for a better sound. This
@@ -5085,20 +5364,20 @@ also gives a teeny least-significant-bit DC offset, if you assume ‘zero’ is
 between the two smallest bits, positive and negative)
 
 I wanted to give Bob (and anyone else selecting traditional TPDF) something
-fancier that still counted as purely normal dither. So, here’s [DoublePaul][].
+fancier that still counted as purely normal dither. So, here’s [DoublePaul].
 
-It’s TPDF highpassed dither, just like [PaulDither][]. But, I’m also using some
+It’s TPDF highpassed dither, just like [PaulDither]. But, I’m also using some
 adjacent samples to skew the noise profile even further into the highs. It’s
 just a redistribution of energy, and it leaves the key pair of full-intensity
 noise samples to stay as TPDF dither. I just doctored the way you hear the
 noise, to push it a little farther into the highs. I’ve also backed off the
-teeny DC offset, and shaped every filter tap by ear. If you liked
-[PaulDither][], try [DoublePaul][] and see if you like taking the [PaulDither][]
- concept just a teeny bit farther, with no penalty to how the TPDF works. It’s
-just like a little sinc interpolation, a thing that’s trying to hide the TPDF
-energy by pushing it farther into the extreme highs. If you don’t trust
-[NotJustAnotherDither][], but you’d like something even quieter than
-[PaulDither][], try this.
+teeny DC offset, and shaped every filter tap by ear. If you liked [PaulDither],
+try [DoublePaul] and see if you like taking the [PaulDither] concept just a
+teeny bit farther, with no penalty to how the TPDF works. It’s just like a
+little sinc interpolation, a thing that’s trying to hide the TPDF energy by
+pushing it farther into the extreme highs. If you don’t trust
+[NotJustAnotherDither], but you’d like something even quieter than [PaulDither],
+ try this.
 
 
 <a name="plugins_drive"></a>
@@ -5106,32 +5385,32 @@ energy by pushing it farther into the extreme highs. If you don’t trust
 
 _Drive is the angry distortion!_
 
-If you know how to use Airwindows [Density][], you know how to use this. It’s
+If you know how to use Airwindows [Density], you know how to use this. It’s
 exactly the same layout, except that it doesn’t go to negative values: this
 one’s just for slam.
 
 Why bother with such a similar plugin? Because of the tone!
 
-[Density][] gets a thick, full, fluid tone because it’s got a super-smooth
+[Density] gets a thick, full, fluid tone because it’s got a super-smooth
 transfer function. In fact it’s the theoretical optimum distortion transfer
 function for having no grit or crunch: it ‘hides’ the distortion very well.
 
-[Drive][] hides nothing. It’s all about grit and crunch, not smooth. Go ahead
-and try it and see. If your sole purpose for an overdrive plugin is to make
-stuff ‘big and fat and thick’ then you want [Density][]. But if you’re reaching
-for a distortion because you have some sound, a bass, a snaredrum, and you just
-want to make it sound ANGRY: not so much fat or forward or gritty or edgy, but
-just plain straight up pissed off… then you may want to have [Drive][] around.
+[Drive] hides nothing. It’s all about grit and crunch, not smooth. Go ahead and
+try it and see. If your sole purpose for an overdrive plugin is to make stuff
+‘big and fat and thick’ then you want [Density]. But if you’re reaching for a
+distortion because you have some sound, a bass, a snaredrum, and you just want
+to make it sound ANGRY: not so much fat or forward or gritty or edgy, but just
+plain straight up pissed off… then you may want to have [Drive] around.
 
-It does have the highpass, the output trim, the dry/wet just like [Density][]
+It does have the highpass, the output trim, the dry/wet just like [Density]
 does. That means it can be adapted to different contexts. But the sound remains
 the same: angry overdrive, a real nasty bark. Neither too smooth, nor too edgy
-and trebly. [Drive][] will work on pretty much anything you want to make really
+and trebly. [Drive] will work on pretty much anything you want to make really
 mad, and the ease of getting that tone color will make you the opposite of mad.
 :D
 
-Note: you can get this algorithm in the [Distortion][] plugin, smoothed out with
- averaging filters.
+Note: you can get this algorithm in the [Distortion] plugin, smoothed out with
+averaging filters.
 
 
 <a name="plugins_drumslam"></a>
@@ -5146,7 +5425,7 @@ So this is not a sad plugin but it’ll be sort of a sad post and I may as well 
  it anyway: I’ll keep it brief and to the point, and it’s kind of relevant to
 the Airwindows plugin release schedule.
 
-First, the plugin: this is [DrumSlam][]. It was originally meant to sound like
+First, the plugin: this is [DrumSlam]. It was originally meant to sound like
 Massey TapeHead. It’s sort of a multiband tape emulation/distortion, and it
 didn’t end up sounding like TapeHead but it does have a sound of its own: all
 the more since it’s a technique I don’t normally use (multiband stuff rarely
@@ -5154,7 +5433,7 @@ makes sense to my ear). I see it as an effect plugin more than general purpose,
 but as always I’m not the boss of you and you can use it however you please.
 It’s open source, so you can also use the code or do variations on it: all you
 have to do is credit that you’re using Airwindows code, and you can even charge
-for your own [DrumSlam][]-based plugin provided you make the credit clear: in
+for your own [DrumSlam]-based plugin provided you make the credit clear: in
 fact, since it’s not the ‘advertising clause’ version, you get to cite
 Airwindows and suggest that it makes your plugin sound special: if you ask, I’ll
  help you make that be true. I just don’t take personal responsibility for the
@@ -5163,7 +5442,7 @@ there are still ways you could screw it up cooge if you’re also open source, I
  be able to look at the code and give my opinion on whether it’s maintaining the
  integrity of the input data.
 
-So that’s [DrumSlam][]. Try it, slam it, do stuff with it, it’s simply another
+So that’s [DrumSlam]. Try it, slam it, do stuff with it, it’s simply another
 type of tape emulation done somewhat Airwindows style, and it’s got its own
 sound that you might like.
 
@@ -5174,10 +5453,10 @@ Also, this is my Patreon, if you find these plugins indispensable please join it
 rights manage me! cooge
 
 Now, over to my status report. I think I’m going to be able to keep up my plugin
- releases at least through [StereoFX][] next week and probably won’t even have
-to skip a week but it’s possible I won’t be able to focus, or I might derp some
-of the releases and get them wrong and have to fix them, like with Console5 last
- Xmas. Apology in advance, if so. The reason is the same as it was then. Last
+ releases at least through [StereoFX] next week and probably won’t even have to
+skip a week but it’s possible I won’t be able to focus, or I might derp some of
+the releases and get them wrong and have to fix them, like with Console5 last
+Xmas. Apology in advance, if so. The reason is the same as it was then. Last
 December 6th, my Mom died. She’d kept me from starving when I was starting up
 the Patreon, and I owe her everything. After that, January 23rd of this year,
 the cat many of you have seen in videos (my last cat since the other one got hit
@@ -5238,36 +5517,36 @@ but fair warning in case I do: it’s been sort of a difficult half-year. It oug
 <a name="plugins_dubcenter"></a>
 ### DubCenter
 
-_DubCenter is a version of [DubSub][] where the bass reinforcement is purely
+_DubCenter is a version of [DubSub] where the bass reinforcement is purely
 mono._
 
-So here’s [DubSub][] (below) with mono bass. This isn’t the last you’ll hear of
-this tool as I have [BassKit][] coming out (which is the more approachable,
-well-behaved version of [DubCenter][]) but this is the one that will let you get
- the most extreme. If you were using [DubSub][] to its fullest, this one lets
-you do the same only with the bass and sub outputs centered.
+So here’s [DubSub] (below) with mono bass. This isn’t the last you’ll hear of
+this tool as I have [BassKit] coming out (which is the more approachable,
+well-behaved version of [DubCenter]) but this is the one that will let you get
+the most extreme. If you were using [DubSub] to its fullest, this one lets you
+do the same only with the bass and sub outputs centered.
 
 The reason you’d want to do that is, whether for sound reinforcement or vinyl
 mastering there’s little reason to have stereo bass. It just makes the woofers
 fight each other, below a certain frequency (which depends on how far apart your
  speakers are). This is why elliptical EQs exist.
 
-And the thing with [DubCenter][] is, you don’t have to filter the original audio
- or mid/side it! All you have to do is use [DubCenter][] to reinforce the bass,
-and it’ll automatically make that added content mono. This is even better than
+And the thing with [DubCenter] is, you don’t have to filter the original audio
+or mid/side it! All you have to do is use [DubCenter] to reinforce the bass, and
+ it’ll automatically make that added content mono. This is even better than
 using (for instance) ToTape and its head bump mechanics to reinforce bass,
 because that (like a real tape deck) produces a stereo head bump. This produces
 the same fullness with the same algorithm, but it’s strictly mono so you get the
- effect of an elliptical [EQ][] without having to run one! Only the super-deep
+ effect of an elliptical [EQ] without having to run one! Only the super-deep
 stuff gets reinforced and the information and phase relationships of your
 original mix go untampered with.
 
-Again, [BassKit][] will do this in a super-convenient way with much of the
-tweeky functionality simplified or taken out (for that one, there is no chance
-of abusing the sub-octave to do weird stuff as it’s restricted to only
-convincing subs content) but [DubCenter][] is the one like [DubSub][], where you
- can make it do crazy things. You’ll find it in your plugin menu next to
-[DubSub][], most likely. Have fun!
+Again, [BassKit] will do this in a super-convenient way with much of the tweeky
+functionality simplified or taken out (for that one, there is no chance of
+abusing the sub-octave to do weird stuff as it’s restricted to only convincing
+subs content) but [DubCenter] is the one like [DubSub], where you can make it do
+ crazy things. You’ll find it in your plugin menu next to [DubSub], most likely.
+ Have fun!
 
 
 <a name="plugins_dubly"></a>
@@ -5276,7 +5555,7 @@ convincing subs content) but [DubCenter][] is the one like [DubSub][], where you
 _Dubly is a retro vibe and atmosphere maker._
 
 Some people will recognize this instantly… even if you don't do heavy metal in
-[Dubly][], you know :)
+[Dubly], you know :)
 
 Here's what this is. There's a famous sort of noise reduction, with variations,
 that's based around the idea of taking the audio, filtering it, compressing it
@@ -5302,12 +5581,12 @@ beasts…
 So what if you strip all that down, Airwindows-style, to only the basic
 principle?
 
-Meet [Dubly][]. It uses uLaw technology (really!) for good, not evil! It does
-the most general form of that processing, NOT like any specific very proprietary
- tech, and uses a simple distortion inside rather than any tricky tape emulation
- (that can come later!). It defaults to 0.5, where it will just bring a delicate
- aura of retro magic to the sound. But, the way it's calibrated (very tricky, by
- nature) you can crank it out and mis-calibrate it. And when you do, you'll get
+Meet [Dubly]. It uses uLaw technology (really!) for good, not evil! It does the
+most general form of that processing, NOT like any specific very proprietary
+tech, and uses a simple distortion inside rather than any tricky tape emulation
+(that can come later!). It defaults to 0.5, where it will just bring a delicate
+aura of retro magic to the sound. But, the way it's calibrated (very tricky, by
+nature) you can crank it out and mis-calibrate it. And when you do, you'll get
 more and more into a crazy, hyped, intensified zone that adds a lot of treble
 energy. But this doesn't make it into a 'single ended' version of the processing
  (even though that's a known secret weapon). It remains the double-ended, full
@@ -5315,9 +5594,9 @@ chain, noise-reducing system (that is, if the single distortion stage was adding
  noise, which it isn't). Just… twisted.
 
 There will obviously be more of this, but for now, you can do your heavy metal
-in [Dubly][], you know. It will get a little lighter and spacier and more
+in [Dubly], you know. It will get a little lighter and spacier and more
 atmospheric, which is probably why this is Not Done. But who knows, maybe you'll
- like a little [Dubly][] on your record. Hope you like it :)
+ like a little [Dubly] on your record. Hope you like it :)
 
 
 <a name="plugins_dubsub"></a>
@@ -5337,24 +5616,23 @@ the middle.
 Crossover determines what goes to the Treble Grind, and what goes to the bass
 sections. To make it track bass better, set the crossover low.
 
-Bass [Drive][] is how hard you’re pushing the main bass section. It’s
-essentially an adjustable Head Bump control like in ToTape. Bass Voicing
-controls the depth of the bass boost: setting it higher up sounds more like
-overdriving a bass amp. Bass Inv/Out is the same as in the Treble Grind section,
- an ‘attenuverter’ like in certain Eurorack modules: it lets you subtract the
-bass, not just add it.
+Bass [Drive] is how hard you’re pushing the main bass section. It’s essentially
+an adjustable Head Bump control like in ToTape. Bass Voicing controls the depth
+of the bass boost: setting it higher up sounds more like overdriving a bass amp.
+ Bass Inv/Out is the same as in the Treble Grind section, an ‘attenuverter’ like
+ in certain Eurorack modules: it lets you subtract the bass, not just add it.
 
-Sub [Drive][], Sub Voicing, and Sub Inv/Out are much like the bass section,
-except they work on an octave-divided version of the bass section. This helps it
- get good octave-down sounds some of the time, but it’s not anything like a
-digital suboctave synthesizer: it’s working crudely like an analog octave
-divider, which means it can make horrible noises if it doesn’t have clean signal
- to work with. This is of course intentional :) if you want it to do a
-recognizable sub-note, feed it a carefully controlled signal off a single track.
- Or, you can set it very deep and not mix in all that much of it, and get an
-interesting effect sound. For cleaner deep bass, work with the main bass
-section, or voice both of them very deep in hopes of cleaning up the sub-bass
-section a little by refusing to let it have more complicated signals.
+Sub [Drive], Sub Voicing, and Sub Inv/Out are much like the bass section, except
+ they work on an octave-divided version of the bass section. This helps it get
+good octave-down sounds some of the time, but it’s not anything like a digital
+suboctave synthesizer: it’s working crudely like an analog octave divider, which
+ means it can make horrible noises if it doesn’t have clean signal to work with.
+ This is of course intentional :) if you want it to do a recognizable sub-note,
+feed it a carefully controlled signal off a single track. Or, you can set it
+very deep and not mix in all that much of it, and get an interesting effect
+sound. For cleaner deep bass, work with the main bass section, or voice both of
+them very deep in hopes of cleaning up the sub-bass section a little by refusing
+ to let it have more complicated signals.
 
 
 <a name="plugins_dustbunny"></a>
@@ -5365,7 +5643,7 @@ turntable needle._
 
 And then sometimes there’s a plugin that just makes you go ‘wut’…
 
-[DustBunny][] was an accident. I was doing something and put out a plugin
+[DustBunny] was an accident. I was doing something and put out a plugin
 (possibly a freebie) and there was a bug and I was in a hurry and put it out
 without checking… and quickly learned something horrible was wrong. Initial
 reports were along the lines of ‘oops’ and ‘yikes’, and when I checked, sure
@@ -5376,7 +5654,7 @@ But even before I’d got the fix out (and simple oversight problems, I sometime
 fix within hours), more reports were coming in: hold on, don’t fix it, it’s
 cool!
 
-That wasn’t what I had in mind, but the solution was obvious: [DustBunny][] was
+That wasn’t what I had in mind, but the solution was obvious: [DustBunny] was
 born. This twisted little plugin just applies a weird accidental scrunch based
 on where the bunny control is set. Please don’t use it on the 2-buss, or in
 mastering :) but more seriously, this is born to sit inside some kind of weird
@@ -5387,7 +5665,7 @@ you might want to give it more restrained levels. If you don’t like running a
 gain trim in front of it, run something more amusing like a delay or a flanger
 to pad your signal a touch.
 
-[DustBunny][] is kind of like a joke, except for it’s real and does produce an
+[DustBunny] is kind of like a joke, except for it’s real and does produce an
 unusual, distinctive effect (or 1000, as all the settings are kind of unique).
 
 
@@ -5396,15 +5674,15 @@ unusual, distinctive effect (or 1000, as all the settings are kind of unique).
 
 _Dynamics is a combination compressor gate._
 
-[Dynamics][] started with a request: the gate, from [CStrip][], on its own. Then
- I thought, what if I included the compression too? I could tweak both and see
-if I could make 'em better for the new plugin. And then I thought, what would it
- be like if I combined them into a single dynamics object?
+[Dynamics] started with a request: the gate, from [CStrip], on its own. Then I
+thought, what if I included the compression too? I could tweak both and see if I
+ could make 'em better for the new plugin. And then I thought, what would it be
+like if I combined them into a single dynamics object?
 
 I think it worked.
 
-[Dynamics][] can be very transparent, or you can crank the speed and intensity
-to be hyper-squished… but since it's a single plugin, you can hypercompress AND
+[Dynamics] can be very transparent, or you can crank the speed and intensity to
+be hyper-squished… but since it's a single plugin, you can hypercompress AND
 gate as a unit. That means you're triggering the gate off the source audio,
 you're able to control the closing of the gate like it's raw sound, but the
 sound you're gating is the compressed one. And that means terrific control and
@@ -5417,47 +5695,46 @@ mono track to control and shape it.
 <a name="plugins_dyno"></a>
 ### Dyno
 
-_Dyno is a lot like [Mojo][], but for intensity instead of loudness._
+_Dyno is a lot like [Mojo], but for intensity instead of loudness._
 
-[Dyno][] is similar in some ways to [Mojo][], but [Dyno][] has a completely
-different character. Instead of loudenating, it ‘intensenates’. It’s a little
-bit like [Remap][] in that way, but it’s not the same as [Remap][]. You won’t
-get a volume boost out of it really, nor will it let you slam it for fatter
-peaks.
+[Dyno] is similar in some ways to [Mojo], but [Dyno] has a completely different
+character. Instead of loudenating, it ‘intensenates’. It’s a little bit like
+[Remap] in that way, but it’s not the same as [Remap]. You won’t get a volume
+boost out of it really, nor will it let you slam it for fatter peaks.
 
 Instead, it brings fire and intensity to the audio and reshapes the waveform in
-a [Mojo][]-like ‘evolution of [Spiral][]’ way. Because it doesn’t take to
-slamming in the same way, it’s going to be a more subtle effect, but for those
-who got excited by [Remap][], this one deserves your attention.
+a [Mojo]-like ‘evolution of [Spiral]’ way. Because it doesn’t take to slamming
+in the same way, it’s going to be a more subtle effect, but for those who got
+excited by [Remap], this one deserves your attention.
 
 
 <a name="plugins_edge"></a>
 ### Edge
 
-_Edge is a seven-stage distortion with [Hypersonic][] filtering and tone shaping
- controls._
+_Edge is a seven-stage distortion with [Hypersonic] filtering and tone shaping
+controls._
 
-With all the talk I’ve done about [Hypersonic][] (composite filtering making
-very steep Butterworth slopes from sets of biquads), one must ask: what if you
-just made a distortion out of it?
+With all the talk I’ve done about [Hypersonic] (composite filtering making very
+steep Butterworth slopes from sets of biquads), one must ask: what if you just
+made a distortion out of it?
 
-This is [Edge][]. It’s seven stages of hard clipping with [Hypersonic][]-style
+This is [Edge]. It’s seven stages of hard clipping with [Hypersonic]-style
 filtering between each one. It’s real bright and has silly high gain, and it’s
 going to become real useful.
 
 That’s because it’s one piece in the DI Guitar system I’m devising: a set of
 plugins that combine my style of aliasing reduction (using biquads, so zero
 latency) with guitar-grade distortion and a reissue of a classic old plugin of
-mine that’s totally revitalized for the modern day, [Cabs][]. (it can also be
-run into the Airwindows amp sims, of course)
+mine that’s totally revitalized for the modern day, [Cabs]. (it can also be run
+into the Airwindows amp sims, of course)
 
-Suffice to say [Edge][] is the high-gain distortion stage of such a system. It
+Suffice to say [Edge] is the high-gain distortion stage of such a system. It
 should run pretty efficiently, and it’s got a carefully designed set of
 controls. The gain of course is obvious.
 
-[Lowpass][] is basically your cutoff frequency: this isn’t designed to be swept
+[Lowpass] is basically your cutoff frequency: this isn’t designed to be swept
 (though you could if you’re OK with some crackles) but is a very efficient
-[Hypersonic][]-style lowpass that you can set from 25k right down into the deep
+[Hypersonic]-style lowpass that you can set from 25k right down into the deep
 bass. Since it doubles as the ultrasonic filter, dialing back on the extreme
 highs will give you even better aliasing performance (run at elevated sample
 rates to use this properly) and also gives you an interesting tonality at the
@@ -5465,15 +5742,15 @@ cutoff which isn’t exactly resonance, but it’s a bit like it. The way the ph
 shifts going into successive stages of gain boost and clipping produces a
 distinctive tone.
 
-[Highpass][] is your secret weapon for when you use it as a guitar amp: get the
+[Highpass] is your secret weapon for when you use it as a guitar amp: get the
 rest of the system huge and beefy, and then dial in the lows using this input
 highpass, for maximum texture.
 
 Output and Dry/Wet are for use when you’re just making it be a hard clipper.
 It’s never going to be exactly a hard clip because of all the stages and the way
- the [EQ][] interacts with the sound, but between the highpass, lowpass and the
-gain on tap you’ll get many sounds out of this one. Unlike stuff like ‘[Tube][]’
- this is never intended to be smooth. It’s just edgy in a distinctive way that
+ the [EQ] interacts with the sound, but between the highpass, lowpass and the
+gain on tap you’ll get many sounds out of this one. Unlike stuff like ‘[Tube]’
+this is never intended to be smooth. It’s just edgy in a distinctive way that
 might come in handy.
 
 
@@ -5491,22 +5768,22 @@ It’s always nice to expand one’s horizons! You don’t have to run the lates
 Logic to be able to use any plugin in mid/side mode… though you might need to do
  a little fiddling with settings.
 
-[EdIsDim][] comes in two plugs: first use [MidSide][] to convert your stereo
-track into mid/side (on left and right channels). Then apply your processing
-(there’s a control with which you can balance the mid/side balance, which also
-means you can gain stage the M/S content into your plugin), then, go into
-[EdIsDim][] (read it backwards) to convert back to stereo. The same control is
-present, and can reverse the gain staging you applied.
+[EdIsDim] comes in two plugs: first use [MidSide] to convert your stereo track
+into mid/side (on left and right channels). Then apply your processing (there’s
+a control with which you can balance the mid/side balance, which also means you
+can gain stage the M/S content into your plugin), then, go into [EdIsDim] (read
+it backwards) to convert back to stereo. The same control is present, and can
+reverse the gain staging you applied.
 
-Some good techniques include using it with [Density][] to saturate the center
-and leave the stereo width lively, or getting a fresh take on a stereo reverb
-that’s much wider than usual. But the real purpose is opening up funky routing
+Some good techniques include using it with [Density] to saturate the center and
+leave the stereo width lively, or getting a fresh take on a stereo reverb that’s
+ much wider than usual. But the real purpose is opening up funky routing
 techniques in your DAW: send the L and R to separate busses, do all manner of
 things with plugins that don’t even have to be the same, or to line up (sample
 delay on just mid or side, anyone?) and merge them back to a stereo buss with
-[EdIsDim][] on it. Or design weird synth patches that are heavy on the left with
- a lot of odd stereo behaviors, just to run into [EdIsDim][] as an intentional
-part of the synth sound. Sky’s the limit :)
+[EdIsDim] on it. Or design weird synth patches that are heavy on the left with a
+ lot of odd stereo behaviors, just to run into [EdIsDim] as an intentional part
+of the synth sound. Sky’s the limit :)
 
 
 <a name="plugins_elation"></a>
@@ -5514,7 +5791,7 @@ part of the synth sound. Sky’s the limit :)
 
 _Elation is a re-release of another old Character plugin._
 
-This is [Elation][], which is NOT REALLY a sort of LA-2A like thing. That’s
+This is [Elation], which is NOT REALLY a sort of LA-2A like thing. That’s
 because it builds a distinct sound out of LA-2A convolution impulses, makes it
 already not an LA-2A, and then doesn’t properly compress :D it does something,
 but it doesn’t count as compressing. I’m not sure what I was up to here.
@@ -5537,7 +5814,7 @@ bring a bit of color that people won’t have constantly heard.
 _ElectroHat is a hi-hat tone generator that uses the original sound as a control
  voltage._
 
-I’ve always liked this one. [ElectroHat][] uses primitive residue sequences to
+I’ve always liked this one. [ElectroHat] uses primitive residue sequences to
 produce a ‘noise’ like effect that makes the hi-hat, but since it’s such a crude
  method of generating randomness, you get artifacts and peculiar electronic
 noises instead of nice pure noise. Peculiar electronic noises turn out to be a
@@ -5558,8 +5835,8 @@ voltage.
 _Energy is electrifying fixed-frequency treble boosts._
 
 In the continuing series of ‘weird algorithms other people can’t give you’,
-here’s [Energy][]. What’s the matter with [Energy][] that only Airwindows
-can/will do it? Pretty simple. It’s a bizarre algorithm which acts like half a
+here’s [Energy]. What’s the matter with [Energy] that only Airwindows can/will
+do it? Pretty simple. It’s a bizarre algorithm which acts like half a
 super-high-Q boost and can’t be tuned in the normal way. It can only work on
 integer multiples of the sample rate. So the labels only relate to 44.1K,
 they’re colorfully named rather than specifying frequencies, and at different
@@ -5567,14 +5844,14 @@ sample rates any frequency labels would be lies anyhow… and they can’t be tu
  and the Q can’t be altered. Literally all it does is slam huge amounts of
 super-aggressive treble on.
 
-But what a treble it is! [Energy][] accentuates the attack transient like no
-other high frequency [EQ][] (especially linear phase, and ‘DSP cookbook’ biquad
-EQs). The principle of operation is totally different. It didn’t catch on
-because it’s a weird idea to start with, and it’s completely not adaptable to
-anything. It’s not even that great at cuts, though you can try it for cuts if
-you like. It’s really just about slamming a bunch of punchy brightness on at
-22K, 15K, 11K, 9K and so on: or, Hiss Glitter Rat Fizz Scrape Chug Yowr Snarl,
-as the labelling goes.
+But what a treble it is! [Energy] accentuates the attack transient like no other
+ high frequency [EQ] (especially linear phase, and ‘DSP cookbook’ biquad EQs).
+The principle of operation is totally different. It didn’t catch on because it’s
+ a weird idea to start with, and it’s completely not adaptable to anything. It’s
+ not even that great at cuts, though you can try it for cuts if you like. It’s
+really just about slamming a bunch of punchy brightness on at 22K, 15K, 11K, 9K
+and so on: or, Hiss Glitter Rat Fizz Scrape Chug Yowr Snarl, as the labelling
+goes.
 
 The lower ones extend down into high-mids as you’d imagine (at high sample rates
  they’d work as high-boosts) but that’s another reason I can’t simply label them
@@ -5582,10 +5859,10 @@ The lower ones extend down into high-mids as you’d imagine (at high sample rat
 not even ‘analog style’ clean tidy boosts. They’re interacting with the sample
 rate in a nasty way and produce a bunch of extra overtones and skronk so it’s
 better to leave them as adjectives to avoid even the suggestion that they would
-give you polite [EQ][] shaping.
+give you polite [EQ] shaping.
 
 But if you are looking for brutal, raw electrifying ENERGY I think it’s hard to
-do better than [Energy][]. The only thing that’s new on this old school super
+do better than [Energy]. The only thing that’s new on this old school super
 secret weapon, besides denormalization and the noise shaping to the floating
 point buss and higher resolution internal processing, is the InvDryWet control,
 which was an obvious call. Since the different sliders can get into strange
@@ -5593,8 +5870,8 @@ interactions, since you can play them off against each other, that means you
 could try to isolate high frequency stuff you don’t want and accentuate it as
 much as possible… and then, return to dry, and give it just a bit of inverted
 effect. That’s one way to tame nasty highs (such as from a bad condenser mic). I
- accept no responsibility if the bad mic, combined with [Energy][] boosts, kills
- you with treble. That’s kind of [Energy][]’s job :)
+ accept no responsibility if the bad mic, combined with [Energy] boosts, kills
+you with treble. That’s kind of [Energy]’s job :)
 
 
 <a name="plugins_energy2"></a>
@@ -5602,51 +5879,50 @@ effect. That’s one way to tame nasty highs (such as from a bad condenser mic).
 
 _Energy2 is electrifying fixed-frequency treble boosts for high sample rate._
 
-[Energy2][] is energy boosts. Mostly treble, but you can also bring out
-aggression in the high-mids. These are NOT done through usual means. They’re a
-weird little algorithm that’s tied to the sample rate, and the big deal with
-[Energy2][] as an update is that it’s using my undersampling (which I just
-recently improved) to function as intended at high sample rates: it’s also more
+[Energy2] is energy boosts. Mostly treble, but you can also bring out aggression
+ in the high-mids. These are NOT done through usual means. They’re a weird
+little algorithm that’s tied to the sample rate, and the big deal with [Energy2]
+ as an update is that it’s using my undersampling (which I just recently
+improved) to function as intended at high sample rates: it’s also more
 CPU-efficient than the original, but otherwise it’s the same (the original
-[Energy][] might still be preferable for some, for instance if you absolutely
-must work at 48k and find it works better for you than [Energy2][] at that
-rate).
+[Energy] might still be preferable for some, for instance if you absolutely must
+ work at 48k and find it works better for you than [Energy2] at that rate).
 
-When I say energy boosts, what I mean is: this is not a normal [EQ][]. You could
- not make the [Energy2][] sound happen by mimicking the frequency [curve][]
-using a pile of biquad filters, or worse yet phase accurate [EQ][]. It’s an
-entirely different algorithm, and this is what you get. [Energy2][] has enormous
- edge and focus around attack transients, not smearing them with pre-ring or
-high-Q traditional filtering, even though it produces very steep curves and
-isolates specific tones. [Energy2][] also has a definite color in how it adds
-frequencies: if you’re boosting upper mids with one of the lower sliders, you
-also get a bunch of highs along with it. Part of the sound. Probably shouldn’t
-struggle to remove those overtones too hard.
+When I say energy boosts, what I mean is: this is not a normal [EQ]. You could
+not make the [Energy2] sound happen by mimicking the frequency [curve] using a
+pile of biquad filters, or worse yet phase accurate [EQ]. It’s an entirely
+different algorithm, and this is what you get. [Energy2] has enormous edge and
+focus around attack transients, not smearing them with pre-ring or high-Q
+traditional filtering, even though it produces very steep curves and isolates
+specific tones. [Energy2] also has a definite color in how it adds frequencies:
+if you’re boosting upper mids with one of the lower sliders, you also get a
+bunch of highs along with it. Part of the sound. Probably shouldn’t struggle to
+remove those overtones too hard.
 
 You can combine the sliders in weird ways to get very striking tone colors, but
-I think [Energy2][] is at its best when you focus on one color at a time,
-perhaps with a little of another color added or subtracted (less than zero means
- taking that tone color out: but remember, this is [Energy2][], it’s never
-completely tame or predictable). The breakthrough with [Energy2][] is that it’s
-designed to run at elevated sample rates, undersamples its boosts, but unlike
-the original [Energy][], it mixes that with a NON-undersampled Dry to get best
-of both worlds: the exact tone colors it ought to have, but against an
-unaltered, hi-res background. Since [Energy][]’s generally able to get obnoxious
- levels of boost, the thing to do is get sounds where at least one slider is
-cranked out as far as it’ll go, and then use Inv/Dry/Wet to use only as much of
-that added energy as you need.
+I think [Energy2] is at its best when you focus on one color at a time, perhaps
+with a little of another color added or subtracted (less than zero means taking
+that tone color out: but remember, this is [Energy2], it’s never completely tame
+ or predictable). The breakthrough with [Energy2] is that it’s designed to run
+at elevated sample rates, undersamples its boosts, but unlike the original
+[Energy], it mixes that with a NON-undersampled Dry to get best of both worlds:
+the exact tone colors it ought to have, but against an unaltered, hi-res
+background. Since [Energy]’s generally able to get obnoxious levels of boost,
+the thing to do is get sounds where at least one slider is cranked out as far as
+ it’ll go, and then use Inv/Dry/Wet to use only as much of that added energy as
+you need.
 
 You get high and upper mid boosts, all the way up into the highest of air bands,
  that are more like they’re part of the original sound and not even added using
-[EQ][] at all… but complete control over how much of that is added to the fully
+[EQ] at all… but complete control over how much of that is added to the fully
 high-resolution sound at elevated sample rates. (and at CD rates, it works just
-like the original [Energy][], but with the CPU enhancement from not processing
+like the original [Energy], but with the CPU enhancement from not processing
 unused bands, plus the Inv/Dry/Wet is run at a higher word length than before,
 and uses modern Airwindows dithering to the floating point buss: that’s how old
-the original [Energy][] was)
+the original [Energy] was)
 
 If I make a special Airwindows 96k mixing kit, like Starter Kit but more for
-experts adopting my mixing system rather than beginners, [Energy2][] almost
+experts adopting my mixing system rather than beginners, [Energy2] almost
 defines what that would be like. It’s a very strong way to get a more
 Airwindows-y sound. (It’s also a nifty sort of anti-Soothe: nothing will pop out
  vibey overtones, intensity, and sonority like this plugin)
@@ -5659,11 +5935,11 @@ Hope ya like it. It’s one of the special ones. :)
 
 _Ensemble is a weird flangey little modulation effect._
 
-Here’s a further experiment along the lines of [Chorus][] and
-[ChorusEnsemble][]! This one is more in the ‘unique because it’s kind of lame’
-category. I like being able to do this sort of thing, because in this 2017
-plugin business, everything you do has to be the hippest trendiest most popular
-thing or you’re basically doomed to get squished like a bug.
+Here’s a further experiment along the lines of [Chorus] and [ChorusEnsemble]!
+This one is more in the ‘unique because it’s kind of lame’ category. I like
+being able to do this sort of thing, because in this 2017 plugin business,
+everything you do has to be the hippest trendiest most popular thing or you’re
+basically doomed to get squished like a bug.
 
 But hey! I’m doing a Patreon, not a ‘business’ of selling ‘hit plugins’ that are
  ‘the best plugins’. And therefore, nothing’s stopping me from putting out
@@ -5678,10 +5954,10 @@ unpopular people like them.
 Kind of punk, or something (stay tuned for some major DIY Airwindows stuff
 coming down the pike along those lines).
 
-So, here’s [Ensemble][]. It’s a weird, unique little sound. It was meant to be a
- big pad thickener with great richness and depth. Well, you can throw on a bunch
- of bass, but it’s more like ‘cheesey string ensemble synthesizer from the 70s’,
- and that by accident, so it’s not even a specific (branded!) string ensemble
+So, here’s [Ensemble]. It’s a weird, unique little sound. It was meant to be a
+big pad thickener with great richness and depth. Well, you can throw on a bunch
+of bass, but it’s more like ‘cheesey string ensemble synthesizer from the 70s’,
+and that by accident, so it’s not even a specific (branded!) string ensemble
 synthesizer from the 70s. It’s kind of an annoying sound, I think.
 
 It’s free, so if you think you might have use for that, have fun with it! I’m
@@ -5691,43 +5967,43 @@ off to make something else :)
 <a name="plugins_eq"></a>
 ### EQ
 
-_EQ is just the [EQ][] parts of [CStrip][]._
+_EQ is just the [EQ] parts of [CStrip]._
 
-[CStrip][] actually came out of this: a set of EQs specially coded to work
+[CStrip] actually came out of this: a set of EQs specially coded to work
 together. It’s a lossless three-band (as in, the bands are made by different IIR
  filtrations being subtracted from each other, so if it’s flat it’s totally
 bit-identical output and also it has no pre-echo) with a special highpass and
 lowpass. Each of these things gets switched out of the circuit if not in use
-(much like [CStrip][]). That makes [EQ][] a very nice default [EQ][] for
-broad-stroke filtering.
+(much like [CStrip]). That makes [EQ] a very nice default [EQ] for broad-stroke
+filtering.
 
 The slopes aren’t super high, but that just helps it sound more natural (for a
-more striking-sounding filter, try [Capacitor][] which is a more aggressively
+more striking-sounding filter, try [Capacitor] which is a more aggressively
 sloped highpass and lowpass). I could have given it set frequencies, but it
 seems like that’s kind of handy. This plugin is given to you (in AU, and
 Mac/Win/Linux VST) by request, as I’ve had a user ask for it even though
-[CStrip][] is already out. So, for a simpler and more approachable Airwindows
-[EQ][], here’s [EQ][] :)
+[CStrip] is already out. So, for a simpler and more approachable Airwindows
+[EQ], here’s [EQ] :)
 
 This work is supported by my Patreon, and I’m happy to say I’m back in the top
 50 of the ‘Music’ section at ‘Graphtreon‘: I always like that, feels like I’m
 getting somewhere with all this. I also like something else, too: I’m definitely
- giving you folks ‘[Aura][]’ this month. It’s thanks in large part to a
-mysterious creature known as Slipperman who got involved, and in his honor, next
- month you’re getting ‘[Golem][]’. Remember, the bigger a success the Patreon
-is, the more I’m able to persuade people that my way of doing things is good. So
- if you want this sort of thing to catch on, throw money as that’s all people
-pay attention to these days…
+ giving you folks ‘[Aura]’ this month. It’s thanks in large part to a mysterious
+ creature known as Slipperman who got involved, and in his honor, next month
+you’re getting ‘[Golem]’. Remember, the bigger a success the Patreon is, the
+more I’m able to persuade people that my way of doing things is good. So if you
+want this sort of thing to catch on, throw money as that’s all people pay
+attention to these days…
 
-Other stuff I’m working on is Atmosphere, [DeRez][], and the latest Righteous,
-[Righteous4][]. Also, if anybody wants to meet me, and also enjoy a rather
-special academic experience, I’m attending a scholarly lecture by a certain
-Doctor Bill Bruford in Albany NY this Tuesday, which I’m very excited for. I
-have no idea how well this’ll go over but I have a smaller version of the famous
- bent cymbal he discovered (the real one tragically broke after much use), and I
- mean to give it to him as a gift in honor of his creativity in the field of
-timbre. Anyway, wild horses wouldn’t keep me away from there, so if my car
-behaves itself you can meet both me and a REAL great person ;)
+Other stuff I’m working on is Atmosphere, [DeRez], and the latest Righteous,
+[Righteous4]. Also, if anybody wants to meet me, and also enjoy a rather special
+ academic experience, I’m attending a scholarly lecture by a certain Doctor Bill
+ Bruford in Albany NY this Tuesday, which I’m very excited for. I have no idea
+how well this’ll go over but I have a smaller version of the famous bent cymbal
+he discovered (the real one tragically broke after much use), and I mean to give
+ it to him as a gift in honor of his creativity in the field of timbre. Anyway,
+wild horses wouldn’t keep me away from there, so if my car behaves itself you
+can meet both me and a REAL great person ;)
 
 (as a follow-up, by 2022 I'm hanging down just above 100 in the global Patreon
 music rankings, and I did in fact get to Albany and the lecture by Bill Bruford.
@@ -5744,25 +6020,25 @@ _EveryConsole is mix-and-match Airwindows Console._
 
 Sometimes I give people tools AS I am working on them…
 
-[EveryConsole][] contains the original Console algorithm, Console6, Console7,
-the sin()/asin() routine that's the guts of Console8 and PurestConsoles 1 and 2,
- BShifty which is the near-sin() approximation that's in PurestConsole3 from
-last week, and Console Zero.
+[EveryConsole] contains the original Console algorithm, Console6, Console7, the
+sin()/asin() routine that's the guts of Console8 and PurestConsoles 1 and 2,
+BShifty which is the near-sin() approximation that's in PurestConsole3 from last
+ week, and Console Zero.
 
 All of these algorithms are stripped of all the tone shaping parts and
 ultrasonic filterings to be the bare-minimum functions for their purposes. That
-doesn't mean they are every Airwindows saturation routine: [Distortion][] has
+doesn't mean they are every Airwindows saturation routine: [Distortion] has
 more. But these are all the ones designed to encode and then decode on the buss.
 
-And, [EveryConsole][] includes both the Channel functions, and the Buss
-functions, under one hood. So you basically select the version you want, and
-whether it's channel or buss.
+And, [EveryConsole] includes both the Channel functions, and the Buss functions,
+ under one hood. So you basically select the version you want, and whether it's
+channel or buss.
 
 Because there's no filtering or tone shaping these lend themselves to
 oversampling, for instance Reaper's new oversampling. That doesn't mean it'll be
  better: I think it kinda won't, but if you have oversampling capacity this is
-now yours to fool with. [EveryConsole][] gives you access to the raw
-encode/decode functions without making you use them in an Airwindows way.
+now yours to fool with. [EveryConsole] gives you access to the raw encode/decode
+ functions without making you use them in an Airwindows way.
 
 That's not why I made it, though. I'm working on modeling the sound of big
 classic consoles, and I've got a lot of audio reference, and I needed to do a
@@ -5775,14 +6051,14 @@ That would be a YES.
 
 So I'm busily at work using this plugin to monitor a lot of variations on
 Console and compare them to classic records, and if I get to have a tool then so
- do you! So, here is [EveryConsole][]. If you'd like to combine it with the
-distributed ultrasonic filtering I like to use, then load up [UltrasonX][] or
-[HypersonX][] and arrange the instances of those so they're in the right places
-around the [EveryConsole][] instances. If you'd like more like Console7's
-ability to bring elements forward and back in mix, or Console8's tone, you have
-to use those as there's extra stuff built into the plugins. But if you want more
- basic building blocks to assemble your own Airwindows big console… this is for
-you as much as it is for me.
+ do you! So, here is [EveryConsole]. If you'd like to combine it with the
+distributed ultrasonic filtering I like to use, then load up [UltrasonX] or
+[HypersonX] and arrange the instances of those so they're in the right places
+around the [EveryConsole] instances. If you'd like more like Console7's ability
+to bring elements forward and back in mix, or Console8's tone, you have to use
+those as there's extra stuff built into the plugins. But if you want more basic
+building blocks to assemble your own Airwindows big console… this is for you as
+much as it is for me.
 
 Hope you like it!
 
@@ -5793,23 +6069,23 @@ Hope you like it!
 _EverySlew is a wide variety of unique sound processing tools._
 
 Where to even begin? This is the Swiss Army Chainsaw of treble processing
-plugins. It'll do [Slew][], [GoldenSlew][], [PlatinumSlew][], or any combination
- of them, forwards, backwards and inside out. I hesitate even to recommend it as
- there is no real introduction to it, or any other plugin or processor that will
- really teach you how to use it. If you'd like to just tame unruly high
-frequencies, you can still use [GoldenSlew][] or [PlatinumSlew][], and as long
-as you can still hear audio coming out you're fine (don't crank up [Slew][] or
-[GoldenSlew][] all the way to 1.0 unless you want to sample and hold, because
-they will do what you asked).
+plugins. It'll do [Slew], [GoldenSlew], [PlatinumSlew], or any combination of
+them, forwards, backwards and inside out. I hesitate even to recommend it as
+there is no real introduction to it, or any other plugin or processor that will
+really teach you how to use it. If you'd like to just tame unruly high
+frequencies, you can still use [GoldenSlew] or [PlatinumSlew], and as long as
+you can still hear audio coming out you're fine (don't crank up [Slew] or
+[GoldenSlew] all the way to 1.0 unless you want to sample and hold, because they
+ will do what you asked).
 
-But if you're still reading, here's what you get extra in [EverySlew][], which
-is mainly for me to use developing versions of Console that sound like real
-analog desks.
+But if you're still reading, here's what you get extra in [EverySlew], which is
+mainly for me to use developing versions of Console that sound like real analog
+desks.
 
 Firstly, the Depth control gives you number of stages, with full crank being the
- equivalent of [GoldenSlew][] or [PlatinumSlew][]. For many sounds there will be
- no difference between the full ten stages those have, and much fewer. It'll be
-hard to hear. Fewer stages means lighter CPU load, so I'll be finding optimal
+ equivalent of [GoldenSlew] or [PlatinumSlew]. For many sounds there will be no
+difference between the full ten stages those have, and much fewer. It'll be hard
+ to hear. Fewer stages means lighter CPU load, so I'll be finding optimal
 settings here, but it also means less of the 'golden' effect when given extreme
 inputs. When used to take off only the brightest highs (more on that later) you
 can use fewer stages with no penalty. Two or three should suffice: 0.2 or 0.3 or
@@ -5819,13 +6095,13 @@ Secondly, the Halo control gives you a terrifying, industrial meltdown of a
 sound that also introduces attenuation into the deep bass. I called it Halo
 because it brings in an odd sparkliness and energy that could come in handy. It
 uses another level of previous-sample to try and identify actual corners,
-changes in the angle of the wave, like my [DeEss][] and [Acceleration][] plugins
- do. I've never got this algorithm to work until now: having made it work, it's
-a strange and unruly thing. Realistic settings will all be rather low,
-especially if [Slew][] is anything like obvious. HIgh Halo settings are a kind
-of terrible distortion I've never quite heard before: I expect this to be used
-in anger to make some very aggressive noises not quite like any other (which is
-always handy, right?)
+changes in the angle of the wave, like my [DeEss] and [Acceleration] plugins do.
+ I've never got this algorithm to work until now: having made it work, it's a
+strange and unruly thing. Realistic settings will all be rather low, especially
+if [Slew] is anything like obvious. HIgh Halo settings are a kind of terrible
+distortion I've never quite heard before: I expect this to be used in anger to
+make some very aggressive noises not quite like any other (which is always
+handy, right?)
 
 Lastly, you've now got a dry/wet. But not JUST a dry/wet, an Inv/Dry/Wet. Dry is
  0.5 on the control. Crank it up and you have full wet… but set it to Inv, and
@@ -5839,7 +6115,7 @@ combing over the stray edges and points. Setting it to Inv means you can hear
 the points being put into place. Also, if you're using Halo, you can hear when
 that begins to reshape the effect, bringing in lows and so on.
 
-[EverySlew][] isn't for everybody. I made it because I'll need it. I share it
+[EverySlew] isn't for everybody. I made it because I'll need it. I share it
 because that's what I do. If you're the sort of person to like this sort of
 thing, I hope you like it :)
 
@@ -5849,31 +6125,31 @@ thing, I hope you like it :)
 
 _EveryTrim is Left/Right, Mid/Side, and Master in one plugin._
 
-[EveryTrim][] is like [PurestGain][] only more so: it is very simply every basic
- stereo trim you can have (in loudness terms, anyhow!) You get left, right,
+[EveryTrim] is like [PurestGain] only more so: it is very simply every basic
+stereo trim you can have (in loudness terms, anyhow!) You get left, right,
 mid/side, and a master level control. It works on stereo tracks only, as
 mid/side is meaningless without stereo.
 
 It’s also efficiently coded, suppresses denormal numbers, and uses the same
-noise shaping to the floating point buss you get in [PurestGain][]. If you need
-a nice basic gain trim that does all those things (and nothing fancy: [Wider][]
-is much more sophisticated, and I’ve got an idea for a still more sophisticated
-stereo-widener plugin that is in the works) then [EveryTrim][] will come in
-handy. Begone, dull pan-pots! [EveryTrim][] will also be simpler than using
-[EdIsDim][] and [MidSide][] just to adjust mid/side balances: while you can do
-that with that pair of plugins, they’re really for doing processing between them
- using another plugin (any plugin, doesn’t have to be M/S). With [EveryTrim][],
-you can tweak mid and side levels directly, in a more obvious way.
+noise shaping to the floating point buss you get in [PurestGain]. If you need a
+nice basic gain trim that does all those things (and nothing fancy: [Wider] is
+much more sophisticated, and I’ve got an idea for a still more sophisticated
+stereo-widener plugin that is in the works) then [EveryTrim] will come in handy.
+ Begone, dull pan-pots! [EveryTrim] will also be simpler than using [EdIsDim]
+and [MidSide] just to adjust mid/side balances: while you can do that with that
+pair of plugins, they’re really for doing processing between them using another
+plugin (any plugin, doesn’t have to be M/S). With [EveryTrim], you can tweak mid
+ and side levels directly, in a more obvious way.
 
 
 <a name="plugins_exciter"></a>
 ### Exciter
 
-_Exciter is an Aural [Exciter][] plugin that can be both subtle and extreme._
+_Exciter is an Aural [Exciter] plugin that can be both subtle and extreme._
 
 This plugin isn't my usual jam, but I've been listening to this type of effect
 all my life. The Steely Dan album 'The Royal Scam' wouldn't be the same without
-the [Exciter][] effect. And now it's a free Airwindows plugin!
+the [Exciter] effect. And now it's a free Airwindows plugin!
 
 Note that this is NOT a clone of hardware, or any particular brand. As I usually
  do, I've extracted the guts of the effect and then adapted it so it can be used
@@ -5888,13 +6164,13 @@ The effect works like this: get a sharp band filter going to extract certain
 kinds of information. Distort it with a soft clip (I use a sin() function, and
 some real-world examples used a 4049 hex inverter chip, which does a very
 similar super soft distort when used as an audio effect: it's the chip that made
- up Craig Anderton's '[Tube][] Sound Fuzz' circuit back in the day, and I still
+ up Craig Anderton's '[Tube] Sound Fuzz' circuit back in the day, and I still
 have lots of these chips to play with :D ) Then, once you've distorted this
 bandpass, add just only the distortion elements back into the full bandwidth
 signal, by subtracting the bandpass again.
 
-[Exciter][] lets you adjust the frequency you're using, and dial in the amount
-of effect you want. I'm pretty sure it'll consistently sound good (not quite
+[Exciter] lets you adjust the frequency you're using, and dial in the amount of
+effect you want. I'm pretty sure it'll consistently sound good (not quite
 natural, but this is 'late seventies heightened detail' tone here, it doesn't
 have to sound natural) if you're careful to not crank it too much. And of course
  this is Airwindows, you can crank it on stuff that doesn't have much to excite,
@@ -5902,9 +6178,9 @@ have to sound natural) if you're careful to not crank it too much. And of course
 for effect.
 
 A lot of the stuff I like in analog is when transistors and chips are misused
-and freaking out. You can get tones like that out of [Exciter][], if you like.
-You can put it in the middle of uLaw, if you like. I've not tried that so you
-can be the first. I hope you enjoy [Exciter][] :)
+and freaking out. You can get tones like that out of [Exciter], if you like. You
+ can put it in the middle of uLaw, if you like. I've not tried that so you can
+be the first. I hope you enjoy [Exciter] :)
 
 
 <a name="plugins_facet"></a>
@@ -5912,13 +6188,13 @@ can be the first. I hope you enjoy [Exciter][] :)
 
 _Facet is a new kind of hard clip that adds two sharp corners into the wave._
 
-[Facet][] came out of me trying to come up with a new and distinct kind of
+[Facet] came out of me trying to come up with a new and distinct kind of
 distortion for the combined-distortions plugin I’m going to do. Rather than just
- bring [Drive][], [Density][], [Spiral][], [Mojo][] etc. together, I wanted to
-add something different.
+ bring [Drive], [Density], [Spiral], [Mojo] etc. together, I wanted to add
+something different.
 
-So, [Facet][] adds a ‘clip point’ but rather than a hard clip it just changes
-the ‘knee’ of the transfer function so your peaks can still go super high, way
+So, [Facet] adds a ‘clip point’ but rather than a hard clip it just changes the
+‘knee’ of the transfer function so your peaks can still go super high, way
 beyond 0 dB if you like.
 
 But, they change ‘angle’ at a sharp point which becomes sort of a corner in the
@@ -5940,30 +6216,30 @@ today.
 <a name="plugins_fathomfive"></a>
 ### FathomFive
 
-_FathomFive is a way of supplementing extreme bass that’s not just [EQ][]._
+_FathomFive is a way of supplementing extreme bass that’s not just [EQ]._
 
-[FathomFive][] introduces a special Airwindows algorithm that acts like a
-combination between an [EQ][] and a bass amp. This plugin can be used in sound
+[FathomFive] introduces a special Airwindows algorithm that acts like a
+combination between an [EQ] and a bass amp. This plugin can be used in sound
 design or on isolated tracks, but it’s also part of an Airwindows DAW workflow I
  outline in the video I’ve made. The idea is this: rather than blur and damage
 your sound by running through lots of ‘fake analog’ effects on your buss to
 impart deepness and analog-like tone, use the Airwindows plugins Console4 and
-[FathomFive][] to get a big-sounding mix while letting most mix elements through
- with minimal processing. You can run the ‘bass bloom’ behavior on an aux, and
+[FathomFive] to get a big-sounding mix while letting most mix elements through
+with minimal processing. You can run the ‘bass bloom’ behavior on an aux, and
 feed it with only the elements you want, and then integrate it into the sound
 with Console4 which both works the way Console wants to be used, and addresses
 limitations that Console has when used all by itself.
 
 It’s all in the rather long video, and of course you can simply download and use
  the plugin if you prefer making up your own rules. There are no rules, I’m only
- explaining one very specific use case where [FathomFive][] works symbiotically
+ explaining one very specific use case where [FathomFive] works symbiotically
 with Console.
 
 (followup: this is a very old plugin. Newer ones that do this type of thing with
- increasing ease and friendliness are [DubSub][], [DubCenter][], and
-[BassKit][]. [FathomFive][] is wilder, and you probably want to keep an eye on
-whether it is spitting out excessive DC offsets, as the algorithm these plugins
-use for the bass is tricky to manage)
+ increasing ease and friendliness are [DubSub], [DubCenter], and [BassKit].
+[FathomFive] is wilder, and you probably want to keep an eye on whether it is
+spitting out excessive DC offsets, as the algorithm these plugins use for the
+bass is tricky to manage)
 
 
 <a name="plugins_fireamp"></a>
@@ -5971,27 +6247,27 @@ use for the bass is tricky to manage)
 
 _FireAmp is a bright, loud, tubey amp sim for leads and dirt guitar._
 
-[FireAmp][] is sort of Marshally, compared to the other Airwindows amp sims. It
-is midrangey and doesn't give very heavy bass or chug, but it's got a
+[FireAmp] is sort of Marshally, compared to the other Airwindows amp sims. It is
+ midrangey and doesn't give very heavy bass or chug, but it's got a
 characteristic high-mid tone and would work well for some kinds of
 guitars/tracks, or as layering to bring more of its quality to a larger mix.
 
-[FireAmp][]’s the first in a set of old/new plugins I’m doing. They’re the
+[FireAmp]’s the first in a set of old/new plugins I’m doing. They’re the
 opposite of your usual guitar plugin arsenal: no multi-effects, no squishy thick
- tone color, barely even settings. [FireAmp][] is ONE tone, that aligns with
-some kinds of things I like to do with guitars. It sits in the mix like a
-classic rock track: you’re hearing it with a set of retro tones that blend with
-[FireAmp][] (in fact, the bass is a Rickenbacker, and the neck pickup’s through
+ tone color, barely even settings. [FireAmp] is ONE tone, that aligns with some
+kinds of things I like to do with guitars. It sits in the mix like a classic
+rock track: you’re hearing it with a set of retro tones that blend with
+[FireAmp] (in fact, the bass is a Rickenbacker, and the neck pickup’s through
 another upcoming Airwindows amp sim but the bridge pickup is also through
-[FireAmp][]).
+[FireAmp]).
 
 If you want to get freaky with it and want a tone stack, you might try putting
-[ZNotch][] in front of it, or [MackEQ][]… your tone stack doesn’t HAVE to be
-part of the amp sim plugin. Just sayin’.
+[ZNotch] in front of it, or [MackEQ]… your tone stack doesn’t HAVE to be part of
+ the amp sim plugin. Just sayin’.
 
 It runs zero latency so you can track through it. It’s loud, bright and
 sonorous, raw as hell, high impact, no gloss or glitz. Even if it’s not your pet
- sound you might find a use for [FireAmp][] on layered guitars or other sounds…
+ sound you might find a use for [FireAmp] on layered guitars or other sounds…
 and unlike the original, it has undersampled FireCab built in for its matched
 tone, and it has a sophisticated dry/wet control that begins giving you raw amp
 AND raw signal to provide a range of more open tonalities through the high gain
@@ -5999,10 +6275,10 @@ amp sim madness. This makes it an interesting choice for dirtying up non-guitar
 signals: the dry/wet will let you tailor that in interesting ways.
 
 I hope you like it. There’s more to come, all of them just as quirky and
-one-trick pony as [FireAmp][]. Back in the day, I liked to alternate real miked
+one-trick pony as [FireAmp]. Back in the day, I liked to alternate real miked
 guitar amp usage, with stuff like the Rockman, to get different textures.
-[FireAmp][] is one such different texture, and you never can tell when it might
-be useful :)
+[FireAmp] is one such different texture, and you never can tell when it might be
+ useful :)
 
 
 <a name="plugins_flipity"></a>
@@ -6017,8 +6293,8 @@ for L? Or, swap the channels and then flip the phase of what is now the left
 channel? Or swap the channels and then flip the phase of what is now the right
 channel? Or flip both?
 
-That's [Flipity][]. Utility plugin that apparently isn't available on some DAWs.
- Fair enough then :)
+That's [Flipity]. Utility plugin that apparently isn't available on some DAWs.
+Fair enough then :)
 
 
 <a name="plugins_floor"></a>
@@ -6031,7 +6307,7 @@ plugins. I don’t really advocate for this one as I don’t entirely approve: i
 kind of like some of the loudenators in that respect, and indeed it has similar
 characteristics.
 
-[Floor][] does an odd thing that’s like trying to synthesize fake harmonics
+[Floor] does an odd thing that’s like trying to synthesize fake harmonics
 related to the real bass content, to make you think there’s a lower octave there
  when there isn’t. It might not be the most perfect implementation of this (I
 understand there’s a Waves plugin that does this type of processing and I think
@@ -6044,9 +6320,9 @@ other stuff: here’s hoping real bass continues to be a thing (honestly, so muc
 of what I do with Airwindows serves to improve linearity in the tiny
 micro-modulations that help us hear extended bass as a satisfying, resonant
 thing) even with an expanded toolkit around these frequencies. A lot of my
-recent work around [DubSub][] and [BassKit][] has been about introducing
-extended bass frequencies in a desirable way. I could’ve tacked the [Floor][]
-algorithm onto there, and I decided that wasn’t good to do.
+recent work around [DubSub] and [BassKit] has been about introducing extended
+bass frequencies in a desirable way. I could’ve tacked the [Floor] algorithm
+onto there, and I decided that wasn’t good to do.
 
 Why would you want to do fake bass?
 
@@ -6058,8 +6334,8 @@ simulating/faking the effect of an extended bottom octave and restricting the
 ‘swing’ of those frequencies so they cover the smaller range taken up by a
 higher frequency, because they’re really NOT the extended frequencies anymore,
 just some rearranged energy trying to pretend it’s deep bass. (I’m not sure how
-[Floor][] will work as a DC blocker for RawConsole5 fans: seems like it might
-have undesirable effects? How do you even fake DC energy?)
+[Floor] will work as a DC blocker for RawConsole5 fans: seems like it might have
+ undesirable effects? How do you even fake DC energy?)
 
 
 <a name="plugins_flutter"></a>
@@ -6069,16 +6345,16 @@ _Flutter is the most recent Airwindows flutter, standalone._
 
 This is by request. Sometimes you want stuff to go a little unsteady and wobbly,
  but you don't want a full-on tape emulation with, like, dubly and everything.
-(you don't do heavy metal in dubly, you know.) And so, here is [Flutter][],
+(you don't do heavy metal in dubly, you know.) And so, here is [Flutter],
 standalone!
 
 This is a tricky little algorithm, so let me give some details on what's
-happening here. It's not a vibrato, or even particularly random. [Flutter][]
-gets its rate of waver, from the input signal coming in. This probably means
-that if you put a test tone in, you get a regular warble… or maybe even some
-awkward noise… out. The reason it does this is to react to the input waveform
-more directly. I realize the input waveform doesn't directly modsulate tape
-flutter, but this does, so there you go.
+happening here. It's not a vibrato, or even particularly random. [Flutter] gets
+its rate of waver, from the input signal coming in. This probably means that if
+you put a test tone in, you get a regular warble… or maybe even some awkward
+noise… out. The reason it does this is to react to the input waveform more
+directly. I realize the input waveform doesn't directly modsulate tape flutter,
+but this does, so there you go.
 
 In practice, you get a flutter/warble that stays pretty subtle right up to when
 it doesn't. Push it far enough and you get aggressive flutter. Dial it back and
@@ -6093,7 +6369,7 @@ the sound up.
 
 Sometimes it's handy to be able to take something ultra-pure, like a bell or
 electric piano, and destabilize it without any tonal adjustment at all. Retain
-the chime but add that bit of drift. I hope you like [Flutter][].
+the chime but add that bit of drift. I hope you like [Flutter].
 
 
 <a name="plugins_focus"></a>
@@ -6101,60 +6377,59 @@ the chime but add that bit of drift. I hope you like [Flutter][].
 
 _Focus brings out clarity by distorting. Aggressive, subtle, flexible._
 
-[Focus][] creates two audio paths, one of them a bandpass and the other,
+[Focus] creates two audio paths, one of them a bandpass and the other,
 everything BUT the bandpass. Then, you distort what's in the bandpass, which
 will help the result avoid aliasing even if you're not at high sample rates. The
- reference to [UnBox][] is because I wrote that one first, and then extended it
-into [Focus][]. Here's the original post.
+ reference to [UnBox] is because I wrote that one first, and then extended it
+into [Focus]. Here's the original post.
 
-What if you took [UnBox][], with its aliasing-resistant distortion, and revised
-it around a band pass? Not so much an [EQ][] thing, more a ‘Fletcher Munson
-Loudness Curve’ thing, where you could zero in on just that most sensitive area,
- and add distortion to just that? And use the [UnBox][] tech so you’d still have
- undistorted clear super-lows and highs, as much as you wanted? And set an
-output level so that if you DID end up driving the mids real hard, you could
-dial it back so that you got your focussing effect but without apparent mids
-boost? Or mids boost if you like, whichever. And a dry/wet on the end for added
-subtlety and flexibility. And then, how about if you could pick between
-[Density][], [Drive][], [Spiral][], [Mojo][] and [Dyno][] distortion algorithms?
+What if you took [UnBox], with its aliasing-resistant distortion, and revised it
+ around a band pass? Not so much an [EQ] thing, more a ‘Fletcher Munson Loudness
+ Curve’ thing, where you could zero in on just that most sensitive area, and add
+ distortion to just that? And use the [UnBox] tech so you’d still have
+undistorted clear super-lows and highs, as much as you wanted? And set an output
+ level so that if you DID end up driving the mids real hard, you could dial it
+back so that you got your focussing effect but without apparent mids boost? Or
+mids boost if you like, whichever. And a dry/wet on the end for added subtlety
+and flexibility. And then, how about if you could pick between [Density],
+[Drive], [Spiral], [Mojo] and [Dyno] distortion algorithms?
 
-Here’s [Focus][]. If you keep the [Focus][] control real low, it’ll act like a
+Here’s [Focus]. If you keep the [Focus] control real low, it’ll act like a
 broad-based overdrive, five different ways. Kill the Output level control, and
-you’ll hear what’s left over from the [UnBox][] tech. Start to bring up
-[Focus][] to about halfway, and you will rapidly start narrowing the distortion
-band and letting through lots more lows and highs, while also (if you turn
-Output back up) tightening and purifying what you distort in the mids. [Focus][]
- even more, and you’ll get to where it’s an ultra-focussed mid laser that you
-can distort, that’ll cut through anything. if you want to start tuning it, dial
-[Focus][] back: this is not about that, it’s exactly targetting the
-Fletcher-Munson loudness curves, think of it in terms of focussing the midrange
-and making it more intense. At low [Focus][] settings, tuning it would be almost
- meaningless.
+you’ll hear what’s left over from the [UnBox] tech. Start to bring up [Focus] to
+ about halfway, and you will rapidly start narrowing the distortion band and
+letting through lots more lows and highs, while also (if you turn Output back
+up) tightening and purifying what you distort in the mids. [Focus] even more,
+and you’ll get to where it’s an ultra-focussed mid laser that you can distort,
+that’ll cut through anything. if you want to start tuning it, dial [Focus] back:
+ this is not about that, it’s exactly targetting the Fletcher-Munson loudness
+curves, think of it in terms of focussing the midrange and making it more
+intense. At low [Focus] settings, tuning it would be almost meaningless.
 
 This is ‘dial an ultimate distortion, ITB’. Even more than the ‘swiss army
 knife’ one I’ll likely still make later. This becomes the recommended one. It
-replaces [Density][], [Drive][], all versions of [Spiral][], etc… because its
-principle of operation gives you essential Airwindows distortions, using
-[UnBox][] tech to resist aliasing and allow for clean bass, and because the way
-it’s set up you can immediately go to whatever you’re trying to achieve. Big
-roaring fuzzy? [Density][] with very low [Focus][], or possibly [Mojo][].
-Gritty? [Drive][]. Cleaner overdrive? [Spiral][]. Need to clean things up but
-still have that pungent, fierce energy from an amazing distortion? Start
-increasing [Focus][], carefully. Trying to do an insanely focussed searing-hot
-distortion with high [Focus][] but things are too saturated? Reach for [Dyno][]
-and its distinctive overtones. Pretty much anything you want, in one plugin, but
- with very approachable controls plus you can do things like kill Output Level
-to quickly check how much clean audio is getting through in the highs and lows.
+replaces [Density], [Drive], all versions of [Spiral], etc… because its
+principle of operation gives you essential Airwindows distortions, using [UnBox]
+ tech to resist aliasing and allow for clean bass, and because the way it’s set
+up you can immediately go to whatever you’re trying to achieve. Big roaring
+fuzzy? [Density] with very low [Focus], or possibly [Mojo]. Gritty? [Drive].
+Cleaner overdrive? [Spiral]. Need to clean things up but still have that
+pungent, fierce energy from an amazing distortion? Start increasing [Focus],
+carefully. Trying to do an insanely focussed searing-hot distortion with high
+[Focus] but things are too saturated? Reach for [Dyno] and its distinctive
+overtones. Pretty much anything you want, in one plugin, but with very
+approachable controls plus you can do things like kill Output Level to quickly
+check how much clean audio is getting through in the highs and lows.
 
-Don’t think of it like an [EQ][], think of it like an extension of your ears.
-Whether it’s on tracks, submixes, or the 2-buss, [Focus][] can locate anything
+Don’t think of it like an [EQ], think of it like an extension of your ears.
+Whether it’s on tracks, submixes, or the 2-buss, [Focus] can locate anything
 accurately in your listeners’ attention, because we all have the same
 sensitivities and loudness curves to our hearing (most likely). Use with caution
  (unless you don’t want to!) and enjoy a real power tool for mix clarity, with
-[Focus][].
+[Focus].
 
 (followup: the reference to 'swiss army knife' distortion is to the plugin
-[Distortion][], which is also available now)
+[Distortion], which is also available now)
 
 
 <a name="plugins_fracture"></a>
@@ -6163,11 +6438,11 @@ sensitivities and loudness curves to our hearing (most likely). Use with caution
 _Fracture is a frequency multiplier/waveshaper with a soft disruption to the
 sound._
 
-[Fracture][] is straight up a West Coast wavefolder, in a plugin. My original
+[Fracture] is straight up a West Coast wavefolder, in a plugin. My original
 description doesn't help explain that too much: it is a sine-based distortion
 that wraps around and lets you set a maximum 'fold' which becomes a hard clip.
-Boost into it with [Drive][] to do more intense wavefolding, and increase
-[Fracture][] to allow you to fold more times before it just clips. This also
+Boost into it with [Drive] to do more intense wavefolding, and increase
+[Fracture] to allow you to fold more times before it just clips. This also
 allows you to clip either at full crank, or at silence (for a different effect).
  Original post was simply this:
 
@@ -6182,32 +6457,32 @@ sound like anything else.
 
 _Fracture2 is a wavefolder that allows more extreme disruption._
 
-[Fracture2][] is straight up a West Coast wavefolder, in a plugin. You've got
-[Drive][], [Fracture][], Threshold, Output and Dry/Wet controls. [Drive][] is
-basically overdrive like in [Mackity][], and you can get unity gain at a setting
- of 0.1, and Output and Dry/Wet are what you'd expect.
+[Fracture2] is straight up a West Coast wavefolder, in a plugin. You've got
+[Drive], [Fracture], Threshold, Output and Dry/Wet controls. [Drive] is
+basically overdrive like in [Mackity], and you can get unity gain at a setting
+of 0.1, and Output and Dry/Wet are what you'd expect.
 
-[Fracture][] makes the signal go exponential before folding. What this means is,
- if it's at zero you'll get a simple wavefold. With a sine, that'll create a
-distinct overtone (stronger than the original [Fracture][]) which will slow down
- as it nears the top, then reverse. As you increase [Fracture][], the pitch of
-the wavefold increases because the wave you feed in will start folding faster
-and faster the more it folds: it will also open up the unfolded part of the
-wave, making it more dynamic. On non-tonal sounds, this makes the effect dryer
-and punchier and more aggressive.
+[Fracture] makes the signal go exponential before folding. What this means is,
+if it's at zero you'll get a simple wavefold. With a sine, that'll create a
+distinct overtone (stronger than the original [Fracture]) which will slow down
+as it nears the top, then reverse. As you increase [Fracture], the pitch of the
+wavefold increases because the wave you feed in will start folding faster and
+faster the more it folds: it will also open up the unfolded part of the wave,
+making it more dynamic. On non-tonal sounds, this makes the effect dryer and
+punchier and more aggressive.
 
 Threshold is by request from a fan who asked in Youtube comments, and whom I've
 got some things in common with. The idea is basically, can you make the folding
 part only take up a certain amount of space, like back to the zero point but not
  past? Turns out you can! And what this does is, it lets you have a volume
 control on the fold part. So, at zero threshold, you have a soft clip (or, with
-[Fracture][], a weird expando-clip like [HighImpact][]). As you increase it, the
- wavefold comes out of the clipping, expanding down (or up) from the flat-top of
- the wave, with 0.5 going to the center of the waveform and 1.0 doing a
+[Fracture], a weird expando-clip like [HighImpact]). As you increase it, the
+wavefold comes out of the clipping, expanding down (or up) from the flat-top of
+the wave, with 0.5 going to the center of the waveform and 1.0 doing a
 full-amplitude wavefold.
 
 Because this effect lends itself to the Rack port of my plugins (where you can
-feed audio rates into any controls), all the controls except [Fracture][] are
+feed audio rates into any controls), all the controls except [Fracture] are
 smoothed for better automation. I don't do this all the time, but it just seems
 to be the kind of effect where you might be sending sine waves into it
 (revealing zipper noises) and then modulating it like crazy, so it's using the
@@ -6223,7 +6498,7 @@ _FromTape is a minimalist, cleaner analog tape emulation._
 
 Here’s something more… refined.
 
-[FromTape][] was originally conceived as a ‘bump-less’ ToTape. It appeared with
+[FromTape] was originally conceived as a ‘bump-less’ ToTape. It appeared with
 the original ToTape, and then with ToTape3, as a stripped-down version without
 the head bump, intended as very much the same thing but less bass. In some ways
 that’s still true.
@@ -6237,19 +6512,19 @@ quality around the corner frequency without any actual resonance applied. ToTape
  grew into a rich and strange effect, with many curious qualities and many
 fervent fans. And it’s out.
 
-And then there was [FromTape][].
+And then there was [FromTape].
 
-This [FromTape][] draws on what I’d learned from the Purest plugins. It’s like
-no previous [FromTape][]: elements have been rearranged, deleted, rethought
-until it became just this: the ‘unusual’ highpass (which accumulates tiny
-alterations in a buffer and then applies them in a single add for purity
-reasons) and THEN the Softer control, accentuated, but ONLY the Softer code and
-not the ‘Airwindows saturation’ that’s a major part of ToTape and allows for the
- ‘tape drive’ and saturation effects. The highpass is called ‘[Weight][]’ and
-wired backwards so as you increase it, more bass comes out.
+This [FromTape] draws on what I’d learned from the Purest plugins. It’s like no
+previous [FromTape]: elements have been rearranged, deleted, rethought until it
+became just this: the ‘unusual’ highpass (which accumulates tiny alterations in
+a buffer and then applies them in a single add for purity reasons) and THEN the
+Softer control, accentuated, but ONLY the Softer code and not the ‘Airwindows
+saturation’ that’s a major part of ToTape and allows for the ‘tape drive’ and
+saturation effects. The highpass is called ‘[Weight]’ and wired backwards so as
+you increase it, more bass comes out.
 
-So, this new [FromTape][] does the very transparent treble softening, but has no
- real ‘distortion level’ because it has no distortion outside of Softer. It has
+So, this new [FromTape] does the very transparent treble softening, but has no
+real ‘distortion level’ because it has no distortion outside of Softer. It has
 the highpass (over a far broader range, and adjustable) but not the head bump
 the highpass was designed to handle. Instead of going after the other effects,
 the highpass goes first, and then the Softer works on the output of that.
@@ -6257,12 +6532,12 @@ the highpass goes first, and then the Softer works on the output of that.
 It’s capable of clipping to a set level only if Soften is cranked totally, and
 then it’s not a good sound (still available, though, in case you want it).
 Anything else will let peaks through largely undiminished. The highpass cuts
-bass, but in such a way that clean unclipped bass pre-[FromTape][] might well
-turn into over 0dB output after [FromTape][]: it cuts the bass in such a way
-that it might end up 3dB louder. Go figure, use the output level control to
-buffer it. Rather than loudenating stuff by ‘slamming it with tape saturation’
-it’s more likely to reshape the tonality of the sound so it sounds quieter for
-whatever peak level you’re reaching.
+bass, but in such a way that clean unclipped bass pre-[FromTape] might well turn
+ into over 0dB output after [FromTape]: it cuts the bass in such a way that it
+might end up 3dB louder. Go figure, use the output level control to buffer it.
+Rather than loudenating stuff by ‘slamming it with tape saturation’ it’s more
+likely to reshape the tonality of the sound so it sounds quieter for whatever
+peak level you’re reaching.
 
 It sounds amazing. It’s also way more CPU-efficient than ToTape, and eats much
 less in terms of delay buffers and things. You could use it everywhere,
@@ -6271,11 +6546,11 @@ certainly on channels where ToTape would be too heavy, but even on channels plus
 while retaining total clarity, or if you wanted to take an overlimited mix and
 make the bass rounder and more open, giving a little crest factor back.
 
-I got lucky. [FromTape][] sounds amazing, it really came together in a
-surprising way. You might like the added thickness and fullness of ToTape, or
-the bells and whistles, but if you want to call [FromTape][] superior, you won’t
- be seeing an argument from me. Surprise! This might be your new best tape
-plugin, especially if you like subtlety and have ears like a bat.
+I got lucky. [FromTape] sounds amazing, it really came together in a surprising
+way. You might like the added thickness and fullness of ToTape, or the bells and
+ whistles, but if you want to call [FromTape] superior, you won’t be seeing an
+argument from me. Surprise! This might be your new best tape plugin, especially
+if you like subtlety and have ears like a bat.
 
 
 <a name="plugins_galactic"></a>
@@ -6283,8 +6558,8 @@ plugin, especially if you like subtlety and have ears like a bat.
 
 _Galactic is a super-reverb designed specially for pads and space ambient._
 
-Been working on this for a while on Monday coding-streams! [Galactic][] is an
-extension of my [Verbity][] reverb, designed for ultimate deep space ambient
+Been working on this for a while on Monday coding-streams! [Galactic] is an
+extension of my [Verbity] reverb, designed for ultimate deep space ambient
 music. It’s a combination feedback and feedforward reverb designed to make wide
 stereo verb-spaces out of anything, even mono test tones if you like.
 
@@ -6299,11 +6574,11 @@ can still alter that but it will make crashing noises when you do (that will
 then become more infinite spaces).
 
 I think this one is really fun! As you can see it fits with my
-experimental-music aesthetic (didn’t even have to add [Srsly2][] on the end of
-it to make it superwide… though of course I could, and so can you). If you’re
-not quite that abstract, you can still use it on pads for more normal things.
-Just set Replace to a lot higher, set the Brightness and Bigness appropriately,
-and use Detune to chorus out your new huge enormous synth pad, or whatever else
+experimental-music aesthetic (didn’t even have to add [Srsly2] on the end of it
+to make it superwide… though of course I could, and so can you). If you’re not
+quite that abstract, you can still use it on pads for more normal things. Just
+set Replace to a lot higher, set the Brightness and Bigness appropriately, and
+use Detune to chorus out your new huge enormous synth pad, or whatever else
 needs to have an unreasonably huge and wide stereo field. I’m pretty sure this
 can become your go-to for epic fields of reverb, no matter what’s meant to be
 causing them.
@@ -6314,39 +6589,38 @@ causing them.
 
 _Galactic2 is a super-reverb REdesigned specially for pads and space ambient._
 
-[Galactic][] has been a huge success, no pun intended. It might be the most
+[Galactic] has been a huge success, no pun intended. It might be the most
 popular of my first batch of feedforward reverbs, and it's still available, from
  its banks of 4-wide householder matrix delay lines, to its pitch shift stereo
 widening.
 
-So, why revisit [Galactic][]? What is there to even improve? Well, it's a matter
- of taste. My newer big reverbs and realistic reverbs go for a bigger reverb
+So, why revisit [Galactic]? What is there to even improve? Well, it's a matter
+of taste. My newer big reverbs and realistic reverbs go for a bigger reverb
 matrix with a distinct, more organic texture to it. And I wasn't really
-satisfied with how you worked with [Galactic][]: I'd imagined a thing where
-you'd have reverb space going, and then you'd 'paint' in other sound, perhaps
-with a slider, or just by overloading the existing space with other stuff.
+satisfied with how you worked with [Galactic]: I'd imagined a thing where you'd
+have reverb space going, and then you'd 'paint' in other sound, perhaps with a
+slider, or just by overloading the existing space with other stuff.
 
-And so, here we are. [Galactic2][]. [Drive][], Sustain, Darken and Wetness. And
-a tone that owes more to the K series plate reverbs, than [Infinity][] or
-[Verbity][]. Sustain starts to feed back forever a little ways past two-thirds
-up, with halfway being long decays, and very short sustain being your kill
-switch. It'll creep up in gain at full crank, so be careful with that. [Drive][]
- is how you feed in new audio while it's going, Wetness is probably going to be
-full crank for most use cases, and Darken goes from totally, scintillatingly
-bright to mellow and distant-sounding, both as part of the total output of the
-reverb, and as part of the feedback loop (so if you have bright stuff going, and
- you Darken, your sustain will start to get darker as it continues, which can
-add realism).
+And so, here we are. [Galactic2]. [Drive], Sustain, Darken and Wetness. And a
+tone that owes more to the K series plate reverbs, than [Infinity] or [Verbity].
+ Sustain starts to feed back forever a little ways past two-thirds up, with
+halfway being long decays, and very short sustain being your kill switch. It'll
+creep up in gain at full crank, so be careful with that. [Drive] is how you feed
+ in new audio while it's going, Wetness is probably going to be full crank for
+most use cases, and Darken goes from totally, scintillatingly bright to mellow
+and distant-sounding, both as part of the total output of the reverb, and as
+part of the feedback loop (so if you have bright stuff going, and you Darken,
+your sustain will start to get darker as it continues, which can add realism).
 
 I keep saying it's like the kPlate reverbs, but I checked the code and it's
 still 4-wide Householder matrixes, like the original. So what makes this so
 different? Its handling of stereo, is what. Either you'll love or hate it. This
-is why you should love it. Unlike the original [Galactic][], this isn't a pair
-of matched reverbs using pitch bends to stereo-ize them for mono things.
-[Galactic2][] is a SINGLE giant stereo reverb that uses all the same delay
-values, but uses them crossways: one channel accesses the matrix vertically, the
- other accesses the matrix horizontally. It's 'the same', but all the echoes are
- arranged differently. These are way harder to come up with but it's what was
+is why you should love it. Unlike the original [Galactic], this isn't a pair of
+matched reverbs using pitch bends to stereo-ize them for mono things.
+[Galactic2] is a SINGLE giant stereo reverb that uses all the same delay values,
+ but uses them crossways: one channel accesses the matrix vertically, the other
+accesses the matrix horizontally. It's 'the same', but all the echoes are
+arranged differently. These are way harder to come up with but it's what was
 used on the kPlate reverbs, except those are 5x5 matrixes and this is still a
 4x4. There's just a teeny bit of crossmodulation to round it out.
 
@@ -6355,9 +6629,9 @@ reverb sound that's also mostly on the left. If you put stuff in on the right,
 likewise: you'll get 'space' happening mix right.
 
 And if you put stuff in mono… you get WIDE center content. The whole texture is
-wider than what original [Galactic][] can do, without use of chorusing or pitch
+wider than what original [Galactic] can do, without use of chorusing or pitch
 shifting to widen it. That gives it a completely different character, which is
-why you've still got original [Galactic][] to use if you want. This is a second
+why you've still got original [Galactic] to use if you want. This is a second
 bite of the apple. It's about trying to get even deeper into space, and I hope
 you enjoy it :)
 
@@ -6365,13 +6639,13 @@ you enjoy it :)
 <a name="plugins_galacticvibe"></a>
 ### GalacticVibe
 
-_GalacticVibe is the stereo vibrato from the original [Galactic][] reverb._
+_GalacticVibe is the stereo vibrato from the original [Galactic] reverb._
 
-[GalacticVibe][] is about taking the code I used to make the [Galactic][] reverb
- super wide, and breaking it out into a chorus-like effect… at which it turns
-out to be great!
+[GalacticVibe] is about taking the code I used to make the [Galactic] reverb
+super wide, and breaking it out into a chorus-like effect… at which it turns out
+ to be great!
 
-Used in [Galactic][], it's always full wet. It's a dual vibrato that's
+Used in [Galactic], it's always full wet. It's a dual vibrato that's
 'quadrature', meaning the channels are two different offsets on the same LFO.
 Except it's not exactly an LFO in the sense of low frequency oscillator, because
  it's slightly irregular. You don't hear it as being super off, but it's a
@@ -6379,17 +6653,17 @@ somewhat organic quality whatever speed you choose.
 
 This produces two stereo outputs (even if you're just giving it mono) and the
 way they modulate is a bit like a miked-up Leslie: the pitch wavers across both
-channels. But then, if you add dry (which isn't part of [Galactic][]'s
-modulation) that blends against both stereo channels… and you end up with a nice
- little vibey chorus, with definite Leslie-like qualities, but without any of
-the speaker emulation and without an accurate pitch modulation on what would be
-the treble horns (instead, it's something else, a little smoother).
+channels. But then, if you add dry (which isn't part of [Galactic]'s modulation)
+ that blends against both stereo channels… and you end up with a nice little
+vibey chorus, with definite Leslie-like qualities, but without any of the
+speaker emulation and without an accurate pitch modulation on what would be the
+treble horns (instead, it's something else, a little smoother).
 
-So it turns out the modulation inside [Galactic][] ([Galactic2][] is different)
-is quite nice just by itself! In particular, it seems very nice giving slow
-swirly effects, and ramping up to a quicker speed has a really striking 'leslie,
- but not leslie' quality. A happy accident that is now yours, because this is an
- open source, free plugin, so enjoy adding this tool to your stereo toolkit.
+So it turns out the modulation inside [Galactic] ([Galactic2] is different) is
+quite nice just by itself! In particular, it seems very nice giving slow swirly
+effects, and ramping up to a quicker speed has a really striking 'leslie, but
+not leslie' quality. A happy accident that is now yours, because this is an open
+ source, free plugin, so enjoy adding this tool to your stereo toolkit.
 
 All this is paid for by my Patreon, and the better that does the more I can do
 with it: as promised, the Bricasti reverb is here. Like I said I am not going to
@@ -6401,7 +6675,7 @@ currently in study mode as I explore a world of classic vinyl records heard in
 the fullest fidelity, and develop channel EQs that will go along with the new
 Console versions.
 
-Thanks, and hope you like [GalacticVibe][]!
+Thanks, and hope you like [GalacticVibe]!
 
 
 <a name="plugins_gatelope"></a>
@@ -6409,7 +6683,7 @@ Thanks, and hope you like [GalacticVibe][]!
 
 _Gatelope is a special gate that applies filters._
 
-[Gatelope][] was initially developed for Ola Sonmark, to solve the following
+[Gatelope] was initially developed for Ola Sonmark, to solve the following
 problem: can you gate a tom mic in such a way that it rejects cymbal bleed, but
 lets the lows sustain longer, and then transitions into silence gracefully?
 
@@ -6418,13 +6692,13 @@ reject low frequency rumble and sustain the highs more. I thought it might be
 useful for tightening up spot mics on kick drums. And the result… does both
 those things, and anywhere in between, and various other effects besides. It’s
 existed as a secret, Mac-only, AU-only weapon for long enough. I didn’t want to
-wait any longer, so enjoy [Gatelope][] now (the Mac AU build contains an extra
-plugin, Gatelinked, which works like the VSTs: [Gatelope][] in AU is ‘N to N’
-and meant to be used on mono tracks, and the VSTs and Gatelinked are exactly the
- same, but linked stereo to prevent the stereo image from going to the side
+wait any longer, so enjoy [Gatelope] now (the Mac AU build contains an extra
+plugin, Gatelinked, which works like the VSTs: [Gatelope] in AU is ‘N to N’ and
+meant to be used on mono tracks, and the VSTs and Gatelinked are exactly the
+same, but linked stereo to prevent the stereo image from going to the side
 randomly)
 
-The way to use [Gatelope][] is, find the proper gating threshold with the top
+The way to use [Gatelope] is, find the proper gating threshold with the top
 slider. Attack Speed might help depending on where you find that point. Then,
 Treble Sustain and Bass Sustain can be reduced to let the gate start gating. If
 you reduce Treble Sustain, it will be opening fully on an attack and then
@@ -6483,10 +6757,10 @@ it’s not that simple. As the buffer size expands ever outward, the pitch shift
 and begins to delay and sample-chop the audio randomly. Not really randomly:
 it’s finding the most seamless transitions. But it starts acting like a granular
  effect… except it is NOT a granular effect, because those fade their grains in
-and out (typically) and [GlitchShifter][] works entirely by splicing audio
-WITHOUT fades to smooth things. So when you drop Tightness super low, you get an
- uncontrollable pitch-delay thing going on. And then, if you add feedback,
-you’ve got many layers of stacked pitch-delay going on, unpredictably…
+and out (typically) and [GlitchShifter] works entirely by splicing audio WITHOUT
+ fades to smooth things. So when you drop Tightness super low, you get an
+uncontrollable pitch-delay thing going on. And then, if you add feedback, you’ve
+ got many layers of stacked pitch-delay going on, unpredictably…
 
 
 <a name="plugins_goldenslew"></a>
@@ -6494,44 +6768,44 @@ you’ve got many layers of stacked pitch-delay going on, unpredictably…
 
 _GoldenSlew is a multistage slew clipper based on the Golden Ratio._
 
-[Slew][] clipping is a fairly uncommon effect: it takes the bright off sounds,
-but replaces it with a distorty edge. You've already got [Slew][] to do slew
-clipping with, and if you like Channel part of what you like is its built-in
-slew clipping… but what if you could expand on what slew clipping does?
+[Slew] clipping is a fairly uncommon effect: it takes the bright off sounds, but
+ replaces it with a distorty edge. You've already got [Slew] to do slew clipping
+ with, and if you like Channel part of what you like is its built-in slew
+clipping… but what if you could expand on what slew clipping does?
 
-[GoldenSlew][] is a chain of slew clippers becoming increasingly restrictive as
+[GoldenSlew] is a chain of slew clippers becoming increasingly restrictive as
 they go, each one scaled by a factor related to the Golden Ratio (if it was
 applied to the 'slew' control). You would think this would produce a simple
 result: the sound would always be restricted to the smallest amount in the
-chain, and it'd sound just like [Slew][].
+chain, and it'd sound just like [Slew].
 
 Except it SO doesn't… because each new value's working from what the previous
 one was clipped to. And so, when you apply slew clipping as a chain, you get a
 completely different effect. And what it sounds like… is distant, roaring, big,
 loud, powerful in a way you just don't get from slew clipping alone.
 
-Be warned: for this plugin, like [Slew][], if you have audio going through it
-and you crank the slew clipping ALL the way to 1.0, what you're telling it is
-'stop slewing completely, don't budge' which means sample and hold which means
-you're stuck on a DC voltage. There are reasons why you might do this, for
-instance if you're in VCV Rack and using it on a control voltage and you want to
- do sample and hold on that voltage. Don't crank it up to 1.0 on audio signals
-or you might hurt your speakers if they're DC coupled.
+Be warned: for this plugin, like [Slew], if you have audio going through it and
+you crank the slew clipping ALL the way to 1.0, what you're telling it is 'stop
+slewing completely, don't budge' which means sample and hold which means you're
+stuck on a DC voltage. There are reasons why you might do this, for instance if
+you're in VCV Rack and using it on a control voltage and you want to do sample
+and hold on that voltage. Don't crank it up to 1.0 on audio signals or you might
+ hurt your speakers if they're DC coupled.
 
-This is one of a series of plugins starting with [Slew][] and continuing with
-[GoldenSlew][], where they're refinements of a tone I like using for analog
+This is one of a series of plugins starting with [Slew] and continuing with
+[GoldenSlew], where they're refinements of a tone I like using for analog
 emulation. When used for that, you typically want to keep the setting fairly
 low, less than 0.5 certainly. It's for controlling the digital-ness of the highs
  without apparently making them quieter: remember this is a clipper, not an
-[EQ][], and it'll kick in only on LOUD treble. There will be more explorations
-of this concept because I'll need a really good test-bed to use for when I start
- dialing in sounds of actual classic analog consoles: it's not just the maximum
+[EQ], and it'll kick in only on LOUD treble. There will be more explorations of
+this concept because I'll need a really good test-bed to use for when I start
+dialing in sounds of actual classic analog consoles: it's not just the maximum
 restriction of slew (like in the Channel plugins), it's about the sound
 character as we hit that limit.
 
-You can use [GoldenSlew][] on things like drums, final mixes: anywhere you want
+You can use [GoldenSlew] on things like drums, final mixes: anywhere you want
 the effect of extreme loudness, but don't want the treble coming forward and
-poking at you. Hope you like [GoldenSlew][]!
+poking at you. Hope you like [GoldenSlew]!
 
 
 <a name="plugins_golem"></a>
@@ -6539,15 +6813,15 @@ poking at you. Hope you like [GoldenSlew][]!
 
 _Golem lets you blend a stereo track of two mics on an amp._
 
-[Golem][] takes in a stereo track, typically two mics on a guitar cab (a popular
- technique among metalheads), and mixes them to mono in the middle of the track.
+[Golem] takes in a stereo track, typically two mics on a guitar cab (a popular
+technique among metalheads), and mixes them to mono in the middle of the track.
 
 But wait, there’s (very slightly) more!
 
-[Golem][] lets you balance the respective inputs so you hear more of L or R, and
- most importantly, [Golem][] lets you apply a delay to only the side that you
-want to delay. The other side is always no-latency, straight through, but the
-one you’re delaying gets its little sample delay. Either one, it automatically
+[Golem] lets you balance the respective inputs so you hear more of L or R, and
+most importantly, [Golem] lets you apply a delay to only the side that you want
+to delay. The other side is always no-latency, straight through, but the one
+you’re delaying gets its little sample delay. Either one, it automatically
 switches.
 
 Almost done…
@@ -6560,7 +6834,7 @@ the way this does, allows you to dial in the subtlest imaginable phase
 relationships between your mics, and THAT has profound effects on the subtleties
  of your miked guitar tone. You are tuning where the cancellations between mics
 are, on a very fine level, in order to do specific things in the sound, and you
-need easily controllable subsample delays at your fingertips. Enter [Golem][],
+need easily controllable subsample delays at your fingertips. Enter [Golem],
 your simple tool for exactly that.
 
 There are some options for allowing a larger range of delay, or inverting one of
@@ -6580,12 +6854,12 @@ you.
 
 _GrindAmp is a heavier amp sim for many purposes._
 
-[GrindAmp][] gives sort of a Mesa-y tone, and is good for chugging guitars with
+[GrindAmp] gives sort of a Mesa-y tone, and is good for chugging guitars with
 some beef to them.
 
-[GrindAmp][] is a followup to [FireAmp][], and you’ll hear them back-to-back in
-the video. And where [FireAmp][] is all about that midrange howl and rawness,
-[GrindAmp][] is a different style: heavier! Thing is, you must understand how
+[GrindAmp] is a followup to [FireAmp], and you’ll hear them back-to-back in the
+video. And where [FireAmp] is all about that midrange howl and rawness,
+[GrindAmp] is a different style: heavier! Thing is, you must understand how
 these work. They’re distortions voiced to work with guitars, into filtering and
 truncated, undersampled cab emulation that has dynamic processing. When I say
 truncated I mean it: there’s very little cabinet rumble or any over-hang beyond
@@ -6593,21 +6867,21 @@ the immediate sound. Also, the dry/wet control both brings in dry AMP sound
 against the cab sim, and also dry guitar sound against the amp sim… at the same
 time.
 
-So [GrindAmp][] is every bit as much designed for a Rockman-type, extremely
-direct and dry tone, as it is for an amped, miked tone. It’s sort of a hybrid.
-Why would you ever do this? For the same reason Def Leppard used Rockmans on
+So [GrindAmp] is every bit as much designed for a Rockman-type, extremely direct
+ and dry tone, as it is for an amped, miked tone. It’s sort of a hybrid. Why
+would you ever do this? For the same reason Def Leppard used Rockmans on
 Hysteria: you can use this kind of tone to bring in a part without getting in
 the way of everything else. You can arrange with whole instruments, bringing in
-stuff to emphasize certain qualities. If you used [FireAmp][] you’d be bringing
-in extremely raucous midrange, if you use [GrindAmp][] you have a lot more
-low-end punch and the ability to push the gain a bit higher (though I think it’s
- at its best when you’re allowing it to be kinda percussive)
+stuff to emphasize certain qualities. If you used [FireAmp] you’d be bringing in
+ extremely raucous midrange, if you use [GrindAmp] you have a lot more low-end
+punch and the ability to push the gain a bit higher (though I think it’s at its
+best when you’re allowing it to be kinda percussive)
 
 Neither of these have chorusing and delay/reverb… but hey! I’ve been putting out
- plugins that do that, and I bet [Chamber][] will do the slapback thing on a
-guitar very well, and there’s always [PocketVerbs][] Spring: Airwindows plugins
+ plugins that do that, and I bet [Chamber] will do the slapback thing on a
+guitar very well, and there’s always [PocketVerbs] Spring: Airwindows plugins
 are deeply modular and you already have literally hundreds of them so if you
-wanted to go full Rockman with [GrindAmp][] (or [FireAmp][]: more to come) then
+wanted to go full Rockman with [GrindAmp] (or [FireAmp]: more to come) then
 nothing’s stopping you. And they’re free, so nothing is stopping you. And
 they’re open source, so if you really really REALLY wanted to build them into
 one plugin… amazingly, you can! Or you can let me make ’em for you :)
@@ -6622,7 +6896,7 @@ Here’s another no-controls wonder… that ‘models’ an actual obscure guita
  that also has no controls! And it makes horrible unmusical noises, just like
 the original obscure effect makes horrible unmusical noises! Whee!
 
-Seriously, though, here’s [Gringer][]. It’s like an emulation of the old Dan
+Seriously, though, here’s [Gringer]. It’s like an emulation of the old Dan
 Armstrong Green Ringer, kinda. No attempt was made to exactly circuit model
 anything, but it does the full-wave rectification thing that characterizes this
 effect, you can bypass it by bypassing the plugin, and it’s got a couple of
@@ -6638,34 +6912,34 @@ Stick it on your guitar solo and see what you get. Please don’t stick it on yo
 
 _GrooveWear is for scrubbing highs off mechanically like a stylus would._
 
-Here’s something interesting! I revisited some pieces of [ToVinyl4][], one of
-’em being [GrooveWear][]. In fiddling with it, I discovered that I could put in
-a dedicated wet/dry for just that one part, and if I did, I got perfect
+Here’s something interesting! I revisited some pieces of [ToVinyl4], one of ’em
+being [GrooveWear]. In fiddling with it, I discovered that I could put in a
+dedicated wet/dry for just that one part, and if I did, I got perfect
 high-frequency rolloff at 50%. In other words, as an effect it was working as
 intended (bit of overshoot available, like the needle was loose in the groove),
 but I could also redesign it as a tone-softener.
 
-It’s all based on variations of averaging. I’ve got [Average][] to soften just
+It’s all based on variations of averaging. I’ve got [Average] to soften just
 only sample values (it has some interesting quirks but I swear by that algorithm
  for naturally rolling off highs in a way that doesn’t sound digital).
-[GrooveWear][] goes one step beyond that, and averages slews (not sample
-values). That means it’s averaging the rate of change. Then, later, I did
-[Aura][], which is averaging the rate of change OF the rate of change… but
-that’s another story ;)
+[GrooveWear] goes one step beyond that, and averages slews (not sample values).
+That means it’s averaging the rate of change. Then, later, I did [Aura], which
+is averaging the rate of change OF the rate of change… but that’s another story
+;)
 
 More importantly, I came up with a nice feature doing the revision. The
-[GrooveWear][] contained in ToVinyl uses two stages of processing, since it can
-be a subtle effect. I worked out a convenient way to make the dry/wet control
+[GrooveWear] contained in ToVinyl uses two stages of processing, since it can be
+ a subtle effect. I worked out a convenient way to make the dry/wet control
 handle multiple stages so, as you increase it, you’re progressively adding stage
  after stage with the final stage going from dry to wet: it means you can start
 off with a very mathematically clean amount of effect, just one stage dry/wet,
 and then keep adding more. And in the spirit of that, I doubled the stages so
-now [GrooveWear][] has four.
+now [GrooveWear] has four.
 
 So, you can adjust the intensity control that specifies how much slew averaging
 the stages are doing (acts like a sort of frequency range control for the
 effect) or you can adjust the dry/wet to go from pristine to incredibly deep
-groove wear. It’s partly roll-off of the highs but it’s not JUST normal [EQ][],
+groove wear. It’s partly roll-off of the highs but it’s not JUST normal [EQ],
 texturally it’s quite different because the effect doesn’t try to stop big
 transients like a square-wave’s sides, it tries to stop smaller-scale detail
 stuff while retaining the big harmonic content of waves. It’s averaging slew,
@@ -6678,28 +6952,26 @@ the Z series filters)
 <a name="plugins_guitarconditioner"></a>
 ### GuitarConditioner
 
-_GuitarConditioner is like a [Tube][] Screamer voicing without the squishiness
-and indistinctness._
+_GuitarConditioner is like a [Tube] Screamer voicing without the squishiness and
+ indistinctness._
 
-I designed this plugin when I saw what [Slew][] was capable of. It uses a
-combination of [Slew][] and [Highpass][] in a sort of parallel matrix
-arrangement, with heavy use of my [Highpass][]’s unusual tone shaping features
-(extreme lows get Tight tone shaping behavior, and a boosted mids circuit is set
- to Loose rolloff for the proper texture). Both aspects hit their own [Slew][]
-at different levels and with different voicings, causing a distinct tone
-quality.
+I designed this plugin when I saw what [Slew] was capable of. It uses a
+combination of [Slew] and [Highpass] in a sort of parallel matrix arrangement,
+with heavy use of my [Highpass]’s unusual tone shaping features (extreme lows
+get Tight tone shaping behavior, and a boosted mids circuit is set to Loose
+rolloff for the proper texture). Both aspects hit their own [Slew] at different
+levels and with different voicings, causing a distinct tone quality.
 
-This is not a [Tube][] Screamer plugin at all. It’s an alternate tone for doing
+This is not a [Tube] Screamer plugin at all. It’s an alternate tone for doing
 similar things but with more sonority, focus and impact. It’s intended for Djent
  style sounds and people who can play much, much better and more aggressively
 than me :)
 
-The reason [Slew][] is relevant to a [Tube][] Screamer effect is, the guitar
-pedal uses op-amps that can be limited in their ability to deliver slew and
-bass. Therefore, they don't only distort and make louder, they also restrict
-treble and bass in a nonlinear way, and that's the same thing my [Slew][] effect
- does. So Guitar Conditioner is Airwindows techniques addressing the same
-purpose.
+The reason [Slew] is relevant to a [Tube] Screamer effect is, the guitar pedal
+uses op-amps that can be limited in their ability to deliver slew and bass.
+Therefore, they don't only distort and make louder, they also restrict treble
+and bass in a nonlinear way, and that's the same thing my [Slew] effect does. So
+ Guitar Conditioner is Airwindows techniques addressing the same purpose.
 
 
 <a name="plugins_hardvacuum"></a>
@@ -6712,30 +6984,30 @@ Time to revisit an Airwindows classic!
 This is one of the plugins Airwindows ‘made its bones’ on, brought up to date
 and converted to VST for Mac, Windows and Linux (and made open source!)
 
-[HardVacuum][] refers to vacuum tubes, and as you’d expect it’s a saturation
+[HardVacuum] refers to vacuum tubes, and as you’d expect it’s a saturation
 device but with some interesting twists. It’s got a warmth control that brings
 in second harmonic and nonlinearity like you might see in a class A tube design,
  but set up to be abused if you’d like to produce exaggerated effects (that
 aren’t really ‘warm’ anymore, but if you want to play nice, don’t push this
-control too far). It’s got a nice Airwindows sine-based saturation [curve][]…
-and it’s got a control called [Aura][] that will bring out sparkly highs and hot
- searing overtones you might not have heard from a plugin before.
+control too far). It’s got a nice Airwindows sine-based saturation [curve]… and
+it’s got a control called [Aura] that will bring out sparkly highs and hot
+searing overtones you might not have heard from a plugin before.
 
 The way that one works is thus: I saw scope traces of tube circuits that were
 showing slanty tops on squarewaves, like the power supplies weren’t keeping up.
 It became an obsession to make plugin saturation do that, and I came up with
-something that turned into [Aura][]. Note that this is NOT ‘analog modeling’,
-not as people normally mean it: I’m rarely interested in running hapless audio
+something that turned into [Aura]. Note that this is NOT ‘analog modeling’, not
+as people normally mean it: I’m rarely interested in running hapless audio
 through lots of math pretending to be electronic parts. I generally want a
 simple, unexpected algorithm that’ll do what I intend with minimal unnecessary
 math, because I find that overprocessing digital audio hurts the tone.
 
-As such, [Aura][] doesn’t model any specific tube. You could probably combine it
- with [Desk4][] and who knows what else, to make a really good emulation given
-decent reference material, but [Aura][] is simply a way to doctor the tone in a
-way that’s not [EQ][]. By that I mean, the effect might lift up highs but it’s
-not working in terms of frequency zones, it sees only the amplitude of any given
- moment and the angle by which it reached that moment. Think of it as an extra
+As such, [Aura] doesn’t model any specific tube. You could probably combine it
+with [Desk4] and who knows what else, to make a really good emulation given
+decent reference material, but [Aura] is simply a way to doctor the tone in a
+way that’s not [EQ]. By that I mean, the effect might lift up highs but it’s not
+ working in terms of frequency zones, it sees only the amplitude of any given
+moment and the angle by which it reached that moment. Think of it as an extra
 thing you can do to the sound. This one’s sat around being Mac AU only for ten
 years before getting brought up to date (with denormalization fixes, noise
 shaping to the floating point buss, etc) and ported to VST, so now most of you
@@ -6762,9 +7034,9 @@ Two stages further, because I worked out how to make the slope control
 continuous. It uses up to six poles (staggered, an idea that Gregg and I
 independently came up with: it’s present in my ToVinyl2 and ToVinyl3) but as
 each pole is added it gets its own little dry/wet internally, so you can have
-two and a half or four and a third poles. [Smooth][] continuous adjustment of
-how many poles (and how steep the slope), much like my bit-crusher has
-continuous sample rate crush and bit depth crush.
+two and a half or four and a third poles. [Smooth] continuous adjustment of how
+many poles (and how steep the slope), much like my bit-crusher has continuous
+sample rate crush and bit depth crush.
 
 Three stages since it uses Airwindows interleaved IIR filtering for the very
 first stage to start off at a slope even shallower than one pole of IIR: sort of
@@ -6783,28 +7055,27 @@ it’s sound balancing, not ‘make louder-ing’.
 <a name="plugins_hermetrim"></a>
 ### HermeTrim
 
-_HermeTrim is Very Fine Adjustments, otherwise just like [EveryTrim][]._
+_HermeTrim is Very Fine Adjustments, otherwise just like [EveryTrim]._
 
-If you’ve seen [EveryTrim][], you know how this works: it’s the
-all-possible-trims trim. +- 12dB of left, right, mid, side, and master volume.
-By request, and a handy little tool for all manner of stereo tweaking. It’s very
- nearly as clear and accurate as [PurestGain][], which itself is very nearly as
-accurate as [BitShiftGain][] (and most people will find any of these more than
-acceptable, because this is uber-pickiness land and none of you are likely to be
- able to tell these from your standard utility gain plugin from your DAW, ten
-out of ten. I just know I’ve implemented mine with extra rigorousness)
+If you’ve seen [EveryTrim], you know how this works: it’s the all-possible-trims
+ trim. +- 12dB of left, right, mid, side, and master volume. By request, and a
+handy little tool for all manner of stereo tweaking. It’s very nearly as clear
+and accurate as [PurestGain], which itself is very nearly as accurate as
+[BitShiftGain] (and most people will find any of these more than acceptable,
+because this is uber-pickiness land and none of you are likely to be able to
+tell these from your standard utility gain plugin from your DAW, ten out of ten.
+ I just know I’ve implemented mine with extra rigorousness)
 
 Thing is, the person who’d requested this is the same one who requested
-[Hermepass][]… and in this case, I fumbled it a bit. On many DAWs, and all my
-Mac Audio Unit stuff, you can hold option to get tiny fine adjustments. But my
-user with the enlightening (and accessible) requests isn’t using a host that can
- do that… and needed to have much, much finer adjustments on tap.
+[Hermepass]… and in this case, I fumbled it a bit. On many DAWs, and all my Mac
+Audio Unit stuff, you can hold option to get tiny fine adjustments. But my user
+with the enlightening (and accessible) requests isn’t using a host that can do
+that… and needed to have much, much finer adjustments on tap.
 
-So, now [Hermepass][] has a companion, [HermeTrim][]. This is exactly the same
-as [EveryTrim][], only it’s 1.5 dB plus and minus. It’s more a mastering tool:
-make tiny little tweaks to get the master just right. [EveryTrim][] will sound
-just as good, but this one’s geared towards non-mixing purposes. Hope you like
-it.
+So, now [Hermepass] has a companion, [HermeTrim]. This is exactly the same as
+[EveryTrim], only it’s 1.5 dB plus and minus. It’s more a mastering tool: make
+tiny little tweaks to get the master just right. [EveryTrim] will sound just as
+good, but this one’s geared towards non-mixing purposes. Hope you like it.
 
 
 <a name="plugins_highimpact"></a>
@@ -6820,24 +7091,23 @@ put out more than 300 plugins and I'm still going, but this was when I'd done 47
 
 Sometimes it’s all in the name.
 
-[HighImpact][] has been one of the Airwindows secret weapons for a long time.
-It’s a pretty basic idea: know how [Density][] distorts and makes audio huge and
- fat, and [Drive][] distorts and doesn’t make stuff as fat? [HighImpact][]
-answers the question, ‘what if you could distort and not make things fatter AT
-ALL’.
+[HighImpact] has been one of the Airwindows secret weapons for a long time. It’s
+ a pretty basic idea: know how [Density] distorts and makes audio huge and fat,
+and [Drive] distorts and doesn’t make stuff as fat? [HighImpact] answers the
+question, ‘what if you could distort and not make things fatter AT ALL’.
 
-This is not [EQ][] I’m talking about, though it can come off like [EQ][]
-depending on what you feed into it. [HighImpact][] combines a distortion and
-anti-distortion circuit to reshape the transfer function of the audio, as
-follows: crank it up, and quiet subtle samples aren’t turned up much. Then
-medium samples are turned up a LOT, and then the loudest samples are distorted
-and hit a wall past which they can’t go. The result is an obvious distort which
-doesn’t bloat things. It’s a ‘dial-a-rasp’, or ‘dial-a-slam’ for percussive
-noises, and though the concept is two different kinds of overdrive combined,
-it’s an Airwindows plugin so it’s not overprocessed, it’s super raw.
+This is not [EQ] I’m talking about, though it can come off like [EQ] depending
+on what you feed into it. [HighImpact] combines a distortion and anti-distortion
+ circuit to reshape the transfer function of the audio, as follows: crank it up,
+ and quiet subtle samples aren’t turned up much. Then medium samples are turned
+up a LOT, and then the loudest samples are distorted and hit a wall past which
+they can’t go. The result is an obvious distort which doesn’t bloat things. It’s
+ a ‘dial-a-rasp’, or ‘dial-a-slam’ for percussive noises, and though the concept
+ is two different kinds of overdrive combined, it’s an Airwindows plugin so it’s
+ not overprocessed, it’s super raw.
 
-That suits this plugin super well, and that’s why the AU-only [HighImpact][] has
- been a secret weapon for many people for years—and now it’s out for Mac and PC
+That suits this plugin super well, and that’s why the AU-only [HighImpact] has
+been a secret weapon for many people for years—and now it’s out for Mac and PC
 VST.
 
 A word about the ‘secret weapon’ thing: I hate that. Do as I do, and communicate
@@ -6850,7 +7120,7 @@ wanted, not even a microphone anymore, and it was no longer connected to a
 ‘magic gear item’ so you’d have to ask, ‘HOW silky does this sound need to be,
 in my mix?’ because there was no one right answer.
 
-That’s what Airwindows is like. For [HighImpact][], read ‘raspy’ or ‘mean’ or
+That’s what Airwindows is like. For [HighImpact], read ‘raspy’ or ‘mean’ or
 ‘grindy’, whatever describes the sound for you. Now you’ve got an extra
 parameter: instead of just bass, treble, loud, soft (or even fat and thin)
 you’ve got ‘aggro’ on a knob. That can relate to any bit of audio you’re working
@@ -6894,13 +7164,12 @@ Here’s an Airwindows science experiment!
 The idea here was to identify things about truncation that some people (maybe
 crazy people, but people nonetheless) like, and build them into a dedicated
 dither. This video includes extensive exploration of truncation, TPDF and flat
-dithers besides [HighGlossDither][], so there’s an educational value as well. As
- for audio value, the important thing to remember is that this one is designed
-to act like truncation in important ways… so it’s ‘broken’ and you shouldn’t use
- it for naturalistic things, and you probably shouldn’t use it unless you’ve
-ever chosen truncation instead of dither, on purpose, because you wanted the
-edgier, crunchier, different-textured sound of truncation for what you were
-doing.
+dithers besides [HighGlossDither], so there’s an educational value as well. As
+for audio value, the important thing to remember is that this one is designed to
+ act like truncation in important ways… so it’s ‘broken’ and you shouldn’t use
+it for naturalistic things, and you probably shouldn’t use it unless you’ve ever
+ chosen truncation instead of dither, on purpose, because you wanted the edgier,
+ crunchier, different-textured sound of truncation for what you were doing.
 
 If that’s ever you, this is an alternate way to get your sounds.
 
@@ -6910,7 +7179,7 @@ act like some horrible sort of parallel compression. It’ll hang onto the tails
 of notes way longer than it should, and it’ll add intense bit-crusher-like
 effects to quiet sounds.
 
-[HighGlossDither][] uses a special, more uniform-sounding quadratic residue
+[HighGlossDither] uses a special, more uniform-sounding quadratic residue
 sequence instead of real randomness to sorta ‘diffract’ sounds into crunchier
 versions of themselves, and applies it at a quieter level than true dither. The
 result is a hybrid between dither and truncation: rather than dropping quietly
@@ -6923,8 +7192,8 @@ you get a sort of noise but it’s quieter than TPDF is, and also serves a purpo
 Most people shouldn’t like this. I’m introducing it first to get it out of the
 way… but who knows? Maybe you’re looking to bring out the next generation of
 Finnish forest psy trance, and the last thing you want is for the molecular
-structure of your music to sound natural. Well, [HighGlossDither][] might be
-right up your alley! You don’t have to resort to truncation to have the finest
+structure of your music to sound natural. Well, [HighGlossDither] might be right
+ up your alley! You don’t have to resort to truncation to have the finest
 details of your audio sounding weird and unreal. Take it up another level, with
 my blessing.
 
@@ -6936,8 +7205,8 @@ Or maybe you’d prefer your audio sounding, you know, good. If so, stay tuned :
 
 _Highpass is a time warp, for retro midrangey sounds._
 
-These ([Lowpass][] and [Highpass][]) are mixing EQs, not mastering ones (though
-I’m not the boss of you). They’re complementary: the one is the inverse of the
+These ([Lowpass] and [Highpass]) are mixing EQs, not mastering ones (though I’m
+not the boss of you). They’re complementary: the one is the inverse of the
 other. However, because of their peculiarities that makes them behave quite
 differently. What they have in common is they’re interleaved IIR filters,
 something people don’t normally do. The experiment here has to do with my
@@ -6952,21 +7221,21 @@ This is on a sample-by-sample basis so it’s a tone-character modification,
 subtle but interesting. Loose/tight is just the best way I could describe what’s
  happening there.
 
-[Lowpass][] gives you a treble rolloff (some have joked that I make dozens of
+[Lowpass] gives you a treble rolloff (some have joked that I make dozens of
 treble rolloffs! Yes, but they all sound different) and what’s immediately
 obvious is, the stuff right up by Nyquist on the threshold of hearing is not
 rolled off with the rest of the treble. Also, if you only want to cut extreme
 treble, you can do it with just adjusting the soft/hard control away from the
 center position. At deeper cut settings, the soft/hard control gives you two
 different textures (both of which keep a hint of ‘air’ right up top). The
-dry/wet control allows you to blend your result. [Lowpass][] gives you big
-sounds with various colorations and a sparkly gloss that comes from your
-underlying sound: it’s a big-ifying filter that might suit huge synth pads or
-orchestral tracks.
+dry/wet control allows you to blend your result. [Lowpass] gives you big sounds
+with various colorations and a sparkly gloss that comes from your underlying
+sound: it’s a big-ifying filter that might suit huge synth pads or orchestral
+tracks.
 
-[Highpass][], the inverse of this, gives totally different impressions. The same
- filter-offset behavior turns into ‘loose/tight’ and the extreme treble gets
-stepped on, rather than retained. This makes [Highpass][] take on ‘classic’
+[Highpass], the inverse of this, gives totally different impressions. The same
+filter-offset behavior turns into ‘loose/tight’ and the extreme treble gets
+stepped on, rather than retained. This makes [Highpass] take on ‘classic’
 tonalities, particularly with the offset on ‘loose’, which gives a tubey and
 softened texture. If you run it full-wet, you’ll get a radical
 ‘analogification’, wiping out all extreme lows and the highest highs, and
@@ -6990,9 +7259,9 @@ Guitar Conditioner) and makes them stand alone as useful mix tools.
 
 _Highpass2 is an unusual-sounding variable-slope highpass filter._
 
-So, the way the interleaved IIR filters act in [Highpass][] is like this: the
+So, the way the interleaved IIR filters act in [Highpass] is like this: the
 harder you filter, the more the filter rolls off the very highest frequencies.
-That’s because it’s like the inverse of [Lowpass2][]. It’s got the same four
+That’s because it’s like the inverse of [Lowpass2]. It’s got the same four
 poles, the same type of tone doctoring (in this case, loose and tight for what
 bass remains) but the way to use it might be distinct.
 
@@ -7004,9 +7273,9 @@ high settings. And it’s great for trapping in high percussion because of the
 clarity of the passband and the way it rolls off over 20K (or higher, if you’re
 at higher sample rates).
 
-And of course, like [Lowpass2][], this is here to fix the limitations of the
-original [Highpass][] on those very same sample rates, going from no filtering
-to total filtering.
+And of course, like [Lowpass2], this is here to fix the limitations of the
+original [Highpass] on those very same sample rates, going from no filtering to
+total filtering.
 
 
 <a name="plugins_holt"></a>
@@ -7014,33 +7283,33 @@ to total filtering.
 
 _Holt is a synth-like resonant lowpass filter focussed on bass frequencies._
 
-[Holt][] is a plugin suggested by one of my Q&A livestream regulars, that treads
- the waters of professional accountancy. The plugin, that is, not the regular.
-As far as I know.
+[Holt] is a plugin suggested by one of my Q&A livestream regulars, that treads
+the waters of professional accountancy. The plugin, that is, not the regular. As
+ far as I know.
 
-How is this? Simple: [Holt][] is a method you can use in Excel for predicting
+How is this? Simple: [Holt] is a method you can use in Excel for predicting
 sales figures based on trends. It basically uses two variables each of which
 chase each other to try and cut through the noise of realworld data and produce
 useful predictive results. My friend from the livestream thought it might make a
  lowpass that was more fuzzy in tonality. It did not do that thing.
 
-Instead, I got something like a low-frequency version of [Aura][]: a resonant
+Instead, I got something like a low-frequency version of [Aura]: a resonant
 lowpass like a synth filter with huge control over the extreme lows. I had to do
  weird things to get it to track fairly consistently over different resonance
-settings, because the [Holt][] method doesn’t really have anything like that at
+settings, because the [Holt] method doesn’t really have anything like that at
 all: turning it into a synth filter is strictly my deal. So is the multipole
 arrangement: this thing morphs seamlessly from no poles (dry) to four poles (24
 dB per octave) with intense resonance or no resonance at all, based on how you
 set it.
 
-It’s got an instance of [Spiral][] built in to save you when you make it squawk,
- because otherwise it’ll blow up your bassbins and just laugh at you. This
-sucker is MEAN from the midrange on down. The interesting thing is, if you crank
- the frequency up it tames itself and reverts immediately to dry again. It ONLY
-does its madness on the lows, and high frequencies are completely tame and nice.
- You can use it as a sophisticated and well-behaved lowpass on the upper mids
-and highs, and it’s totally polite. It’s just when you drop the cutoff frequency
- down that it explodes in juicy bass.
+It’s got an instance of [Spiral] built in to save you when you make it squawk,
+because otherwise it’ll blow up your bassbins and just laugh at you. This sucker
+ is MEAN from the midrange on down. The interesting thing is, if you crank the
+frequency up it tames itself and reverts immediately to dry again. It ONLY does
+its madness on the lows, and high frequencies are completely tame and nice. You
+can use it as a sophisticated and well-behaved lowpass on the upper mids and
+highs, and it’s totally polite. It’s just when you drop the cutoff frequency
+down that it explodes in juicy bass.
 
 There are even several ways to go between that and clean, untouched audio. You
 can raise the cutoff, or you can use the dry/wet control, OR you can use the
@@ -7061,40 +7330,39 @@ series) producing a striking result. Have fun and I hope you like it.
 
 _Holt2 is a bass-cab-like resonant lowpass filter._
 
-[Holt2][] extends what I did with [Holt][], to produce an astonishing effect
-like [Aura][] for bass.
+[Holt2] extends what I did with [Holt], to produce an astonishing effect like
+[Aura] for bass.
 
-How is this? Simple: [Holt][] is a method you can use in Excel for predicting
+How is this? Simple: [Holt] is a method you can use in Excel for predicting
 sales figures based on trends. It basically uses two variables each of which
 chase each other to try and cut through the noise of realworld data and produce
 useful predictive results. My friend from the livestream thought it might make a
  lowpass that was more fuzzy in tonality. It did not do that thing.
 
-Instead, I got something like a low-frequency version of [Aura][]: a resonant
+Instead, I got something like a low-frequency version of [Aura]: a resonant
 lowpass like a synth filter with huge control over the extreme lows. I had to do
  weird things to get it to track fairly consistently over different resonance
-settings, because the [Holt][] method doesn’t really have anything like that at
+settings, because the [Holt] method doesn’t really have anything like that at
 all: turning it into a synth filter is strictly my deal. So is the multipole
 arrangement: this thing morphs seamlessly from no poles (dry) to eight poles (48
  dB per octave) with intense resonance or no resonance at all, based on how you
 set it.
 
-The changes from the original [Holt][] are, it's got more poles of filtering,
-and no longer has the [Spiral][] soft-clip built in. So, if you're incautious
-with this it might blow stuff up real good. It won't quite self-resonate but it
-sure throws out a lot of resonance, which is sometimes just the ticket for
-making amplike tones out of beefy sounds.
+The changes from the original [Holt] are, it's got more poles of filtering, and
+no longer has the [Spiral] soft-clip built in. So, if you're incautious with
+this it might blow stuff up real good. It won't quite self-resonate but it sure
+throws out a lot of resonance, which is sometimes just the ticket for making
+amplike tones out of beefy sounds.
 
 I'm going to be using this as a go-to bass sound, which makes use of DI bass
 immediately less studio-y. It'll also handle automation nicely (except the Poles
  control doesn't like to be automated) opening up modern electronic music
 effects on what might seem like a set-and-forget bass amp. But since there's the
- dry/wet control, you might also find [Holt2][] just the ticket for taking
-guitar sounds (either real or plugin) and throwing thunderous cab weight behind
-them. Dial in the desired huge rumbling low-end, and then go all dry, crank the
-output level and sneak in just enough of the super-lows to expand your guitar
-tone. It might also find other uses: let me know if anything really clicks for
-you!
+ dry/wet control, you might also find [Holt2] just the ticket for taking guitar
+sounds (either real or plugin) and throwing thunderous cab weight behind them.
+Dial in the desired huge rumbling low-end, and then go all dry, crank the output
+ level and sneak in just enough of the super-lows to expand your guitar tone. It
+ might also find other uses: let me know if anything really clicks for you!
 
 
 <a name="plugins_hombre"></a>
@@ -7141,18 +7409,18 @@ the mix, but the body of the thing basically the same and no sustain, just a
 couple of delay taps in real close…
 
 I’m not Billy and Terry. Since I’m Chris, I’ll fess up: that’s exactly what I
-did, and you can have it in [Hombre][]. It’s two calibrated delay taps, which
-you can tweak a little, and if you bring them in you’ll thicken and diffuse your
- tones without altering where the lows sit, or adding much in the way of extra
+did, and you can have it in [Hombre]. It’s two calibrated delay taps, which you
+can tweak a little, and if you bring them in you’ll thicken and diffuse your
+tones without altering where the lows sit, or adding much in the way of extra
 sustain. It’ll be punchy and get out of the way like reverb won’t, but it’ll be
 fatter and juicier than the dry signal. This is my interpretation of the ZZ Top
 secret sauce, or at least one of ’em, implemented in software rather than
 acoustics.
 
 I’ll never know how close I came, because them Texas boys don’t tell tales out
-of school. But [Hombre][] is my humble offering for a simple plugin that brings
-a little mojo to what would otherwise be a dry voice or guitar… and it won’t
-muddy things up, just grease ’em a little.
+of school. But [Hombre] is my humble offering for a simple plugin that brings a
+little mojo to what would otherwise be a dry voice or guitar… and it won’t muddy
+ things up, just grease ’em a little.
 
 
 <a name="plugins_huge"></a>
@@ -7160,11 +7428,11 @@ muddy things up, just grease ’em a little.
 
 _Huge is a dirty, dirty loudenator._
 
-So the idea here was to explore a trick people are doing with [Pafnuty][]:
-adding just a few odd harmonics, to get really smooth and mellow saturation. You
- can keep going, and the more harmonics you add the closer you get to a square
-wave (or just really intense saturation), but when you intentionally pick just a
- couple it means all your lower frequencies are totally free of aliasing, since
+So the idea here was to explore a trick people are doing with [Pafnuty]: adding
+just a few odd harmonics, to get really smooth and mellow saturation. You can
+keep going, and the more harmonics you add the closer you get to a square wave
+(or just really intense saturation), but when you intentionally pick just a
+couple it means all your lower frequencies are totally free of aliasing, since
 you're not really saturating: just doing a transform that gives you only the
 added harmonics. If those are below the Nyquist frequency, you automatically
 have zero aliasing.
@@ -7172,7 +7440,7 @@ have zero aliasing.
 But what do you get if you do this, and then magically omit all the frequencies
 that are so high that they'd be aliasing?
 
-Probably wonderful ultimate loudenation. And [Huge][] is not that.
+Probably wonderful ultimate loudenation. And [Huge] is not that.
 
 Instead, it's tracking the slew rates of all the outputs and just watches to see
  if those high frequencies are wiggling too fast… and cuts them off if they are.
@@ -7203,11 +7471,11 @@ wisely, and enjoy :)
 _Hull is an alternate form of highpass/lowpass filter._
 
 This is the second time I’ve done a filter based on stuff the stock market folks
- have got up to, and both of ’em start with H. First there was [Holt][], and now
- this is [Hull][]. It’s set up to work as either a lowpass or highpass filter:
-the Bright control is really a dry/wet. Bright hard left gives you darkening and
- the normal output of the filter, Bright hard right subtracts the output giving
-you a highpass.
+ have got up to, and both of ’em start with H. First there was [Holt], and now
+this is [Hull]. It’s set up to work as either a lowpass or highpass filter: the
+Bright control is really a dry/wet. Bright hard left gives you darkening and the
+ normal output of the filter, Bright hard right subtracts the output giving you
+a highpass.
 
 This is another audio chainsaw/proof of concept. I feel it’ll be useful as part
 of other plugins, in a controlled setting, but you can play with it however you
@@ -7217,15 +7485,15 @@ LOTS of CPU munching. I’ve left it that way in case people find a need for it
 and can handle the CPU demands, but especially at high sample rates it’s a beast
  at super-high averaging windows.
 
-[Hull][] is a form of playing averaging filters against each other to produce an
- ‘accurate’ picture of underlying movement beneath noise. This is of course not
+[Hull] is a form of playing averaging filters against each other to produce an
+‘accurate’ picture of underlying movement beneath noise. This is of course not
 true: it only appears to be giving optimal information, but it’s effectively
 synthesizing fake info to make the chart look more specific in its trajectories.
  It does a really good job of looking like it’s magically clearing away the
 randomness, but I don’t believe it really is, and you can hear it in the audio
 performance: it’s dirty, produces obvious artifacts and accentuates weird stuff.
 
-But for a sound effects filter, this is great! So, you can use [Hull][] for
+But for a sound effects filter, this is great! So, you can use [Hull] for
 various purposes, knowing it has ‘its own sound’ and will really bring a tone to
  your filtering. It sounds like a grungy old school analog filter that’s maybe
 distorting and being overloaded by the power of the audio going through it. The
@@ -7233,8 +7501,8 @@ lowpass and highpass forms have very distinct tones: lowpassing sounds resonant
 and sonorous, and reminds me of the oldest Emu samplers (I’m working on getting
 a Eurorack filter that uses the same chip, to further explore this since I don’t
  yet have an SP1200). Highpassing does the opposite: it sounds like high
-frequency boosts done using [Hull][] have a particular airiness and lightness to
- them.
+frequency boosts done using [Hull] have a particular airiness and lightness to
+them.
 
 Taking it way down to the bass and demolishing your CPU in the process, a couple
  interesting things happen. Lowpassing gives you kicks with a LOT of punch,
@@ -7255,11 +7523,11 @@ high frequencies, where it is fine).
 <a name="plugins_hull2"></a>
 ### Hull2
 
-_Hull2 is a very clear three-band [EQ][]._
+_Hull2 is a very clear three-band [EQ]._
 
-We ended up using the [Hull][] algorithm in something! It's what makes the high
-band of ConsoleLA work. [Hull2][] is taking the guts of that code and giving it
-to you as a pristine, no-saturation, no analog mojo, pure [EQ][].
+We ended up using the [Hull] algorithm in something! It's what makes the high
+band of ConsoleLA work. [Hull2] is taking the guts of that code and giving it to
+ you as a pristine, no-saturation, no analog mojo, pure [EQ].
 
 Note that I didn't say 'normal' ;)
 
@@ -7270,9 +7538,9 @@ and complicated effects is very transparent and hangs onto expressiveness
 instead of degrading the tone.
 
 You've got a treble, mid, and bass control. If you move them all together, you
-get a simple gain control that's roughly as good as [PurestGain][]. It's very
-close to [PurestGain][], if you've moved all three controls exactly together,
-and that's how transparent [Hull2][] can be.
+get a simple gain control that's roughly as good as [PurestGain]. It's very
+close to [PurestGain], if you've moved all three controls exactly together, and
+that's how transparent [Hull2] can be.
 
 If you boost treble relative to mid (at any position), you get the 10k-centered
 boost from ConsoleLA, but without any harmonics or other alterations. It's an
@@ -7289,21 +7557,21 @@ while subtly cutting around 700 hz causing the sensation that the bass region is
 
 If you cut lows relative to mid, it'll subtly lift those same lower-mids, so
 again it's like shifting the voicing of the track rather than just 'adding and
-removing exact frequencies'. It's very broad-stroke [EQ][], like two tilt-EQs
-with a hinge in the middle, if that makes any sense.
+removing exact frequencies'. It's very broad-stroke [EQ], like two tilt-EQs with
+ a hinge in the middle, if that makes any sense.
 
 All this is designed in, but it's not done by banks of EQs doing elaborate (and
 unaccountable) things. It comes out of how very simple algorithms interact with
 each other, so the behaviors are somewhat designable but it's kind of
 unavoidable. It's the cost of using these crossovers at these steepnesses, and
 the trick is to design it so the weirdnesses do musically useful things. And
-then, the other trick is to construct the three-band [EQ][] by deconstructing
-the input in such a way that you can just add it together again and get the
-input back.
+then, the other trick is to construct the three-band [EQ] by deconstructing the
+input in such a way that you can just add it together again and get the input
+back.
 
 You could have the craziest, wildest crossover behavior, with all sorts of
-pre-ring or whatever ([Hull2][] doesn't, but you could have this) and subtract
-it from the highs to get a mid band. If you do that, both the bands will have
+pre-ring or whatever ([Hull2] doesn't, but you could have this) and subtract it
+from the highs to get a mid band. If you do that, both the bands will have
 exactly matching pre-ripple, if there's pre-ring (same with phase issues, etc).
 
 And then if you put 'em back together you have the original back: no more
@@ -7311,8 +7579,8 @@ ripple, phase or anything.
 
 And of course if you apply only a tiny amount, you get only a tiny amount of
 whatever character is part of the crossover. And that's the principle in
-ConsoleLA, and in ConsoleMC (and MD), and now it's in [Hull2][], where
-ConsoleLA's treble crossover was developed.
+ConsoleLA, and in ConsoleMC (and MD), and now it's in [Hull2], where ConsoleLA's
+ treble crossover was developed.
 
 Hope you find some use for it :)
 
@@ -7346,8 +7614,8 @@ reasonable.
 
 I also can’t blend between this and the final Console8 treble softening. Nor am
 I interested in adding a switch so all Console8 (‘in’ plugs) have this, it’s
-just too eccentric, more like what [Console7Cascade][] was, except Console8 now
-leans a little bit in the direction of what [Console7Cascade][] was. That said,
+just too eccentric, more like what [Console7Cascade] was, except Console8 now
+leans a little bit in the direction of what [Console7Cascade] was. That said,
 simply adding this to Console8 doesn’t replicate what the original experiment
 did, this is just that part of it stripped out and isolated in a sort of
 featureless plugin test-tube so you can play with the effect all by itself.
@@ -7356,18 +7624,18 @@ featureless plugin test-tube so you can play with the effect all by itself.
 <a name="plugins_hypersonic"></a>
 ### Hypersonic
 
-_Hypersonic is [Ultrasonic][], but steeper and higher cutoff._
+_Hypersonic is [Ultrasonic], but steeper and higher cutoff._
 
-[Hypersonic][] is the same as [Ultrasonic][], except it’s running seven stages
-of filtering instead of five, and it cuts off a little higher: for these
-reasons, it’s the Airwindows ultrasonic filter that ought to not soften the
-super-highs even for golden ears and sparkling youths :) I don’t think the
-original [Ultrasonic][] sounds bad and I use its type of filtering in my work a
-lot, but I also like depth in sound and the presentation of a soundstage that’s
-not too upfront and close. It makes sense that the slight softening of
-super-bright frequencies that original [Ultrasonic][] gives you, wouldn’t work
-for everybody: not everyone wants ‘glue’ or ‘analog’ or ‘recording console’,
-sometimes you just want the purest digital you can get.
+[Hypersonic] is the same as [Ultrasonic], except it’s running seven stages of
+filtering instead of five, and it cuts off a little higher: for these reasons,
+it’s the Airwindows ultrasonic filter that ought to not soften the super-highs
+even for golden ears and sparkling youths :) I don’t think the original
+[Ultrasonic] sounds bad and I use its type of filtering in my work a lot, but I
+also like depth in sound and the presentation of a soundstage that’s not too
+upfront and close. It makes sense that the slight softening of super-bright
+frequencies that original [Ultrasonic] gives you, wouldn’t work for everybody:
+not everyone wants ‘glue’ or ‘analog’ or ‘recording console’, sometimes you just
+ want the purest digital you can get.
 
 I think there’s a fair chance this filter will work out for folks whose
 aesthetic leans toward the superultramegahyperbright, even if that ain’t me. It
@@ -7377,9 +7645,9 @@ insect-repellent audio, unsoftened.
 
 I’m also working on something else that may give rise to big changes (I know,
 it’s like 2022 is all the promised big changes, but this one might be extra
-interesting). Compare [Ultrasonic][] to [Hypersonic][]… CPU-wise. I am pretty
-sure that I’ve got [Hypersonic][] outperforming [Ultrasonic][] on every possible
- platform, even though it has two more filter stages than [Ultrasonic][]. The
+interesting). Compare [Ultrasonic] to [Hypersonic]… CPU-wise. I am pretty sure
+that I’ve got [Hypersonic] outperforming [Ultrasonic] on every possible
+platform, even though it has two more filter stages than [Ultrasonic]. The
 question is, am I making a choice that is hurting the sound?
 
 A bit of background. There are a lot of devs who like using 32-bit floats for
@@ -7401,14 +7669,14 @@ hundred seventy-six times more high-res than your average float. But who’s to
 say that we can’t get by with only five hundred million times better than your
 average float? :D
 
-And so, we have [Hypersonic][]. It’s using more filters than [Ultrasonic][], but
- running faster, and it’s still five hundred million times more accurate than
+And so, we have [Hypersonic]. It’s using more filters than [Ultrasonic], but
+running faster, and it’s still five hundred million times more accurate than
 your average float-based audio software, and it still dithers to a 32-bit buss
 such as CoreAudio on the Mac. But hey, if you’re running Reaper or something
 else with a double precision buss, it doesn’t have to dither at all as it’s
 working natively at that resolution! So my challenge is this: does anybody,
-myself included, hear ANYTHING more truncate-ey or degraded about [Hypersonic][]
- when compared to [Ultrasonic][], even though it’s running more stages of
+myself included, hear ANYTHING more truncate-ey or degraded about [Hypersonic]
+when compared to [Ultrasonic], even though it’s running more stages of
 filtering? I challenge you, tell me if you think you can hear a drop in quality
 here. I’m all about the overkill, but I suspect I can get there on the native
 Reaper 64-bit buss: and of course everything AU or otherwise that does run a
@@ -7440,36 +7708,36 @@ the change on my own systems)
 <a name="plugins_hypersonx"></a>
 ### HypersonX
 
-_HypersonX is like [UltrasonX][] but with seven stages instead of five._
+_HypersonX is like [UltrasonX] but with seven stages instead of five._
 
-This one’s pretty straightforward. If you know [UltrasonX][], this is the same
-thing but for [Hypersonic][]. These are ultrasonic filters for use at high
-sample rates such as 96k: for less processing than it would take to oversample a
- bunch of stuff you can run the whole mix at an elevated sample rate and put
-filtering between nonlinear stages: it works better to do a little filtering in
-many places, and it helps the mix from seeming overprocessed.
+This one’s pretty straightforward. If you know [UltrasonX], this is the same
+thing but for [Hypersonic]. These are ultrasonic filters for use at high sample
+rates such as 96k: for less processing than it would take to oversample a bunch
+of stuff you can run the whole mix at an elevated sample rate and put filtering
+between nonlinear stages: it works better to do a little filtering in many
+places, and it helps the mix from seeming overprocessed.
 
-[HypersonX][] is steeper, because it’s seven stages instead of only five. It
-cuts off a little higher, so it should go right past 20k without hinting at
-rolling off or softening anything. But since it (like [Hypersonic][] itself) is
-seven stages, that means you’ve got to find seven spots in your mix to stick the
- respective stages of the filter.
+[HypersonX] is steeper, because it’s seven stages instead of only five. It cuts
+off a little higher, so it should go right past 20k without hinting at rolling
+off or softening anything. But since it (like [Hypersonic] itself) is seven
+stages, that means you’ve got to find seven spots in your mix to stick the
+respective stages of the filter.
 
-Like [UltrasonX][] (and like future Console versions I do that will use this
-technology), you have to have one each of every stage of [HypersonX][], from
-input to final 2-buss. That means you don’t have to repeat ’em across all
-channels: for instance, if you’re running stage A and B on the channels, and C,
-D and E on submixes, and F and G on the 2-buss, that’s way less filters than
-you’d have if you placed just one [Hypersonic][] on the start of every single
-channel, AND it will work better because it’ll keep every little nonlinear stage
- in check. Otherwise, they can seize on small bits of aliasing and alias them
-further until they combine and become obvious. Single filtering at the input
-won’t protect you from this. Distributed filtering will.
+Like [UltrasonX] (and like future Console versions I do that will use this
+technology), you have to have one each of every stage of [HypersonX], from input
+ to final 2-buss. That means you don’t have to repeat ’em across all channels:
+for instance, if you’re running stage A and B on the channels, and C, D and E on
+ submixes, and F and G on the 2-buss, that’s way less filters than you’d have if
+ you placed just one [Hypersonic] on the start of every single channel, AND it
+will work better because it’ll keep every little nonlinear stage in check.
+Otherwise, they can seize on small bits of aliasing and alias them further until
+ they combine and become obvious. Single filtering at the input won’t protect
+you from this. Distributed filtering will.
 
 This might not be for everybody. The thing is, if you’re running at high sample
 rates and you want to resist aliasing and have a warm, analog tone that still
 retains clarity, this might be for you… and similarly to other Airwindows
-inventions, the cumbersome nature of [HypersonX][] could become your secret
+inventions, the cumbersome nature of [HypersonX] could become your secret
 weapon. Who wants to carefully arrange to have one each of seven types of
 inaudible filtering across your signal path, from channel start to end of
 2-buss? Possibly you, if the resulting tone speaks to your musical tastes. The
@@ -7479,7 +7747,7 @@ barrier to entry is a setup that’s a pain in the butt and fussy rules for how 
 fussy rules!) but you might find the results a little spectacular.
 
 I hope so! The next thing for me is building this into the next version(s) of
-Console, and I believe it will help things a whole lot. But with [HypersonX][],
+Console, and I believe it will help things a whole lot. But with [HypersonX],
 you don’t have to wait. Use it on its own or combine it with any earlier version
  of Console (not Console7 or PurestConsole2, which have their own filtering, but
  Console 5 or 6 or PurestConsole or Atmosphere or PDConsole which didn’t have
@@ -7492,13 +7760,13 @@ board, and get your personal sound.
 <a name="plugins_infinity"></a>
 ### Infinity
 
-_Infinity is a [MatrixVerb][] specifically designed to sustain and layer sounds
+_Infinity is a [MatrixVerb] specifically designed to sustain and layer sounds
 forever._
 
 Here’s a follow-up to what I’ve been doing with Householder reverbs, and my
-recent plugins [MatrixVerb][] (for flexibility) and [Reverb][] (optimized for
-size variation only). The algorithm I’m using has one more specialty: infinity!
-The way it works, if you do nothing else except feed it back on itself, it will
+recent plugins [MatrixVerb] (for flexibility) and [Reverb] (optimized for size
+variation only). The algorithm I’m using has one more specialty: infinity! The
+way it works, if you do nothing else except feed it back on itself, it will
 sustain infinitely: that’s its basic, natural state.
 
 And so I did. :)
@@ -7510,8 +7778,8 @@ from gong-like tones to the depths of galaxies… and a damping control that doe
 NOT make the reverberations die away. Instead, it just applies a subtle
 darkening, useful if you’re looking for darker spaces.
 
-More importantly, [Infinity][] is tailored to handle anything from subtle noises
- to the full blast of a mix: if you saturate it and keep adding sound, what’ll
+More importantly, [Infinity] is tailored to handle anything from subtle noises
+to the full blast of a mix: if you saturate it and keep adding sound, what’ll
 happen is that it’ll begin to squeeze out earlier infinity to make room for
 what’s coming in. That way, the maximum level will stay under control, but it’ll
  also tend to emphasize the most recent thing you did (as long as it’s loud). If
@@ -7521,40 +7789,40 @@ go.
 It’s also a dual mono effect. What that means is, you’re adding things to
 infinitely sustain at distinct places in the stereo image. What’s on the left
 stays on the left, likewise with the right, centered stuff will stay centered.
-This is different from both [MatrixVerb][] and [Reverb][], both of which will
-‘spread’ centered information as the reverb continues. [Infinity][] doesn’t have
- the stereo pitch shifting that would cause that to happen, because it’s
-entirely dedicated to providing pads and spaces that can literally sustain
-forever without change. So, it can also sustain a sound-space across the stereo
-field that doesn’t change the stereo mix, either. You can keep things mostly
-panned to the center, or put in super-wide stuff that’s fully L or R, or both.
+This is different from both [MatrixVerb] and [Reverb], both of which will
+‘spread’ centered information as the reverb continues. [Infinity] doesn’t have
+the stereo pitch shifting that would cause that to happen, because it’s entirely
+ dedicated to providing pads and spaces that can literally sustain forever
+without change. So, it can also sustain a sound-space across the stereo field
+that doesn’t change the stereo mix, either. You can keep things mostly panned to
+ the center, or put in super-wide stuff that’s fully L or R, or both.
 
 My hope is that this is an inspiring tool for those who like making ambient
-spaces. You can combine it with [MatrixVerb][] to have a distinct, unvarying
+spaces. You can combine it with [MatrixVerb] to have a distinct, unvarying
 source of infinite sound which is then broadened and made richer by the added
-options of [MatrixVerb][] in a way you couldn’t do from [MatrixVerb][] alone.
-Or, you can just use it as its own little instrument. Hope you like it!
+options of [MatrixVerb] in a way you couldn’t do from [MatrixVerb] alone. Or,
+you can just use it as its own little instrument. Hope you like it!
 
 
 <a name="plugins_infinity2"></a>
 ### Infinity2
 
-_Infinity2 expands [Infinity][] with more tone shaping and a much-requested
+_Infinity2 expands [Infinity] with more tone shaping and a much-requested
 kill-switch!_
 
-Here’s a much-requested upgrade! [Infinity][] has been working out surprisingly
+Here’s a much-requested upgrade! [Infinity] has been working out surprisingly
 well for people (surprising me, anyway, I got so excited about the feedforward
-reverb topologies that I thought [Infinity][] was far too old school) except
+reverb topologies that I thought [Infinity] was far too old school) except
 there’s quite a few DAWs that keep the plugin ‘live’ permanently if you’ve got
 it loaded. That, I didn’t expect. And so, there’s folks who are still sitting
-there waiting for their [Infinity][] to clear out so they can add some new
-sounds to it.
+there waiting for their [Infinity] to clear out so they can add some new sounds
+to it.
 
-And since it’s [Infinity][], they’ll be waiting a very very long time.
+And since it’s [Infinity], they’ll be waiting a very very long time.
 
 Until now!
 
-[Infinity2][] is carefully kept to allow exactly the same tones as before. No
+[Infinity2] is carefully kept to allow exactly the same tones as before. No
 undersampling, no changes, just the addition of a Feedback control as well as
 the Damping control, so you can shut the thing off (or turn it to a traditional
 dual-mono reverb if you wish).
@@ -7570,7 +7838,7 @@ be bypassed with another control, for brighter, more transient-rich input
 sounds.
 
 The maximum verb size (tied to sample rate like the original) is still exactly
-the same, but [Infinity2][] now lets you crank the pitch up to a LOT higher for
+the same, but [Infinity2] now lets you crank the pitch up to a LOT higher for
 when you’re doing weird effects with the plugin. That seemed like a nice tweak:
 if you don’t like it, try to not move the slider that far to the left :)
 
@@ -7598,61 +7866,61 @@ work: nope. But… now there are algorithms that are public, some of 'em so simp
 
 What could you do, to make this better in any way?
 
-Well, that's where my recent experiments come in. Meet Airwindows [Inflamer][]
+Well, that's where my recent experiments come in. Meet Airwindows [Inflamer]
 (NOT Inflator). It doesn't do the same things, quite. There's no band splitter.
-There's a [curve][] control, but it doesn't go -50 to +50, it goes from 0 to 1.
+There's a [curve] control, but it doesn't go -50 to +50, it goes from 0 to 1.
 And while it blends the two waveshapers… it does so in a more cumbersome and
 possibly more pure way.
 
-[Inflamer][] is different because it's using my [BitShiftGain][] style gain
+[Inflamer] is different because it's using my [BitShiftGain] style gain
 trimming, internally, as if it was a dry/wet, but with the two waveshapers
-instead of a dry and a wet. The [Drive][] control is also bit shifts (very
+instead of a dry and a wet. The [Drive] control is also bit shifts (very
 accurate divisions by powers of 2). The Effect control, as with the real
 Inflator, is normal and is in fact a dry/wet, and there you can have subtle
 adjustments to what is, I hope, a sonically optimized version of the effect.
 
 But you cannot have the band splitting, or fine gradations of Curve. In fact
 many settings of Curve will end up being a slight volume drop when used at unity
- gain ([Drive][] in the middle). It is possible a bunch of people will shoot
-this out against the real, iLoked, for pay, bestseller plugin, and will decide
-mine is crap because it is often quieter than the real one.
+ gain ([Drive] in the middle). It is possible a bunch of people will shoot this
+out against the real, iLoked, for pay, bestseller plugin, and will decide mine
+is crap because it is often quieter than the real one.
 
 GOOD. I'm not trying to rain on anyone's parade. You have to know what you're
 doing to evaluate this. It's much like how, when I start doing takes on
 Bricasti, they'll be in my own style. I am not cloning things, even when the
-underlying algorithms are trivially simple. [Inflamer][] is different and the
-range of adjustments are in 6 dB steps on Curve and [Drive][] and often you
-might find the result comes into the mix 3 or more dB quieter than it would from
- the Sony plugin, and that's as it should be.
+underlying algorithms are trivially simple. [Inflamer] is different and the
+range of adjustments are in 6 dB steps on Curve and [Drive] and often you might
+find the result comes into the mix 3 or more dB quieter than it would from the
+Sony plugin, and that's as it should be.
 
 And if I'm correct that leaning on these insights into digital math gives their
-own kind of benefits, I've managed to make an [Inflamer][] which is more
+own kind of benefits, I've managed to make an [Inflamer] which is more
 mastering-grade, more transparent and sonorous, and better sounding (IF you can
 live with the only settings I allow you to pick) than the real one. That's why
 I'm restricting it the way I am.
 
-There you have it. [Inflamer][] is obviously not Oxford Inflator, has less
-options and restricted choices, and if you shoot them out head to head without
-matching levels carefully, it will probably always come out quieter than Oxford
+There you have it. [Inflamer] is obviously not Oxford Inflator, has less options
+ and restricted choices, and if you shoot them out head to head without matching
+ levels carefully, it will probably always come out quieter than Oxford
 Inflator. And it is only some waveshapers, simplified and restricted even more
 than the original.
 
 And for some, it'll be just better, in critical listening. Sometimes it takes
-radical methods to beat an already stellar plugin. I hope you like [Inflamer][],
- and that it doesn't inflame you too much, unless you like that sort of thing.
+radical methods to beat an already stellar plugin. I hope you like [Inflamer],
+and that it doesn't inflame you too much, unless you like that sort of thing.
 
 
 <a name="plugins_infrasonic"></a>
 ### Infrasonic
 
-_Infrasonic is a very steep subsonic filter, built like [Ultrasonic][]._
+_Infrasonic is a very steep subsonic filter, built like [Ultrasonic]._
 
-If you saw my recent post about [Ultrasonic][]… this is the same, but at the
+If you saw my recent post about [Ultrasonic]… this is the same, but at the
 opposite frequency extreme! It will nuke DC offsets and reshape thunderous
 rumblings into specifically ‘audible’ subsonic rumblings. That doesn’t mean it
 will always make the amplitude of subsonic bass go down: there may be times when
  it alters the waveform so it peaks higher. But it’s the same thing as
-[Ultrasonic][]: tenth-order Butterworth highpass filter, executed as cleanly as
+[Ultrasonic]: tenth-order Butterworth highpass filter, executed as cleanly as
 possible (NOT with an internal Console system expanding the tone) using very
 high resolution math.
 
@@ -7676,8 +7944,8 @@ I will also note that this is very likely not what you want for a mastering
 highpass, because the steepness of the filter means a lot of crazy phase shift.
 I see it more as a special effects filter, something that can take a rumbly
 noise and give you a very tailored, impactful result with minimal content
-actually below 20hz. Sound design is where I'd use [Infrasonic][], and I'd check
- to see if I still liked it better than a normal subsonic highpass.
+actually below 20hz. Sound design is where I'd use [Infrasonic], and I'd check
+to see if I still liked it better than a normal subsonic highpass.
 
 
 <a name="plugins_interstage"></a>
@@ -7685,19 +7953,18 @@ actually below 20hz. Sound design is where I'd use [Infrasonic][], and I'd check
 
 _Interstage is a subtle and sophisticated analogifier._
 
-[Interstage][] is one half of an experiment. I pitted my ability to use my weird
- techniques (interleaved IIR, slew limiting, etc) against my new biquad
-filtering techniques, in the battle of the bandpasses. The biquads could give me
- total DC rejection and total rejection near Nyquist. My more distinctly
-Airwindows tricks could give me new sorts of nonlinearity and tone. Which would
-win?
+[Interstage] is one half of an experiment. I pitted my ability to use my weird
+techniques (interleaved IIR, slew limiting, etc) against my new biquad filtering
+ techniques, in the battle of the bandpasses. The biquads could give me total DC
+ rejection and total rejection near Nyquist. My more distinctly Airwindows
+tricks could give me new sorts of nonlinearity and tone. Which would win?
 
 This isn’t called ‘Biquadstage’, so that might be a bit of a giveaway.
 
-[Interstage][] isn’t a loudenator. It doesn’t really clip (though it does go
-dark as you push the highs harder, in a way I’ve never done before). It doesn’t
-even preserve the output peaks of heavily limited material: it’ll reshape lows
-in such a way that the peaks might go up slightly as the deepest lows get
+[Interstage] isn’t a loudenator. It doesn’t really clip (though it does go dark
+as you push the highs harder, in a way I’ve never done before). It doesn’t even
+preserve the output peaks of heavily limited material: it’ll reshape lows in
+such a way that the peaks might go up slightly as the deepest lows get
 rearranged, and it doesn’t really eliminate DC offset either. So what does it
 actually do?
 
@@ -7718,16 +7985,16 @@ What does it sound like? It sounds like running through an optimal analog stage.
  The lows are reshaped in a characteristic way for a capacitor-coupled circuit
 that still allows extended lows: this doesn’t suppress much if any extreme bass.
  It just massages it a bit. The highs run into active component electronic
-limits, but unlike other approaches (Channel for a bit of grit, [Acceleration][]
- for ultra-clear) this is restricting treble slews based on the general amount
-of energy in the circuit. So it goes darker in a peculiarly analog-like way I’ve
- not done before, sounding still clear and trebly for most audio, but confining
+limits, but unlike other approaches (Channel for a bit of grit, [Acceleration]
+for ultra-clear) this is restricting treble slews based on the general amount of
+ energy in the circuit. So it goes darker in a peculiarly analog-like way I’ve
+not done before, sounding still clear and trebly for most audio, but confining
 the craziest most digital-sounding treble swings into a zone that sounds like
 hardware. And this is without thousands of math operations of heavy processing:
 unlike overprocessed analog modeling, this one nails the ‘energy coming out of
 analog circuitry’ without blurring or thinning the audio at all. If you don’t
 need what it’s doing you’ll hear no change at all. Only when ‘excessively
-digital bass and treble’ show up to interfere, does [Interstage][] kick in.
+digital bass and treble’ show up to interfere, does [Interstage] kick in.
 
 
 <a name="plugins_ironoxide5"></a>
@@ -7740,7 +8007,7 @@ The legacy of this plugin goes way back. Many years ago, I was coding some of my
 company that sold the big tape emulation plugin of the day. Outraged, I charged
 into the fray: I would code a replacement for them, one that did the same things
  and sounded better and sold for $60 (later $50). And that was Iron Oxide. It
-had one ‘ips’ control, a [Drive][], and an output level.
+had one ‘ips’ control, a [Drive], and an output level.
 
 Then, I expanded on that with Iron Oxide 2. That one split the ‘ips’ top and
 bottom cutoffs, so you could vary the ‘bandpassy’ quality it had. It used the
@@ -7756,7 +8023,7 @@ across one or two samples, the range the flutter covers. That persists with Iron
 Iron Oxide 4 added something else that (come to find out) is also present in the
  Delta Labs Effectron: inv/dry/wet control. That persists with Iron Oxide 5. The
  way you use it is, set up an Iron Oxide tone that accentuates a frequency range
- (like mids). [Drive][] it, or leave it clean… but begin setting the control to
+ (like mids). [Drive] it, or leave it clean… but begin setting the control to
 inv (the inverted position). You’ll subtract it from dry, causing a dip rather
 than a boost, but if you’re saturating the ‘tape’ then the dip will leave
 dynamic energy in the area being cancelled: it will cut out fat, leaving punch.
@@ -7854,15 +8121,15 @@ workflow.
 _Isolator is a steep highpass or lowpass filter, like you might find in a
 speaker crossover._
 
-[Isolator][] is like some of my [Biquad][] Filter plugins, except it’s tuned to
-a particular purpose. In DJing, one technique is to use a filter on the full mix
- for effect, and [Isolator][] is geared towards two specific tricks in that
-vein: sweeping the filter down until the music is just a throb and then bringing
- it back, or sweeping the filter up to leave only highs and then dropping the
-bass back in.
+[Isolator] is like some of my [Biquad] Filter plugins, except it’s tuned to a
+particular purpose. In DJing, one technique is to use a filter on the full mix
+for effect, and [Isolator] is geared towards two specific tricks in that vein:
+sweeping the filter down until the music is just a throb and then bringing it
+back, or sweeping the filter up to leave only highs and then dropping the bass
+back in.
 
-This is done using a speaker-crossover style filter: [Isolator][] is a fifth
-order Butterworth filter made out of three series biquad filters run inside an
+This is done using a speaker-crossover style filter: [Isolator] is a fifth order
+ Butterworth filter made out of three series biquad filters run inside an
 instance of Airwindows Console. It rolls off at 30 dB/octave (I think I had this
  as 36db/octave in the video, but that would be a sixth-order filter) and
 probably slightly steeper than that, because I’m up to my usual tricks and chose
@@ -7916,15 +8183,14 @@ not in the signal path anymore. :D
 <a name="plugins_isolator2"></a>
 ### Isolator2
 
-_Isolator2 is [Isolator][], but with control smoothing and a new resonance
+_Isolator2 is [Isolator], but with control smoothing and a new resonance
 booster._
 
-[Isolator2][] is [Isolator][], my very steep lowpass or highpass or shelf
-filter, but now it’s got smoothed coefficients so you can automate it and make
-it move better. Also, it’s even steeper. Also, it now has the power to give you
-added resonance! So you can put an edge on your filter/isolator sweeps, for a
-really narrow high-resonance sound that’s very striking as a ‘synth filter’
-tone.
+[Isolator2] is [Isolator], my very steep lowpass or highpass or shelf filter,
+but now it’s got smoothed coefficients so you can automate it and make it move
+better. Also, it’s even steeper. Also, it now has the power to give you added
+resonance! So you can put an edge on your filter/isolator sweeps, for a really
+narrow high-resonance sound that’s very striking as a ‘synth filter’ tone.
 
 
 <a name="plugins_kcathedral"></a>
@@ -7934,17 +8200,17 @@ _kCathedral is a giant reverby space._
 
 Here's a neat little experiment! As always with the K reverbs, it's a dedicated
 sound space with its own unique algorithm… but there are some new twists making
-[kCathedral][] a step along an interesting path. This is the first of the
+[kCathedral] a step along an interesting path. This is the first of the
 Bricasti-inspired reverbs!
 
-It uses a 5x5 Householder matrix, and a built-in crossover (a [SubTight][]
-filter, so it's not even a normal type of filter) to allow for extra delay on
-the lows. The internal reverb filtering is [Pear][] filters rather than the
-biquads used on the kPlates. (the reverb is undersampled at high sample rates,
-so the [SubTight][] crossover will work the same whether at 1x, 2x, or 4x.)
+It uses a 5x5 Householder matrix, and a built-in crossover (a [SubTight] filter,
+ so it's not even a normal type of filter) to allow for extra delay on the lows.
+ The internal reverb filtering is [Pear] filters rather than the biquads used on
+ the kPlates. (the reverb is undersampled at high sample rates, so the
+[SubTight] crossover will work the same whether at 1x, 2x, or 4x.)
 
-And for all that trouble… [kCathedral][] does NOT sound the same as the Bricasti
- Cathedral preset. You won't find a clone here.
+And for all that trouble… [kCathedral] does NOT sound the same as the Bricasti
+Cathedral preset. You won't find a clone here.
 
 But… it will produce largely the same depth and spatiality, with a different
 texture that is less 'rich and soft' and more 'stark and vibey'. It should be
@@ -7952,18 +8218,18 @@ used similarly: for realism, hide it behind other sounds by keeping it quiet.
 There are no controls other than a dry/wet: for use on an aux, go full wet, and
 if you're using it inline you might end up adding just the tiniest amount (in
 the video, I'm using 0.03 of it on my voice, and you'll barely notice it until
-it switches to similarly faint [ClearCoat][] 7, just for a sentence, after
-having mentioned [ClearCoat][].)
+it switches to similarly faint [ClearCoat] 7, just for a sentence, after having
+mentioned [ClearCoat].)
 
-My hope for these is distinctness, and [kCathedral][] might not be the one to
+My hope for these is distinctness, and [kCathedral] might not be the one to
 reach for as an 'all-purpose' reverb, because it's just a first steo into a
 larger, more echoey new world. The thing I like about it is, while it has a
 distinct sound, the spatiality sits in the mix roughly the same way a real
 Bricasti might, even while the texture is different (will be interesting to see
 if I can get closer to that butter tone, in future).
 
-All in all, a good day at work (okay, months) and I hope you enjoy
-[kCathedral][] :)
+All in all, a good day at work (okay, months) and I hope you enjoy [kCathedral]
+:)
 
 
 <a name="plugins_kchamberar"></a>
@@ -7981,7 +8247,7 @@ since I might get to my goal June or July and get the Bricasti to study).
 
 So I didn't get the Abbey Road chamber, not really. But what did I get?
 
-Welcome to [kChamberAR][]! Instead of a nice, classy Abbey Road chamber, it's a
+Welcome to [kChamberAR]! Instead of a nice, classy Abbey Road chamber, it's a
 tape echo into a chamber gone terribly wrong. Or maybe it won't seem so wrong…
 but it's dirty, aggressive, and wild. If you crank the regeneration up it
 distorts and goes into infinite echo. If you crank up the bass cut, it filters
@@ -7990,8 +8256,8 @@ with the delay time, you get wild pitch modulations, all of which feed into the
 little, boxy, room.
 
 I honestly think this works better as an instrument and didn't work as a
-capital-C [Chamber][], much less the Abbey Road chamber. There's better to come,
- as far as serious chamber emulations go. When I do meet my goal and get the
+capital-C [Chamber], much less the Abbey Road chamber. There's better to come,
+as far as serious chamber emulations go. When I do meet my goal and get the
 Bricasti to study, chambers will be first in my investigations, and I'll get to
 the bottom of the problem.
 
@@ -8031,7 +8297,7 @@ that's cleaner, deeper and more intense.
 
 It's actually a really interesting puzzle to do this sort of thing… especially
 when you don't really have good reference yet, as it's all happening so fast.
-But now you have [kPlateA][]. And in it, you might just have a new best plate
+But now you have [kPlateA]. And in it, you might just have a new best plate
 reverb. It's using multiple fancy Householder feedforward matrices, all sorts of
  filtering, undersampling to make it useable at 96k and 192k, and seeing as it
 was developed on my antique Macbook Pro running Snow Leopard, I daresay it both
@@ -8055,13 +8321,13 @@ necessary as you thought it was :)
 _kPlateB is a plate reverb, not unlike its namesake atop Abbey Road._
 
 In the continuing saga of 'Chris makes plugins in a competitive marketplace',
-[kPlateB][] is one heck of a statement!
+[kPlateB] is one heck of a statement!
 
-This is the follow-up to the plugin [kPlateA][], which I've talked about
-recently. It sought to get the sound of a famous EMT plate reverb on top of a
-famous recording studio, through study of internet examples of that sound.
-Turned out to be a little more complicated than that, but who's counting? As a
-result, you've got [kPlateA][], and it's a big deep plate reverby sound.
+This is the follow-up to the plugin [kPlateA], which I've talked about recently.
+ It sought to get the sound of a famous EMT plate reverb on top of a famous
+recording studio, through study of internet examples of that sound. Turned out
+to be a little more complicated than that, but who's counting? As a result,
+you've got [kPlateA], and it's a big deep plate reverby sound.
 
 Plate B from that studio is said to be shorter and brighter, and indeed the
 examples you can find of that sound in plugin form draw the plate in a different
@@ -8072,7 +8338,7 @@ you shorter reverb times.
 
 Airwindows is different.
 
-In [kPlateB][], as with ALL different reverbs that will ever exist in the 'k'
+In [kPlateB], as with ALL different reverbs that will ever exist in the 'k'
 section of Airwindows-land, the fundamental algorithm is different, even the
 topology and basic code of the verb is different, and notably both of these use
 the following technique: my studio computer grinds away for hours or days to
@@ -8087,21 +8353,21 @@ then has the sides crossfeed into each other in a way that's custom for each set
  for just them to use, but they'd have to make it worth my while to NOT share
 that data with the open source world ;) )
 
-So, you've got [kPlateA][], and it sounds big and platey and deep and metallic
-and not unlike a big ol' plate reverb.
+So, you've got [kPlateA], and it sounds big and platey and deep and metallic and
+ not unlike a big ol' plate reverb.
 
-[kPlateB][] sounds not unlike MAGIC.
+[kPlateB] sounds not unlike MAGIC.
 
 It really freaked me out in the nicest way, how good this one sounds. Audio put
 through it just blooms, coming alive and sitting in a wonderful space. It's
 gonna be a hard act to follow… except that there will be a place for each of
 these, and a place for more traditional acoustic spaces I come up with later. It
- just so happens that [kPlateB][] really does the 'envelop sound in a lush,
-vivid atmosphere' thing really well. I think [kPlateA][] sits back a lot deeper
-and sounds more old and retro. [kPlateD][] will have to sound even more retro as
- it models a tube EMT-140, not custom hybrid ones. [kPlateC][] will need to be
-even shorter and brighter to properly emulate the famous real ones out there.
-All will have to have custom algorithms and matrices.
+ just so happens that [kPlateB] really does the 'envelop sound in a lush, vivid
+atmosphere' thing really well. I think [kPlateA] sits back a lot deeper and
+sounds more old and retro. [kPlateD] will have to sound even more retro as it
+models a tube EMT-140, not custom hybrid ones. [kPlateC] will need to be even
+shorter and brighter to properly emulate the famous real ones out there. All
+will have to have custom algorithms and matrices.
 
 I'm doing this as fast as I can, and I think it's coming along quite well. Sky's
  the limit, really. Hope you enjoy the sound of your new reverb plate as much as
@@ -8113,31 +8379,31 @@ I'm doing this as fast as I can, and I think it's coming along quite well. Sky's
 
 _kPlateC is a plate reverb, not unlike its namesake atop Abbey Road._
 
-Onward with the plate reverbs! [kPlateC][] is an interesting contrast to
-[kPlateB][], and an example of how Airwindows k-series reverbs work. Since
-there's no GUI you can't be fooled by different visual depiction of the two
-plates, so they're exposed as just sound. These are meant to resemble real
-things, and the real Plate C is said to be even shorter and brighter than the
-real Plate B. This is on top of them all having an array of controls (I've been
-asked to flip Damping over so higher numbers equal more damping, but that would
-apparently be contrary to how the real ones are laid out, not that you're likely
- to go to London and see… nor I, for that matter, though it would be fun)
+Onward with the plate reverbs! [kPlateC] is an interesting contrast to
+[kPlateB], and an example of how Airwindows k-series reverbs work. Since there's
+ no GUI you can't be fooled by different visual depiction of the two plates, so
+they're exposed as just sound. These are meant to resemble real things, and the
+real Plate C is said to be even shorter and brighter than the real Plate B. This
+ is on top of them all having an array of controls (I've been asked to flip
+Damping over so higher numbers equal more damping, but that would apparently be
+contrary to how the real ones are laid out, not that you're likely to go to
+London and see… nor I, for that matter, though it would be fun)
 
-Since [kPlateB][] came out very nicely, how is [kPlateC][] different?
+Since [kPlateB] came out very nicely, how is [kPlateC] different?
 
 Obviously it's voiced a bit differently to match the real one, but unlike other
 plugin approaches, the Airwindows plates each run completely different reverb
 matrix algorithms. I'm not talking about things like saturations etc (though
-[kPlateD][], being a tube reverb, has to have completely different software for
+[kPlateD], being a tube reverb, has to have completely different software for
 that than A, B and C which are  hybrid circuitry). What I mean is, all the
 little delays inside are different (normally so tricky that you come up with one
  great algo and then adapt that to each flavor of plate).
 
-And so, [kPlateC][] is like [kPlateB][] and yet completely different. The room,
-the space it makes is shallower, wider, a different shape. There will be things
-where it works way better than [kPlateB][], and vice versa, because they're just
- plain different flavors. If a note resonates on one plate, its brother is going
- to act completely different and won't highlight that note at all.
+And so, [kPlateC] is like [kPlateB] and yet completely different. The room, the
+space it makes is shallower, wider, a different shape. There will be things
+where it works way better than [kPlateB], and vice versa, because they're just
+plain different flavors. If a note resonates on one plate, its brother is going
+to act completely different and won't highlight that note at all.
 
 This will be the case for the whole k-series of reverbs as they expand. Hope you
  like it. Back to work :)
@@ -8150,12 +8416,12 @@ _kPlateD is a plate reverb, not unlike its namesake atop Abbey Road._
 
 We're not done, but we're done with the lettered plate reverbs not unlike
 certain ones in a famous studio! And we're ending with a banger. This is
-[kPlateD][]. This is the one that wasn't modified to run with hybrid circuitry,
+[kPlateD]. This is the one that wasn't modified to run with hybrid circuitry,
 though it's still got the circuitry removed from the box to lower noise (ok,
 easier to do that with a plugin: I'm literally not putting fake mains hum or
 anything, in). This is the all-tube one.
 
-Just listen, and compare it with the others, notably [kPlateA][] which is also
+Just listen, and compare it with the others, notably [kPlateA] which is also
 more of a 'long deep' plate.
 
 You're not going to get the sheer scale of the difference off competing plugins,
@@ -8171,17 +8437,17 @@ So even though it's purely software, the tube circuitry is plainly obvious as a
 contrast to the other three with their hybrid sound. How is this done? Partly
 through tuning everything (and selecting the actual reverb matrices) to suit the
  target sound. And partly through literally coding each of them a little
-differently, with [kPlateD][] being by far the most distinct, its internal
+differently, with [kPlateD] being by far the most distinct, its internal
 saturation algorithms being a whole different type.
 
-So if I can do this, why didn't I do it with [kPlateA][], B and C? For the same
-reason the Beatles album Abbey Road and the Pink Floyd album [Dark][] Side of
-the Moon wouldn't automatically be better if they were cut on the old REDD
-consoles. Each sound serves a purpose. They convey distinct atmospheres, which
-your ear can learn and remember, so rather than struggling to adapt all manner
-of strange controls you can do 'this should have [kPlateB][]' and then
-concentrate on what music's meant to go into it. Hope you enjoy the atmosphere
-of the classic [kPlateD][] :)
+So if I can do this, why didn't I do it with [kPlateA], B and C? For the same
+reason the Beatles album Abbey Road and the Pink Floyd album [Dark] Side of the
+Moon wouldn't automatically be better if they were cut on the old REDD consoles.
+ Each sound serves a purpose. They convey distinct atmospheres, which your ear
+can learn and remember, so rather than struggling to adapt all manner of strange
+ controls you can do 'this should have [kPlateB]' and then concentrate on what
+music's meant to go into it. Hope you enjoy the atmosphere of the classic
+[kPlateD] :)
 
 
 <a name="plugins_leadamp"></a>
@@ -8189,10 +8455,10 @@ of the classic [kPlateD][] :)
 
 _LeadAmp is an amp sim with a clear, penetrating, vocal tone._
 
-[LeadAmp][] acts like one of the ‘normal’ ampsims, but leaning more towards the
+[LeadAmp] acts like one of the ‘normal’ ampsims, but leaning more towards the
 vocal, fluid, Vox-y side of things. It’s a distinctive voice and even though
-they’re all pretty simple and direct, it’s really obvious how [LeadAmp][] isn’t
-the same flavor as [FireAmp][] or [GrindAmp][]: distinctly different vibe even
+they’re all pretty simple and direct, it’s really obvious how [LeadAmp] isn’t
+the same flavor as [FireAmp] or [GrindAmp]: distinctly different vibe even
 though they are all cut from the Airwindows super-direct amp sim cloth.
 
 The Airwindows amp sims are all fairly simple designs: highpass, cascading gain
@@ -8214,9 +8480,9 @@ _RightoMono copies one channel to both, losslessly._
 
 Time for another tiny utility plugin or two!
 
-[LeftoMono][] or [RightoMono][] exist for only one purpose: if your input is
-either left or right, it’s coming in on a stereo channel, and you have no use
-for the other side.
+[LeftoMono] or [RightoMono] exist for only one purpose: if your input is either
+left or right, it’s coming in on a stereo channel, and you have no use for the
+other side.
 
 No, worse: you’re coming off some kind of camera or camcorder and the other side
  is not only ‘nothing’, it shows some noise or interference that’s actively bad.
@@ -8234,8 +8500,8 @@ properly or generate controls: hey, none needed!
 
 This is a super boring plugin… except when you need it most. Hope you like it.
 (I no longer need it as I’m running my lav into the real mixing board… but I
-used [LeftoMono][] last week, before putting it out. It can’t save the camera
-from other issues like robot-voice over HDMI, but it rescued me from the
+used [LeftoMono] last week, before putting it out. It can’t save the camera from
+ other issues like robot-voice over HDMI, but it rescued me from the
 ‘interference and bad silence’ extra stereo channel. :)
 
 
@@ -8245,28 +8511,28 @@ from other issues like robot-voice over HDMI, but it rescued me from the
 _LilAmp is a tiny amp sim, like a little bitty practice amp without that much
 gain._
 
-Here’s a cute little monster for you! [LilAmp][] is an alternate take on my amp
+Here’s a cute little monster for you! [LilAmp] is an alternate take on my amp
 sims (resurrected from way back when, and brought up to speed to some extent).
-Unlike something like [FireAmp][] or [GrindAmp][], this one’s much lower gain
-and acts like little practice amps, but the kind with a lot of loudness and
+Unlike something like [FireAmp] or [GrindAmp], this one’s much lower gain and
+acts like little practice amps, but the kind with a lot of loudness and
 sonority.
 
 You use this when you want more of a clean, articulate effect, or when you’re
 trying to highlight the treble and midrange (for instance, for leads, or to turn
  a snare into a loud, confined whack). You can make it be more mellow, too, but
-it will always be ‘[LilAmp][]’ and speak up in a certain way. Something I found
-it useful for, is rhythm guitar that’s kind of Stonesy and not all that
-saturated: you can get the right kind of midrange bark out of it.
+it will always be ‘[LilAmp]’ and speak up in a certain way. Something I found it
+ useful for, is rhythm guitar that’s kind of Stonesy and not all that saturated:
+ you can get the right kind of midrange bark out of it.
 
 All these amp sims (there are more coming, too!) incorporate the cab sim stuff
 I’d also done back in the day, and they all have a rather special dry/wet
 control where backing off the full-wet sound gives you two stages of dry/wet,
 one for the cab sim and one for the amp sim. So things clean up in a distinctive
  way that’s not like any other plugin, or anything you could get out of a real
-amp, for that matter. Treat [LilAmp][] as a flexible way to get this type of
+amp, for that matter. Treat [LilAmp] as a flexible way to get this type of
 sound, because it’s way more interested in doing that, than in trying to mimic
 any particular literal amp. Rather than taking a real amp and EQing and shaping
-it to your mix, you take [LilAmp][] and morph it directly until it does what’s
+it to your mix, you take [LilAmp] and morph it directly until it does what’s
 needed (this applies to the other Airwindows amp sim plugins, too).
 
 
@@ -8303,9 +8569,9 @@ This time, and in honor of Logical going free VST format, it’s not set up for
 only good behavior. This time, it’s your responsibility to not blow up your
 outputs by thoughtlessly cranking the ratio. Consider it an audio chainsaw made
 of silk and glorious victories. Not every top-selling plugin got this much
-better when I revisited it. I’m very pleased with how [Logical4][] came out, and
- I hope to see it talked about a whole bunch. This one’s worth a lot of ‘did you
- hear?’.
+better when I revisited it. I’m very pleased with how [Logical4] came out, and I
+ hope to see it talked about a whole bunch. This one’s worth a lot of ‘did you
+hear?’.
 
 
 <a name="plugins_loud"></a>
@@ -8318,25 +8584,24 @@ distort?
 
 I studied recordings of competitive tractor pulls, of Space Shuttle launches,
 various recordings that represented the way air can be mangled and break apart.
-The result is [Loud][]… a step into a much louder world. It’s a distortion that
+The result is [Loud]… a step into a much louder world. It’s a distortion that
 can be slammed to unthinkable ‘heart of a supernova’ dB levels, but can also be
 subtly introduced to give the sonic coloration of a big LOUD noise in open air.
 Makes for a very interesting ‘glue’ at zero boost!
 
 Here’s how it’s done: rather than apply a consistent transfer function like a
-normal distortion, [Loud][] knows whether you’re compressing the air, or letting
- it rebound. And if it’s snapping back, it can do it with the speed of
-lightning, but if it’s compressing, the air can be squished to practically
-solid, increasing heat. This extreme nonlinearity is why [Loud][] sounds the way
- it does. It can sit on a whole mix to give it scope and authority, or it can be
- pushed harder on individual tracks like guitars and drums to amp up the
-ferocity.
+normal distortion, [Loud] knows whether you’re compressing the air, or letting
+it rebound. And if it’s snapping back, it can do it with the speed of lightning,
+ but if it’s compressing, the air can be squished to practically solid,
+increasing heat. This extreme nonlinearity is why [Loud] sounds the way it does.
+ It can sit on a whole mix to give it scope and authority, or it can be pushed
+harder on individual tracks like guitars and drums to amp up the ferocity.
 
 Remember, if you’ve got it totally fuzzing out, you are probably already beyond
 any sound level achievable by human means. The completely fried sound of
-cranked-up [Loud][] is not meant to seem like acoustic phenomena as we know it.
-It turns up that loud because I grew up reading Douglas Adams’ “Hitchhiker’s
-Guide to the Galaxy”, and because in no other way can you accurately emulate a
+cranked-up [Loud] is not meant to seem like acoustic phenomena as we know it. It
+ turns up that loud because I grew up reading Douglas Adams’ “Hitchhiker’s Guide
+ to the Galaxy”, and because in no other way can you accurately emulate a
 Disaster Area concert. :)
 
 
@@ -8345,8 +8610,8 @@ Disaster Area concert. :)
 
 _Lowpass deepens the tone, leaves a gloss and textural modifications._
 
-These ([Lowpass][] and [Highpass][]) are mixing EQs, not mastering ones (though
-I’m not the boss of you). They’re complementary: the one is the inverse of the
+These ([Lowpass] and [Highpass]) are mixing EQs, not mastering ones (though I’m
+not the boss of you). They’re complementary: the one is the inverse of the
 other. However, because of their peculiarities that makes them behave quite
 differently. What they have in common is they’re interleaved IIR filters,
 something people don’t normally do. The experiment here has to do with my
@@ -8361,21 +8626,21 @@ This is on a sample-by-sample basis so it’s a tone-character modification,
 subtle but interesting. Loose/tight is just the best way I could describe what’s
  happening there.
 
-[Lowpass][] gives you a treble rolloff (some have joked that I make dozens of
+[Lowpass] gives you a treble rolloff (some have joked that I make dozens of
 treble rolloffs! Yes, but they all sound different) and what’s immediately
 obvious is, the stuff right up by Nyquist on the threshold of hearing is not
 rolled off with the rest of the treble. Also, if you only want to cut extreme
 treble, you can do it with just adjusting the soft/hard control away from the
 center position. At deeper cut settings, the soft/hard control gives you two
 different textures (both of which keep a hint of ‘air’ right up top). The
-dry/wet control allows you to blend your result. [Lowpass][] gives you big
-sounds with various colorations and a sparkly gloss that comes from your
-underlying sound: it’s a big-ifying filter that might suit huge synth pads or
-orchestral tracks.
+dry/wet control allows you to blend your result. [Lowpass] gives you big sounds
+with various colorations and a sparkly gloss that comes from your underlying
+sound: it’s a big-ifying filter that might suit huge synth pads or orchestral
+tracks.
 
-[Highpass][], the inverse of this, gives totally different impressions. The same
- filter-offset behavior turns into ‘loose/tight’ and the extreme treble gets
-stepped on, rather than retained. This makes [Highpass][] take on ‘classic’
+[Highpass], the inverse of this, gives totally different impressions. The same
+filter-offset behavior turns into ‘loose/tight’ and the extreme treble gets
+stepped on, rather than retained. This makes [Highpass] take on ‘classic’
 tonalities, particularly with the offset on ‘loose’, which gives a tubey and
 softened texture. If you run it full-wet, you’ll get a radical
 ‘analogification’, wiping out all extreme lows and the highest highs, and
@@ -8399,20 +8664,20 @@ Guitar Conditioner) and makes them stand alone as useful mix tools.
 
 _Lowpass2 is an unusual-sounding variable-slope lowpass filter._
 
-This new version of [Lowpass][] exists to fix a bug, but then I added stuff to
-it that makes it entirely a new animal!
+This new version of [Lowpass] exists to fix a bug, but then I added stuff to it
+that makes it entirely a new animal!
 
-The existing [Lowpass][] tries to produce the same cutoff no matter what sample
+The existing [Lowpass] tries to produce the same cutoff no matter what sample
 rate you use, but doing that meant high sample rates can never use a fully
-opened filter. Instead, you got roll-off no matter what. [Lowpass2][] no longer
+opened filter. Instead, you got roll-off no matter what. [Lowpass2] no longer
 does that: the filter control goes from complete silence to wide open no matter
 what sample rate you’re at.
 
-But there’s more: [Lowpass2][] still uses the interleaved IIR filters the
-original [Lowpass][] pioneered (you’ll notice subtle bleed-through of
-information near the Nyquist frequency, beyond human hearing, but also the open
-and involving sound) but now it can use from zero to four poles of filter: so
-you get a stronger effect, and a sharper roll-off!
+But there’s more: [Lowpass2] still uses the interleaved IIR filters the original
+ [Lowpass] pioneered (you’ll notice subtle bleed-through of information near the
+ Nyquist frequency, beyond human hearing, but also the open and involving sound)
+ but now it can use from zero to four poles of filter: so you get a stronger
+effect, and a sharper roll-off!
 
 And that’s important because with four poles of filter you REALLY hear what the
 Soft/Hard slider does. This interacts with the filter control (don’t expect the
@@ -8424,7 +8689,7 @@ gradual, but at four poles it’s really noticeable.
 That gives you two distinct tone colors for your lowpassing, plus special
 effects: in the video I demonstrate how cranking the control to Hard on pink
 noise can make it sound like wind noise where you’re going incredibly fast.
-[Lowpass2][] is ideal for experimental tone shaping, and for sound design.
+[Lowpass2] is ideal for experimental tone shaping, and for sound design.
 
 
 <a name="plugins_lrfliptimer"></a>
@@ -8452,7 +8717,7 @@ re-flips.
 
 _Luxor is a re-release of another old Character plugin._
 
-[Luxor][] is the Character plugin that’s based off Manley impulses. It does NOT
+[Luxor] is the Character plugin that’s based off Manley impulses. It does NOT
 sound like a Manley anything. Instead, it does a weird and maybe cool thing: you
  might treat it like an amp sim or something, see what you can get out of it.
 Cranking syn drums through it ought to be good. It is what it is, namely ‘a
@@ -8464,16 +8729,16 @@ weird plugin not like anything else’ and I hope you like it.
 
 _MackEQ is the Mackie distortion but with treble and bass controls added._
 
-Folks who wanted [Mackity][], were looking to do some crazy things with it.
-We’re taking an old Mackie 1202, pre-VLZ (I have one and know how to abuse it
-for effect) and we’re mangling sounds with it. People wanted to take a kick
-drum, run it through one channel turned all the way up, patch that to another
-channel with crazy [EQ][] and also turned up until ready to explode, and so on.
-[Mackity][] was my best shot at just the input section of the 1202, with all the
- gain on tap but set up to work as close to ‘clean’ as these desks ever got:
-more so, in fact, as it doesn’t add hiss and chip noise. [Mackity][] was really
-good at sounding exactly like that, for those who like patching out of the
-insert points and getting a reasonably hi-fi sound out of their old 90s mixer.
+Folks who wanted [Mackity], were looking to do some crazy things with it. We’re
+taking an old Mackie 1202, pre-VLZ (I have one and know how to abuse it for
+effect) and we’re mangling sounds with it. People wanted to take a kick drum,
+run it through one channel turned all the way up, patch that to another channel
+with crazy [EQ] and also turned up until ready to explode, and so on. [Mackity]
+was my best shot at just the input section of the 1202, with all the gain on tap
+ but set up to work as close to ‘clean’ as these desks ever got: more so, in
+fact, as it doesn’t add hiss and chip noise. [Mackity] was really good at
+sounding exactly like that, for those who like patching out of the insert points
+ and getting a reasonably hi-fi sound out of their old 90s mixer.
 
 There are plenty of people who know without the shadow of a doubt, that the very
  idea is ridiculous: that, compared to your Neves and APIs etc, these tiny
@@ -8486,9 +8751,9 @@ might want to pad down the output if you try: it’s pretty horrifying.
 
 Some folks will go and immediately do that… and some of those, are very used to
 their original Mackie analog mixers, and know the exact tone they should get.
-And I can’t tell you whether those folks will be happy with [MackEQ][], because
-I have the real one (not an 8-buss, but a 1202) to compare with, and I did not
-get a perfect exact clone. I got something else. I think it might be useful:
+And I can’t tell you whether those folks will be happy with [MackEQ], because I
+have the real one (not an 8-buss, but a 1202) to compare with, and I did not get
+ a perfect exact clone. I got something else. I think it might be useful:
 certainly it can get the correct TYPE of tone, but I don’t believe I have the
 true 100% 90s drum and bass madness exactly down. There’s a texture in there,
 especially when you start aggressively distorting highs, that just defies being
@@ -8497,11 +8762,10 @@ box.
 
 But I captured SOMETHING in a plugin, and it’s in the ballpark. If you can
 accept a slight re-voicing of the thing, or if your use of it doesn’t involve
-torturing hi-hats and such in the first place, you might find [MackEQ][] is
-useful to you. That’s my hope. I daresay I’ll find uses for it myself…
-including, use after certain secret projects I’m still working on. Seems I’ve
-devoted myself to the DnB flame. If only I could play the music, I’d really be
-on to something :)
+torturing hi-hats and such in the first place, you might find [MackEQ] is useful
+ to you. That’s my hope. I daresay I’ll find uses for it myself… including, use
+after certain secret projects I’m still working on. Seems I’ve devoted myself to
+ the DnB flame. If only I could play the music, I’d really be on to something :)
 
 
 <a name="plugins_mackity"></a>
@@ -8516,16 +8780,16 @@ anything I’d done before, resolved to capture the madness.
 
 This is what you get when you run stuff into the inputs of the original Mackie
 1202… and then, plug halfway into the insert points on the back of the unit.
-This time it’s not about modeling the two-band [EQ][], or any of that. This time
- it’s the refined essence of Mackie slam.
+This time it’s not about modeling the two-band [EQ], or any of that. This time
+it’s the refined essence of Mackie slam.
 
 I might not have it so perfect that it’ll cancel out with a phase inverted
 recording out of the real physical machine… though it’s close… but on my word as
- Chris from Airwindows, through my choices and techniques, [Mackity][] gets the
+ Chris from Airwindows, through my choices and techniques, [Mackity] gets the
 vibe pretty close to perfect. It won’t generate noise like it’s real cheap
 op-amps but it’ll give you the same spongy slam and gleaming brain-fry overload
 of the purely analog machine. This is partly because it’s not overprocessing to
-lock in all the little [EQ][]-matching things: it’s basic simple algorithms
+lock in all the little [EQ]-matching things: it’s basic simple algorithms
 mimicking a basic simple circuit and there’s an intensity that comes through
 which you don’t get by fussing over all the details. It sounds big and raw and
 warm and it takes in audio in a characteristic way… really really old Mackie
@@ -8593,7 +8857,7 @@ very simple to operate.
 _Melt is a wobbly chorusy weird diffuse effect._
 
 As useful as utility plugins are, sometimes you just have to do something wobbly
- and weird. Here’s [Melt][]!
+ and weird. Here’s [Melt]!
 
 To explain what it’s doing will be a little tricky. You can just download it and
  play with it, but if you want to know what’s under the hood, here goes.
@@ -8612,12 +8876,12 @@ Now, what if you took all the start points and all the end points, and made them
  all wobble and sway around independently, so that the shifting delay taps also
 changed in tone color and volume even while they pitch-shifted around?
 
-Well, that’s [Melt][]. It’s pretty freaky, when cranked way up. You can run a
-long extended delay, causing it to resemble a strange retro ambience effect, or
-you can tighten it right up so that you have more of a chorusy thing. It
-probably should always have a bunch of pitch shift depth, otherwise it’s a mite
-boring. You can include dry, or just crank up the wobbly weirdness: should be
-nice on pads and things, or anything that has to be more dark and diffuse and
+Well, that’s [Melt]. It’s pretty freaky, when cranked way up. You can run a long
+ extended delay, causing it to resemble a strange retro ambience effect, or you
+can tighten it right up so that you have more of a chorusy thing. It probably
+should always have a bunch of pitch shift depth, otherwise it’s a mite boring.
+You can include dry, or just crank up the wobbly weirdness: should be nice on
+pads and things, or anything that has to be more dark and diffuse and
 unpredictable.
 
 
@@ -8627,10 +8891,10 @@ unpredictable.
 _MidAmp is a clean amp sim meant to work like a loud Twin or something of that
 nature._
 
-[MidAmp][] is another amp sim, this one going for a high-powered clean combo
-sound. You know, a Twin kind of sound. It’s got a wide range of [EQ][] and can
-be rolled off real far, and it can be extra bright and spiky if you want that. I
- demonstrate it in the video on a Tele part, then unexpectedly to dirty up a
+[MidAmp] is another amp sim, this one going for a high-powered clean combo
+sound. You know, a Twin kind of sound. It’s got a wide range of [EQ] and can be
+rolled off real far, and it can be extra bright and spiky if you want that. I
+demonstrate it in the video on a Tele part, then unexpectedly to dirty up a
 thumping bass (which it does really well) and lastly on some very aggressive
 drums to make them even crazier.
 
@@ -8640,21 +8904,20 @@ drums to make them even crazier.
 
 _Mojo is a biggenator that also works as a loudenator._
 
-Happy accidents! What I was trying to do was add a blend control to [Spiral][],
-so I could make a Channel that let you go between the original, ‘fatter’ sound
-and the cleaner, more transparent but less fat [Spiral][] sound.
+Happy accidents! What I was trying to do was add a blend control to [Spiral], so
+ I could make a Channel that let you go between the original, ‘fatter’ sound and
+ the cleaner, more transparent but less fat [Spiral] sound.
 
 Instead, I got this (and another, complementary plugin to be revealed later). I
-coded up a refinement to the algorithm, where the ‘[curve][] factor’ of
-[Spiral][] got modified by powers of itself, or powers of powers of itself… up
-to the fourth power, which turned out to sort of have MAGICAL powers, or at
-least that’s how it seemed when I worked out what was happening to my test sine
-waves.
+coded up a refinement to the algorithm, where the ‘[curve] factor’ of [Spiral]
+got modified by powers of itself, or powers of powers of itself… up to the
+fourth power, which turned out to sort of have MAGICAL powers, or at least
+that’s how it seemed when I worked out what was happening to my test sine waves.
 
-[Mojo][]’s the result. It’s a neat little algorithm that doesn’t sound anything
-like [Density][], or [Spiral][]. Instead, it sounds like concentrated HUGE. Even
- at no added boost, it makes the sound a lot fatter (much like what was asked: a
- more refined algorithm that still gets the fatness of [Density][]). But then
+[Mojo]’s the result. It’s a neat little algorithm that doesn’t sound anything
+like [Density], or [Spiral]. Instead, it sounds like concentrated HUGE. Even at
+no added boost, it makes the sound a lot fatter (much like what was asked: a
+more refined algorithm that still gets the fatness of [Density]). But then
 there’s more… when you start slamming it.
 
 Turns out this simple little algorithm, one single transfer function without
@@ -8662,24 +8925,23 @@ extra parts or switches or added tricks, soaks up input gain like nothing I’ve
 seen.
 
 Understand, it’s not ‘clean’. It thickens and fattens the sound without any real
- [EQ][] change, by where it puts the energy and how it rounds off peaks. It’s
-got a weirdly effective way of being able to round stuff off and then turn it
-into a mostly flat-topped output, like full-on digital clipping style loudness,
-but with neatly sculpted little curves going in and out of the flat stuff. It’s
-also such a nonintuitive algorithm that I wasn’t able to find an ideal spot to
-just straight clip it… so, like original [Spiral][], if you push beyond its
-limits it’ll start wavefolding on you (which can be an indication of too much
-slam). But the sweet spot is unusually wide and forgiving, and it sounds really
-loud while you explore that maximum limit.
+ [EQ] change, by where it puts the energy and how it rounds off peaks. It’s got
+a weirdly effective way of being able to round stuff off and then turn it into a
+ mostly flat-topped output, like full-on digital clipping style loudness, but
+with neatly sculpted little curves going in and out of the flat stuff. It’s also
+ such a nonintuitive algorithm that I wasn’t able to find an ideal spot to just
+straight clip it… so, like original [Spiral], if you push beyond its limits
+it’ll start wavefolding on you (which can be an indication of too much slam).
+But the sweet spot is unusually wide and forgiving, and it sounds really loud
+while you explore that maximum limit.
 
-[Mojo][] is an accident, but it’s also an obvious ‘popular’ plugin. Check to see
- if you’re okay with the extreme fattening effect it has, since it does really
+[Mojo] is an accident, but it’s also an obvious ‘popular’ plugin. Check to see
+if you’re okay with the extreme fattening effect it has, since it does really
 have a sound and isn’t what you’d call clean, even in the absence of extra
-boost. But if you were already looking for some ‘mojo’ to be added, this
-[Mojo][] might be just the type… and, like the original [Density][] algorithm,
-this one is likely to show up in other plugins as an added saturation element,
-because it’s got a distinct flavor that will help certain plugins do their
-thing.
+boost. But if you were already looking for some ‘mojo’ to be added, this [Mojo]
+might be just the type… and, like the original [Density] algorithm, this one is
+likely to show up in other plugins as an added saturation element, because it’s
+got a distinct flavor that will help certain plugins do their thing.
 
 
 <a name="plugins_monitoring"></a>
@@ -8694,8 +8956,8 @@ work comes together into a final shape. In a single plugin, you’ve got a pile 
 You’ve got Not Just Another Dither (24 AND 16 bit). The 24 bit is also used to
 make your DAC sound better on the other monitoring options (even if you have 32
 bit DACs, it’ll still bring a subliminal naturalness from the Benford Realness
-calculations). You’ve got [PeaksOnly][] back again, but also [SlewOnly][] and
-[SubsOnly][]: switch between them and if anything is either out of control or
+calculations). You’ve got [PeaksOnly] back again, but also [SlewOnly] and
+[SubsOnly]: switch between them and if anything is either out of control or
 missing in action through these extreme monitoring situations, you know what to
 do.
 
@@ -8703,15 +8965,15 @@ You’ve got utilities like Mono and Side, for a quick mono check. If you split
 ’em to stems and then sum them, you ought to get the original signal back again
 so that’s a handy tool you’ll already be used to. But you’ve also got three new
 things, Vinyl, Aurat and Phone. This is where the ‘ultra-broad bandpass’ stuff
-went! It was too vanilla to work as a ‘[Interstage][]’ killer, but the
-Airwindows biquad bandpass turns out to be ideally suited to test monitoring,
-where you want the bandwidth very limited but without sounding unusual or vibey
-about it. Vinyl just barely rolls off the extremes in the manner of traditional
-lathe electronics, which routinely discard stuff that CDs include. Aurat is a
-narrower band, like the output of those little one-driver mix check speakers:
-you can get a decent sense of that voicing, as if your speakers were made that
-way, without a lot of fake modeling or convolution to muddy things up. And
-Phone, well… Same, but if it was a cellphone.
+went! It was too vanilla to work as a ‘[Interstage]’ killer, but the Airwindows
+biquad bandpass turns out to be ideally suited to test monitoring, where you
+want the bandwidth very limited but without sounding unusual or vibey about it.
+Vinyl just barely rolls off the extremes in the manner of traditional lathe
+electronics, which routinely discard stuff that CDs include. Aurat is a narrower
+ band, like the output of those little one-driver mix check speakers: you can
+get a decent sense of that voicing, as if your speakers were made that way,
+without a lot of fake modeling or convolution to muddy things up. And Phone,
+well… Same, but if it was a cellphone.
 
 Update - Aurat now has mono-summed versions that come out of either the left or
 right speaker, so you can get a true mono grot-box single speaker mix check even
@@ -8719,23 +8981,23 @@ right speaker, so you can get a true mono grot-box single speaker mix check even
 -Phone’s now mono (no special single-speaker tricks, it’s more an afterthought
 but sure enough, you don’t normally get stereo cellphones)
 
-But then you’ve got the crown jewel of [Monitoring][]… Cans A and B. Airwindows
+But then you’ve got the crown jewel of [Monitoring]… Cans A and B. Airwindows
 Crossfeed for headphones! This isn’t an exact clone of anyone else’s product,
-this is MY take on what you need. It uses allpasses from [PeaksOnly][] to blur
-and extend stereo content, first as a slightly delayed/smeared crossfeed, and
-then back again with a longer allpass to fill in some space. This does two
-things. It localizes stereo, but it also hints at the kind of information
-[PeaksOnly][] gives you, so the Cans options both make listening easier, and
-mixing easier! Cans A is very subtle, much closer to the raw mix you’re working
-on, but with enough cues to orient you if you’re paying attention. Cans B is
-much more obvious, and is a good late-night check for if you’re getting
-fatigued: it’s a lot more blurry and ambient and narrowed, but it takes peak
-information that could get by you, and makes it obvious like a mini
-[PeaksOnly][]. It feels like listening to the music off a stage, and presents
-everything you’ll need. And both of them use Console5 technology, Airwindows
-allpasses (as found in [MV][]) and all gain operations inside them are done
-using [BitShiftGain][]. So these monitoring options, whether subtle or plain,
-are set up to be the highest-fidelity monitoring options you’ll find.
+this is MY take on what you need. It uses allpasses from [PeaksOnly] to blur and
+ extend stereo content, first as a slightly delayed/smeared crossfeed, and then
+back again with a longer allpass to fill in some space. This does two things. It
+ localizes stereo, but it also hints at the kind of information [PeaksOnly]
+gives you, so the Cans options both make listening easier, and mixing easier!
+Cans A is very subtle, much closer to the raw mix you’re working on, but with
+enough cues to orient you if you’re paying attention. Cans B is much more
+obvious, and is a good late-night check for if you’re getting fatigued: it’s a
+lot more blurry and ambient and narrowed, but it takes peak information that
+could get by you, and makes it obvious like a mini [PeaksOnly]. It feels like
+listening to the music off a stage, and presents everything you’ll need. And
+both of them use Console5 technology, Airwindows allpasses (as found in [MV])
+and all gain operations inside them are done using [BitShiftGain]. So these
+monitoring options, whether subtle or plain, are set up to be the
+highest-fidelity monitoring options you’ll find.
 
 Also, TWO new Cans algorithms, Cans C and Cans D.
 
@@ -8752,70 +9014,70 @@ exaggerated stereo too. Try it out and see what you think!
 <a name="plugins_monitoring2"></a>
 ### Monitoring2
 
-_Monitoring2 is [Monitoring][], but with [Dark][] as the wordlength reducer._
+_Monitoring2 is [Monitoring], but with [Dark] as the wordlength reducer._
 
-Here’s a little update for users of [Monitoring][]! [Monitoring][] is the
+Here’s a little update for users of [Monitoring]! [Monitoring] is the
 end-of-2-buss plugin that allows you to check your mix in lots of different
 ways. You can get 24 or 16 bit output out of it (as in, direct to CD format for
-saving as 16 bit), lots of reference sounds like [SubsOnly][], [SlewOnly][],
-[PeaksOnly][] that will let you hear your mix in a very different way (if it’s
-way out of balance when you can only hear the deepest subs, or the brightest
-highs, you can re-adjust things.) [PeaksOnly][] shows you a fake and unnatural
-sound that will enhance the inaudible peak energy and highlight anything that
-might be too loud because it’s heavy on peak energy. You’ve got four variations
-on Cans for headphone mixing (which gives you crossfeed in the form of
-allpassed, blurred audio a bit like what [PeaksOnly][] does), you’ve got mono
-and side checks, narrowed-bandwidth checks like Aurat (including one-side mono
-versions to more closely resemble use of a real mono mix-check speaker) and even
- utilities like [VoiceTrick][], which gives you mono with one speaker out of
-phase: position a mic exactly between the speakers and you can lay vocal tracks
+saving as 16 bit), lots of reference sounds like [SubsOnly], [SlewOnly],
+[PeaksOnly] that will let you hear your mix in a very different way (if it’s way
+ out of balance when you can only hear the deepest subs, or the brightest highs,
+ you can re-adjust things.) [PeaksOnly] shows you a fake and unnatural sound
+that will enhance the inaudible peak energy and highlight anything that might be
+ too loud because it’s heavy on peak energy. You’ve got four variations on Cans
+for headphone mixing (which gives you crossfeed in the form of allpassed,
+blurred audio a bit like what [PeaksOnly] does), you’ve got mono and side
+checks, narrowed-bandwidth checks like Aurat (including one-side mono versions
+to more closely resemble use of a real mono mix-check speaker) and even
+utilities like [VoiceTrick], which gives you mono with one speaker out of phase:
+ position a mic exactly between the speakers and you can lay vocal tracks
 without headphones if you need to (not perfect, but it should work).
 
-In short, [Monitoring][], but with one little change. Everything is the same,
-but now [Monitoring2][] uses Airwindows [Dark][] for the wordlength reducer.
-This is different from the original Not Just Another Dither, in that it will
-give you deeper blacks in your silences and darker, warmer tones than the
-original NJAD would do. [Dark][] is not really a dither: it makes its choices
-(for wordlength reducing) based only on what will create less hiss, noise and
-highs in the final output. This won’t be right for everybody, and is subtle no
-matter who you are, but it might be just the thing if you have a retro
-aesthetic, are into the whole cassette-release scene, or just want to produce
-music that sounds as unlike the modern DAW scene as you can get.
+In short, [Monitoring], but with one little change. Everything is the same, but
+now [Monitoring2] uses Airwindows [Dark] for the wordlength reducer. This is
+different from the original Not Just Another Dither, in that it will give you
+deeper blacks in your silences and darker, warmer tones than the original NJAD
+would do. [Dark] is not really a dither: it makes its choices (for wordlength
+reducing) based only on what will create less hiss, noise and highs in the final
+ output. This won’t be right for everybody, and is subtle no matter who you are,
+ but it might be just the thing if you have a retro aesthetic, are into the
+whole cassette-release scene, or just want to produce music that sounds as
+unlike the modern DAW scene as you can get.
 
 
 <a name="plugins_monitoring3"></a>
 ### Monitoring3
 
-_Monitoring3 is [Monitoring][], but with Ten Nines into [Dark][] as the
-wordlength reducer._
+_Monitoring3 is [Monitoring], but with Ten Nines into [Dark] as the wordlength
+reducer._
 
-Here’s a little update for users of [Monitoring][]! [Monitoring][] is the
+Here’s a little update for users of [Monitoring]! [Monitoring] is the
 end-of-2-buss plugin that allows you to check your mix in lots of different
 ways. You can get 24 or 16 bit output out of it (as in, direct to CD format for
-saving as 16 bit), lots of reference sounds like [SubsOnly][], [SlewOnly][],
-[PeaksOnly][] that will let you hear your mix in a very different way (if it’s
-way out of balance when you can only hear the deepest subs, or the brightest
-highs, you can re-adjust things.) [PeaksOnly][] shows you a fake and unnatural
-sound that will enhance the inaudible peak energy and highlight anything that
-might be too loud because it’s heavy on peak energy. You’ve got four variations
-on Cans for headphone mixing (which gives you crossfeed in the form of
-allpassed, blurred audio a bit like what [PeaksOnly][] does), you’ve got mono
-and side checks, narrowed-bandwidth checks like Aurat (including one-side mono
-versions to more closely resemble use of a real mono mix-check speaker) and even
- utilities like [VoiceTrick][], which gives you mono with one speaker out of
-phase: position a mic exactly between the speakers and you can lay vocal tracks
+saving as 16 bit), lots of reference sounds like [SubsOnly], [SlewOnly],
+[PeaksOnly] that will let you hear your mix in a very different way (if it’s way
+ out of balance when you can only hear the deepest subs, or the brightest highs,
+ you can re-adjust things.) [PeaksOnly] shows you a fake and unnatural sound
+that will enhance the inaudible peak energy and highlight anything that might be
+ too loud because it’s heavy on peak energy. You’ve got four variations on Cans
+for headphone mixing (which gives you crossfeed in the form of allpassed,
+blurred audio a bit like what [PeaksOnly] does), you’ve got mono and side
+checks, narrowed-bandwidth checks like Aurat (including one-side mono versions
+to more closely resemble use of a real mono mix-check speaker) and even
+utilities like [VoiceTrick], which gives you mono with one speaker out of phase:
+ position a mic exactly between the speakers and you can lay vocal tracks
 without headphones if you need to (not perfect, but it should work).
 
-In short, [Monitoring][], but with one little change. Everything is the same,
-but now [Monitoring3][] uses Airwindows Ten Nines into [Dark][] for the
-wordlength reducer. This was originally built into Console8: I've decided that
-was silly, especially since I make use of [Monitoring][] a lot and had
-overlooked its usefulness. So if you've never heard of these, they're final
-dithers (especially to 24 bit) with lots of interesting monitoring-check
-options, and 1, 2, and 3 all offer different wordlength reduction, being
-otherwise identical. Console8 is also being updated in place, the only change
-being that it no longer dithers to 24 bit. Instead, you're to use the dither in
-[Monitoring][], or whatever else you wish.
+In short, [Monitoring], but with one little change. Everything is the same, but
+now [Monitoring3] uses Airwindows Ten Nines into [Dark] for the wordlength
+reducer. This was originally built into Console8: I've decided that was silly,
+especially since I make use of [Monitoring] a lot and had overlooked its
+usefulness. So if you've never heard of these, they're final dithers (especially
+ to 24 bit) with lots of interesting monitoring-check options, and 1, 2, and 3
+all offer different wordlength reduction, being otherwise identical. Console8 is
+ also being updated in place, the only change being that it no longer dithers to
+ 24 bit. Instead, you're to use the dither in [Monitoring], or whatever else you
+ wish.
 
 
 <a name="plugins_monoam"></a>
@@ -8823,24 +9085,23 @@ being that it no longer dithers to 24 bit. Instead, you're to use the dither in
 
 _MoNoam gives you variations on mono, mid, and side in different channels._
 
-Here's [MoNoam][]. It’s named sort of after the person who wanted something like
- it, and sort of after the concept ‘Mono’. Because all it does, is switch around
- some mid/side type things for your convenience.
+Here's [MoNoam]. It’s named sort of after the person who wanted something like
+it, and sort of after the concept ‘Mono’. Because all it does, is switch around
+some mid/side type things for your convenience.
 
-You see, the new [Monitoring][] is getting ‘Aurat’ settings that give you that
-but as mono coming from literally one speaker (you pick). Seemed like a good way
- to replicate what is literally a mono mix check speaker. But I got requests for
- that on straight mono audio… and on side, for that matter… and a lot of stuff I
- can’t put in [Monitoring][] without it getting way complicated. The thing is,
-if I do a ‘massmarket’ generally useful plugin like [Monitoring][], part of that
- is me choosing to leave stuff out, and what’s left in takes on greater
-importance as stuff I think you should be doing. But there are always
-exceptions…
+You see, the new [Monitoring] is getting ‘Aurat’ settings that give you that but
+ as mono coming from literally one speaker (you pick). Seemed like a good way to
+ replicate what is literally a mono mix check speaker. But I got requests for
+that on straight mono audio… and on side, for that matter… and a lot of stuff I
+can’t put in [Monitoring] without it getting way complicated. The thing is, if I
+ do a ‘massmarket’ generally useful plugin like [Monitoring], part of that is me
+ choosing to leave stuff out, and what’s left in takes on greater importance as
+stuff I think you should be doing. But there are always exceptions…
 
-So, [MoNoam][] (almost symmetrical, like a palindrome) gives you mono/mid and
-side (directly) in such a way that you could sum them to get the stereo back
-again. But it also gives you mono in either one or the other channel, to come
-out of only one speaker. And it gives you ‘mono-ized’ side: this will be
+So, [MoNoam] (almost symmetrical, like a palindrome) gives you mono/mid and side
+ (directly) in such a way that you could sum them to get the stereo back again.
+But it also gives you mono in either one or the other channel, to come out of
+only one speaker. And it gives you ‘mono-ized’ side: this will be
 fuller-sounding than the true side, because the true side is out of phase
 between channels. And you can put the mono-ized side in one or the other channel
  if you want. If you’re recombining things it’ll get weird, but if you just want
@@ -8866,20 +9127,20 @@ audio gibberish towards stuff with a very different texture. So I’m not a
 natural match for that kind of thing, and yet I get asked for my take on plugins
  like that.
 
-So, long ago, I made [MultiBandDistortion][]. I figured if you were going to
-wreck your sound, let’s REALLY wreck it, and I did some very gnarly things in
-there that I now don’t entirely understand. I know that if you turn ‘stable’
-down, you get a choppy effect not unlike the ZVex Fuzz Factory pedal, only not:
-the interaction between the bands can get sketchy. Again, I don’t remember how
-this worked and don’t expect to be revising it or making it more controllable or
- cleaner: that kind of misses the point. If you’re trying to get a slick version
- of this kind of thing you start by not using this kind of thing :)
+So, long ago, I made [MultiBandDistortion]. I figured if you were going to wreck
+ your sound, let’s REALLY wreck it, and I did some very gnarly things in there
+that I now don’t entirely understand. I know that if you turn ‘stable’ down, you
+ get a choppy effect not unlike the ZVex Fuzz Factory pedal, only not: the
+interaction between the bands can get sketchy. Again, I don’t remember how this
+worked and don’t expect to be revising it or making it more controllable or
+cleaner: that kind of misses the point. If you’re trying to get a slick version
+of this kind of thing you start by not using this kind of thing :)
 
 
 <a name="plugins_mv"></a>
 ### MV
 
-_MV is a dual-mono reverb based on [BitShiftGain][] and the old Midiverbs._
+_MV is a dual-mono reverb based on [BitShiftGain] and the old Midiverbs._
 
 Back in the days of really old school digital reverbs, there were a couple weird
  and obscure ones that had a special mojo. I’ve got one: the original Alesis
@@ -8909,16 +9170,16 @@ using bit shifts as well? And allowed for a big number of allpasses (26, all
 different increasing prime lengths), and gave varying treble rolloff by
 independently controlling which of the allpasses got the average treatment?
 
-Welcome to the infinite land of [MV][]. This is nothing like a normal reverb,
-but it’s got some great superpowers, not least of which is the ability to just
+Welcome to the infinite land of [MV]. This is nothing like a normal reverb, but
+it’s got some great superpowers, not least of which is the ability to just
 sustain a ‘bloom’ forever. You can automate it by kicking the regeneration up to
  1.0 any time you like.
 
 You can dial in different degrees of highs roll-off using the bright control, or
  leave it at 100% shiny. Combining this with more restrained regenerations like
 0.51 or 0.26 at medium-to-high sizes will give you very decent ‘impossibly huge
-reverbs’ of various characters. [MV][] doesn’t do early reflections or plausible
- spaces, just the infinite wash, but that’s somewhat configurable.
+reverbs’ of various characters. [MV] doesn’t do early reflections or plausible
+spaces, just the infinite wash, but that’s somewhat configurable.
 
 It runs dual-mono, so you can dial down the size a bit (not too much or it’ll
 get nasty, you’re removing allpasses from the chain) and use it as an ambiance
@@ -8943,7 +9204,7 @@ mix but then getting out of the way.
 <a name="plugins_mv2"></a>
 ### MV2
 
-_MV2 is a dual-mono reverb based on [BitShiftGain][] and the old Midiverbs,
+_MV2 is a dual-mono reverb based on [BitShiftGain] and the old Midiverbs,
 adapted to high sample rates._
 
 Back in the days of really old school digital reverbs, there were a couple weird
@@ -8974,18 +9235,18 @@ using bit shifts as well? And allowed for a big number of allpasses (26, all
 different increasing prime lengths), and gave varying treble rolloff by
 independently controlling which of the allpasses got the average treatment?
 
-Here's the new [MV][]: all this, but adapted to high sample rates. The previous
+Here's the new [MV]: all this, but adapted to high sample rates. The previous
 one's still there! But if you try to use it at 96k or 192k, the whole tone and
 delay time will be shifted to higher pitches, shorter reverb blooms (bloom being
- the type of SFX this is). [MV2][] uses undersampling so it can run at high
-sample rates and sound the same… and so it can use less CPU at the elevated
-sample rate.
+ the type of SFX this is). [MV2] uses undersampling so it can run at high sample
+ rates and sound the same… and so it can use less CPU at the elevated sample
+rate.
 
 You can dial in different degrees of highs roll-off using the bright control, or
  leave it at 100% shiny. Combining this with more restrained regenerations like
 0.51 or 0.26 at medium-to-high sizes will give you very decent ‘impossibly huge
-reverbs’ of various characters. [MV][] doesn’t do early reflections or plausible
- spaces, just the infinite wash, but that’s somewhat configurable. It's also a
+reverbs’ of various characters. [MV] doesn’t do early reflections or plausible
+spaces, just the infinite wash, but that’s somewhat configurable. It's also a
 really primitive algorithm compared to some of my others: this is a case of me
 updating older stuff so it maintains usefulness in the modern day, it's not
 about me making a new greatest reverb. Though, you know, if you like it that's
@@ -9032,7 +9293,7 @@ compensation is basically ‘the number of people out there who think I ought to
 keep working in this field’, and the more of those the better. I don’t have to
 keep Naturalize just to myself anymore, because it helps the Patreon when I’m
 generous. So, go ahead and download and use it for free (it’s running at 24 bit,
- use [BitShiftGain][] to get 16 bit out of it) and here’s how Naturalize works.
+ use [BitShiftGain] to get 16 bit out of it) and here’s how Naturalize works.
 
 Benford’s Law is a statistical technique: basically, it says that in lists of
 natural data, if you get rid of all the leading zeroes, the first digit other
@@ -9084,13 +9345,13 @@ entirely deterministic, with no noise at all. I’m sure I tried that already, b
 
 (followup: Naturalize is the first example of what then became NJAD and went
 through a couple of revisions: the most current and best version of
-NJAD/Naturalize is the NJAD that is in the plugin [Monitoring][].
+NJAD/Naturalize is the NJAD that is in the plugin [Monitoring].
 
 
 <a name="plugins_ncseventeen"></a>
 ### NCSeventeen
 
-_NCSeventeen is Dirty [Loud][]!_
+_NCSeventeen is Dirty [Loud]!_
 
 NC-17 was designed as the loudenator-killer. It uses the same technology as
 ADClip’s energy redistribution stuff, but on a soft-clipper, and instead of just
@@ -9125,7 +9386,7 @@ submixes, too)
 
 _Neverland is a re-release of my old Neve-style color adder, exacly as it was._
 
-[Neverland][] is my old Neve emulation from 2007. It’s out of the Character
+[Neverland] is my old Neve emulation from 2007. It’s out of the Character
 collection, and I’m re-releasing these in 64 bit and VST because there are
 people asking me to do that. If I make it exactly like how it was, you can open
 old mixes and retain the settings you had, so the Character plugins are kept
@@ -9141,11 +9402,11 @@ nice._
 
 Sorry/not sorry!
 
-[Nikola][] was, I think, an April Fool’s plugin back in the day. In porting it
-to VST and making it available for the first time on Windows and Linux, I
-thought up some improvements, so its Voltage control now combines two different
-effects: at low Voltage it’s brighter and airier with little roar and sustaining
- industrial scrunch. At high voltage it goes more midrangey and turns into a
+[Nikola] was, I think, an April Fool’s plugin back in the day. In porting it to
+VST and making it available for the first time on Windows and Linux, I thought
+up some improvements, so its Voltage control now combines two different effects:
+ at low Voltage it’s brighter and airier with little roar and sustaining
+industrial scrunch. At high voltage it goes more midrangey and turns into a
 complete disaster area.
 
 An audio Tesla Coil fires bolts of lightning at audio rate. This is based off
@@ -9172,41 +9433,41 @@ neat? Definitely one for the sound designers.
 ### NodeDither
 
 _NodeDither is adjusta-TPDF-dither, like a dither flanger. Can do Paul and
-[Tape][] settings._
+[Tape] settings._
 
 And just one more dither plugin before the eagerly anticipated Naturalize…
-(because who will care about these then?) …[NodeDither][], the testbed upon
-which [PaulDither][] and [TapeDither][] were developed!
+(because who will care about these then?) …[NodeDither], the testbed upon which
+[PaulDither] and [TapeDither] were developed!
 
 I still think it’s good to have those as separate plugins (for simplicity and
 purity of concept) but since the concept is ‘TPDF made up of a sample of noise,
 and then a delayed version either normal or inverted’, how can I not give out
-the tool I used to find things like [TapeDither][]? This was coded to do
-something that wasn’t possible: put a big delay in so there’s a ‘cancellation
-node’ at around 1.5K, making the noise quieter there.
+the tool I used to find things like [TapeDither]? This was coded to do something
+ that wasn’t possible: put a big delay in so there’s a ‘cancellation node’ at
+around 1.5K, making the noise quieter there.
 
 Trouble was, all you get is comb filtering and no nice clear ‘quieter’ zone.
 That’s why I experimented and found that four samples delay (inverted) gives you
- [TapeDither][], a nice softer noise. One sample inverted gives you
-[PaulDither][] (in other words, a very bright one-pole highpass). Two samples
-gives you a neat silky texture which is still very bright. Eight samples gives
-you a thing kinda like [TapeDither][] but even darker and beginning to sound
-flangey… you might call it CassetteDither, or maybe ‘[TapeDither][] for 96K’.
+ [TapeDither], a nice softer noise. One sample inverted gives you [PaulDither]
+(in other words, a very bright one-pole highpass). Two samples gives you a neat
+silky texture which is still very bright. Eight samples gives you a thing kinda
+like [TapeDither] but even darker and beginning to sound flangey… you might call
+ it CassetteDither, or maybe ‘[TapeDither] for 96K’.
 
-Call it what you like, because [NodeDither][] lets you use all those and
-anything else, up to really extreme delays that give heavy, heavy comb filtering
- (flangeyness). You can reinforce lows rather than cancelling them through
+Call it what you like, because [NodeDither] lets you use all those and anything
+else, up to really extreme delays that give heavy, heavy comb filtering
+(flangeyness). You can reinforce lows rather than cancelling them through
 out-of-phase, and dial in dark moody dither noises that fit better with your
 project. You can tune the flangey note of the dither to your track. All manner
-of silly things can be yours with [NodeDither][] :)
+of silly things can be yours with [NodeDither] :)
 
 And yes, you can make your noisefloor a flanger. I’ve demonstrated in the video
 how to do this with automation. If people really REALLY need a flange dither, I
 can make one later, but Naturalize will not be delayed any longer and is due to
-come out this Wednesday. But hopefully the possibilities of [NodeDither][] are
-worth having! Or, put it this way: if [NodeDither][] is for you, you know who
-you are and you’ve probably already downloaded it and are playing with the
-controls and thinking of how it would affect your creations.
+come out this Wednesday. But hopefully the possibilities of [NodeDither] are
+worth having! Or, put it this way: if [NodeDither] is for you, you know who you
+are and you’ve probably already downloaded it and are playing with the controls
+and thinking of how it would affect your creations.
 
 Because, bottom line: this is still technically correct TPDF dither. It’s just
 also an instrument, now. Have fun playing it :)
@@ -9217,16 +9478,16 @@ also an instrument, now. Have fun playing it :)
 
 _Noise is the Airwindows deep noise oscillator, as a sound reinforcer._
 
-[Noise][] started out as a plugin called Voice Of The Starship. It’s an
-algorithm that generates brownian-motion noise which won’t ‘wander’ into
-excessive DC offset, but without a highpass filter needed! The original Voice Of
- The Starship can be made to do any sort of deep rumble, including purely
-subsonic rumble that still works as an audio stream.
+[Noise] started out as a plugin called Voice Of The Starship. It’s an algorithm
+that generates brownian-motion noise which won’t ‘wander’ into excessive DC
+offset, but without a highpass filter needed! The original Voice Of The Starship
+ can be made to do any sort of deep rumble, including purely subsonic rumble
+that still works as an audio stream.
 
-[Noise][] is like Voice Of The Spaceship, except it also triggers on input
-sounds. It can pretty closely track rhythms coming in, and you can combine it
-with underlying stuff with Dry/Wet, and the [Distance][] control applies to both
- Dry AND Wet, to blend and darken them together.
+[Noise] is like Voice Of The Spaceship, except it also triggers on input sounds.
+ It can pretty closely track rhythms coming in, and you can combine it with
+underlying stuff with Dry/Wet, and the [Distance] control applies to both Dry
+AND Wet, to blend and darken them together.
 
 
 <a name="plugins_nonlinearspace"></a>
@@ -9262,13 +9523,12 @@ else, just have fun.
 <a name="plugins_notjustanothercd"></a>
 ### NotJustAnotherCD
 
-_NotJustAnotherCD is a next-gen wordlength reducer at 16 bit, with [DeRez][]._
+_NotJustAnotherCD is a next-gen wordlength reducer at 16 bit, with [DeRez]._
 
 <a name="plugins_notjustanotherdither"></a>
 ### NotJustAnotherDither
 
-_NotJustAnotherDither is a next-gen wordlength reducer at 24 bit, with
-[DeRez][]._
+_NotJustAnotherDither is a next-gen wordlength reducer at 24 bit, with [DeRez]._
 
 The votes are in, and the Internet has spoken. We’ve got a name for the new
 noise shaping variant on Naturalize, after a January of wild suggestions. Seems
@@ -9280,9 +9540,8 @@ original Naturalize. In normal use, this ‘dither’ (in fact it’s not a dith
 all: it’s the Benford realness stuff from Naturalize, run with a noise shaper,
 and all the added random noise taken OUT) will make any fixed-point output sound
  like infinite resolution. It’s AU, Mac and PC VST. It has a switch for 16/24
-bit operation (defaults to 24) and a ‘[DeRez][]’ control where you can get
-low-bit NJAD audio if you like, or if you want to audition its noise floor
-behavior.
+bit operation (defaults to 24) and a ‘[DeRez]’ control where you can get low-bit
+ NJAD audio if you like, or if you want to audition its noise floor behavior.
 
 The output levels are low, without a bunch of extra energy coming from the noise
  shaper: it’s pretty well behaved, though like any hyper-performance ‘dither’
@@ -9292,8 +9551,8 @@ repeatedly using this in processing, but you can always use a normal TPDF if you
 more opaque, but if it builds up it won’t accentuate anything: dithers with a
 lot of high frequency energy can end up exaggerating that.)
 
-(followup: I added a 16/24 bit switch, and [DeRez][]. Also, the most current
-version of this is in [Monitoring][].)
+(followup: I added a 16/24 bit switch, and [DeRez]. Also, the most current
+version of this is in [Monitoring].)
 
 
 <a name="plugins_onecornerclip"></a>
@@ -9301,10 +9560,10 @@ version of this is in [Monitoring][].)
 
 _OneCornerClip is an ultimate full-bandwidth clipper._
 
-[OneCornerClip][] works like this: it’s like ADClip, except it spreads out the
+[OneCornerClip] works like this: it’s like ADClip, except it spreads out the
 onset to clipping over possibly many samples. They converge upon the maximum
 possible output, which means the front edge of a clip takes on a continuous
-[curve][], moving its energy down into lower frequencies where the clippage is
+[curve], moving its energy down into lower frequencies where the clippage is
 less bright and gritty, and more brutal and ballsy.
 
 Then, on departing the clip, the waveform just snaps instantly to the next
@@ -9347,22 +9606,22 @@ But what if you could do that… without the pre? And also without the little dr
  shell, and without the NS10 speaker, and for that matter without the drumkit.
 Just 'deep bass subs' like a kick drum. On anything.
 
-Enter [OrbitKick][]. This is basically a little physical simulation, like a
-planet orbiting a sun. When your input sound hits, it kicks this thing into
-orbit and it just spins, gradually slowing down as its orbit gets bigger and
-bigger. It's a little like a second-order sine wave, in that it's one of those
-Airwindows things that can get out of hand, which is what the controls are for.
+Enter [OrbitKick]. This is basically a little physical simulation, like a planet
+ orbiting a sun. When your input sound hits, it kicks this thing into orbit and
+it just spins, gradually slowing down as its orbit gets bigger and bigger. It's
+a little like a second-order sine wave, in that it's one of those Airwindows
+things that can get out of hand, which is what the controls are for.
 
-Drop is how fast the note will drop, from 'not at all' to real quick. [Shape][]
-is the same, but makes it drop quicker to start off, so it's your taper: it
-gives you punchier attacks, rather than 'modular guy beeeoooo' kicks that have
-no impact. Start controls how high up your attack goes, in conjunction with
-Thresh, which is the threshold at which the note is kicked off… and Finish is
-where the note cuts off (set super low, you can get clicky releases).
+Drop is how fast the note will drop, from 'not at all' to real quick. [Shape] is
+ the same, but makes it drop quicker to start off, so it's your taper: it gives
+you punchier attacks, rather than 'modular guy beeeoooo' kicks that have no
+impact. Start controls how high up your attack goes, in conjunction with Thresh,
+ which is the threshold at which the note is kicked off… and Finish is where the
+ note cuts off (set super low, you can get clicky releases).
 
 That's all. If you want shorter kicks, make it drop faster, start lower, or
 finish higher. These controls do it all. That includes weird nasty effects where
- the note is triggered in a scruffy, inconsistent way. [OrbitKick][] does NOT
+ the note is triggered in a scruffy, inconsistent way. [OrbitKick] does NOT
 sound like a sample. It's like a living bass thing, able to put the lowest of
 bottom octaves on whatever percussive thing you like, or add a thump or 'pewww!'
  laser sound to any other thing so long as it has a distinct attack. And without
@@ -9380,35 +9639,35 @@ out there, or don't :)
 
 _Pafnuty is a Chebyshev filter, that adds harmonics._
 
-[Pafnuty][] is a Chebyshev filter. What are those? Well, it’s not much like your
- usual filter: you don’t use this to roll off highs or lows (though under some
+[Pafnuty] is a Chebyshev filter. What are those? Well, it’s not much like your
+usual filter: you don’t use this to roll off highs or lows (though under some
 conditions you might be able to do any of those things). A Chebyshev filter is
 like a mathematical formula. It works like this: if you feed it a sine wave (at
 exactly 0dB, or barely-clipping) it can generate entirely new sine waves to add
 to your sine wave. Which ones? Harmonically related ones. You can have twice,
 three, four times the frequency, all the way up to thirteenth harmonic.
 
-[Pafnuty][]’s been rearranged in such a way that when you move the sliders to
-the right, the harmonics add. (The old version used simpler math but gave a
-slightly weirder arrangement: you’d have to do 1.0 third harmonic, -1.0 fifth,
-1.0 seventh and so on for them to add up in phase.) There’s also an attenuverter
- (which is what you get with a dry-wet control when it also allows for
+[Pafnuty]’s been rearranged in such a way that when you move the sliders to the
+right, the harmonics add. (The old version used simpler math but gave a slightly
+ weirder arrangement: you’d have to do 1.0 third harmonic, -1.0 fifth, 1.0
+seventh and so on for them to add up in phase.) There’s also an attenuverter
+(which is what you get with a dry-wet control when it also allows for
 inverse-dry-wet: something out of Eurorack-land, which also existed on the Delta
  Labs Effectron. Side note about the funky old Effectron: it’s a delta-sigma
 converter like SACDs but cruder, and I’d been wanting someone to make a DIY-able
  delay like that. It exists! The Princeton PT2399 chip, which is in lots of
 current synths and pedals such as the Dreadbox Erebus)
 
-Back to [Pafnuty][]. What do you get when you run music into this
-sine-multiplying filter? If your audio has no frequencies that, multiplied, go
-higher than the sampling rate, you get perfect aliasing-free harmonic
-enhancement. The way the filter works, it absolutely doesn’t generate anything
-higher than the multipliers it works with. It’s a sort of color-adding harmonic
-enhancement where you can pick what kind of coloration you add (or subtract,
-since all the controls go both ways). If the frequencies do go higher than the
-sampling rate then they do alias, but the way [Pafnuty][] resists adding extra
-harmonics helps it to resist aliasing and if you don’t add lots of higher
-harmonics you can go very high in frequency, cleanly.
+Back to [Pafnuty]. What do you get when you run music into this sine-multiplying
+ filter? If your audio has no frequencies that, multiplied, go higher than the
+sampling rate, you get perfect aliasing-free harmonic enhancement. The way the
+filter works, it absolutely doesn’t generate anything higher than the
+multipliers it works with. It’s a sort of color-adding harmonic enhancement
+where you can pick what kind of coloration you add (or subtract, since all the
+controls go both ways). If the frequencies do go higher than the sampling rate
+then they do alias, but the way [Pafnuty] resists adding extra harmonics helps
+it to resist aliasing and if you don’t add lots of higher harmonics you can go
+very high in frequency, cleanly.
 
 
 <a name="plugins_pafnuty2"></a>
@@ -9417,8 +9676,8 @@ harmonics you can go very high in frequency, cleanly.
 _Pafnuty2 is a Chebyshev filter, that adds harmonics, and fits in the VCV Rack
 port._
 
-[Pafnuty][] is a Chebyshev filter. What are those? Well, it’s not much like your
- usual filter: you don’t use this to roll off highs or lows (though under some
+[Pafnuty] is a Chebyshev filter. What are those? Well, it’s not much like your
+usual filter: you don’t use this to roll off highs or lows (though under some
 conditions you might be able to do any of those things). A Chebyshev filter is
 like a mathematical formula. It works like this: if you feed it a sine wave (at
 exactly 0dB, or barely-clipping) it can generate entirely new sine waves to add
@@ -9432,9 +9691,8 @@ absolutely doesn’t generate anything higher than the multipliers it works with
 It’s a sort of color-adding harmonic enhancement where you can pick what kind of
  coloration you add (or subtract, since all the controls go both ways). If the
 frequencies do go higher than the sampling rate then they do alias, but the way
-[Pafnuty][] resists adding extra harmonics helps it to resist aliasing and if
-you don’t add lots of higher harmonics you can go very high in frequency,
-cleanly.
+[Pafnuty] resists adding extra harmonics helps it to resist aliasing and if you
+don’t add lots of higher harmonics you can go very high in frequency, cleanly.
 
 Now that it fits into the VCV Rack port, you can run a sine LFO into it, and
 then all sorts of other LFOs into all the parameters, to produce a bizarre
@@ -9494,10 +9752,10 @@ takes 24 bit input, and your 24 bit files will also match what you hear: putting
 If I was going to use just a TPDF dither, it would be this one every time,
 because it’s not just a TPDF dither, it’s silky and sweet and a bit quieter than
  the usual kind. And just as Paul told us freely what the basic concept was, so
-Airwindows [PaulDither][] is free. Thanks, Paul :)
+Airwindows [PaulDither] is free. Thanks, Paul :)
 
-(followup: I’ve put in a switch between 24 bit and 16 bit, and added the
-[DeRez][] control)
+(followup: I’ve put in a switch between 24 bit and 16 bit, and added the [DeRez]
+ control)
 
 
 <a name="plugins_paulwide"></a>
@@ -9507,16 +9765,16 @@ _PaulWide is a highpassed TPDF wide dither. (quieter, airier AND wider)_
 
 Return Of The Son Of Monster Dither :D
 
-So if you tuned in last week for [TPDFWide][] you probably thought that was all
-I had, in the dither tank, for now.
+So if you tuned in last week for [TPDFWide] you probably thought that was all I
+had, in the dither tank, for now.
 
 But guess what? Happy accidents occurred. I thought it might be fun to try this
-same principle not on [TPDFDither][], but on [PaulDither][].
+same principle not on [TPDFDither], but on [PaulDither].
 
-[PaulDither][] is of course a simple highpassed dither. It does the
+[PaulDither] is of course a simple highpassed dither. It does the
 Airwindows-style very tiny offset to make the dither noisefloor sit across one
-extra possible value, and now [PaulWide][] is the same thing except it rerolls
-the randomness if it’s going to seem too much like mono. It’s still TPDF, it’s
+extra possible value, and now [PaulWide] is the same thing except it rerolls the
+ randomness if it’s going to seem too much like mono. It’s still TPDF, it’s
 still just random one bit noise sources, it’s still technically correct as far
 as dithering accurately (some might freak out at the offset, but it’s on purpose
  and WAY too quiet to hurt you, as it’s less than one significant bit), but now
@@ -9538,18 +9796,18 @@ ever likely to see. I’m not sure what else can be even done here without ceasi
 <a name="plugins_pdbuss"></a>
 ### PDBuss
 
-_PDBuss is Console5 and [PurestDrive][], sittin’ in a tree… (i.e. both at once,
-on channels and buss)_
+_PDBuss is Console5 and [PurestDrive], sittin’ in a tree… (i.e. both at once, on
+ channels and buss)_
 
 <a name="plugins_pdchannel"></a>
 ### PDChannel
 
-_PDChannel is Console5 and [PurestDrive][], sittin’ in a tree… (i.e. both at
-once, on channels and buss)_
+_PDChannel is Console5 and [PurestDrive], sittin’ in a tree… (i.e. both at once,
+ on channels and buss)_
 
 What can I even say? This is pretty much just what you’d think it is. Console5
-(PurestConsole version) with a [PurestDrive][] stage in every channel and on the
- buss. There’s a dedicated control for each [PurestDrive][], and since it’s
+(PurestConsole version) with a [PurestDrive] stage in every channel and on the
+buss. There’s a dedicated control for each [PurestDrive], and since it’s
 implemented as a single plugin it saves you having to go out to the 32-bit
 floating point buss (not applicable to the 64-bit buss VST, in that case it
 saves you having to go out to that buss)
@@ -9560,10 +9818,10 @@ intended. I should mention that I don’t really mean for these to be all
 mix-and-match, even though I know people will want to do that: in my opinion
 it’s best to find an optimal combination where the channels match and the buss
 is your preferred buss (maybe from the same Console variation, maybe not) and
-then tweaking for channel [EQ][] etc is done using more normal tools. I’m
-allowing people to do the digital version of recording stuff with all different
-preamps in the belief that’s best, because I know it pleases some people a lot,
-but don’t think that you MUST make a big mix-n-match Console rig from all the
+then tweaking for channel [EQ] etc is done using more normal tools. I’m allowing
+ people to do the digital version of recording stuff with all different preamps
+in the belief that’s best, because I know it pleases some people a lot, but
+don’t think that you MUST make a big mix-n-match Console rig from all the
 different variations. It’ll be more cohesive if you use the same ones: the
 threads of the tapestry will match.
 
@@ -9591,13 +9849,12 @@ intentions’.
 
 _PeaksOnly is a transformative mix check tool._
 
-[PeaksOnly][] is a mix check, like [SubsOnly][] and [SlewOnly][] before it, or
-[Silhouette][] and other even stranger plugins. You pretty much need to not
-master through this one :D it totally wrecks the sound. BUT, it telegraphs
-information you might never have had, makes it more obvious than it’s ever been
-before.
+[PeaksOnly] is a mix check, like [SubsOnly] and [SlewOnly] before it, or
+[Silhouette] and other even stranger plugins. You pretty much need to not master
+ through this one :D it totally wrecks the sound. BUT, it telegraphs information
+ you might never have had, makes it more obvious than it’s ever been before.
 
-Here’s how it works. [PeaksOnly][] runs a little pile of allpass filters, but
+Here’s how it works. [PeaksOnly] runs a little pile of allpass filters, but
 rather than just make them nice-sounding, it expands and expands and expands
 them, each time phase-rotating things a little more. It turns transient attacks
 of any kind into a little colorful wash, a flag of energy that stays at roughly
@@ -9614,23 +9871,23 @@ invisible, there will be no managing the stuff that you simply can’t hear, the
 spiky intense sparks of audio like you get from passionate performances or
 tricks like using compression to spike up attack transients.
 
-But with [PeaksOnly][], everything stays at exactly the same frequency balance
-(a trick of allpasses, especially mine which are prime-number spaced) but the
+But with [PeaksOnly], everything stays at exactly the same frequency balance (a
+trick of allpasses, especially mine which are prime-number spaced) but the
 bursts of energy, no matter how brief, get transformed into recognizable
 signals. If you’re short on transient impact, you’ll notice it. If you’re
 over-squashing attacks, you’ll end up with audio porridge. But if you’ve got a
 powerful, kicking, lively mix… every detail of it will be laid bare, turned into
  a sort of pantomime that exposes every transient at every frequency. Whether
 it’s how loud to make that snare or hi-hat, or how much sub-kick you can get
-away with, it’s all exposed. [PeaksOnly][] is particularly fond of taking excess
- subsonic peaks and distorting ’em: you’ll never pack too much into the subs
+away with, it’s all exposed. [PeaksOnly] is particularly fond of taking excess
+subsonic peaks and distorting ’em: you’ll never pack too much into the subs
 again.
 
 It also tries to keep you at a sane loudness level (suitable for sending to
 mastering, if you really think you need to loudenate). Strangely, if you feed
-‘mastered’ loud stuff into [PeaksOnly][] and tolerate the distortion, it still
+‘mastered’ loud stuff into [PeaksOnly] and tolerate the distortion, it still
 reveals everything: there’s a difference between good ‘too loud’ and bad ‘too
-loud’, and [PeaksOnly][] exposes that too. Anything out of balance, even in
+loud’, and [PeaksOnly] exposes that too. Anything out of balance, even in
 loudness land, will stick out.
 
 
@@ -9642,18 +9899,18 @@ _Pear is the testbed for a new filter, implemented as a highpass/lowpass shelf._
 Welcome to the Airwindows skunkworks, where you can get your hands on really
 unusual experiments!
 
-[Pear][] is a new sort of filter I'm looking to use for my famous-console
-versions of Console. I've taken the concept of [Holt][] and altered it along the
- lines I explored in Console Zero, and then I ran with the things I experimented
- in [BitShiftPan][] a little more.
+[Pear] is a new sort of filter I'm looking to use for my famous-console versions
+ of Console. I've taken the concept of [Holt] and altered it along the lines I
+explored in Console Zero, and then I ran with the things I experimented in
+[BitShiftPan] a little more.
 
-So, now you have a fixed frequency shelving [EQ][] that can be either a lowpass
-or a highpass, and it uses an algorithm that is literally different than
-anything used before, with a behavior that's likewise not like anything else
-(the code certainly isn't going to be found elsewhere, and the slope steepens as
- it nears the edge of the passband: cascading it, which this plugin lets you do,
- makes that end point ever-steeper rather than adding a bump to a steepening
-overall slope like in any normal filter)
+So, now you have a fixed frequency shelving [EQ] that can be either a lowpass or
+ a highpass, and it uses an algorithm that is literally different than anything
+used before, with a behavior that's likewise not like anything else (the code
+certainly isn't going to be found elsewhere, and the slope steepens as it nears
+the edge of the passband: cascading it, which this plugin lets you do, makes
+that end point ever-steeper rather than adding a bump to a steepening overall
+slope like in any normal filter)
 
 What's it sound like? Hear for yourself, it's yours. My take on it is that it's
 exactly what I need for the future of Console: this is not a synth filter, it's
@@ -9666,8 +9923,8 @@ I'm not sure what the frequencies are, partly because the transition point is an
 calculated on the basis of frequencies. Those filter points come out of the use
 of bit-shifting in the algorithm: it will still work in designs that don't use
 that, and I'll be using more carefully placed crossover points in future Console
- versions, but for this one, treat it as a switchable [EQ][]. One way to get an
-[EQ][] point to shift slightly is to increase or decrease the number of nodes
+ versions, but for this one, treat it as a switchable [EQ]. One way to get an
+[EQ] point to shift slightly is to increase or decrease the number of nodes
 (also stepped): consider it the digital equivalent of an analog switched
 circuit. Use the inv/wet control to dial in how much highpassing or lowpassing
 you want: that becomes your shelving control on the filter.
@@ -9677,8 +9934,8 @@ include that: expect what I do with this to be more intense as far as sounding
 like real big consoles. I'll need to configure that to suit the target console,
 as some are famously dirty: so often, people restoring these desks are told how
 to replace the dead capacitors and the original inductors, on the grounds that
-the original ones had no headroom (HMMMM…) but for now, [Pear][] is very pure in
- tone, and it doesn't distort on its own.
+the original ones had no headroom (HMMMM…) but for now, [Pear] is very pure in
+tone, and it doesn't distort on its own.
 
 It's going to be a lot of work doing what I'm going to do with this tech, and
 that's not even counting the changes to my reverbs that will come about as I
@@ -9709,17 +9966,17 @@ frequencies are all different. Specifically, lows get delayed relative to the
 highs producing an effect where tones are ‘smeared’ across a time stretch, even
 though the spectral contents are exactly the same. The frequency information’s
 unaltered (nothing’s out of tune or darkened/brightened) but there’s a blur,
-possibly a large blur. [PhaseNudge][] is set up to produce delays from really
+possibly a large blur. [PhaseNudge] is set up to produce delays from really
 short (normal for a phase rotator) to unusually long, in case you’d like to
 treat it as a kind of slapback/echo effect.
 
-The calibration of [PhaseNudge][] is finer than you usually find in an allpass:
+The calibration of [PhaseNudge] is finer than you usually find in an allpass:
 0.618 is the customary number but when I see that I think ‘golden ratio’, so
-that’s what [PhaseNudge][] is using, to very high accuracy. Also, [PhaseNudge][]
- uses a variation on the operating principle of Console to expand and deepen the
- sound. Though typical allpasses use very short delays, I think [PhaseNudge][]
-does its thing quite well across a broad range of delays. Anywhere you need a
-‘defocus’ or ‘blur’ plugin, [PhaseNudge][] should come in handy, whether it’s
+that’s what [PhaseNudge] is using, to very high accuracy. Also, [PhaseNudge]
+uses a variation on the operating principle of Console to expand and deepen the
+sound. Though typical allpasses use very short delays, I think [PhaseNudge] does
+ its thing quite well across a broad range of delays. Anywhere you need a
+‘defocus’ or ‘blur’ plugin, [PhaseNudge] should come in handy, whether it’s
 diffuse pads, overly pointy percussive elements, or even the effects loop of a
 lead guitar sound (phase shifters have been used for decades, to make the
 textures of leads more fluid before they hit the actual amp. You’ve heard this
@@ -9732,10 +9989,10 @@ makers will not include it as part of standard equipment, I will. ;)
 <a name="plugins_pitchdelay"></a>
 ### PitchDelay
 
-_PitchDelay is [TapeDelay2][] but with pitch shift instead of flutter._
+_PitchDelay is [TapeDelay2] but with pitch shift instead of flutter._
 
 So I was at a a synthesizer meet-up talking with some folks and someone asked me
- if I could do a particular thing. I’d mentioned how my [TapeDelay2][], which I
+ if I could do a particular thing. I’d mentioned how my [TapeDelay2], which I
 was about to post that very night, would let you wiggle around the speed control
  and you’d get crazy wobble JUST like if you were doing it on a tape deck,
 because of the way I ran the delay buffers. And the request was to make a plugin
@@ -9744,7 +10001,7 @@ shifter algorithm.
 
 And… I did not make that thing! :D but I made this instead, and here you go!
 
-All this is, is [TapeDelay2][] but instead of the flutter control, it’s got a
+All this is, is [TapeDelay2] but instead of the flutter control, it’s got a
 fixed pitch shift. It’s being done in a more normal way than Glitch Shifter, but
  for all that it still enables some silly and extreme noises. Everything not
 flutter/pitch knob related, is exactly the same: all my development time went
@@ -9761,14 +10018,14 @@ it’s backwards low-speed, good for alien monster voices. If you include the
 regeneration while doing this you get a glorious mess. Also, the regeneration
 can be set to WAY more than just feedback, but it subtly restrains itself a bit
 so that you can hover around total feedback in a usable way. This combined with
-pitch shifting settings and the filter that comes with [TapeDelay2][] can give
-you a whole pile of strange, sorta-analogy noises without even putting more
-sounds in (it does require some sort of noise beyond digital black to start
-with, but once it’s going you’ll be able to play it like a weird instrument)
+pitch shifting settings and the filter that comes with [TapeDelay2] can give you
+ a whole pile of strange, sorta-analogy noises without even putting more sounds
+in (it does require some sort of noise beyond digital black to start with, but
+once it’s going you’ll be able to play it like a weird instrument)
 
-Add this to your [Tape][] Delay arsenal. It’s not part of [TapeDelay][] because
-it’s weird enough to be its own purpose (dedicated plugins for purposes is more
-or less my thing). Hope you like it :)
+Add this to your [Tape] Delay arsenal. It’s not part of [TapeDelay] because it’s
+ weird enough to be its own purpose (dedicated plugins for purposes is more or
+less my thing). Hope you like it :)
 
 
 <a name="plugins_pitchnasty"></a>
@@ -9785,8 +10042,8 @@ It's just that the rest of the time it's throwing a nasty, loud sample-glitch,
 at audio rates. No, beyond that. It's throwing digital trash at you so hard it
 becomes a musical note!
 
-And therein lies the secret of [PitchNasty][]. This plugin brings you the heart
-of old school digital like your classic Akai stuff, back when they did not have
+And therein lies the secret of [PitchNasty]. This plugin brings you the heart of
+ old school digital like your classic Akai stuff, back when they did not have
 the luxury of doing anything elegantly or nicely. Instead, you got things like
 time stretches that just plain looped a tight time cycle and overlapped it,
 producing a weird digital honk. Some folks really seem to crave that stuff, and
@@ -9795,12 +10052,12 @@ there's a reason.
 Turns out if you do that, your results tend to be very punchy, direct and
 intense, except for the weird robotic overtone that's welded to the sound like
 it's a musical note. Things like drums love being timestretched or repitched in
-this way! It's a whole retro tone, which [PitchNasty][] starts off with. The
+this way! It's a whole retro tone, which [PitchNasty] starts off with. The
 crossover is very slightly 'clever' in a way the retro stuff isn't, for the
 purpose of making it sound more retro and less DAW-like: it keeps the presence
 very high while slightly masking the high frequency edge of the 'note' you get.
 
-But then [PitchNasty][] goes way beyond, in that Airwindows way. You've got two
+But then [PitchNasty] goes way beyond, in that Airwindows way. You've got two
 pitch controls, one giving you note intervals in half-steps, and the other being
  a pure pitch bend. They stack, for really high or low bends. Then, there's a
 control that's the same as the classic Akai method of setting the sample buffer
@@ -9814,7 +10071,7 @@ can use traces of it to make your existing sound more complicated and
 harmonic-dense.
 
 And then the whole thing's followed by a Dry/Wet, and you can see that
-[PitchNasty][] sticks so tightly to the underlying sound that you can get it
+[PitchNasty] sticks so tightly to the underlying sound that you can get it
 acting like a giant flanger or strange overtone generator. And that's the other
 secret of the crude old Akai-like time/pitch processing: when you don't have any
  RAM or CPU to work with, you can only do naive primitive things that happen to
@@ -9829,9 +10086,9 @@ If you would like to use this as a time stretch, what you should do is open the
 source sound in an editor, change the sample rate without resampling until you
 have the new pitch you want and apply that, resample it back to what your
 working sample rate is (use a good resampling method, you don't need to use a
-bad one), THEN use [PitchNasty][] to re-pitch it to what the target pitch is.
+bad one), THEN use [PitchNasty] to re-pitch it to what the target pitch is.
 That'll give you the time-stretch artifacts, because they are really just
-pitch-change artifacts used in a different light. Hope you like [PitchNasty][]!
+pitch-change artifacts used in a different light. Hope you like [PitchNasty]!
 
 
 <a name="plugins_platinumslew"></a>
@@ -9840,12 +10097,12 @@ pitch-change artifacts used in a different light. Hope you like [PitchNasty][]!
 _PlatinumSlew is the best easy-to-use slew clipper._
 
 This is something I've specialized in for a while: types of processing that
-aren't common. [Slew][] clipping is like what you see out of certain op-amps,
+aren't common. [Slew] clipping is like what you see out of certain op-amps,
 circuits that can't keep up with high frequencies and are given semi-magical
 qualities having to do with just the right IC and so on. And you can program
 that, and I have (for instance my Channel plugins, or Guitar Conditioner).
 
-And then I discovered, in [GoldenSlew][], that you could cascade slew clippings
+And then I discovered, in [GoldenSlew], that you could cascade slew clippings
 and it'd actually give you a unique sound, unlike just using one slew clipping.
 
 And then it went beyond, as I tried to incorporate another previous sample and
@@ -9853,21 +10110,21 @@ bring in the rate of change of the direction of the slew, and ran into strange
 audio bugs that were the digital equivalent of my circuits blowing up or
 short-circuiting, unable to handle what I was asking of them…
 
-…and came out the other end with [PlatinumSlew][] (and a plan for a more
+…and came out the other end with [PlatinumSlew] (and a plan for a more
 complicated, control-laden plugin where I can get really detailed control over
 everything that happens in the plugin).
 
-The original [Slew][], and [GoldenSlew][] after it, is a bit of an audio
-chainsaw. For instance, if you slam it to full crank it acts as a sample and
-hold, because that's literally what you get when you cut slew to 0.0: permanent
-holding of whatever voltage you had. Good for use in the VCV Rack port, not so
-good for subwoofers. So, don't use those for swooping the audio down to bass and
- then silence, especially not fast, or you'll trap energy.
+The original [Slew], and [GoldenSlew] after it, is a bit of an audio chainsaw.
+For instance, if you slam it to full crank it acts as a sample and hold, because
+ that's literally what you get when you cut slew to 0.0: permanent holding of
+whatever voltage you had. Good for use in the VCV Rack port, not so good for
+subwoofers. So, don't use those for swooping the audio down to bass and then
+silence, especially not fast, or you'll trap energy.
 
-[PlatinumSlew][] explores a new space in slew clipping where its algorithms
-don't hold energy in the same way. But what does it sound like? It sounds like a
- record. It sounds retro. What happens is, you can control the transients of the
- high-end, but then as you push further, as it gets darker, it also begins to
+[PlatinumSlew] explores a new space in slew clipping where its algorithms don't
+hold energy in the same way. But what does it sound like? It sounds like a
+record. It sounds retro. What happens is, you can control the transients of the
+high-end, but then as you push further, as it gets darker, it also begins to
 alter the subsonics, the bass… which is something I've never been able to do,
 not like this. It's not a filter, this is a clipper. But it's not clipping the
 bass… it's hard to explain.
@@ -9891,19 +10148,19 @@ _PocketVerbs is my popular old special effects reverbs plugin!_
 
 This plugin is a bit of a big deal. It’s been hotly anticipated, and is one of
 the last two ‘old stock’ plugins (at least, out of my main list) to be brought
-up to date and ported to VST/Windows/Linux. The other one is [Cabs][], and I
-think [Cabs][] isn’t really very good. I’ll put it out anyhow, but I’ve dragged
-my feet because it’s a pain to work on and it’s not great at ‘being a speaker
-cab plugin’, not truly special just weird.
+up to date and ported to VST/Windows/Linux. The other one is [Cabs], and I think
+ [Cabs] isn’t really very good. I’ll put it out anyhow, but I’ve dragged my feet
+ because it’s a pain to work on and it’s not great at ‘being a speaker cab
+plugin’, not truly special just weird.
 
-But this is [PocketVerbs][], and [PocketVerbs][] IS special. It’s a precursor to
- what I’m doing with [MV][], what I’ll do more of in the future… but the reason
-I dragged my feet on this one is, it’s cumbersome. There’s more code in it than
+But this is [PocketVerbs], and [PocketVerbs] IS special. It’s a precursor to
+what I’m doing with [MV], what I’ll do more of in the future… but the reason I
+dragged my feet on this one is, it’s cumbersome. There’s more code in it than
 the size of some novels, and I had to port that! It’s not even brilliant code…
 but it had to be done just as it was, to maintain the tone qualities
-[PocketVerbs][] has. It’s huge because it has multiple reverbs to switch
-between, and the way I implemented that was not easy on me. I’ve honored that in
- the current version.
+[PocketVerbs] has. It’s huge because it has multiple reverbs to switch between,
+and the way I implemented that was not easy on me. I’ve honored that in the
+current version.
 
 You get chambers, rooms, springs. You get a PaulStretch type effect. You get
 Zarathustra, which is like that but dark and distant and vast. You get a strange
@@ -9913,8 +10170,7 @@ dual-mono design so you get stereo localization out of the space-ified, gated,
 reinvented drum sounds. Or, you can try whatever other crazy tricks tickle your
 fancy.
 
-It’s [PocketVerbs][]. It’s here, it’s free, it’s yours. Go bonkers… and have
-fun.
+It’s [PocketVerbs]. It’s here, it’s free, it’s yours. Go bonkers… and have fun.
 
 
 <a name="plugins_pockey"></a>
@@ -9924,21 +10180,21 @@ _Pockey is 12 bit (and under) lo-fi hiphop in a plugin._
 
 This plugin is designed to give you the most vibe possible out of a particular
 target: 12 bit uLaw-sampled lo-fi hiphop. It's based on earlier plugins like
-[DeRez][] and [BitGlitter][], but is tailored to deliver just the right kind of
-warm fuzzy texture like an old sampler… or the Pocket Operator sampler that's a
-lot more accessible than retro 12-bit is.
+[DeRez] and [BitGlitter], but is tailored to deliver just the right kind of warm
+ fuzzy texture like an old sampler… or the Pocket Operator sampler that's a lot
+more accessible than retro 12-bit is.
 
-[Pockey][] uses uLaw encoding to stretch 12 bit sampling to where it sounds
-pretty nearly CD quality, except there's a whole vibe and texture you get
-through having the soft, delicate sounds slightly low-bit and the louder sounds
-even more crunchy than that. The lowest setting on the resolution slider is
-exactly 12 bit, and everything higher than that gives you progressively more
-lo-fi in an 'analog bitcrush' mode, meaning that it will gradually build as you
-turn it up, rather than jump from step to step. That way you can fade smoothly
-from 4-bit to 12, if you like.
+[Pockey] uses uLaw encoding to stretch 12 bit sampling to where it sounds pretty
+ nearly CD quality, except there's a whole vibe and texture you get through
+having the soft, delicate sounds slightly low-bit and the louder sounds even
+more crunchy than that. The lowest setting on the resolution slider is exactly
+12 bit, and everything higher than that gives you progressively more lo-fi in an
+ 'analog bitcrush' mode, meaning that it will gradually build as you turn it up,
+ rather than jump from step to step. That way you can fade smoothly from 4-bit
+to 12, if you like.
 
 The frequency crush effect is also special: it uses an edge-softening algorithm
-a little bit like [PurestDrive][], for the purpose of turning the harsh and
+a little bit like [PurestDrive], for the purpose of turning the harsh and
 grating frequency crush you'd normally get from a plugin, into something a
 little more resonant, more sonorous. It's still a sort of digital nasty, but
 steps way over in the direction of 'classic sampler digital nasty', again in a
@@ -9951,8 +10207,8 @@ rowdier digital artifacts, but always with that softening that helps lo-fi
 hiphop provide a soothing backdrop to life: which is partly due to the absence
 of super-extended frequencies grabbing your attention.
 
-It's both an art and a science, and [Pockey][] is there to help you find the art
- through me digging into the science of how these things are done :)
+It's both an art and a science, and [Pockey] is there to help you find the art
+through me digging into the science of how these things are done :)
 
 
 <a name="plugins_pockey2"></a>
@@ -9960,61 +10216,59 @@ It's both an art and a science, and [Pockey][] is there to help you find the art
 
 _Pockey2 is more efficient, more intense lo-fi hiphop in a plugin._
 
-So this is pretty rapid iteration. I'd been struggling with getting [Pockey][]
-to willingly do 12 bit: the algorithm didn't seem to like it, even crashed when
-I tried to go for 16 bit. Turns out it was counting bit by bit in order to do
-the analog bitcrushing thing. And there was another way to do it… but then other
- things had to change… and then other ideas started to happen…
+So this is pretty rapid iteration. I'd been struggling with getting [Pockey] to
+willingly do 12 bit: the algorithm didn't seem to like it, even crashed when I
+tried to go for 16 bit. Turns out it was counting bit by bit in order to do the
+analog bitcrushing thing. And there was another way to do it… but then other
+things had to change… and then other ideas started to happen…
 
 Suffice to say, it earned its new version number.
 
-[Pockey2][] takes the basic concept of [Pockey][] and brings in an entirely
-fresh character, while running way more efficiently. Instead of analog-style
-floating point bitcrushing, it's integer… but you'll find the difference between
- 5037 'stairsteps' and 5038 'stairsteps' will amount to about the same thing,
-just way more easy on the CPU. Still uLaw, still a big sampler-esque texture,
-now letting you go from 4 bit all the way to 16 bit at no CPU penalty. There's
-not a lot of point running 16 bit here as it's still uLaw, but in case you're
-looking for just the lightest possible 'sampler' touch on your 24 bit DAW track,
- you've got it.
+[Pockey2] takes the basic concept of [Pockey] and brings in an entirely fresh
+character, while running way more efficiently. Instead of analog-style floating
+point bitcrushing, it's integer… but you'll find the difference between 5037
+'stairsteps' and 5038 'stairsteps' will amount to about the same thing, just way
+ more easy on the CPU. Still uLaw, still a big sampler-esque texture, now
+letting you go from 4 bit all the way to 16 bit at no CPU penalty. There's not a
+ lot of point running 16 bit here as it's still uLaw, but in case you're looking
+ for just the lightest possible 'sampler' touch on your 24 bit DAW track, you've
+ got it.
 
 Instead of analog-style floating point frequency crushing, that's integer too…
 which means the adjustability of the super-bright frequency crushing will be
 'steppy', not allowing fine adjustments especially if the DAW's at 44.1k. But if
  you're running 96k, you get a much broader range of adjustment! And you get to
 frequency crush down way lower than before… and the tone! Another reason
-[Pockey2][] is a new version number is that, while the tone of the frequency
-crush on [Pockey][] was interesting and vibey, the stuff you can do with the
-different-sounding [Pockey2][] is beyond belief. Experiment with the DeFreq
+[Pockey2] is a new version number is that, while the tone of the frequency crush
+ on [Pockey] was interesting and vibey, the stuff you can do with the
+different-sounding [Pockey2] is beyond belief. Experiment with the DeFreq
 control and see what you get. There's a little bit of the 'sweep the digital
 sampler cutoff point' still there, especially at deeper frequency crushes, but
-[Pockey2][] shines when finding just the right spot to entirely transform a
-sound into pure lo-fi hip hop classic sampler madness. Even more than the
-original [Pockey][], this one can completely transform a sound into retro
-digital.
+[Pockey2] shines when finding just the right spot to entirely transform a sound
+into pure lo-fi hip hop classic sampler madness. Even more than the original
+[Pockey], this one can completely transform a sound into retro digital.
 
-You can use both. If you like [Pockey][] and find its CPU use too heavy,
-[DeRez][] it more, it struggles to get to high bit depths. If you like
-[Pockey2][], it doesn't struggle with anything except sometimes with slowly
-sweeping a frequency crush way up high. I hope you like both Pockeys and find
-your best use for them :)
+You can use both. If you like [Pockey] and find its CPU use too heavy, [DeRez]
+it more, it struggles to get to high bit depths. If you like [Pockey2], it
+doesn't struggle with anything except sometimes with slowly sweeping a frequency
+ crush way up high. I hope you like both Pockeys and find your best use for them
+ :)
 
 
 <a name="plugins_podcast"></a>
 ### Podcast
 
-_Podcast is a simpler pile of [curve][]-style compressors with hard clipping._
+_Podcast is a simpler pile of [curve]-style compressors with hard clipping._
 
-[Podcast][] is the same technique as [PodcastDeluxe][], multiple compressors
-that are the precursor to [curve][] and [Recurve][], but simplified: without the
- phase rotators, without the full-on attempt to do ‘radio broadcast’ style
-tricks.
+[Podcast] is the same technique as [PodcastDeluxe], multiple compressors that
+are the precursor to [curve] and [Recurve], but simplified: without the phase
+rotators, without the full-on attempt to do ‘radio broadcast’ style tricks.
 
-This also means [Podcast][] can have a dry/wet control, because there aren’t any
- phase rotations delaying things. In fact, [Podcast][] runs no latency and can
-work very well as a ‘glue’ style buss compressor… so long as you don’t want
-‘pumping and swelling’ effects, or sidechainy whooshes of level. That’s because
-[Podcast][] is still in the [curve][] school of compressors and quits changing
+This also means [Podcast] can have a dry/wet control, because there aren’t any
+phase rotations delaying things. In fact, [Podcast] runs no latency and can work
+ very well as a ‘glue’ style buss compressor… so long as you don’t want ‘pumping
+ and swelling’ effects, or sidechainy whooshes of level. That’s because
+[Podcast] is still in the [curve] school of compressors and quits changing
 levels if the input goes silent.
 
 It also hard-clips the output, making it a kind of ‘safety compressor’: though
@@ -10023,27 +10277,27 @@ it’s not clean like a limiter, it’ll strike a balance between dynamics proce
 aggressively smashed, or turn it way down and use it as a clean buss comp.
 
 Treat this as another flavor of compressor from Airwindows, and see if it finds
-uses for you. The greater simplicity of [Podcast][] (much like
-[PodcastDeluxe][], heavily updated from the original versions) makes it more
-adaptable to different purposes, while it remains simple and un-fiddly,
-delivering its effects with whatever intensity and blend you like. :)
+uses for you. The greater simplicity of [Podcast] (much like [PodcastDeluxe],
+heavily updated from the original versions) makes it more adaptable to different
+ purposes, while it remains simple and un-fiddly, delivering its effects with
+whatever intensity and blend you like. :)
 
 
 <a name="plugins_podcastdeluxe"></a>
 ### PodcastDeluxe
 
-_PodcastDeluxe is a pile of compressors ([curve][] style) and phase rotators._
+_PodcastDeluxe is a pile of compressors ([curve] style) and phase rotators._
 
-[PodcastDeluxe][] is the precursor to [curve][], along with its counterpart
-[Podcast][]. Both of them have five [curve][]-like compressors in series
-(slightly less refined), but [PodcastDeluxe][] has five phase rotators and an
-ADClip-style output stage. The idea is that it would be radio station style
-processing. The reason it didn’t show up sooner is that it didn’t really work to
- my satisfaction. It’s still not perfect, but it’s different! I demonstrate it
-on house-type music, and on raw drums. It’s not really clean, not really dirty,
-not really squish-capable thanks to the [curve][]-style compression (even five
-stages doesn’t give you ‘compression pumping’) but it’ll give a perhaps
-interesting, definitely processed-sounding effect.
+[PodcastDeluxe] is the precursor to [curve], along with its counterpart
+[Podcast]. Both of them have five [curve]-like compressors in series (slightly
+less refined), but [PodcastDeluxe] has five phase rotators and an ADClip-style
+output stage. The idea is that it would be radio station style processing. The
+reason it didn’t show up sooner is that it didn’t really work to my
+satisfaction. It’s still not perfect, but it’s different! I demonstrate it on
+house-type music, and on raw drums. It’s not really clean, not really dirty, not
+ really squish-capable thanks to the [curve]-style compression (even five stages
+ doesn’t give you ‘compression pumping’) but it’ll give a perhaps interesting,
+definitely processed-sounding effect.
 
 Maybe you’ll like it on a mix because you’re not fussy about distorting, maybe
 you’ll find some useful place for it elsewhere. I think it’s got a knack for
@@ -10056,45 +10310,45 @@ there’s nothing quite like it. Enjoy!
 
 _Point is an explosive transient designer._
 
-[Point][] was introduced in 2007, just ahead of an amazing series of
-spatializers, analog modelers, and stompbox-style FX that consumed months of
-work. The curious thing is, [Point][] didn’t. It’s one of those odd plugins that
- only required an idea: ‘what would happen if I did this?’, and an afternoon of
+[Point] was introduced in 2007, just ahead of an amazing series of spatializers,
+ analog modelers, and stompbox-style FX that consumed months of work. The
+curious thing is, [Point] didn’t. It’s one of those odd plugins that only
+required an idea: ‘what would happen if I did this?’, and an afternoon of
 coding. And ever after, it’s lived on as a mysterious and untameable plugin
 monster, secret weapon and mixer’s friend, always just as an obscure Audio Unit…
 
 …until now.
 
-You get three controls: an input trim, the [Point][] control, and a reaction
-speed. [Point][] goes from -1.0 to 1.0 and ‘dry’ is 0.0. Reaction speed goes
-from 0.0 to 1.0 and there’s nothing to particularly suggest where anything
-should be set, so I’ll tell you now, and I’ll also tell you where NOT to set it
-if you know what’s good for you.
+You get three controls: an input trim, the [Point] control, and a reaction
+speed. [Point] goes from -1.0 to 1.0 and ‘dry’ is 0.0. Reaction speed goes from
+0.0 to 1.0 and there’s nothing to particularly suggest where anything should be
+set, so I’ll tell you now, and I’ll also tell you where NOT to set it if you
+know what’s good for you.
 
-For squishing off the fronts of snaredrums to make them huge, use [Point][] -1.0
- and a reaction speed around 0.166.
+For squishing off the fronts of snaredrums to make them huge, use [Point] -1.0
+and a reaction speed around 0.166.
 
-To spotlight cymbal attacks while rounding the drums, use [Point][] -1.0 and a
+To spotlight cymbal attacks while rounding the drums, use [Point] -1.0 and a
 reaction speed around 0.14.
 
 To hype up kick drum attacks and suppress the sustain in a gatey sort of way,
-use a reaction speed of around 0.3 and carefully add positive [Point][] until
-you have the effect you want.
+use a reaction speed of around 0.3 and carefully add positive [Point] until you
+have the effect you want.
 
-To blow up the DAW and kill your ears, do that and crank [Point][] to 1.0, then
-stop the transport, and then start it up again with [Point][] still at 1.0…
+To blow up the DAW and kill your ears, do that and crank [Point] to 1.0, then
+stop the transport, and then start it up again with [Point] still at 1.0…
 
-That’s your warning. [Point][] is kind of like a ZVex Fuzz Factory or some such
+That’s your warning. [Point] is kind of like a ZVex Fuzz Factory or some such
 mad hardware device: the range of settings DOES include ‘out of control’, and
 it’s such a simple ‘circuit’ that it does little to restrain things when you Go
 Too Far and operate it in a state that will explode. It won’t just do it out of
-nowhere, but don’t make it transition between ‘off’ and [Point][] 1.0: even if
-you have the fader buried, it can still clobber you.
+nowhere, but don’t make it transition between ‘off’ and [Point] 1.0: even if you
+ have the fader buried, it can still clobber you.
 
-The reason I leave behaviors like that in there, in a plugin like [Point][], is
-that some people will want the full range of [Point][]’s output, and will be
-following it with something to manage [Point][]’s outbursts. If you’ve got it
-surrounded with plugins to tame it, I want you to be able to use [Point][]
+The reason I leave behaviors like that in there, in a plugin like [Point], is
+that some people will want the full range of [Point]’s output, and will be
+following it with something to manage [Point]’s outbursts. If you’ve got it
+surrounded with plugins to tame it, I want you to be able to use [Point]
 settings near or at 1.0, and if you set it near that, you’ll immediately hear
 how intense it’s being so it won’t come as too much of a shock to discover it’s
 become an unstable isotope of transient destruction.
@@ -10112,7 +10366,7 @@ Why another compressor?
 Yes, ‘because they all act and sound a little different’, but what’s the deal
 with this one in particular?
 
-[Pop][] was designed to be overstressed to get an effect like the Allen & Heath
+[Pop] was designed to be overstressed to get an effect like the Allen & Heath
 mini-limiter used on some 80s Genesis and Phil Collins songs: that huge attack,
 the way that little subtleties jump boldly out of the mix, the sheer squish and
 gnarl of it all. It wasn’t really about trying to model the specific gear so
@@ -10120,7 +10374,7 @@ much as trying to get the effect, or more of the effect: I especially wanted the
  front end of sounds to burst through with enormous presence, but I also wanted
 to bring up little details out of the performance.
 
-[Pop][]’s a huge success at this. On some audio, I can get weird little reverb
+[Pop]’s a huge success at this. On some audio, I can get weird little reverb
 elements from the background to seem to hover up front even while loud stuff is
 being smashed. It’s designed to volume invert: the idea is if you’re hitting it
 with superloud things it can overcompensate and push the volume down extra far,
@@ -10130,32 +10384,31 @@ As such, there are some sounds this just can’t do. If you try and get a huge
 thunderous smashed sound of it, it will just go super 80s and give you a loud
 attack and maybe even backwards decay, or some reinvention of the body of the
 sound. You have to set the level carefully to get the right sound happening, so
-it’s not terribly flexible: [Pop][] is picky and you have to work it almost like
- it’s an instrument. It does run without latency, so in theory you could do like
- Phil did and track directly into it (or track into the DAW with it already
+it’s not terribly flexible: [Pop] is picky and you have to work it almost like
+it’s an instrument. It does run without latency, so in theory you could do like
+Phil did and track directly into it (or track into the DAW with it already
 present in the monitoring path) so you could modulate your singing intensity to
 work with it. That ought to work. Also remember a slapback echo, and to actually
  doubletrack!
 
 If I can ever get the real preamp/compressor, I’ll study the heck out of it and
-do [Pop][] 2. I’ll keep an eye out, as that would be really rewarding work and I
- could probably get closer to the real thing with that kind of reference :)
+do [Pop] 2. I’ll keep an eye out, as that would be really rewarding work and I
+could probably get closer to the real thing with that kind of reference :)
 
 
 <a name="plugins_pop2"></a>
 ### Pop2
 
-_Pop2 adds control and punch to [Pop][]._
+_Pop2 adds control and punch to [Pop]._
 
-Back in the day, I said I would get an Allen and Heath compressor to do
-[Pop2][]. That is not what happened here, and [Pop2][] is not a hardware
-emulation (even though I'm demonstrating it against a Heritage Audio Successor
-using a sidechain filter on the hardware comp that [Pop2][] doesn't even have)
+Back in the day, I said I would get an Allen and Heath compressor to do [Pop2].
+That is not what happened here, and [Pop2] is not a hardware emulation (even
+though I'm demonstrating it against a Heritage Audio Successor using a sidechain
+ filter on the hardware comp that [Pop2] doesn't even have)
 
-What happened is this: [Pop][] was the best testbed for some experiments I
-needed to do. I needed to split out attack and decay speeds (as much as I could,
- on this crazy algorithm!) and I needed to build [ClipOnly2][] into the output
-stage.
+What happened is this: [Pop] was the best testbed for some experiments I needed
+to do. I needed to split out attack and decay speeds (as much as I could, on
+this crazy algorithm!) and I needed to build [ClipOnly2] into the output stage.
 
 This is because there's a trick you can do if you know how. If you compress in
 such a way that a huge spikey attack pokes out, and then you clip that attack,
@@ -10163,13 +10416,13 @@ you can get and control a sort of distorted 'splat' on the attack that
 highlights it usefully. (I didn't make this up: Paul Frindle talked about it
 publically as a useful thing to do)
 
-The result of these experiments is [Pop2][], a software compressor so intense
-that you have to shoot it out with a rackmount compressor which will set you
-back $1700… and even then, it's not a given which wins. The hardware will give
-you more midrange sonority (that Successor is fully transformer balanced and a
+The result of these experiments is [Pop2], a software compressor so intense that
+ you have to shoot it out with a rackmount compressor which will set you back
+$1700… and even then, it's not a given which wins. The hardware will give you
+more midrange sonority (that Successor is fully transformer balanced and a
 really nice piece of kit) and hangs on to decays in a characteristic way… but
-[Pop2][] stands up for itself damn well, plus you can run one on all 16 inserts
-of your hybrid analog/digital recording setup, plus there's a bit of a price
+[Pop2] stands up for itself damn well, plus you can run one on all 16 inserts of
+ your hybrid analog/digital recording setup, plus there's a bit of a price
 difference.
 
 On a personal note I apologize for the delay and lack of plugin last week: I was
@@ -10181,11 +10434,11 @@ inspiration to me in turn: and that's enough of that for now. Just know: maybe
 sometimes go for your dreams and don't wait, because you never know when your
 life or those near you will be just taken away.
 
-I am proud to still be here helping you go for YOUR dreams, and hope that
-[Pop2][] helps you do that. Please help support my Patreon and I'll continue to
-charge forth doing everything I can, and it also helps me be there for my
-friends and loved ones when I need to drop everything and drive or fly to
-somebody's side (which we will hope does not become a constant refrain!)
+I am proud to still be here helping you go for YOUR dreams, and hope that [Pop2]
+ helps you do that. Please help support my Patreon and I'll continue to charge
+forth doing everything I can, and it also helps me be there for my friends and
+loved ones when I need to drop everything and drive or fly to somebody's side
+(which we will hope does not become a constant refrain!)
 
 Love you folks, talk to you later :)
 
@@ -10195,12 +10448,12 @@ Love you folks, talk to you later :)
 
 _PowerSag is for emulating power supply limitations in analog modeling._
 
-We’re going to explore the early [Desk][] plugins (as free VSTs), so here we’ll
-start off with one of the underlying principles! [PowerSag][] models the problem
- of analog power supplies that can’t source enough current to drive the output
-of the circuit. The circuit doesn’t directly distort, but the more output it’s
-been making, the less is in reserve. This is part of the [Desk][] line of
-plugins, but now it’s a distinct component to play with.
+We’re going to explore the early [Desk] plugins (as free VSTs), so here we’ll
+start off with one of the underlying principles! [PowerSag] models the problem
+of analog power supplies that can’t source enough current to drive the output of
+ the circuit. The circuit doesn’t directly distort, but the more output it’s
+been making, the less is in reserve. This is part of the [Desk] line of plugins,
+ but now it’s a distinct component to play with.
 
 You get a Depth and Speed control. Dial in the effect by exaggerating Depth and
 then exploring with Speed: it’ll create a variety of compressey or distortey
@@ -10210,10 +10463,10 @@ return Depth to zero and sneak small amounts of it back in, until the desired
 effect is reached. You’ll get a more tubey effect with extremely slow Speed, a
 big-console transistory effect with very quick Speed.
 
-The neat thing about [PowerSag][] is that, if you like grunge and distortion,
-it’s capable of adding some grind to the sound while pulling the channel back in
- the mix, where traditional distortion and saturation pushes sounds forward.
-When you balance that with normal overdrive, you can get a lot of energy and
+The neat thing about [PowerSag] is that, if you like grunge and distortion, it’s
+ capable of adding some grind to the sound while pulling the channel back in the
+ mix, where traditional distortion and saturation pushes sounds forward. When
+you balance that with normal overdrive, you can get a lot of energy and
 character happening without everything becoming too fatiguing and up-front.
 Balance is good, being able to trim the body of a sound is good: if you like
 sculpting mixes with distortion and saturation, this might be right up your
@@ -10225,7 +10478,7 @@ alley :)
 
 _PowerSag2 is my improved circuit-starve plugin, now with inverse effect!_
 
-This is [PowerSag][] (my circuit-power-supply-starve plugin), but the internals
+This is [PowerSag] (my circuit-power-supply-starve plugin), but the internals
 are coded differently for more efficiency on modern CPUs, it gets twice as much
 maximum effect range (which will help if you’re using it at high sample rates)
 and it now has an inverse/wet control. That means that you can hear what’s being
@@ -10255,8 +10508,8 @@ balancer._
 
 Sometimes, it’s just… strange.
 
-[Preponderant][] was created in an attempt to combine the old [ResEQ][] concept
-with Soothe, in such a way that it’d give you three tightly controlled bands of
+[Preponderant] was created in an attempt to combine the old [ResEQ] concept with
+ Soothe, in such a way that it’d give you three tightly controlled bands of
 emphasis (one thing Airwindows is all about is maximizing resonant sonority and
 intensity, not blindly removing it) and then also balance them on the fly so
 that all the bands would tend to be constantly active. This would bring up the
@@ -10268,12 +10521,12 @@ makes you mad. I had to scramble to get rid of an extra 24 dB of gain on tap for
  each band because when I started making the video, the plugin went insane and
 started blowing up: I thought I could let it throw in extra energy but I was
 sorely mistaken. One hasty bugfix later, we have… something? We have
-[Preponderant][]. There is thankfully nothing else like it anywhere :D
+[Preponderant]. There is thankfully nothing else like it anywhere :D
 
 Turn up Resonance and Wet to hear what it’s focussing on. Use the Narrow, Medium
  and Wide controls to dial in frequency bands: each is twice as wide as the
 previous, so using Narrow will give you the tightest focus on a frequency range.
- Set ’em to areas in your sound (middle is the midrange). [Preponderant][] is
+ Set ’em to areas in your sound (middle is the midrange). [Preponderant] is
 named because it can be tuned between areas of preponderant energy, and areas of
  power or areas of no energy, and it’ll compensate to give about the same output
  for each band you select, no matter how much energy is ‘supposed’ to be there.
@@ -10287,7 +10540,7 @@ exactly what you’re doing and have other drums to fill in a more continuous
 sonic flow). It’s rapidly balancing the bands while keeping the dynamics just as
  they are. Might be good on spot mics, toms or kick or something. Horrible on
 room mics or overall mics. Good on heavy guitar stems as it’ll retain dynamics
-there. It will be immediately obvious whether [Preponderant][] is working on a
+there. It will be immediately obvious whether [Preponderant] is working on a
 track or stem.
 
 You HAVE to pick real audio for every band, or it will just make some up.
@@ -10299,12 +10552,12 @@ This will sound terrible. So, turn down the resonance until the sound is less
 insanely resonant. It’ll still sound terrible. Turn the dry/wet right back to
 dry (which will probably sound real boxy and dull by comparison).
 
-Then, feed in a little of the [Preponderant][], just until you start to hear it
+Then, feed in a little of the [Preponderant], just until you start to hear it
 accentuate the stuff that you chose.
 
 THERE you go.
 
-[Preponderant][] is one of those Airwindows audio chainsaws. The final version
+[Preponderant] is one of those Airwindows audio chainsaws. The final version
 (without the 24 dB boosts) is intentionally made to just cut and restrict stuff,
  explicitly so if you don’t know what you’re doing you’ll hate it and not use
 it. This is intentional as you could hurt your mix, your ears, and your
@@ -10333,11 +10586,11 @@ functionality that has never existed in Pressure before: the stereo version
 a special linked mode based on diade bridges in hardware compressors. That’s not
  to say that it is ‘analog modeling’ because it isn’t. From the beginning,
 Pressure has been made out of a lucky algorithm with a particular organic,
-pleasing quality, and part of [Pressure4][] is knowing what to strip down, how
-to simplify that algorithm until it lets all the music through.
+pleasing quality, and part of [Pressure4] is knowing what to strip down, how to
+simplify that algorithm until it lets all the music through.
 
-But then, when you explore the way [Pressure4][] squishes up depending on how
-hard you drive it, and then start listening to the textures of different speed
+But then, when you explore the way [Pressure4] squishes up depending on how hard
+ you drive it, and then start listening to the textures of different speed
 control settings and what that does, and then begin exploring what the ‘µ-iness’
  control does… and it turns out that each one of those things gives specific and
  controllable shapings of the sound, but in ways very difficult to put into
@@ -10345,7 +10598,7 @@ words, yet you can learn what it does and make the plugin do what you intend
 even if it’s tough to articulate exactly what you’re going for…
 
 This is why we turn to odd little tools like this. The whole character of
-[Pressure4][] can change with tiny adjustments of the controls. It can do about
+[Pressure4] can change with tiny adjustments of the controls. It can do about
 twelve wholly distinct things when set up right, but they’re all inherent in
 that one curiously simple, but chaotically strange, algorithm. And now the
 linked stereo form of Pressure does all that with a naturalness and fluidity
@@ -10355,15 +10608,15 @@ never before seen with this plugin.
 <a name="plugins_pressure5"></a>
 ### Pressure5
 
-_Pressure5 expands [Pressure4][] with after-boost and built-in [ClipOnly2][]._
+_Pressure5 expands [Pressure4] with after-boost and built-in [ClipOnly2]._
 
-This plugin builds on 2017’s [Pressure4][] in numerous ways. I made it for my
-own use: I was mixing an album in Console7 that had to follow a previous album
-I’d mixed on an analog board, and I needed extensive 2-buss management and the
+This plugin builds on 2017’s [Pressure4] in numerous ways. I made it for my own
+use: I was mixing an album in Console7 that had to follow a previous album I’d
+mixed on an analog board, and I needed extensive 2-buss management and the
 ability to deliver a final output and control mix density across a lot of
 parameters measured by a meter I’ve invented (which isn’t available, it’s just
 for my personal use and doesn’t work properly in a releasable way). And now
-[Pressure5][] is out and you can have it!
+[Pressure5] is out and you can have it!
 
 Pressure is a compressor with some unusual controls: there’s a ‘mewiness’
 control that manages the way the ratio engages. You can dial in the intensity
@@ -10376,14 +10629,14 @@ subtle, but it’s there to tailor the way stuff hits the compression in an
 entirely unique way. I don’t think anything else has a ‘PawClaw’ control, but
 now you have one :)
 
-The other part of [Pressure5][] is the output stage: [Pressure5][]’s output
-control has the capacity to boost, into a built-in [ClipOnly2][]. So it’s got
-that chunky, non-edgy hard clipping drive, that works at all sample rates, as
-part of the plugin. I intend [Pressure5][] to be used as a final buss comp/clip
-stage letting you dial in whatever you need, and then just taking the output and
- dithering it and being done. If you don’t want to go direct to final release,
-pad the output control so you’re not clipping anymore and [ClipOnly2][] will
-bypass itself like it’s not even there, serving as only a safety clipper.
+The other part of [Pressure5] is the output stage: [Pressure5]’s output control
+has the capacity to boost, into a built-in [ClipOnly2]. So it’s got that chunky,
+ non-edgy hard clipping drive, that works at all sample rates, as part of the
+plugin. I intend [Pressure5] to be used as a final buss comp/clip stage letting
+you dial in whatever you need, and then just taking the output and dithering it
+and being done. If you don’t want to go direct to final release, pad the output
+control so you’re not clipping anymore and [ClipOnly2] will bypass itself like
+it’s not even there, serving as only a safety clipper.
 
 
 <a name="plugins_purestair"></a>
@@ -10395,21 +10648,20 @@ A while back, I got reminded of this plugin. Someone said, ‘you haven’t put 
  out, when are you going to?’ and I said ‘Oh, that’s right, I haven’t’.
 
 So here you go. It’s a bit weird. Normally ‘Purest’ plugins are ultra-simple.
-This isn’t quite like that and I don’t remember why. It’s sort of like [Air][]
-or [Energy][], an air-band boost or cut, but it’s also got a limiting factor
-where it’ll refuse to boost past a certain intensity of treble. In that way,
-it’s like [Acceleration][]. Except it’s not exactly [Acceleration][], not
-exactly a slew clipper… heck, it’s not even like [Air][] or [Energy][]. It’s a
-little like a de-esser in Bizarro World? Working oppositely?
+This isn’t quite like that and I don’t remember why. It’s sort of like [Air] or
+[Energy], an air-band boost or cut, but it’s also got a limiting factor where
+it’ll refuse to boost past a certain intensity of treble. In that way, it’s like
+ [Acceleration]. Except it’s not exactly [Acceleration], not exactly a slew
+clipper… heck, it’s not even like [Air] or [Energy]. It’s a little like a
+de-esser in Bizarro World? Working oppositely?
 
-Anyway, it’s yours if you want it. There are many odd ways to do [EQ][] code.
-This is clearly one of them, and it seems to be not exactly like anything else
-I’ve done, and it sure does crank up the extreme air band if you want that. And
-it’s got that clamping factor to cap it (though similarly to [Acceleration][],
-it’ll give you trouble trying to hear what’s being done). I guess check it out,
-and if your ears are amazing WAY up in the ultra-treble, and you also like the
-sound of it, you’ll probably be able to hear the action of the limiter just
-fine.
+Anyway, it’s yours if you want it. There are many odd ways to do [EQ] code. This
+ is clearly one of them, and it seems to be not exactly like anything else I’ve
+done, and it sure does crank up the extreme air band if you want that. And it’s
+got that clamping factor to cap it (though similarly to [Acceleration], it’ll
+give you trouble trying to hear what’s being done). I guess check it out, and if
+ your ears are amazing WAY up in the ultra-treble, and you also like the sound
+of it, you’ll probably be able to hear the action of the limiter just fine.
 
 Me, I’m more interested in dark reverbs and deeper spaces and bass, so this was
 never my pet plugin: maybe it can be yours :)
@@ -10433,9 +10685,9 @@ launch, and making sense of what the heck went on there. If I can, I’ll also
 give it the lushness of that original release while preventing the DC offset
 stuff… and there’s something to do with the AU/VST identities that needs
 examining. After this, ToVinyl is up for January, and I’ve got some useful
-variations on Console 5, and [PurestDrive][] is February (I’m entertaining
-notions of a C5Drive that steals the technique from [PurestDrive][] instead of
-doing the original C5 slew thing. It would be just ‘darker’, not encode/decode)
+variations on Console 5, and [PurestDrive] is February (I’m entertaining notions
+ of a C5Drive that steals the technique from [PurestDrive] instead of doing the
+original C5 slew thing. It would be just ‘darker’, not encode/decode)
 
 The reason I think I can get into all this (after probably being sick for a
 while) is I’ve got some closure. I’ve just returned from visiting family and
@@ -10481,9 +10733,9 @@ for. :)
 
 You can use PurestConsole in its capacity for ‘expanding’ verbs, delays, and
 EQs. If there’s no change, it’ll cancel out to bit-identical. Then if you’re
-doing stuff, it’ll kick in. [EQ][] changes are most easily heard in high-Q
+doing stuff, it’ll kick in. [EQ] changes are most easily heard in high-Q
 filters, and it’ll make filters more effective at a given dB boost/cut. Note
-that you can easily clip [PurestConsoleBuss][] with boosts and peaks, but that
+that you can easily clip [PurestConsoleBuss] with boosts and peaks, but that
 might sound OK to you so don’t fear it.
 
 I hope this simpler one is good right out of the gate, because I AM going to be
@@ -10505,11 +10757,11 @@ Meet PurestConsole2.
 
 This serves a special purpose in modern Airwindows Console mixes. I’ve got
 Console7, which gives you all the glue you could want, creates solidity and the
-sense of an analog mixing desk (all the more if you use [Console7Cascade][],
-which I’m avoiding for this track and this video). But Console7 does its
-aliasing prevention by rolling off right at 20k, which helps the sense of glue
-but steps on some of the super-sparkly treble you sometimes get in modern mixes.
- It’s set up to do it really gracefully, but some have noticed a diminishing of
+sense of an analog mixing desk (all the more if you use [Console7Cascade], which
+ I’m avoiding for this track and this video). But Console7 does its aliasing
+prevention by rolling off right at 20k, which helps the sense of glue but steps
+on some of the super-sparkly treble you sometimes get in modern mixes. It’s set
+up to do it really gracefully, but some have noticed a diminishing of
 super-glittery highs.
 
 PurestConsole was always the ‘colorless, transparent’ take on any Console
@@ -10545,8 +10797,8 @@ _PurestConsole3Buss is an alternate algorithm for minimalist Console._
 
 _PurestConsole3Channel is an alternate algorithm for minimalist Console._
 
-Instead of immediately doing [EveryConsole][], how about the final Console
-version it'll contain?
+Instead of immediately doing [EveryConsole], how about the final Console version
+ it'll contain?
 
 This serves two purposes. First, it's an extension of the work I was doing in
 ConsoleZero: this is a custom sin()/asin() implementation along Airwindows
@@ -10595,8 +10847,7 @@ Have fun, and I'll keep new stuff coming as well as I can!
 
 _PurestDrive is the magic saturation plugin of subtlety and French House tone._
 
-The funny thing about [PurestDrive][] is that I didn’t expect much from it at
-all.
+The funny thing about [PurestDrive] is that I didn’t expect much from it at all.
 
 This plugin (now coming to VST and open source) was simply an experiment. I’d
 been making complicated plugins with things like anti-aliasing, just a lot of
@@ -10609,7 +10860,7 @@ double precision, which is 80 bits on Intel and possibly 106 bits on PPC, which
 Airwindows still supports)
 
 The saturation algorithm was going to be sin(), which is the smoothest
-saturation [curve][] you can have. Then I thought it’d be good to get a little
+saturation [curve] you can have. Then I thought it’d be good to get a little
 more sophisticated than that because I had quite a few plugins based on sin(),
 so I did this:
 
@@ -10617,8 +10868,8 @@ inputSample = sin(inputSample);
 apply = (fabs(previousSample + inputSample) / 2.0) * intensity;
 inputSample = (drySample * (1.0 – apply)) + (inputSample * apply);
 
-That’s it. That’s what makes [PurestDrive][] (apart from some code supporting
-it, which is up and documented on GitHub as part of making it open source).
+That’s it. That’s what makes [PurestDrive] (apart from some code supporting it,
+which is up and documented on GitHub as part of making it open source).
 
 What it does is this: it keeps the previous dry sample around, and ‘apply’ will
 be the combination of that and the saturated one. This makes apply be large if
@@ -10627,17 +10878,17 @@ apply might be zero. Intensity is how we include the slider control (0 to 1) and
  can also make apply be lower. Then, we’re adding the sin() effect, but ONLY
 relating to apply: we saturate the body of the sound, but as things get brighter
  or lower volume, we’re dynamically doing a dry/wet control at audio
-frequencies, so [PurestDrive][] only throws saturation on dense solid material:
+frequencies, so [PurestDrive] only throws saturation on dense solid material:
 airy highs, subtleties, get through more easily. As a side-effect, if our input
 gets super hot we can end up subtracting a little dry from the saturated
 inputSample.
 
-What [PurestDrive][] did… was take off and become hugely popular. I didn’t
-expect that, it was simply an experiment in tone purity and I didn’t think
-anyone would notice. I knew the little tweak with ‘apply’ sounded good, but I
-figured the whole thing was so subtle that it wasn’t going to set the world on
-fire. Yet, [PurestDrive][] developed incredibly dedicated fans, using it all
-over their mixes, swearing by its tone.
+What [PurestDrive] did… was take off and become hugely popular. I didn’t expect
+that, it was simply an experiment in tone purity and I didn’t think anyone would
+ notice. I knew the little tweak with ‘apply’ sounded good, but I figured the
+whole thing was so subtle that it wasn’t going to set the world on fire. Yet,
+[PurestDrive] developed incredibly dedicated fans, using it all over their
+mixes, swearing by its tone.
 
 And now, it’s a free and open source plugin, AU and Mac and PC VST. Remember
 it’s designed to not be a big obvious coat of paint over everything: because
@@ -10654,13 +10905,13 @@ like it. :)
 _PurestEcho is optimized Airwindows echo with exactly four evenly spaced taps on
  tap._
 
-[PurestEcho][] gives you four echoes, sample-averaged to deliver extremely
-precise timing, each with its own tap. That means you can use it as a delay line
- and set up discrete echoes which then stop completely: no feedback, only a
-series of trailing echoes which then get out of the way and don’t mud up your
-mix. Or you can use it for just a single slapback (use the last, for the longest
- delay time). Or, you can set up odd effects like increasing volume slapbacks,
-or use of only certain taps.
+[PurestEcho] gives you four echoes, sample-averaged to deliver extremely precise
+ timing, each with its own tap. That means you can use it as a delay line and
+set up discrete echoes which then stop completely: no feedback, only a series of
+ trailing echoes which then get out of the way and don’t mud up your mix. Or you
+ can use it for just a single slapback (use the last, for the longest delay
+time). Or, you can set up odd effects like increasing volume slapbacks, or use
+of only certain taps.
 
 Or, you can get a tone that’s part of the 90s: turn all the delay taps on full
 and then set the delay time really short. You’ll find there’s a tightly
@@ -10672,37 +10923,37 @@ switch frequencies. So think of it as something you’d play via control
 automation, not so much through live entry on the slider.
 
 Between that and the ability to throw a big rich echo that fakes ‘feedback’ but
-then gets right out of the way, I think [PurestEcho][] will find its way into
+then gets right out of the way, I think [PurestEcho] will find its way into
 peoples’ workflows. I hope you like it :)
 
 
 <a name="plugins_purestfade"></a>
 ### PurestFade
 
-_PurestFade is just like [PurestGain][], but for LONG fades._
+_PurestFade is just like [PurestGain], but for LONG fades._
 
 This is a plugin for one person.
 
 Okay, it’s a plugin that EXISTS because one person asked the right thing at the
-right time. A mastering engineer emailed me and said, [PurestGain][] is great,
+right time. A mastering engineer emailed me and said, [PurestGain] is great,
 it’s just perfect, everything I need except… when I do fades with it, there’s a
 discontinuity when I go from 0.001 volume on the Slow Fade, to 0. It cuts out
 abruptly, and that’s a problem. Can you help?
 
 I can!
 
-Thing is, [PurestGain][] is designed so you can whack that control around
+Thing is, [PurestGain] is designed so you can whack that control around
 aggressively. It doesn’t mute instantly, but you can kill a track real fast in a
- mix, gracefully, without zipper noise. [PurestGain][] is correct for some
-users. If you needed to have a control on some kind of USB controller, like a
+ mix, gracefully, without zipper noise. [PurestGain] is correct for some users.
+If you needed to have a control on some kind of USB controller, like a
 NanoKontrol or something (say you’re doing an automation pass) you might well
 need to trim the overall gain with the top slider, and then assign the hardware
 controller to the bottom slider and automate. It’ll smooth out the incoming MIDI
  data and the result will be dynamic and aggressive, will feel like you’re
 yanking faders around on a real board. That’s the design intent for the
-ballistics of [PurestGain][].
+ballistics of [PurestGain].
 
-[PurestFade][] is totally different. If you are at full crank and snap it
+[PurestFade] is totally different. If you are at full crank and snap it
 instantly to zero, you’ll get an automated fade of about eight seconds or so. It
  gets subtler and subtler the quieter you go, until at the point of silence you
 literally can’t mess up the fade: it will always smooth out the last tiny bit.
@@ -10715,11 +10966,11 @@ It’ll chase your fade speed, which means if you’re doing an unnaturally fast
 fade it’ll be trying to smooth you out a bit but it will let you do that. I
 think it’s the ultimate smoothed fade.
 
-And, in mixing (since it’s still [PurestGain][] at heart) I think you can decide
- which you prefer, and if you’ve got a style then you know which one is right
-for you. Probably won’t be both. If you need to do abrupt, dynamic things it’s
-[PurestGain][] you’ll want… but if your fader moves are generally more subtle,
-invisible, then you’re probably going to always want [PurestFade][] for
+And, in mixing (since it’s still [PurestGain] at heart) I think you can decide
+which you prefer, and if you’ve got a style then you know which one is right for
+ you. Probably won’t be both. If you need to do abrupt, dynamic things it’s
+[PurestGain] you’ll want… but if your fader moves are generally more subtle,
+invisible, then you’re probably going to always want [PurestFade] for
 everything. (The top control will still give you more rapid moves if you need
 them)
 
@@ -10733,7 +10984,7 @@ you’ll be using, just from the descriptions.
 _PurestGain is a high-res noise shaped gain, with smoothed fader._
 
 Marking the 200th plugin in Airwindows’ ‘AU’ category (not perfectly accurate,
-but yay anyhow) is [PurestGain][], in VST-enabled form!
+but yay anyhow) is [PurestGain], in VST-enabled form!
 
 What’s to explain? It’s a gain utility. :D
 
@@ -10743,12 +10994,12 @@ No, seriously, that’s what it is. Here’s why some folks are a fan of this pl
 
 Firstly, gain is processing. When you apply even a simple gain change, it
 expands the word length of your digital audio out to arbitrary size.
-[PurestGain][] comes from a set of plugins I did to experiment with the extremes
- of digital audio accuracy. You might think digital audio is automatically
+[PurestGain] comes from a set of plugins I did to experiment with the extremes
+of digital audio accuracy. You might think digital audio is automatically
 accurate, but that’s far from the truth. We hear degradation in the resolution
 domain as flatness, cardboardy-ness, and it’s cumulative. I don’t think anybody
-can hear the difference between [PurestGain][] and a DAW utility gain plugin,
-when just a single plugin is in the signal path… but it’s cumulative.
+can hear the difference between [PurestGain] and a DAW utility gain plugin, when
+ just a single plugin is in the signal path… but it’s cumulative.
 
 Also, you can’t be sure that a gain plugin is truly minimalist. If a plugin
 takes in floating-point audio of great quietness, and multiplies it by 1.0…
@@ -10756,26 +11007,26 @@ that’s a math operation that can force the result into the same floating-point
 ‘level of resolution’ as the 1.0. Floating-point is treacherous, and the damage
 done is still very subtle but again is cumulative.
 
-[PurestGain][] takes the input audio and does the gain processing at ‘long
-double’ resolution. It then noise shapes the result back into the DAW audio
-buss, whether that’s a 32 bit buss for normal VST and AU, or a double-precision
-64 bit VST buss, if available. The result is an ultra-high-precision gain plugin
- that refuses to lose any audio quality. It’s the plugin equivalent of using
-switched attenuators with precision resistors in a mastering console, rather
-than potentiometers.
+[PurestGain] takes the input audio and does the gain processing at ‘long double’
+ resolution. It then noise shapes the result back into the DAW audio buss,
+whether that’s a 32 bit buss for normal VST and AU, or a double-precision 64 bit
+ VST buss, if available. The result is an ultra-high-precision gain plugin that
+refuses to lose any audio quality. It’s the plugin equivalent of using switched
+attenuators with precision resistors in a mastering console, rather than
+potentiometers.
 
-There’s one more trick [PurestGain][] has up its sleeve: a second control
+There’s one more trick [PurestGain] has up its sleeve: a second control
 especially for fades. The trouble with DAW faders is that they must serve two
 masters: they’ve got to adjust smoothly and avoid zipper noise (crackling while
 you move the control, most clearly audible if you get a low-frequency sine wave
 going and then manipulate the control) but they’ve also got to snap instantly to
- a position if asked. The second slider in [PurestGain][] runs in series with
-the dB gain control, but it functions very differently. One way to resist zipper
- noise is to have the gain smoothly ramp between volume settings, and that
-second control is designed for human-performed gain rides. Map the fader on a
-control surface to it, do your active mixing, and [PurestGain][] will smooth
-every fader motion until it’s as fluid as any real-world analog console: try it
-with sinewaves and see how flawless the result can be.
+ a position if asked. The second slider in [PurestGain] runs in series with the
+dB gain control, but it functions very differently. One way to resist zipper
+noise is to have the gain smoothly ramp between volume settings, and that second
+ control is designed for human-performed gain rides. Map the fader on a control
+surface to it, do your active mixing, and [PurestGain] will smooth every fader
+motion until it’s as fluid as any real-world analog console: try it with
+sinewaves and see how flawless the result can be.
 
 That’s a surprising amount to say about a gain plugin, but that’s Airwindows for
  you :)
@@ -10786,24 +11037,24 @@ That’s a surprising amount to say about a gain plugin, but that’s Airwindows
 
 _PurestSquish is an open-sounding compressor with bass bloom._
 
-[PurestSquish][] is a compressor, with its own sound. In the video I compare it
-to [Pressure4][], [Logical4][], and [SurgeTide][], and also show how it can be
-used in conjunction with [SurgeTide][] (a real ‘sleeper’ plugin not easily
-understood) to produce amazingly transparent dynamics control. That said, this
-is not at all a normal compressor plugin and won't act normal.
+[PurestSquish] is a compressor, with its own sound. In the video I compare it to
+ [Pressure4], [Logical4], and [SurgeTide], and also show how it can be used in
+conjunction with [SurgeTide] (a real ‘sleeper’ plugin not easily understood) to
+produce amazingly transparent dynamics control. That said, this is not at all a
+normal compressor plugin and won't act normal.
 
 I also spent some time torturing it with sine sweeps, showing how Pressure and
 Logical are more like ‘analog emulations’ and produce harmonics, while
-[PurestSquish][] instead does a weird thing when you turn off and on signal
+[PurestSquish] instead does a weird thing when you turn off and on signal
 generators. So if you’re looking for ways to say ‘this is broken forever!’ watch
  those parts of the video :)
 
-If this doesn’t worry you, [PurestSquish][] also has a bass bloom control that
+If this doesn’t worry you, [PurestSquish] also has a bass bloom control that
 lets you pass subsonics or bass notes through uncompressed, to taste. If it does
- worry you, chalk it up to [PurestSquish][] running simultaneous
-two-and-three-sample-interleaved compressors, much like [Capacitor][] runs
+ worry you, chalk it up to [PurestSquish] running simultaneous
+two-and-three-sample-interleaved compressors, much like [Capacitor] runs
 two-and-three-sample-interleaved filters, and use one of the other compressors
-I’ve put out, perhaps one of the three also featured in the [PurestSquish][]
+I’ve put out, perhaps one of the three also featured in the [PurestSquish]
 video.
 
 
@@ -10812,10 +11063,10 @@ video.
 
 _PurestWarm is a subtle tone shaper and warmth adder._
 
-[PurestWarm][] is a little bit like [PurestDrive][] (anxiously awaited by quite
-a few people) but not quite as sophisticated… however, in its simplicity is part
- of its usefulness. It applies an Airwindows softest-possible-saturation effect
-(like what you can get out of [Density][], or Channel) but it’s polarized: you
+[PurestWarm] is a little bit like [PurestDrive] (anxiously awaited by quite a
+few people) but not quite as sophisticated… however, in its simplicity is part
+of its usefulness. It applies an Airwindows softest-possible-saturation effect
+(like what you can get out of [Density], or Channel) but it’s polarized: you
 pick which side of the waveform the saturation applies to. For the other half of
  the waveform, it’ll pass through the exact bits that came in. So it’s half a
 plugin: I’m not sure there’s ever been anything quite like that, on one half of
@@ -10825,7 +11076,7 @@ bit-identical pass-through. I made sure even the noise shaping wasn’t applying
 for the ‘bypass’ half.
 
 The result is this: waveforms that need a little sweetening, can have that
-texture (not frequency or [EQ][], texture) subtly added to the track, in a way
+texture (not frequency or [EQ], texture) subtly added to the track, in a way
 that utterly and totally maintains the integrity of the signal. In some ways
 this is ‘purer’ than any of the other Purest line, since by its nature it’s true
  bypass for literally half the time. It’s also one of the minimal ones, with
@@ -10836,7 +11087,7 @@ the way. In some circumstances it hints at being like a ‘bass optimizer’ sin
 it’ll push some second harmonic by its nature. You’ll probably find that for any
  given sound (especially an electric bass guitar) there’ll be one polarity
 that’s clearly better: I think for basses where the string swings near the
-pickup and produces extra voltage on that side of the wave, [PurestWarm][] will
+pickup and produces extra voltage on that side of the wave, [PurestWarm] will
 saturate that side of the wave really well and it’ll give you an ideal bass tone
  with no extra fiddling or processing required.
 
@@ -10846,19 +11097,19 @@ saturate that side of the wave really well and it’ll give you an ideal bass to
 
 _PurestWarm2 adds dual dry/wet controls for each side of the waveform._
 
-[PurestWarm2][] is [PurestWarm][], but better. I was asked for a version of
-[PurestWarm][] with a dry/wet (which would make it even more subtle and gentle)
+[PurestWarm2] is [PurestWarm], but better. I was asked for a version of
+[PurestWarm] with a dry/wet (which would make it even more subtle and gentle)
 and then I thought, why not TWO dry/wets, one for either side of the waveform?
 That way you could massage both the positive and negative sides of the wave
 (seen briefly in the video: I wiggle the cursor around to show which side’s
 being reined in by which slider) to taste, or both at once.
 
-And so that’s what [PurestWarm2][] is (plus, ultrasonic filtering added for use
-at high sample rates). It’s also using a performance tweak I hit on, defining
-the filter coefficients when the plugin’s instantiated, rather than once every
+And so that’s what [PurestWarm2] is (plus, ultrasonic filtering added for use at
+ high sample rates). It’s also using a performance tweak I hit on, defining the
+filter coefficients when the plugin’s instantiated, rather than once every
 sample buffer. Not a complicated thing, but for anyone who made use of
-[PurestWarm][], this should count as a nice upgrade. And it’s a direct request:
-since I was asked for [PurestWarm][] but with a dry/wet, how could I not?
+[PurestWarm], this should count as a nice upgrade. And it’s a direct request:
+since I was asked for [PurestWarm] but with a dry/wet, how could I not?
 
 
 <a name="plugins_pyewacket"></a>
@@ -10867,7 +11118,7 @@ since I was asked for [PurestWarm][] but with a dry/wet, how could I not?
 _Pyewacket is an old school compressor for high definition transients. Adds no
 fatness, just energy._
 
-[Pyewacket][] is a strange beast. It’s inspired by how much I love the 60s/70s
+[Pyewacket] is a strange beast. It’s inspired by how much I love the 60s/70s
 recordings out of London’s Olympic Studios, which had and used Pye compressors
 on many of my favorite classic and prog-rock records. Once you recognize the
 sound, nothing else will do: the musical event is delineated with hallucinatory
@@ -10888,19 +11139,19 @@ bring in the ‘brickwall filter’ behavior the Pyes have, as needed. And I hav
 whole life of devoted music listening off classic vinyl records to guide me. I
 can get the sound.
 
-Introducing [Pyewacket][]. [Pyewacket][] is my compressor familiar. It may or
-may not have dark magic, but what it does have (demonstrated at the end of my
-video) is a response and tonality like no compressor you’ve heard. I can
-contrast it with [Pressure4][], and have done: where a more ’round and thick’
-comp like [Pressure4][] brings stuff forward, [Pyewacket][]’s soundstage sits
-back and the energy comes forward, from the highest treble to deep hard-kicking
-bass, producing a ‘retro’ sound where peak energy absolutely blows away the more
- thick, tubby RMS loudness. This is a compressor for a new era. We’ve been doing
- ‘loud and fat’ for decades now, and the loudness war is on its last legs, with
+Introducing [Pyewacket]. [Pyewacket] is my compressor familiar. It may or may
+not have dark magic, but what it does have (demonstrated at the end of my video)
+ is a response and tonality like no compressor you’ve heard. I can contrast it
+with [Pressure4], and have done: where a more ’round and thick’ comp like
+[Pressure4] brings stuff forward, [Pyewacket]’s soundstage sits back and the
+energy comes forward, from the highest treble to deep hard-kicking bass,
+producing a ‘retro’ sound where peak energy absolutely blows away the more
+thick, tubby RMS loudness. This is a compressor for a new era. We’ve been doing
+‘loud and fat’ for decades now, and the loudness war is on its last legs, with
 automatic playback gain controls rendering it useless. You don’t have to be
 composing retro to use this. The only requirement is energy and information:
-whether as a 2-buss comp or to condition individual tracks, [Pyewacket][] brings
- focus and intensity, and an incredibly clear and articulate attack transient
+whether as a 2-buss comp or to condition individual tracks, [Pyewacket] brings
+focus and intensity, and an incredibly clear and articulate attack transient
 where most compressors mangle and transform the attack beyond recognition.
 
 And if you try really hard, yes you can kinda-sorta make it do that ‘Hole In My
@@ -10916,7 +11167,7 @@ to model every little detail of the very complex and twitchy hardware unit, and
 that would cause that plugin to be overprocessed and it’d lose most of what made
  it special.
 
-But [Pyewacket][] is important, because it’s the sort of thing I can do when
+But [Pyewacket] is important, because it’s the sort of thing I can do when
 supported by Patreon. I don’t have to restrict myself to what’s going to sell to
  blind market forces. I can make it the essence of how Airwindows would do this
 sound, and I have done. As such, it is free in AU, Mac and PC VST form. If I’m
@@ -10945,47 +11196,46 @@ Another Dither: it’s different, but good.
 This is ‘essence of Dither Me Timbers’, no noise shaping… and the inverse, just
 because I can.
 
-All [RawTimbers][] does, is choose between truncating to fixed point upwards or
+All [RawTimbers] does, is choose between truncating to fixed point upwards or
 downwards, from any given point. Like Dither Me Timbers, it runs one sample of
 latency in order to do this choosing. Unlike Dither Me Timbers, it has an
-opposite plugin: [RawGlitters][]. I see this stuff as ‘level-dependent [EQ][]’
-and always thought it seemed useful to dull and soften the quietest sounds and
-let loud noises seem brighter: it didn’t make sense to me to brighten the
-quietest sounds and let loud noises be duller (might be worth a rethink of this,
- but I’ve been sick this week and can only do so much: this is after all
-vanguard stuff and I need to get it right, or try harder to get it right)
+opposite plugin: [RawGlitters]. I see this stuff as ‘level-dependent [EQ]’ and
+always thought it seemed useful to dull and soften the quietest sounds and let
+loud noises seem brighter: it didn’t make sense to me to brighten the quietest
+sounds and let loud noises be duller (might be worth a rethink of this, but I’ve
+ been sick this week and can only do so much: this is after all vanguard stuff
+and I need to get it right, or try harder to get it right)
 
-Anyhow, this is [RawTimbers][] and [RawGlitters][]. It does the exact same thing
- as [Ditherbox][] ‘Truncation, 24 bit’ except it’s an [EQ][]: [RawTimbers][]
-softens the audio and rolls off highs (and actually generates more and different
- bright quantization noise, so it’s not like it makes the noise floor itself
-seem darker), and [RawGlitters][] brightens the hell out of the audio and sort
-of merges it with the noise floor. Both drastically change the nature and
-quality of the truncation noise floor: they’re undithered, and each is super
-different from plain old truncation. I discovered making the video that if you
-hit [RawGlitters][] first and run that into [RawTimbers][], you get a third
-sound that’s interesting and pretty good… and if you run [RawTimbers][] into
-[RawGlitters][], it’s pretty terrible but I’m not your mom, go ahead if you
-want. :)
+Anyhow, this is [RawTimbers] and [RawGlitters]. It does the exact same thing as
+[Ditherbox] ‘Truncation, 24 bit’ except it’s an [EQ]: [RawTimbers] softens the
+audio and rolls off highs (and actually generates more and different bright
+quantization noise, so it’s not like it makes the noise floor itself seem
+darker), and [RawGlitters] brightens the hell out of the audio and sort of
+merges it with the noise floor. Both drastically change the nature and quality
+of the truncation noise floor: they’re undithered, and each is super different
+from plain old truncation. I discovered making the video that if you hit
+[RawGlitters] first and run that into [RawTimbers], you get a third sound that’s
+ interesting and pretty good… and if you run [RawTimbers] into [RawGlitters],
+it’s pretty terrible but I’m not your mom, go ahead if you want. :)
 
-In listening to these, remember the intense [EQ][] effect (as in, cut treble up
-to 90% relative to mids and bass) happens ONLY at a fixed loudness that is
-barely over the 24 bit noise floor. If you play around with [BitShiftGain][] you
- can check it out more easily, as I did on the video. All the effects only touch
- the noise floor area. These don’t have noise shaping so they can’t change overs
- or add excess energy: they’re ‘safe’ in that they’re predictable behavior,
-though you might have an interesting time exploring what they do to the tone.
+In listening to these, remember the intense [EQ] effect (as in, cut treble up to
+ 90% relative to mids and bass) happens ONLY at a fixed loudness that is barely
+over the 24 bit noise floor. If you play around with [BitShiftGain] you can
+check it out more easily, as I did on the video. All the effects only touch the
+noise floor area. These don’t have noise shaping so they can’t change overs or
+add excess energy: they’re ‘safe’ in that they’re predictable behavior, though
+you might have an interesting time exploring what they do to the tone.
 
-They can be used for 16 bit CD-making as seen in the video: [BitShiftGain][] -8
-bits, [RawTimbers][]/Glitters, [BitShiftGain][] +8 bits gives you exact CD
+They can be used for 16 bit CD-making as seen in the video: [BitShiftGain] -8
+bits, [RawTimbers]/Glitters, [BitShiftGain] +8 bits gives you exact CD
 dithering.
 
 They can also be used for conclusive double blind testing: since this is
 strictly two opposite ways of quantizing audio to the same fixed point output,
-you can make matching files for use in ABX testers. Use [BitShiftGain][] to dial
- in the output bit depth you want, save all the results at 24 bit if you like
+you can make matching files for use in ABX testers. Use [BitShiftGain] to dial
+in the output bit depth you want, save all the results at 24 bit if you like
 (the quantizations will be the same) and listen for the brightening and
-difference in atmosphere of [RawGlitters][]. On an ABX tester you’ll be able to
+difference in atmosphere of [RawGlitters]. On an ABX tester you’ll be able to
 audition Timbers and Glitters all you like, and compare to X, which will be one
 of the two. You can use quiet sounds if you like, to help hear what’s happening:
  it’s totally legit to tailor audio that will reveal this stuff more easily, as
@@ -11008,8 +11258,8 @@ low-noise) mastering rig you used, it would be conclusive proof of it.
 And you still ought to dither, even to 24 bit, ‘cos it’s the principle of the
 thing. But this is something different to do, and it’s a legitimate choice. I
 suspect there’ll be a lot of electronic musicians who take a liking to
-[RawGlitters][] just because it airs up the digital noise floor in an
-interesting way…
+[RawGlitters] just because it airs up the digital noise floor in an interesting
+way…
 
 
 <a name="plugins_recurve"></a>
@@ -11019,55 +11269,55 @@ _Recurve is a special buss compressor with no threshold point._
 
 Sometimes the most amazing things are the simplest.
 
-[Recurve][] is ONE line of code (per channel) plus a bit of implementation. It’s
- a compressor, and this ‘preview’ look at it is a lot like when [Spiral][] came
-out: this is [Recurve][] as a ‘black box’, set up for maximum explosiveness and
+[Recurve] is ONE line of code (per channel) plus a bit of implementation. It’s a
+ compressor, and this ‘preview’ look at it is a lot like when [Spiral] came out:
+ this is [Recurve] as a ‘black box’, set up for maximum explosiveness and
 impressiveness. (I’ve got more elegant plugins in the works and this will become
  a core technique due to its effectiveness and simplicity of coding, so this is
 the introduction to what the algorithm does)
 
-[Recurve][] works on principles similar to [Spiral][]. It’s using a very high
+[Recurve] works on principles similar to [Spiral]. It’s using a very high
 resolution sine calculation to affect the sound, and scales part of itself
 relative to the loudness of the sample it’s on. It also enjoys similar
 principles of ‘no sharp transitions, ever, for internal calculations’. In a
 clipper that means the rate of curvature doesn’t abruptly change, which is the
-principle behind [Spiral][]. For [Recurve][], this is applied to the threshold
-of a compression and whether gain is being turned up or down.
+principle behind [Spiral]. For [Recurve], this is applied to the threshold of a
+compression and whether gain is being turned up or down.
 
-If the signal is super-quiet, the gain doesn’t change. [Recurve][] takes moments
- of space and ambience between loud sounds, and preserves their character. It
+If the signal is super-quiet, the gain doesn’t change. [Recurve] takes moments
+of space and ambience between loud sounds, and preserves their character. It
 doesn’t swoop up in volume: if you need sidechainy pumping, you have to use
 something else.
 
 If the signal is medium, the gain gets turned up until it hits its max (with
-[Recurve][], it’ll exactly double the gain, which is [BitShiftGain][] at its
+[Recurve], it’ll exactly double the gain, which is [BitShiftGain] at its
 smallest increment. Exactly 6dB of very clean gain boosting things. This isn’t
-at a threshold: it’s at the most intense spot of a sine [curve][], so as a
+at a threshold: it’s at the most intense spot of a sine [curve], so as a
 waveform passes through this zone it’ll increment the gain smoothly and without
 any transition points.
 
-If the signal is loud enough, it pushes this [curve][] back through zero to its
+If the signal is loud enough, it pushes this [curve] back through zero to its
 most negative point, and the sine function delivers a -1, for the maximum
-gain-cut, which is also scaled by how loud the sample is. So [Recurve][] can cut
- back an over-loud transient FAST. In fact everything it does is really fast
+gain-cut, which is also scaled by how loud the sample is. So [Recurve] can cut
+back an over-loud transient FAST. In fact everything it does is really fast
 because the lack of transition points and the gradual nature of this
 sine-triggering lets it react very efficiently without edginess. It also lets
 through sonority and projection but cuts dull and muted stuff, kind of like
-[Pyewacket][], but without [Pyewacket][]’s inherent pointyness.
+[Pyewacket], but without [Pyewacket]’s inherent pointyness.
 
 Sounds complicated? Just listen to stuff and switch it on. This is a preview in
 extra-dramatic form of an algorithm that’s going to find many uses in Airwindows
- plugins. It’s the compression equivalent of [Spiral][] for saturation, and it
+ plugins. It’s the compression equivalent of [Spiral] for saturation, and it
 could be adapted in many ways.
 
 The way you get today is a buss-comp or limiter form, running in true (linked)
-stereo. Mix into it and [Recurve][] will gracefully eat up whatever you send it,
- even if you push it real hard. There’s a built-in 6dB of very clean boost to
+stereo. Mix into it and [Recurve] will gracefully eat up whatever you send it,
+even if you push it real hard. There’s a built-in 6dB of very clean boost to
 show off what it can do, and there’s a clipper on the output in case you get
 carried away and want to slam it so hard that transient attacks might poke out.
-And because of [Recurve][]’s [curve][]-and-recurve gain adjustment style, you’ll
- get none of the usual compression pumping and breathing: it’s just plain
-different. I hope you like it. There will be more :)
+And because of [Recurve]’s [curve]-and-recurve gain adjustment style, you’ll get
+ none of the usual compression pumping and breathing: it’s just plain different.
+ I hope you like it. There will be more :)
 
 
 <a name="plugins_remap"></a>
@@ -11095,33 +11345,33 @@ our enemy. If you squish just a little too much you can end up flat, boring AND
 turned down by the gain control. So what do we do to get more impact and mojo
 WITHOUT splatting our mixes against a digital wall?
 
-[Remap][] is finally out to answer that. You might not need it: if you’ve got
+[Remap] is finally out to answer that. You might not need it: if you’ve got
 great self-control or always squish too little, it might not help you. But for
-an awful lot of people, [Remap][] can be the ‘hail mary’ mix de-squisher, after
+an awful lot of people, [Remap] can be the ‘hail mary’ mix de-squisher, after
 the fact. And since it works the way it does, it can find uses of other sorts,
 for it’s a pretty simple algorithm.
 
-[Remap][] does a fairly decent job of taking a full scale sine wave and
+[Remap] does a fairly decent job of taking a full scale sine wave and
 transmogrifying it into a softened triangle wave, if you set it just right. It
 heightens the pointiness, the peak energy, the aura of things. If you don’t
 exaggerate it, it stays nice and clean. If you do exaggerate it, you get a
 fierce crunchy punchiness but that’s what the dry/wet control is for. It
 produces peaks above 0dB on fullscale content, so be warned: it’s basically
-putting the dynamics back. Especially with soft-clipped stuff, [Remap][] can
+putting the dynamics back. Especially with soft-clipped stuff, [Remap] can
 reshape your original wave back again… or provide expansion and power where none
  existed.
 
-Pretty much anywhere your mix feels flat and congested, [Remap][] can help (so
+Pretty much anywhere your mix feels flat and congested, [Remap] can help (so
 long as your gain staging is toward the loud side). Turn it up until it’s too
 much then back it off. Below 0.5 will always be very subtle: above 0.5, things
 might get funky in a hurry. You might find a huge fierce bass drum manifesting
 itself, or guitars growing fangs and attitude, or vocals enunciating more
 clearly and passionately, belting harder. It depends on what’s already in your
-mix: used correctly, [Remap][] can bring more of it out. There will be most
-likely ONE focus point for the [Remap][] slider, for any given mix or sound
-within its range. Find that and then use output level and dry/wet to balance
-that super-real signal with however much of the source you want. This one REALLY
- likes dry/wet to give you natural results, the focal point might be a real
+mix: used correctly, [Remap] can bring more of it out. There will be most likely
+ ONE focus point for the [Remap] slider, for any given mix or sound within its
+range. Find that and then use output level and dry/wet to balance that
+super-real signal with however much of the source you want. This one REALLY
+likes dry/wet to give you natural results, the focal point might be a real
 gritty tonality. No gloss, just guts and kick and attitude.
 
 
@@ -11141,7 +11391,7 @@ However, I’m here to explain why this week’s Airwindows plugin is an OPPOSIT
 and very busy plugin that scans for resonant peaks and whacks just the
 frequencies that are resonating the hardest).
 
-[ResEQ][] is literally the farthest from that you can get. It’s a bit like the
+[ResEQ] is literally the farthest from that you can get. It’s a bit like the
 filter banks on an old Polymoog. You set up frequencies (as many as eight, in
 parallel) and hear ONLY what those tight resonances let through. It’ll kill
 other sounds as much as 90 or 100 dB down, nuke them completely beyond hearing.
@@ -11160,26 +11410,25 @@ have only yourself to blame)
 So… WHY?!?
 
 Because if you do that on a track in your mix, all the other tracks can speak
-clearly past the weird [ResEQ][] one. It remains super-audible but completely
-gets out of the way. This is not really what you’d put on a front-and-center
-track, a lead vocal, an orchestra stem. Nope. You’d put this on the third set of
- guitar overdubs (the thickener!), on that background synth, on the horn buried
-in the back of the mix, on that extra drums overdub that’s a little wacky.
-[ResEQ][] goes on the colorful elements, the stuff that should have BIG COLOR
-but not get in the way. How do you get some quirky element or extra thing to
-jump way out without getting in the way? Set up [ResEQ][] on it, voice it so
-it’s covering the range you want. Tweak it until it has the right vibe (you can
-isolate or remove really narrow sound characteristics, truly transform a
-recording with it) and then sit it back or let it jump up front and slap
-peoples’ ears. Either way, that track will make its presence known, bigtime,
-whether it’s quiet or loud. It’s all about the mids, high or low: if you need
-super high or super low, you’ll be using something else. Mids are where mojo
-lives.
+clearly past the weird [ResEQ] one. It remains super-audible but completely gets
+ out of the way. This is not really what you’d put on a front-and-center track,
+a lead vocal, an orchestra stem. Nope. You’d put this on the third set of guitar
+ overdubs (the thickener!), on that background synth, on the horn buried in the
+back of the mix, on that extra drums overdub that’s a little wacky. [ResEQ] goes
+ on the colorful elements, the stuff that should have BIG COLOR but not get in
+the way. How do you get some quirky element or extra thing to jump way out
+without getting in the way? Set up [ResEQ] on it, voice it so it’s covering the
+range you want. Tweak it until it has the right vibe (you can isolate or remove
+really narrow sound characteristics, truly transform a recording with it) and
+then sit it back or let it jump up front and slap peoples’ ears. Either way,
+that track will make its presence known, bigtime, whether it’s quiet or loud.
+It’s all about the mids, high or low: if you need super high or super low,
+you’ll be using something else. Mids are where mojo lives.
 
-It’s got a dry/wet control, too. So you COULD use it sort of like a normal
-[EQ][]. But why would you do that when you can reconstruct an ear-grabbing
-caricature of the sound, with tons of character and mojo, AND have that sound
-sit easily in the mix making space for everything else?
+It’s got a dry/wet control, too. So you COULD use it sort of like a normal [EQ].
+ But why would you do that when you can reconstruct an ear-grabbing caricature
+of the sound, with tons of character and mojo, AND have that sound sit easily in
+ the mix making space for everything else?
 
 
 <a name="plugins_reseq2"></a>
@@ -11191,14 +11440,14 @@ This is another 'piece of an upcoming great plugin'. In order to do an MCI
 console properly I had to do a good mid peak.
 
 And we're talking 'way better than just a sharp biquad filter' mid peak. I
-needed clarity and character beyond what regular digital [EQ][] cookbooks could
+needed clarity and character beyond what regular digital [EQ] cookbooks could
 cook up.
 
-[ResEQ2][] continues on the work I started in the original [ResEQ][], where I
-observed that Manley [EQ][] impulses for sharp resonances seemed to be like a
+[ResEQ2] continues on the work I started in the original [ResEQ], where I
+observed that Manley [EQ] impulses for sharp resonances seemed to be like a
 sine-like ring, except the onset did NOT seem to be at the same frequency:
 seemed to start faster, even double the frequency. I made a whole plugin,
-[ResEQ][], giving it my best shot for generating multiple resonant 'rings' and
+[ResEQ], giving it my best shot for generating multiple resonant 'rings' and
 combining them, to produce a convolution impulse that was the sum of multiple
 analog-like resoances. It still exists: it's way before I routinely worked at
 96k, and it's got a lot of quirks, but it does get a distinct sound.
@@ -11206,11 +11455,11 @@ analog-like resoances. It still exists: it's way before I routinely worked at
 I returned to those deep, murky waters when trying to come up with a sweepable
 mid peak like certain classic analog consoles.
 
-[ResEQ2][] is the result. It's the opposite of what you'll normally find in
-great classic analog consoles. A lot of the classics really had quite limited
-analog [EQ][]: detailed parametric sculpting came in with SSL, and to some
-extent API before that. In the olden days, things were a lot simpler (and you
-gained something sonically from this simplicity).
+[ResEQ2] is the result. It's the opposite of what you'll normally find in great
+classic analog consoles. A lot of the classics really had quite limited analog
+[EQ]: detailed parametric sculpting came in with SSL, and to some extent API
+before that. In the olden days, things were a lot simpler (and you gained
+something sonically from this simplicity).
 
 But there were a few special cases, and so you had MCI's sweepable mid, that
 could only boost. Not cut. It just gave you a sort of ring, wherever you wanted
@@ -11225,50 +11474,50 @@ it's most useful, and it's almost never in the same place for different
 instruments or vocalists, so the combined sound of the mix cuts through on
 dozens of sonorities at once, and everything is powerful and clear.
 
-It's the mids equivalent of Airwindows [Weight][] for bass, and it works
-incredibly well (even if you do it with biquads or [EQ][]-design cookbooks). And
- I don't have the analog-Console projects finished yet… but you can have this
-part of it now.
+It's the mids equivalent of Airwindows [Weight] for bass, and it works
+incredibly well (even if you do it with biquads or [EQ]-design cookbooks). And I
+ don't have the analog-Console projects finished yet… but you can have this part
+ of it now.
 
 Use the 'ow argh way too extreme' settings like 1.0, where everything kind of
 turns into an audio laser, to dial in exactly what spot opens up an instrument
 or voice for maximum passion and sonority. Then, dial it back to around 0.5 and
 begin increasing it, seeing at what point you've got too much of a good thing.
-[ResEQ2][] is great at being a subtle light-bringer and giving clarity to a
-track. It's also a full-on energy weapon that can be set to 'way too much', so
-use it however you please. The resonance increases as you turn it up, so feel
-free to dial it back if it gets ringy. Probably not a good plugin for mixing
-live sound unless you like dial-a-feedback :) hope you enjoy [ResEQ2][]!
+[ResEQ2] is great at being a subtle light-bringer and giving clarity to a track.
+ It's also a full-on energy weapon that can be set to 'way too much', so use it
+however you please. The resonance increases as you turn it up, so feel free to
+dial it back if it gets ringy. Probably not a good plugin for mixing live sound
+unless you like dial-a-feedback :) hope you enjoy [ResEQ2]!
 
 
 <a name="plugins_reverb"></a>
 ### Reverb
 
-_Reverb is simplified and tuned [MatrixVerb][], adjusting everything for each
+_Reverb is simplified and tuned [MatrixVerb], adjusting everything for each
 optimum verb size._
 
 In some ways I think this is even better, but I know people like to fiddle with
-knobs, so [MatrixVerb][] had to go first. And yet…
+knobs, so [MatrixVerb] had to go first. And yet…
 
-[Reverb][] is my new go-to reverb. Why? Because it takes all the interactivity
-of [MatrixVerb][] and boils it down to ONE slider, and a dry/wet. It does all
-the same things: centered sounds spread, there’s a subtle detune as if sound was
- passing through temperature differences in the room, high frequency stuff falls
- away accurate to the sound of real air in reference concrete cavern recordings:
- it IS [MatrixVerb][], in every detail. Except it’s adapting all of that, on the
- fly, to best suit whatever size of reverb space you seek. Think in terms of
+[Reverb] is my new go-to reverb. Why? Because it takes all the interactivity of
+[MatrixVerb] and boils it down to ONE slider, and a dry/wet. It does all the
+same things: centered sounds spread, there’s a subtle detune as if sound was
+passing through temperature differences in the room, high frequency stuff falls
+away accurate to the sound of real air in reference concrete cavern recordings:
+it IS [MatrixVerb], in every detail. Except it’s adapting all of that, on the
+fly, to best suit whatever size of reverb space you seek. Think in terms of
 ‘bigness’ and just go: if things are too cavernous, get smaller, if they’re not
-reverberant enough get bigger. [Reverb][] always does its best for whatever size
- of space you’re making. If you need to get crazier, [MatrixVerb][] still
-exists. You’ll get results faster with [Reverb][]… so much so, that I’ve
-replaced [MV][] in the Airwindows Starter Kit with [Reverb][]. That’s how much I
- like it: it’s the space-maker I would show newcomers first, the most
-approachable way to audio ambience.
+reverberant enough get bigger. [Reverb] always does its best for whatever size
+of space you’re making. If you need to get crazier, [MatrixVerb] still exists.
+You’ll get results faster with [Reverb]… so much so, that I’ve replaced [MV] in
+the Airwindows Starter Kit with [Reverb]. That’s how much I like it: it’s the
+space-maker I would show newcomers first, the most approachable way to audio
+ambience.
 
-(followup: subsequent reverbs like [Verbity][], [Galactic][] and [Chamber][]
-employed a feedforward configuration and got a richer sound. [Reverb][] and
-Matrixverb turn out to be the 'plugin-style' reverb options, which is not to say
- they can't be useful too)
+(followup: subsequent reverbs like [Verbity], [Galactic] and [Chamber] employed
+a feedforward configuration and got a richer sound. [Reverb] and Matrixverb turn
+ out to be the 'plugin-style' reverb options, which is not to say they can't be
+useful too)
 
 
 <a name="plugins_righteous4"></a>
@@ -11279,20 +11528,20 @@ _Righteous4 is a final output stage for targeting dynamic range._
 This one’s pretty eagerly awaited by some… all the more since I’ve incorporated
 all the latest tech, such as the changes in denormalization and noise shaping to
  the floating point buss (it uses the ‘more warmth, ease and depth’ version when
- set to 32 bit) and even the [Spiral][] algorithm in its overdrive section.
+ set to 32 bit) and even the [Spiral] algorithm in its overdrive section.
 
-But you might not end up using that noise shaping, because [Righteous4][] has
-[NotJustAnotherDither][] (and the CD version) built right into it, along with an
- optimized ADClip and code from an old strange experiment I did called
-ShortBuss. Yep! [Righteous4][] is your all-purpose final output stage, which
-handles final clipping, saturating and even the dither to let you output 24 or
-16 bit fixed point in the purest, most optimized way. It doesn’t even return to
-the DAW buss between these stages: everything is ‘long double’, so you put in
-your mix audio (from conservative levels to peaks that would clip a normal
-output file: it’ll soak up the peaks) and you get out literally the data you
-burn to the CD or upload to Bandcamp etc. as hi-res HD audio.
+But you might not end up using that noise shaping, because [Righteous4] has
+[NotJustAnotherDither] (and the CD version) built right into it, along with an
+optimized ADClip and code from an old strange experiment I did called ShortBuss.
+ Yep! [Righteous4] is your all-purpose final output stage, which handles final
+clipping, saturating and even the dither to let you output 24 or 16 bit fixed
+point in the purest, most optimized way. It doesn’t even return to the DAW buss
+between these stages: everything is ‘long double’, so you put in your mix audio
+(from conservative levels to peaks that would clip a normal output file: it’ll
+soak up the peaks) and you get out literally the data you burn to the CD or
+upload to Bandcamp etc. as hi-res HD audio.
 
-But it’s a little more complicated than that. Bear with me. [Righteous4][] will
+But it’s a little more complicated than that. Bear with me. [Righteous4] will
 clog up and audibly distort under some circumstances, and it’s for a reason that
  might interest you.
 
@@ -11314,33 +11563,33 @@ one of the reasons old vinyl records sounded so great! I’ve measured RMS
 loudness behavior like -27 LUFS off old hit records. The energy pouring out of
 those old grooves is due to the way peaks and compression were handled: it was a
  different kind of limiting, handled differently, back then. Peak energy makes
-the music sound better. [Righteous4][] handles peak energy by clipping it with
+the music sound better. [Righteous4] handles peak energy by clipping it with
 ADClip, so you can throw more at it in safety. This is not the audible clipping
 I’m talking about (at least, not if you’re talking percussive peaks etc. which
 are pretty cleanly clipped, especially by ADClip)
 
 The audible clipping happens when you push your LUFS levels beyond the target.
-As you mix and set levels, you simply have to listen for whether [Righteous4][]
+As you mix and set levels, you simply have to listen for whether [Righteous4]
 sounds big and open, or whether it’s getting a little intense, or whether it’s
 obviously being pushed too far and breaking up (especially on bass, and mix
 fullness).
 
-What’s happening is, the saturation from the [Spiral][] algorithm is being fed
+What’s happening is, the saturation from the [Spiral] algorithm is being fed
 into ShortBuss, which fills the energy back into the mix in the form of second
-harmonic. This is what gives [Righteous4][] its tone and extra warmth, and it’s
-a nice fullness and bloom UNLESS you’re slamming it (it’s calibrated using the
+harmonic. This is what gives [Righteous4] its tone and extra warmth, and it’s a
+nice fullness and bloom UNLESS you’re slamming it (it’s calibrated using the
 slider, where you select your target). If you are too loud, you’ll hear it. Your
  peak energy will still be going up to the real clipping threshold, just as
 before, but your RMS energy will tell you how loud you should go.
 
 It’s that simple. You don’t have to use it to hit LUFS targets, but since it’s
-got [Spiral][] in there it also broadens the heck out of the ‘target range’ so
-you can pick whatever seems right to you, and it’ll guide you. If you find you
-need to push louder, you can set [Righteous4][] for a higher target, and that
-will clean it right up and let you push harder into the internal ADClip. If
-you’re looking for big dynamic range, you can set [Righteous4][]’s target lower,
- or simply set it for Apple or YouTube loudnesses and then just don’t push into
-it very hard: this will give you dynamics, but the replay-gain services will be
+got [Spiral] in there it also broadens the heck out of the ‘target range’ so you
+ can pick whatever seems right to you, and it’ll guide you. If you find you need
+ to push louder, you can set [Righteous4] for a higher target, and that will
+clean it right up and let you push harder into the internal ADClip. If you’re
+looking for big dynamic range, you can set [Righteous4]’s target lower, or
+simply set it for Apple or YouTube loudnesses and then just don’t push into it
+very hard: this will give you dynamics, but the replay-gain services will be
 kinder to the result because it’s somewhat saturated and compressed, just in a
 very gentle way if you’re hitting it that gently. And of course the output’s
 optimized for whatever bit depth you’ve selected, so you can directly target CD
@@ -11354,9 +11603,9 @@ charm of math :)
 
 _SampleDelay is three delays combined: millisecond, sample and subsample._
 
-[SampleDelay][] is a very simple thing, implemented in a particular way. It's
-not exactly an echo (though it can be), not exactly a timing adjustment tool,
-not exactly a sound shaper… more like, a little of all of those things.
+[SampleDelay] is a very simple thing, implemented in a particular way. It's not
+exactly an echo (though it can be), not exactly a timing adjustment tool, not
+exactly a sound shaper… more like, a little of all of those things.
 
 You've got up to 100 milliseconds of delay on the first control. On the second,
 you have 0 to 10 samples of delay, exactly. And on the third control, you have
@@ -11397,54 +11646,53 @@ _Shape is an asymmetrical waveshaper for peak manipulating._
 
 Here’s a really basic building block for ya. The key word here is asymmetrical.
 
-[Shape][] is a simple, often subtle, little plugin for either pulling out, or
+[Shape] is a simple, often subtle, little plugin for either pulling out, or
 squishing in, parts of the waveform. It’s based on the same basic technology as
-Console: complementary sin() and asin() functions. But in [Shape][], you’re
+Console: complementary sin() and asin() functions. But in [Shape], you’re
 picking which you want to apply, and you’re offsetting things so you can hit one
  side of the waveform more than the other.
 
-Works like this. The [Shape][] control determines what you’re doing. In the
-middle (0.5) you’re not doing anything. Increase it to 1.0 and you are
-stretching out the peaks of the waveform. Turn it down to 0.0 and you’re
-squishing the peaks of the waveform: like a soft-saturation but no boost, just
-restricting the waveform and making it distorted. The control scales all this so
- if you’re not cranking it out, you have lots of headroom and very gentle
-effects.
+Works like this. The [Shape] control determines what you’re doing. In the middle
+ (0.5) you’re not doing anything. Increase it to 1.0 and you are stretching out
+the peaks of the waveform. Turn it down to 0.0 and you’re squishing the peaks of
+ the waveform: like a soft-saturation but no boost, just restricting the
+waveform and making it distorted. The control scales all this so if you’re not
+cranking it out, you have lots of headroom and very gentle effects.
 
 The Offset control interacts with this by shifting things from one side to the
 other: 0.5 is no offset, 0.0 is negative and 1.0 is positive (in my sound editor
  in the video, this is the top half of the waveform as positive). The effect of
-this, especially if you’ve not cranked out the [Shape][] control, is to make the
- [Shape][] control do its thing to only one side of the wave. You shouldn’t
+this, especially if you’ve not cranked out the [Shape] control, is to make the
+[Shape] control do its thing to only one side of the wave. You shouldn’t
 automatically crank this one out either: you can, for nasty waveshaping tricks,
-but the power of [Shape][] is in how transparently it can manage the positive
-and negative swings of your waveform.
+but the power of [Shape] is in how transparently it can manage the positive and
+negative swings of your waveform.
 
 Also, when we’re reshaping the waveform so asymmetrically, that’s built-in even
 harmonics: this is a recipe for warmth. It’s like a turbo version of my
-[PurestWarm][] plugins but even smoother, or like a variation of my
-[SingleEndedTriode][] plugin. Use it gracefully (not cranking out the controls
-all the way) and everything you do will be tonal adjustments of great purity and
- subtlety, which is why it can be a bit hard to hear its effect when the
-controls are very near the middle.
+[PurestWarm] plugins but even smoother, or like a variation of my
+[SingleEndedTriode] plugin. Use it gracefully (not cranking out the controls all
+ the way) and everything you do will be tonal adjustments of great purity and
+subtlety, which is why it can be a bit hard to hear its effect when the controls
+ are very near the middle.
 
 So the trick is to know what way you’re using it. If you’re doing sound design
 and you’re trying to get a sound to swing fully in both directions, you can
 either pick the part that you think is swinging too far (pos or neg), set the
-offset to favor that, and pull back that side by setting [Shape][] lower than
+offset to favor that, and pull back that side by setting [Shape] lower than
 halfway (cutting BACK the side you’re focussing on), or you can pick the side
-that doesn’t go far enough, set the offset to favor it, and turn [Shape][] UP to
- bring that side’s peaks up to match the other side.
+that doesn’t go far enough, set the offset to favor it, and turn [Shape] UP to
+bring that side’s peaks up to match the other side.
 
 Or if you’re working on a bass and want it to be warmer, you can just choose
-between more [Shape][] (more of a triangle-ey result out of a sine input) or
-less [Shape][] (more of a squared result out of a sine input) and then lean the
-Offset one way or the other to get the warmth you want (not all the way, or it
-won’t be as smooth).
+between more [Shape] (more of a triangle-ey result out of a sine input) or less
+[Shape] (more of a squared result out of a sine input) and then lean the Offset
+one way or the other to get the warmth you want (not all the way, or it won’t be
+ as smooth).
 
 Or, you can take your bass that you want to be purer, and try to identify
-whether it’s too triangle-ey or too square-ey, and then apply [Shape][] to nudge
- it more in the direction of a pure sine-ey tone. It’s a waveshaper, so you can
+whether it’s too triangle-ey or too square-ey, and then apply [Shape] to nudge
+it more in the direction of a pure sine-ey tone. It’s a waveshaper, so you can
 stack them up to get a VERY soft square or a soft-pointed triangle out of any
 sine-bass you start with, or put ’em back to the sine shape, or lean the offset
 one way or another, all very transparently.
@@ -11454,18 +11702,18 @@ function laid out in this way, and it’s too subtle for normal plugin makers to
 be able to sell you. Any commercial plugin where turning it up doesn’t equal
 ‘more’ plus you can’t always hear what it does, is in big trouble. But I’m
 Patreon-supported so I don’t have to follow those rules, so I can give you
-[Shape][] even if most people don’t get a big charge out of it and throw their
+[Shape] even if most people don’t get a big charge out of it and throw their
 money :)
 
-And so I have. Enjoy [Shape][]. My hope is that it serves its useful purpose for
- those who need to tweak exactly this, as transparently as possible. And if you
+And so I have. Enjoy [Shape]. My hope is that it serves its useful purpose for
+those who need to tweak exactly this, as transparently as possible. And if you
 didn’t need to… maybe you just didn’t know it was a thing. It is now! :)
 
 
 <a name="plugins_sidedull"></a>
 ### SideDull
 
-_SideDull is like [Sidepass][], but a lowpass on the side channel.
+_SideDull is like [Sidepass], but a lowpass on the side channel.
 Treble-centerer._
 
 There are some nice things about Patreon-era Airwindows. Not the money: that
@@ -11474,26 +11722,26 @@ I don’t eat much and nothing happens to my car :)
 
 No, the cool thing is this: I can put out tools that have NOTHING to do with a
 plugin marketplace. If even one person finds the plugin useful, I can put it
-out. [SideDull][] is kind of like that. I was asked, ‘since [Sidepass][] is
-great, can we have a lowpass version?’. And I went ‘huhh? why would anyone want
-to narrow just top end, or center mids and up while not touching lows?’
+out. [SideDull] is kind of like that. I was asked, ‘since [Sidepass] is great,
+can we have a lowpass version?’. And I went ‘huhh? why would anyone want to
+narrow just top end, or center mids and up while not touching lows?’
 
 The answer is of course ‘why not?’ and ‘if you are sure you won’t be doing that,
  don’t install this plugin’ :)
 
-I don’t need to explain what [SideDull][] does: it’s the same as [Sidepass][]
-but in reverse, narrowing/mono-ing highs and down. I WOULD like to explain
-something about its role in a DAW user’s toolkit, though. I’m seeing this
-increasing churn in the plugin industry, a frenzy of new stuff and new
-requirements and DRM systems and dongles and such. It’s like a fulltime job to
-keep up with your recording system. My own pet fear is updating something only
-to find that I’ve hosed myself and everything’s now broken.
+I don’t need to explain what [SideDull] does: it’s the same as [Sidepass] but in
+ reverse, narrowing/mono-ing highs and down. I WOULD like to explain something
+about its role in a DAW user’s toolkit, though. I’m seeing this increasing churn
+ in the plugin industry, a frenzy of new stuff and new requirements and DRM
+systems and dongles and such. It’s like a fulltime job to keep up with your
+recording system. My own pet fear is updating something only to find that I’ve
+hosed myself and everything’s now broken.
 
-That’s why [SideDull][], and every other plugin, is built on a time-capsule
-10.6.8 system and the VST’s built on a time-capsule isolated-from-the-internet
-virtual Windows 7. I’m using the simplest possible interfaces (some vendors,
-like Blue Cat, have taken pains to implement the generic interface super well,
-and can even skin it attractively) and not touching stuff that causes forced
+That’s why [SideDull], and every other plugin, is built on a time-capsule 10.6.8
+ system and the VST’s built on a time-capsule isolated-from-the-internet virtual
+ Windows 7. I’m using the simplest possible interfaces (some vendors, like Blue
+Cat, have taken pains to implement the generic interface super well, and can
+even skin it attractively) and not touching stuff that causes forced
 obsolescence, which I think is really bad news for us all.
 
 So, the free AU/VST plugins (and the Kagi AUs before them) can be like your
@@ -11517,21 +11765,21 @@ This one was by request. It’s not very fancy, but I hope it’ll come in handy
  it is, spread the word!
 
 I’ve got a plugin called ToVinyl, which is rather fancy. It’s the Airwindows
-attempt at a vinyl mastering suite: elliptical [EQ][], highpass on the mid to
-help get levels, an acceleration limiter to tame sudden energy spikes without
-really cutting brightness otherwise, and even a groove wear modeler that was the
- precursor to Airwindows [Aura][]. That’s one of the Kagi for-pay plugins,
-number 9 on the list when I reach $800 a month and begin doing those.
+attempt at a vinyl mastering suite: elliptical [EQ], highpass on the mid to help
+ get levels, an acceleration limiter to tame sudden energy spikes without really
+ cutting brightness otherwise, and even a groove wear modeler that was the
+precursor to Airwindows [Aura]. That’s one of the Kagi for-pay plugins, number 9
+ on the list when I reach $800 a month and begin doing those.
 
 But, I got asked for something much simpler. A highpass filter on just the side
 channel, and one that would go up the full range from subs to highs, so at full
 crank it’d be purely mono.
 
-Well, I’ve altered that a teeny bit: [Sidepass][] is aware of sample rates, so
-if you’re at a 0.1 setting at 44.1K, it ought to be doing the same thing at 0.1
-at 96K. But apart from that, here’s a little utility for AU, Mac and PC VST that
- just highpasses the side, from DC to 22K. It’s an Airwindows filter, same as
-what’s in [Density][] and [Drive][] as a highpass, and it ought to do nicely.
+Well, I’ve altered that a teeny bit: [Sidepass] is aware of sample rates, so if
+you’re at a 0.1 setting at 44.1K, it ought to be doing the same thing at 0.1 at
+96K. But apart from that, here’s a little utility for AU, Mac and PC VST that
+just highpasses the side, from DC to 22K. It’s an Airwindows filter, same as
+what’s in [Density] and [Drive] as a highpass, and it ought to do nicely.
 
 
 <a name="plugins_silhouette"></a>
@@ -11539,32 +11787,31 @@ what’s in [Density][] and [Drive][] as a highpass, and it ought to do nicely.
 
 _Silhouette replaces the sound with raw noise sculpted to match its dynamics._
 
-I thought I’d let people play with the precursor to [Texturize][], which so far
-has not made it into the Patreon era of Airwindows… meet [Silhouette][]!
+I thought I’d let people play with the precursor to [Texturize], which so far
+has not made it into the Patreon era of Airwindows… meet [Silhouette]!
 
-[Silhouette][] was created for playing finished music through and seeing if you
+[Silhouette] was created for playing finished music through and seeing if you
 could still make out a beat. It was an anti-loudness-war plugin, made long ago
 to illustrate that point. And it replaces the whole sound with a blast of noise
-which retains the dynamics of the underlying music… if there is any.
-[Dynamics][], that is.
+which retains the dynamics of the underlying music… if there is any. [Dynamics],
+ that is.
 
-[Texturize][] was this, tone-shaped to match the sound of the underlying music
-(mostly going a lot more bassy). And [Texturize][] proved a lot of fun for
-people, some of whom asked, can we have that but brighter? So be careful what
-you wish for. [Silhouette][] now comes with the same wet/dry control as
-[Texturize][], so you can use it as a subliminal noise generator. But it’s ALL
-bright, so you have to turn it down further in order for it to ‘hide’ behind the
- audio. And that means it can’t really do what [Texturize][] does: it’ll stick
-out.
+[Texturize] was this, tone-shaped to match the sound of the underlying music
+(mostly going a lot more bassy). And [Texturize] proved a lot of fun for people,
+ some of whom asked, can we have that but brighter? So be careful what you wish
+for. [Silhouette] now comes with the same wet/dry control as [Texturize], so you
+ can use it as a subliminal noise generator. But it’s ALL bright, so you have to
+ turn it down further in order for it to ‘hide’ behind the audio. And that means
+ it can’t really do what [Texturize] does: it’ll stick out.
 
 But in sticking out, the subliminals it will generate are VERY different from
-what [Texturize][] does. I’d describe it as hype and energy and tension. Be
+what [Texturize] does. I’d describe it as hype and energy and tension. Be
 careful not to turn it up too high: it’ll be incredibly obvious anytime you do.
 Some sounds, some mixes, will just never work with it.
 
 But isn’t it fun sometimes to not care about that and just try out something
-wild to see what it does? [Silhouette][] finds its use in that space. I hope you
- like it.
+wild to see what it does? [Silhouette] finds its use in that space. I hope you
+like it.
 
 
 <a name="plugins_sinew"></a>
@@ -11575,8 +11822,8 @@ _Sinew combines sines and slew clipping for a tape bias effect!_
 Looks like I'm working on three major fronts at the moment, and here's a key
 advance on at least one of them :)
 
-[Sinew][] is the answer to the question, 'what if slew clipping, but it was more
- restrictive the closer you got to what would be regular clipping?'
+[Sinew] is the answer to the question, 'what if slew clipping, but it was more
+restrictive the closer you got to what would be regular clipping?'
 
 I realize the answer is typically going to be 'slew what now?' but Airwindows
 fans are long aware of the strange pleasures of slew clipping. What you don't
@@ -11586,17 +11833,16 @@ without the actual tape saturation!
 
 This might have all kinds of uses: I know it's going to find its way into a
 ToTape update. For now, you can have the raw version, the one where (like other
-[Slew][]-oriented plugins) you can set it to extreme values and screw up the
-sound in interesting ways. [Sinew][] might be just the thing for making heavy
-guitars louder, or adding guts to drums, but you can try it on whatever you
-like.
+[Slew]-oriented plugins) you can set it to extreme values and screw up the sound
+ in interesting ways. [Sinew] might be just the thing for making heavy guitars
+louder, or adding guts to drums, but you can try it on whatever you like.
 
 It'll hang on to brightness for quite a long time, until suddenly it's really
 stepping on the sound. What's happening there is, you can't hear it doing more
 subtle work, so you only hear it when it's turned up too far. Listen to the
 character of things and you might hear it kicking in without apparently cutting
 back brightness at all! This is the farthest thing from a simple filter. Good
-luck experimenting with [Sinew][]!
+luck experimenting with [Sinew]!
 
 
 <a name="plugins_singleendedtriode"></a>
@@ -11605,7 +11851,7 @@ luck experimenting with [Sinew][]!
 _SingleEndedTriode is unusual analog modeling effects._
 
 Everybody knows that analog modeling means distortion. (well… noise and
-distortion. And [EQ][], and overprocessing… but mostly distortion.)
+distortion. And [EQ], and overprocessing… but mostly distortion.)
 
 However, it’s always the same sorts of distortion: soft or hard clipping
 generating harmonics. Here, have three totally different kinds!
@@ -11614,21 +11860,21 @@ Single Ended Triode does three things, and you don’t have to do them all at on
  (in fact you probably don’t want to).
 
 The actual Single Ended Triode control is a special gain-staged saturation
-that’s asymmetrical. It’s a little like [PurestWarm][], only not, because rather
- than put a soft saturation on one-half of the waveform, it offsets everything
+that’s asymmetrical. It’s a little like [PurestWarm], only not, because rather
+than put a soft saturation on one-half of the waveform, it offsets everything
 and goes into the saturation with a bias voltage. Then it subtracts a related
 voltage, and scales the whole thing up or down based on how much distortion
 you’re looking to get. (shown in the source code, of course)
 
 That means you have a ‘second harmonic generating’ asymmetrical distortion, but
-with NO crossover point. Unlike [PurestWarm][], SET is a continuous waveshaper
+with NO crossover point. Unlike [PurestWarm], SET is a continuous waveshaper
 just like using a real triode tube single-ended, and while you can crank it up
 to get obvious effects, its real magic is in using just a tiny amount to warm
 and sweeten things. It’s perhaps not ideal for the 2-buss because you’d simply
 be removing some of your mix energy on one half of the wave, but if the
 sweetening is what you need it might be worth it, because it’s a super clean way
  to do that. It’s only the asymmetrical distortion, and the interesting thing
-about that is: know how [Spiral][] smooths the transition between sides of the
+about that is: know how [Spiral] smooths the transition between sides of the
 sin() waveshaping, and that made it sound better? With Single Ended Triode, it’s
  capable of doing that transition when cranked way up… but used subtly, the
 entire audio output sits within one sin() calculation, and you don’t see a
@@ -11640,7 +11886,7 @@ circuit because they don’t have two sides to the circuit. It’s single-ended,
 
 Crossover issues, you say?
 
-Why yes. Meet Class AB (and Class B) [Distortion][].
+Why yes. Meet Class AB (and Class B) [Distortion].
 
 This is the opposite. It adds nonlinearities as the signal passes through zero.
 It’s a STRONG tone coloring and certainly not for the 2-buss or nice mellow
@@ -11692,11 +11938,11 @@ being exactly in the middle. Apply wisely.)
 
 _Slew is a slew clipper, which darkens treble in an unusual way._
 
-[Slew][] is the very first plugin I made for Airwindows (or at least the first
-one listed on this website).
+[Slew] is the very first plugin I made for Airwindows (or at least the first one
+ listed on this website).
 
-[Slew][] is a simple plugin to let you do slew clipping. You can use it to morph
- and transform percussive sounds or hats, you can give a unique and interesting
+[Slew] is a simple plugin to let you do slew clipping. You can use it to morph
+and transform percussive sounds or hats, you can give a unique and interesting
 ‘grind’ to instruments or glue stuff together into a retro, old-school-sampler,
 grungey grind, or you can use it on things like reverb sends to really amp up
 the sense of distant loud sound in a room or space.
@@ -11710,20 +11956,20 @@ _Slew2 works like a de-esser or acceleration limiter: controls extreme highs._
 Sometimes I just get lucky :)
 
 This plugin is just the anti-aliasing technology I was experimenting with in
-2010, applied to [Slew][], my simple slew clipper. I thought it was going to
-make the slightly grungy [Slew][] smoother ([Slew][] is a clipper, and can be
-expected to have clipper-like qualities). That anti-aliasing code was a bit odd.
- It’s possible I made a mistake somewhere.
+2010, applied to [Slew], my simple slew clipper. I thought it was going to make
+the slightly grungy [Slew] smoother ([Slew] is a clipper, and can be expected to
+ have clipper-like qualities). That anti-aliasing code was a bit odd. It’s
+possible I made a mistake somewhere.
 
 If so, I’m keeping it, and now what I invented is out for VST also, and free to
 all.
 
-[Slew2][] doesn’t act anything like [Slew][]. What it does, is it puts a
-particular behavior on the extreme highs. Set to an intermediate value, it’s an
+[Slew2] doesn’t act anything like [Slew]. What it does, is it puts a particular
+behavior on the extreme highs. Set to an intermediate value, it’s an
 acceleration limiter. Cranked all the way up… well, check out the video. It
-behaves like one of the nodes in [Average][] (also coming to VST) with a 100%
+behaves like one of the nodes in [Average] (also coming to VST) with a 100%
 cancellation, but the point of total cancellation is also the Nyquist frequency.
- [Slew2][] produces a very natural-sounding brickwall filter exactly at that
+ [Slew2] produces a very natural-sounding brickwall filter exactly at that
 frequency, with the response falling off faster and faster until it’s totally
 gone when you hit the Nyquist limit (digital sampling theory: at 44.1K (CD
 quality) it is 22.05K where the treble cuts off).
@@ -11732,11 +11978,11 @@ People are using this for de-essers, and it’s pretty much ideal for any sound
 that must not be overwhelming in the super highs. The peculiar character of the
 rolloff means it’s suitable for almost anything because it won’t affect lower
 treble, and the fact that it’s really a clipper means you can use the slider to
-set a threshold where, the harder you push [Slew2][], the more it’ll refuse to
-let more brightness through. I’ve not tried using it as an acceleration limiter
-on a mastering lathe, but it could probably do that: which also means if you’re
+set a threshold where, the harder you push [Slew2], the more it’ll refuse to let
+ more brightness through. I’ve not tried using it as an acceleration limiter on
+a mastering lathe, but it could probably do that: which also means if you’re
 going for classic analog tone, you can just toss this on the 2-buss and use just
- enough to take excess brightness away. [Slew2][] is one of the ‘secret weapon’
+ enough to take excess brightness away. [Slew2] is one of the ‘secret weapon’
 plugins I was specifically asked to port to VST, and I’m happy to bring it to
 you all.
 
@@ -11749,23 +11995,23 @@ _Slew3 is a new approach to slew clipping meant for a more analog-like darkening
 
 A Chris’s work is never done! Or at least it’s not, when it comes to refining
 basic tonal building blocks that apply to many plugins. It’s just recently that
-I updated [Capacitor][] with an analog behavior found (quite strikingly) in
+I updated [Capacitor] with an analog behavior found (quite strikingly) in
 certain real-world capacitors. I’m at it again.
 
-This makes a third [Slew][] plugin, and every one is strikingly different.
-[Slew][] (original) darkens radically and makes a grungy, clipped tone (it’s in
-Channel, too, very subtly). [Slew2][], though there are some similarities in
-code, acts wildly different: it produces an intense rolloff that is only right
-up at the Nyquist frequency, and is an elegant anti-glare solution, but barely
-has a tone at all.
+This makes a third [Slew] plugin, and every one is strikingly different. [Slew]
+(original) darkens radically and makes a grungy, clipped tone (it’s in Channel,
+too, very subtly). [Slew2], though there are some similarities in code, acts
+wildly different: it produces an intense rolloff that is only right up at the
+Nyquist frequency, and is an elegant anti-glare solution, but barely has a tone
+at all.
 
-[Slew3][] uses ideas from [Acceleration][] and [DeBess][] to produce a slew
-clipping that’s actually reading information beyond what the samples provide:
-it’s like it reconstructs the wave a bit and is most effective where you’d get
-intersample peaks. It’s NOT an [EQ][]: it has very striking dynamic qualities.
-It’s not a pure ‘glare cutter’ like [Slew2][], either: there’s a limit to how
-much it will darken. But what it’s all about is producing an analog top-end on
-your digital content.
+[Slew3] uses ideas from [Acceleration] and [DeBess] to produce a slew clipping
+that’s actually reading information beyond what the samples provide: it’s like
+it reconstructs the wave a bit and is most effective where you’d get intersample
+ peaks. It’s NOT an [EQ]: it has very striking dynamic qualities. It’s not a
+pure ‘glare cutter’ like [Slew2], either: there’s a limit to how much it will
+darken. But what it’s all about is producing an analog top-end on your digital
+content.
 
 This is an experimental plugin. In development, some of my audio caused it to
 freak out, and it took extra time to get it to behave (I suppose I could also
@@ -11787,29 +12033,29 @@ Please remember, these like Guitar Conditioner are control-less plugins so you
 don’t operate them by opening their windows: they’re either on or off, which
 probably is shown in your DAW mixer window already.
 
-[SlewOnly][] gives you what it says on the tin: only the difference between
+[SlewOnly] gives you what it says on the tin: only the difference between
 samples, expressed as a sample. This produces a super-bright sound with zero
 latency and absolutely no pre-ring or post-ring. You can do two poles of this
-filtering: just add another [SlewOnly][]. But, as is, this will give you an
+filtering: just add another [SlewOnly]. But, as is, this will give you an
 incredibly clear and transparent window on the ultra-highs, so you can dial in
 subtleties in the treble. Beware: don’t switch right back to the normal sound or
  it’ll sound incredibly dull. Rest your ears for a moment before resuming work.
 
-[SubsOnly][] does the same thing for subsonic bass. It sounds a little like a
+[SubsOnly] does the same thing for subsonic bass. It sounds a little like a
 house party from an adjacent house. You can tweak sub-bass elements and really
 hear how they’re balancing against each other, and if you’re packing too much
 into the subs you’ll hear that as well. Get things thumping properly through
-[SubsOnly][] and it should translate well to all manner of bassbins and
+[SubsOnly] and it should translate well to all manner of bassbins and
 subwoofers.
 
-Lastly, these are calibrated (in [SlewOnly][] quite literally: pink noise will
-be about the same amplitude with or without it, though the tone will be way
+Lastly, these are calibrated (in [SlewOnly] quite literally: pink noise will be
+about the same amplitude with or without it, though the tone will be way
 different) so that you can switch them in and out, and expect roughly the same
-loudnesses. It’s okay if [SubsOnly][] is louder for fullbodied bass: with that,
+loudnesses. It’s okay if [SubsOnly] is louder for fullbodied bass: with that,
 it’s not so much about level-matching, it’s about getting your sound (at
 whatever desired loudness) and then having the bass still make sense through
-[SubsOnly][]. If you’re madly overloading it, there won’t be groove, just a lot
-of thunder and noise, at elevated levels. These go on at the end of your master
+[SubsOnly]. If you’re madly overloading it, there won’t be groove, just a lot of
+ thunder and noise, at elevated levels. These go on at the end of your master
 buss, so you can hear what your 2-buss chain did to the sound. Especially if you
  try and go for ‘commercially loud’ volumes, sanity checking with these tools
 can be a real silver bullet.
@@ -11818,36 +12064,36 @@ can be a real silver bullet.
 <a name="plugins_slewsonic"></a>
 ### SlewSonic
 
-_SlewSonic combines [SlewOnly][] with ultrasonic filtering to solo brightness._
+_SlewSonic combines [SlewOnly] with ultrasonic filtering to solo brightness._
 
 This plugin was a journey! The video isn't even its final form. The idea was to
-find out whether [SlewOnly][] aliases. Could you filter out ultrasonics and get
-a smoother [SlewOnly][]?
+find out whether [SlewOnly] aliases. Could you filter out ultrasonics and get a
+smoother [SlewOnly]?
 
 The answer is 'kinda', but then things got out of hand…
 
-[SlewSonic][] lets you stack up as many as three instances of [SlewOnly][], each
- with ultrasonic filtering around them to resist aliasing. Except it's not
-always ultrasonic, because now you can set it from 25k all the way down to 5k.
-When you do that, you get the smoothest, darkest [SlewOnly][] ever!
+[SlewSonic] lets you stack up as many as three instances of [SlewOnly], each
+with ultrasonic filtering around them to resist aliasing. Except it's not always
+ ultrasonic, because now you can set it from 25k all the way down to 5k. When
+you do that, you get the smoothest, darkest [SlewOnly] ever!
 
-But what even is [SlewOnly][]? It's a monitoring plugin, very simple, that shows
- only the extreme treble, and balances the levels in a calibrated way to help
-you mix. [SlewOnly][] is in all versions of Airwindows [Monitoring][], alongside
- [SubsOnly][] and PeakOnly. It's there to show you stuff you wouldn't hear off
-just the regular mix. So if you switch over to [SlewOnly][], it should still be
-a mix, still about the same volume, still about the same density.
+But what even is [SlewOnly]? It's a monitoring plugin, very simple, that shows
+only the extreme treble, and balances the levels in a calibrated way to help you
+ mix. [SlewOnly] is in all versions of Airwindows [Monitoring], alongside
+[SubsOnly] and PeakOnly. It's there to show you stuff you wouldn't hear off just
+ the regular mix. So if you switch over to [SlewOnly], it should still be a mix,
+ still about the same volume, still about the same density.
 
 The thing is, when you stack those up, the calibrated volume adjustment gets
 more and more extreme. So mega-boosts can create really LOUD super-treble. And
 this could be useful highlighting cymbals, whispers… anything where you want to
 solo those frequencies. The Bright control fades between the direct sound and
-one, two or three stages of [SlewOnly][], and the Mute control specifies the
+one, two or three stages of [SlewOnly], and the Mute control specifies the
 highest frequencies you keep, so it could fight aliasing even at lower sample
 rates.
 
 I'm imagining this as a tool for dedicated hi-hat tracks, stuff like that. You
-should be able to get exactly what you want. Hope you like [SlewSonic][]!
+should be able to get exactly what you want. Hope you like [SlewSonic]!
 
 
 <a name="plugins_smooth"></a>
@@ -11857,18 +12103,18 @@ _Smooth can tame pointy sounds or make drums explode._
 
 Here’s one of the classic Airwindows secret weapons, up to date and VST and free
  (yes, Patreon blah blah, you know the drill). It can be subtle or incredibly
-aggressive, and it’s named [Smooth][].
+aggressive, and it’s named [Smooth].
 
 You can use it on things like spikey acoustic guitars, overly edgy mics,
 anywhere the treble is just getting obnoxious: it’s as good as ToVinyl or
-[Acceleration][] for that but is more of a clipper than a slew limiter. In that
+[Acceleration] for that but is more of a clipper than a slew limiter. In that
 role it’s like buttering the highs up just a bit, and you can set it carefully
-to just snip off the stray edges super-transparently. Used right, [Smooth][] is
+to just snip off the stray edges super-transparently. Used right, [Smooth] is
 better than anything at dialing back individual instruments’ edginess without
 hurting the tone.
 
-You can also crank on large amounts of [Smooth][] on sources like drums, to
-produce a huge explosive effect that’s comparable to [OneCornerClip][]: this’ll
+You can also crank on large amounts of [Smooth] on sources like drums, to
+produce a huge explosive effect that’s comparable to [OneCornerClip]: this’ll
 produce obvious distortions on tonal sources (which might be fine for all I
 know) but on drums and percussion it sort of blends with and thickens the drum
 sound. It’ll bring out mids and lows, and at extreme settings it’ll go into a
@@ -11876,11 +12122,11 @@ sound. It’ll bring out mids and lows, and at extreme settings it’ll go into 
 
 You get that, an output level, and dry/wet: with the range of possible
 adjustments, this ought to count as another ‘indispensable plugin’ for more than
- a few of you. [Smooth][] is really approachable if you remember that, like my
-[Acceleration][] limiter, it shouldn’t sound like you’re using anything if you
-use it subtly. You can always pull back [Smooth][] until it sounds like it isn’t
- doing anything, even on the 2-buss if you like. Treat that and ‘smooth smash’
-as separate uses and you should be good: in the one case you’re not supposed to
+ a few of you. [Smooth] is really approachable if you remember that, like my
+[Acceleration] limiter, it shouldn’t sound like you’re using anything if you use
+ it subtly. You can always pull back [Smooth] until it sounds like it isn’t
+doing anything, even on the 2-buss if you like. Treat that and ‘smooth smash’ as
+ separate uses and you should be good: in the one case you’re not supposed to
 hear it removing anything except by comparison, and in the other case you’re
 laughing and watching the world burn.
 
@@ -11894,23 +12140,23 @@ _SoftGate is a gate that can mute hiss and smooth sample tails._
 
 Hi! Today’s Airwindows tool is for sample makers (though you could use in in a
 mix if you really wanted to, or abuse it for special effects). It’s called
-[SoftGate][].
+[SoftGate].
 
-The purpose of [SoftGate][] is this: you can set it so it’ll take the noise
-floor of a recording that you want to turn to samples (or multisamples), and
-fade it into darkness. You can set it to do this quickly, or quite slowly. This
-will clean up the noise floor of your multisample instruments and let you
-sustain things for longer, whatever the source recording quality is: if it’s
-real noisy and all your samples fade into a bunch of ugly noise, tell
-[SoftGate][] to fade more slowly (lower on the slider) and allow that to kick in
- as the sound fades away into what’s supposed to be silence.
+The purpose of [SoftGate] is this: you can set it so it’ll take the noise floor
+of a recording that you want to turn to samples (or multisamples), and fade it
+into darkness. You can set it to do this quickly, or quite slowly. This will
+clean up the noise floor of your multisample instruments and let you sustain
+things for longer, whatever the source recording quality is: if it’s real noisy
+and all your samples fade into a bunch of ugly noise, tell [SoftGate] to fade
+more slowly (lower on the slider) and allow that to kick in as the sound fades
+away into what’s supposed to be silence.
 
 Or, if it’s a good effect but you don’t need to produce that much gating, use
 the bottom fader to bring in the raw signal again and balance that with the
 processed one, to get the right kind of fade.
 
-The Audio Unit comes in [SoftGate][] and SoftGateMono, because it’s inherently a
- linked stereo plugin (so stereo image doesn’t wander as it fades). You can use
+The Audio Unit comes in [SoftGate] and SoftGateMono, because it’s inherently a
+linked stereo plugin (so stereo image doesn’t wander as it fades). You can use
 those on mono tracks in VST, but in AU you’re not supposed to run a stereo
 plugin on a mono source… so SoftGateMono exists to cover non-stereo tracks. If
 you use it on a stereo track it’ll gate Left and Right separately, so be warned.
@@ -11934,8 +12180,8 @@ focus.
 
 This modified dither algorithm has opinions about what ought to be randomized.
 Any normal dither (especially a technically correct TPDF-based one, such as
-[PaulDither][], [TapeDither][] or [NodeDither][] that can encompass either) has
-no preferences about what samples it gets. It will apply noise regardless, with
+[PaulDither], [TapeDither] or [NodeDither] that can encompass either) has no
+preferences about what samples it gets. It will apply noise regardless, with
 perfect impartiality.
 
 Spatialize (which I’ve also termed Contingent Dither, early in its development)
@@ -11995,8 +12241,8 @@ Because of course it isn’t. It’s circle pieces butted up against each other,
  only looks like it’s connected because it’s pretty flat going through those
 points. But the rate of curvature changes really suddenly and drastically at
 those points… and does it the same way, at the zero crossing of ConsoleChannel,
-[Density][], [PurestDrive][], [PurestWarm][], Channel, and lots and lots of
-other plugins I’ve made. It’s part of the ‘fatter, smooth’ sound of some of my
+[Density], [PurestDrive], [PurestWarm], Channel, and lots and lots of other
+plugins I’ve made. It’s part of the ‘fatter, smooth’ sound of some of my
 distortions. Seemingly really fat and analog-sounding, but there’s a
 discontinuity as you go through zero, which is why it makes the audio sound
 obviously different.
@@ -12009,24 +12255,24 @@ order discontinuities, where the output number will be 0 but the direction
 things are changing will suddenly be the opposite. That’s what made the old ‘New
  Channel’ be such a failure: the center of the wave was flat no-distortion, and
 then without making a visible discontinuity it would suddenly change to ‘tighter
- sine-based saturation [curve][]’, both on the negative and positive sides of
-the wave. It would look perfectly normal but people just hated the sound. Now I
-know why. And now it turns out the sine based one HAS a discontinuity, at the
-zero crossing, right where you’d get class AB and B distortion, and it never
-occurred to me.
+ sine-based saturation [curve]’, both on the negative and positive sides of the
+wave. It would look perfectly normal but people just hated the sound. Now I know
+ why. And now it turns out the sine based one HAS a discontinuity, at the zero
+crossing, right where you’d get class AB and B distortion, and it never occurred
+ to me.
 
 And I can fix it, and turn the code for that part into ONE line of reinvented
 original code, which will be open source because I’m Patreon-supported and don’t
  have to stop people using my good audio code (they only have to credit me when
 they use it: it will be very possible to tell when they do. They don’t have to
 pay anything since it’s an MIT license, and they don’t have to open their own
-source, just publically credit that they used my [Spiral][] code).
+source, just publically credit that they used my [Spiral] code).
 
-And of course I did: here, have [Spiral][], free. You can just install this and
+And of course I did: here, have [Spiral], free. You can just install this and
 listen to it, if the video and the post are too long. This is the proof of
 concept which can be used in several useful ways. There are no controls, at all.
  You can gain stage into it and do stuff with it and sit it on the top of every
-track like it was [PurestDrive][] or Channel, or use it as a 2-buss clipping
+track like it was [PurestDrive] or Channel, or use it as a 2-buss clipping
 stage, where it will clip to around -1.4dB with about -0.4 intersample peak
 maximum (so it is Mastered For iTunes friendly, used as a final clip). It also
 has a ‘freak out mode’ if you massively overdrive it, and you can do that with
@@ -12057,28 +12303,26 @@ tiny distortion the whole time (which, in joining to the opposite pole, makes a
 discontinuity you can’t see much like the golden ratio ‘spiral’ has
 discontinuities you can’t see?) …and I fixed it?
 
-Try [Spiral][], and I will get to work incorporating this into my library of
-audio plugins that I make available using my Patreon.
+Try [Spiral], and I will get to work incorporating this into my library of audio
+ plugins that I make available using my Patreon.
 
 
 <a name="plugins_spiral2"></a>
 ### Spiral2
 
-_Spiral2 is [Spiral][] with controls including Presence. Also, a historical post
- presented in full as it is just after my Dad's death. Post follows:_
+_Spiral2 is [Spiral] with controls including Presence. Also, a historical post
+presented in full as it is just after my Dad's death. Post follows:_
 
 I will need to take a week to sort of meditate and settle my mind, but it was
 important to me to still be giving stuff to my fans and patrons etc. so I was
-looking around for something fairly easy to do. For instance, take [Spiral][]
-and give it the ‘[Density][]/[Drive][]’ treatment, including things like pre and
- post gain and a highpass and a dry/wet. Busywork but nothing particularly
-innovative.
+looking around for something fairly easy to do. For instance, take [Spiral] and
+give it the ‘[Density]/[Drive]’ treatment, including things like pre and post
+gain and a highpass and a dry/wet. Busywork but nothing particularly innovative.
 
 I think Dad would have been proud that I stumbled across something that was kind
- of innovative anyhow. Now I have [Spiral2][]. It has those controls (that
-people really wanted: and if you set them to unity/neutral, they bypass so you
-can have EXACTLY the same as [Spiral][] itself, if you like) but something else
-happened…
+ of innovative anyhow. Now I have [Spiral2]. It has those controls (that people
+really wanted: and if you set them to unity/neutral, they bypass so you can have
+ EXACTLY the same as [Spiral] itself, if you like) but something else happened…
 
 It occurred to me, if I was blending between dry signal and the sin() function
 saturated signal using the signal itself as the blend factor, I was just using a
@@ -12089,30 +12333,30 @@ one… using the PREVIOUS sample?
 With low frequency stuff, pretty much nothing. But what if there was high
 frequency stuff? What’d happen then?
 
-Turns out, it’s a little like ‘[Pyewacket][]’, my compressor that compresses
-into a ‘negative [Density][]’ effect that lets peaks through. With that, the
-front of the wave is unusually pure and punchy, and there’s better articulation
-of sounds. With [Spiral2][], it lets onset transients through, especially if
-they’re happening suddenly out of existing silence (and bear in mind it can be
-only one sample of silence for it to work). It’s not a super obvious effect… but
- if you use [Spiral][] to chop off peaks, and add this new effect (which I could
- only call Presence) then you can get quite the opposite effect: at full
-Presence, it sounds like everything’s being distorted but the meters show how
-onset transients are still getting through.
+Turns out, it’s a little like ‘[Pyewacket]’, my compressor that compresses into
+a ‘negative [Density]’ effect that lets peaks through. With that, the front of
+the wave is unusually pure and punchy, and there’s better articulation of
+sounds. With [Spiral2], it lets onset transients through, especially if they’re
+happening suddenly out of existing silence (and bear in mind it can be only one
+sample of silence for it to work). It’s not a super obvious effect… but if you
+use [Spiral] to chop off peaks, and add this new effect (which I could only call
+ Presence) then you can get quite the opposite effect: at full Presence, it
+sounds like everything’s being distorted but the meters show how onset
+transients are still getting through.
 
 If you set it halfway, it becomes very close to peaking at exactly 0 dB. If you
-set it to 0 you get the original [Spiral][] (note that it still has the
-‘continuing around the sin() [curve][]’ effect so if you over-slam it, it’ll
-choke and go quieter).
+set it to 0 you get the original [Spiral] (note that it still has the
+‘continuing around the sin() [curve]’ effect so if you over-slam it, it’ll choke
+ and go quieter).
 
 So, I wanted to do something nice for my peeps since everybody has been so kind
 and supportive. Turns out my muse thought that was the sweetest intention ever,
-and really came through for me. Enjoy [Spiral2][]: you’ll find that Presence is
+and really came through for me. Enjoy [Spiral2]: you’ll find that Presence is
 quite a striking effect. I think in extreme cases it’s TOO much air, but that’s
 why it’s on a slider, which is really just a crossfader between the two
 ‘circuits’, normal and with the one sample delay on the ‘sense’ circuit.
 
-See ya soon, and I hope you like [Spiral2][]. If you would have dropped $50 on
+See ya soon, and I hope you like [Spiral2]. If you would have dropped $50 on
 this without a moment’s hesitation once you hear what it can do by trying it,
 please do that using the Patreon. I’m looking to keep expanding and be more
 ambitious, if that’s OK. It’s more fun being ambitious with a budget, and food
@@ -12126,7 +12370,7 @@ _Srsly is a psychoacoustic stereo processor._
 
 People get really excited sometimes, so here’s a failure :)
 
-[Srsly][] is meant to do what a Hughes SRS processor does. That’s an obscure
+[Srsly] is meant to do what a Hughes SRS processor does. That’s an obscure
 stereo widener actually made by Howard “Spruce Goose” Hughes’ company. I tackled
  it because a musician I love, Chad Clark, needs one ‘cos his is broken and not
 in proper working order. Hence, the need for somebody to try and do a plugin
@@ -12151,19 +12395,19 @@ can refine it down to basic concepts and apply those.
 <a name="plugins_srsly2"></a>
 ### Srsly2
 
-_Srsly2 is a revisit of [Srsly][], to make the stereo widening more extreme._
+_Srsly2 is a revisit of [Srsly], to make the stereo widening more extreme._
 
 “You call that a wide? Now THIS is a wide!”
 
 A little while ago, I put out a plugin that reverse engineered the famous Hughes
  SRS stereo widener, from pictures in an old Popular Mechanics article. By
-applying a set of narrow little [EQ][] boosts and cuts to stereo, mid and side
-channels, you could make a sort of holographic effect. [Srsly][] still exists,
+applying a set of narrow little [EQ] boosts and cuts to stereo, mid and side
+channels, you could make a sort of holographic effect. [Srsly] still exists,
 just as it was, for use tweaking out more natural stereo imagery.
 
 But the rabbit hole goes a bit deeper than just that…
 
-[Srsly][] was by request of my friend Chad whose Hughes SRS wasn’t working
+[Srsly] was by request of my friend Chad whose Hughes SRS wasn’t working
 properly, and who wanted a plugin version that didn’t hum. I didn’t have one of
 my own, so it was largely guesswork. Thing is, somewhere in there I got my hands
  on one (thanks Patreon! Between that and getting a real Mackie 1202 to play
@@ -12176,30 +12420,29 @@ reverb field.
 
 And then I got more heavily into mixing in the box (and not with my hardware
 stuff) after Console7 came out… and discovered that my ITB reverbs did NOT do
-that kind of wide, and tried out my original [Srsly][]… and had the same problem
- Chad ran into. It just didn’t do what the hardware box did. But I wasn’t done…
+that kind of wide, and tried out my original [Srsly]… and had the same problem
+Chad ran into. It just didn’t do what the hardware box did. But I wasn’t done…
 so I started running stuff into the real hardware box, and just fooling around
 with the specific audio I’d begun to use, and rapidly worked out what was
-happening. My original [Srsly][] left out a lot. It was more ‘audiophile’, more
+happening. My original [Srsly] left out a lot. It was more ‘audiophile’, more
 subtle, would fit in with more accurate recordings, but the real deal hardware
 device could be pushed WAY farther.
 
 …in a way that I could interpret. And coding ensued…
 
-Meet [Srsly2][]. I’ve intentionally not tried super hard to exactly duplicate
-what is, after all, an unobtainable original hardware box by Howard Hughes’
-company. Variations of this are still being licensed for use in car stereos and
-things, and I intentionally make no claim that I’m duplicating someone else’s
-property.
+Meet [Srsly2]. I’ve intentionally not tried super hard to exactly duplicate what
+ is, after all, an unobtainable original hardware box by Howard Hughes’ company.
+ Variations of this are still being licensed for use in car stereos and things,
+and I intentionally make no claim that I’m duplicating someone else’s property.
 
 But. But. BUT. What I was asked for, was to accomplish a particular effect,
 where the stereo wideness could be made crazy exaggerated. And I was able to
 interpret what a real hardware box (not original, though) was doing. And I
-continued to modify [Srsly][] until, with [Srsly2][], you can now dial it in to
-do very similar crazy and unreasonable things… and that’s probably close enough
-for a free and open source plugin modeling an ancient hardware device that can’t
- really be found anymore. You’ll find the controls ought to work as you’d expect
- them to, and you may find as I did that leaving the Center control alone and
+continued to modify [Srsly] until, with [Srsly2], you can now dial it in to do
+very similar crazy and unreasonable things… and that’s probably close enough for
+ a free and open source plugin modeling an ancient hardware device that can’t
+really be found anymore. You’ll find the controls ought to work as you’d expect
+them to, and you may find as I did that leaving the Center control alone and
 cranking up the Space control just right, can get you into a wild and somewhat
 boosted and hyped zone that makes the most of your spectacular stereo content,
 in much the same way the original, obscure, Hughes box did.
@@ -12220,13 +12463,13 @@ Alesis reverb like that: very primitive, but deep as anything. There have always
 Effectron, which is low-fi but uses delta-sigma modulation like an SACD (but
 much more crudely!)
 
-In that spirit, here’s [StarChild][]. The inspiration came from the old Ursa
-Major Space Station. That said, [StarChild][] sounds nothing like a Space
-Station, but it does sound like it’s out of this world. Like Space Station, it
-produces series of echo taps which aren’t perfectly regular. Space Station has
-little rhythms that it does, while [StarChild][] works on prime number
-sequences: that produces a sputtery sort of delay line in which it won’t
-reinforce any one frequency.
+In that spirit, here’s [StarChild]. The inspiration came from the old Ursa Major
+ Space Station. That said, [StarChild] sounds nothing like a Space Station, but
+it does sound like it’s out of this world. Like Space Station, it produces
+series of echo taps which aren’t perfectly regular. Space Station has little
+rhythms that it does, while [StarChild] works on prime number sequences: that
+produces a sputtery sort of delay line in which it won’t reinforce any one
+frequency.
 
 What you get is a curious delay/ambience effect, in stereo (it’ll widen stuff
 that’s only in the middle). It can work kind of like a natural ambience that’s a
@@ -12251,13 +12494,13 @@ Alesis reverb like that: very primitive, but deep as anything. There have always
 Effectron, which is low-fi but uses delta-sigma modulation like an SACD (but
 much more crudely!)
 
-In that spirit, here’s [StarChild][]. The inspiration came from the old Ursa
-Major Space Station. That said, [StarChild][] sounds nothing like a Space
-Station, but it does sound like it’s out of this world. Like Space Station, it
-produces series of echo taps which aren’t perfectly regular. Space Station has
-little rhythms that it does, while [StarChild][] works on prime number
-sequences: that produces a sputtery sort of delay line in which it won’t
-reinforce any one frequency.
+In that spirit, here’s [StarChild]. The inspiration came from the old Ursa Major
+ Space Station. That said, [StarChild] sounds nothing like a Space Station, but
+it does sound like it’s out of this world. Like Space Station, it produces
+series of echo taps which aren’t perfectly regular. Space Station has little
+rhythms that it does, while [StarChild] works on prime number sequences: that
+produces a sputtery sort of delay line in which it won’t reinforce any one
+frequency.
 
 What you get is a curious delay/ambience effect, in stereo (it’ll widen stuff
 that’s only in the middle). It can work kind of like a natural ambience that’s a
@@ -12282,8 +12525,8 @@ in there?
 _StereoChorus is a nice basic stereo chorus._
 
 Hi! This plugin is actually the one that kicked off the work that gave you
-[StereoEnsemble][]. I got a request: please give me [StereoChorus][], like you
-used to have back in the Kagi days, I need to use it as nothing else will do.
+[StereoEnsemble]. I got a request: please give me [StereoChorus], like you used
+to have back in the Kagi days, I need to use it as nothing else will do.
 
 It’s a bit funny as I didn’t remember it being that special. I mean, it’s got
 some odd tricks in the interpolation, it scales according to chorus speed so all
@@ -12305,10 +12548,10 @@ open-sourced it just as it was, and maybe you too will find something special in
 <a name="plugins_stereodoubler"></a>
 ### StereoDoubler
 
-_StereoDoubler is like [GlitchShifter][] optimized for pitch shift doubling and
+_StereoDoubler is like [GlitchShifter] optimized for pitch shift doubling and
 tripling._
 
-[StereoDoubler][] is another retro plugin I’ve had for a while, that is now
+[StereoDoubler] is another retro plugin I’ve had for a while, that is now
 available as open source and VST2 and M1 Mac and Raspberry Pi and so on. It’s
 using the basic concept of Glitch Shifter, so I should explain what that is
 first.
@@ -12321,7 +12564,7 @@ switch over without ever blending or blurring the sound. For that reason, it’s
 more up front and edgy, more personality, but it can also disconnect from the
 source audio in weird ways or glitch out like mad, hence the name.
 
-[StereoDoubler][]’s like two of those, tamed. Well, mostly tamed. It takes the
+[StereoDoubler]’s like two of those, tamed. Well, mostly tamed. It takes the
 source audio, and gives you a pitched-up version in one channel, a pitched-down
 version in the other, and lets you bring in dry for a center channel if you
 want. Because it’s still Glitch Shifter, it’ll give you faint ticking noises if
@@ -12331,7 +12574,7 @@ the two sides will each have their own distinct glitch ‘personality’ while b
  as upfront and direct as they possibly can.
 
 I hope you like it. Sometimes taking a wild experiment and reining it in a bit,
-is just the thing. [StereoDoubler][] isn’t meant to work on every possible
+is just the thing. [StereoDoubler] isn’t meant to work on every possible
 situation, it’s designed to be amazing when it’s in its element. Maybe your mix
 is its element :)
 
@@ -12341,7 +12584,7 @@ is its element :)
 
 _StereoEnsemble is a sort of hyperchorus blast from the past._
 
-[StereoEnsemble][] is a blast from the past, updated with modern dithering to
+[StereoEnsemble] is a blast from the past, updated with modern dithering to
 floating point and undersampling: bottom line is, this is a plugin that can take
  either a mono or a stereo input and give you a bunch of additional ensemble-y
 goodness, with particular attention to simulating stereo imaging through
@@ -12361,11 +12604,11 @@ take the effort to post it now. Thank you all for the well wishes: I’m really
 touched, you’re all so sweet I can hardly believe it’s the internet :) (but
 then, people might well say the same about me!)
 
-[StereoFX][] is a classic Airwindows plugin brought up to date and VSTified: it
+[StereoFX] is a classic Airwindows plugin brought up to date and VSTified: it
 does three things that can contour the stereo image. None of them are as well
-behaved as [Wider][], but they’re interestingly different.
+behaved as [Wider], but they’re interestingly different.
 
-Stereo Wide basically runs the code from [HighImpact][] on the side channel. It
+Stereo Wide basically runs the code from [HighImpact] on the side channel. It
 gives a really aggressive widening effect (which will cancel in mono of course)
 and can bring an edgy quality to the wideness of your stereo channel.
 
@@ -12373,32 +12616,30 @@ Mono Bass is simply a highpass on the side channel: adjust to taste, by ear.
 It’s a very simple highpass, not that steep.
 
 Center Squish is a neat twist on ‘widening’. Instead of touching the side
-channel, it does a simple sine-based saturation or distortion ([Density][]
-style, not [Spiral][] style) on the mid channel only. If you engage it, it
-progressively steps on the output of the mid channel but leaves side untouched.
-That means you can squash a stereo track slightly, giving it a little
-distortion, and let it squirt out to the sides a bit. You can combine this with
-a touch of the Stereo Wide, which works on a different algorithm. So it’s some
-unique tone colorings and techniques to serve the purpose of stereo widening. I
-hope you like it.
+channel, it does a simple sine-based saturation or distortion ([Density] style,
+not [Spiral] style) on the mid channel only. If you engage it, it progressively
+steps on the output of the mid channel but leaves side untouched. That means you
+ can squash a stereo track slightly, giving it a little distortion, and let it
+squirt out to the sides a bit. You can combine this with a touch of the Stereo
+Wide, which works on a different algorithm. So it’s some unique tone colorings
+and techniques to serve the purpose of stereo widening. I hope you like it.
 
 I got a new video light (well, a $30 lightbox to go on one of my existing LED
 lightbulbs) so I’m kind of excited to make more videos and stuff, and I’ve got a
- backlog of plugins to try, but understandably (see the [DrumSlam][] post) I’m a
- little distracted. I want to bring my best for you guys but I also want to
-honor your kind wishes, so I will post [StereoFX][] and then see if anything
-comes to mind that I can do, if not immediately for the end of July, then early
-August: I am also doing the occasional music livestreaming and find that I can
-express my feelings that way, even if it’s ‘skronk guitar over techno’. So I
-won’t try and force the plugins (they won’t run out, I promise) and soon I’ll be
- back in the swing of things. Oh, and the Patreon is doing OK, I won’t worry
-about that right now but that too is appreciated. If not for that, I wouldn’t
-have been able to go and support my sister when all this went down, because it
-made me able to drop everything and zip off to Pennsylvania: without the
-Patreon, I would struggle to have that much gas covered, and I wouldn’t have
-been free to go right then, and then I wouldn’t have seen my Dad alive for the
-last time. So I owe you guys things that can’t be expressed in software or
-money: thank you.
+ backlog of plugins to try, but understandably (see the [DrumSlam] post) I’m a
+little distracted. I want to bring my best for you guys but I also want to honor
+ your kind wishes, so I will post [StereoFX] and then see if anything comes to
+mind that I can do, if not immediately for the end of July, then early August: I
+ am also doing the occasional music livestreaming and find that I can express my
+ feelings that way, even if it’s ‘skronk guitar over techno’. So I won’t try and
+ force the plugins (they won’t run out, I promise) and soon I’ll be back in the
+swing of things. Oh, and the Patreon is doing OK, I won’t worry about that right
+ now but that too is appreciated. If not for that, I wouldn’t have been able to
+go and support my sister when all this went down, because it made me able to
+drop everything and zip off to Pennsylvania: without the Patreon, I would
+struggle to have that much gas covered, and I wouldn’t have been free to go
+right then, and then I wouldn’t have seen my Dad alive for the last time. So I
+owe you guys things that can’t be expressed in software or money: thank you.
 
 
 <a name="plugins_studiotan"></a>
@@ -12408,42 +12649,41 @@ _StudioTan is all the 'non-dither' dithers, up to date and convenient._
 
 If you were curious about the new work in quantization I’ve been doing… where
 I’ve put out a series of experimental plugins with names like Dither Me Timbers
-and [RawGlitters][] and then said they weren’t dithers, or if you tried stuff
-like Dither Me Timbers and then found your limiter set to 0dB was now giving you
- overs, or if it just didn’t make sense at the time…
+and [RawGlitters] and then said they weren’t dithers, or if you tried stuff like
+ Dither Me Timbers and then found your limiter set to 0dB was now giving you
+overs, or if it just didn’t make sense at the time…
 
 This is for you.
 
-[StudioTan][] is the sum total of all I’ve been doing with ‘dither’ that isn’t
-dither, for the last two years. It’s got three algorithms, [StudioTan][], Dither
- Me Timbers, and Not Just Another Dither. Each one is brought up to date,
+[StudioTan] is the sum total of all I’ve been doing with ‘dither’ that isn’t
+dither, for the last two years. It’s got three algorithms, [StudioTan], Dither
+Me Timbers, and Not Just Another Dither. Each one is brought up to date,
 optimized, voiced to do what it does best. The first two begin with the use of
-quantization to apply [EQ][] at ‘noise floor’ levels and the third applies
-Benford Realness statistics at noise floor levels, and they all use noise
-shaping to refine that behavior and get a specific tonal result. Not one of
-these have been quite available before, even from previous versions of Dither Me
- Timbers or Not Just Another Dither: it’s the latest finetunings of the
-algorithms. None of them can produce signal outputs beyond -1 to 1 so they can’t
- produce overs (if you’re ‘mastering’ so hot you get intersample overs, firstly
-that’s not a great idea and secondly [StudioTan][] can’t help you there). All
-three come with 24 and 16 bit options right there in the plugin, as experimenter
- time is over and this is the final form, requiring no more fussing with
-plugins.
+quantization to apply [EQ] at ‘noise floor’ levels and the third applies Benford
+ Realness statistics at noise floor levels, and they all use noise shaping to
+refine that behavior and get a specific tonal result. Not one of these have been
+ quite available before, even from previous versions of Dither Me Timbers or Not
+ Just Another Dither: it’s the latest finetunings of the algorithms. None of
+them can produce signal outputs beyond -1 to 1 so they can’t produce overs (if
+you’re ‘mastering’ so hot you get intersample overs, firstly that’s not a great
+idea and secondly [StudioTan] can’t help you there). All three come with 24 and
+16 bit options right there in the plugin, as experimenter time is over and this
+is the final form, requiring no more fussing with plugins.
 
 The effect of each is more pronounced at 16 bit, and that’ll give you a sense of
  what is being subliminally imparted at the far subtler 24 bit level.
 
-[StudioTan][] is like the posh, glossy, high class output. It sounds kind of
-like expensive studios and tape, brings up micro-detail but suppresses
-harshness. It’s slick and makes things sound more flawless and possibly more
-boring, but satisfying.
+[StudioTan] is like the posh, glossy, high class output. It sounds kind of like
+expensive studios and tape, brings up micro-detail but suppresses harshness.
+It’s slick and makes things sound more flawless and possibly more boring, but
+satisfying.
 
 Dither Me Timbers is like the spatially enhanced, electrically charged output.
 It makes sonic events spark out of a darker, spacious background, and gives a
 little energy to transients and attacks. It makes things sound more human and
 attitude-laden, so it’s more dramatic and attention-getting. It’s got different
 noise shaping behavior and voicing but in basic character it’s the opposite of
-[StudioTan][], and can be approached from that direction.
+[StudioTan], and can be approached from that direction.
 
 Not Just Another Dither is like the holographic, hi-fi output. It’s a bit darker
  than previous Not Just Another Dithers and its purpose is to have detail go
@@ -12475,10 +12715,10 @@ audio data into an output file that retains all the magic you intended, whatever
 
 I know this is all I’ll be using from now on :)
 
-(followup: it absolutely was not. I continued to use NJAD in [Monitoring][]
-until I wrote [Dark][], have used that some including in [Monitoring2][] and
-then came up with a new dither based on Ten Nines into [Dark][], which is in the
- original output buss of Console8)
+(followup: it absolutely was not. I continued to use NJAD in [Monitoring] until
+I wrote [Dark], have used that some including in [Monitoring2] and then came up
+with a new dither based on Ten Nines into [Dark], which is in the original
+output buss of Console8)
 
 
 <a name="plugins_subsonly"></a>
@@ -12491,29 +12731,29 @@ Please remember, these like Guitar Conditioner are control-less plugins so you
 don’t operate them by opening their windows: they’re either on or off, which
 probably is shown in your DAW mixer window already.
 
-[SlewOnly][] gives you what it says on the tin: only the difference between
+[SlewOnly] gives you what it says on the tin: only the difference between
 samples, expressed as a sample. This produces a super-bright sound with zero
 latency and absolutely no pre-ring or post-ring. You can do two poles of this
-filtering: just add another [SlewOnly][]. But, as is, this will give you an
+filtering: just add another [SlewOnly]. But, as is, this will give you an
 incredibly clear and transparent window on the ultra-highs, so you can dial in
 subtleties in the treble. Beware: don’t switch right back to the normal sound or
  it’ll sound incredibly dull. Rest your ears for a moment before resuming work.
 
-[SubsOnly][] does the same thing for subsonic bass. It sounds a little like a
+[SubsOnly] does the same thing for subsonic bass. It sounds a little like a
 house party from an adjacent house. You can tweak sub-bass elements and really
 hear how they’re balancing against each other, and if you’re packing too much
 into the subs you’ll hear that as well. Get things thumping properly through
-[SubsOnly][] and it should translate well to all manner of bassbins and
+[SubsOnly] and it should translate well to all manner of bassbins and
 subwoofers.
 
-Lastly, these are calibrated (in [SlewOnly][] quite literally: pink noise will
-be about the same amplitude with or without it, though the tone will be way
+Lastly, these are calibrated (in [SlewOnly] quite literally: pink noise will be
+about the same amplitude with or without it, though the tone will be way
 different) so that you can switch them in and out, and expect roughly the same
-loudnesses. It’s okay if [SubsOnly][] is louder for fullbodied bass: with that,
+loudnesses. It’s okay if [SubsOnly] is louder for fullbodied bass: with that,
 it’s not so much about level-matching, it’s about getting your sound (at
 whatever desired loudness) and then having the bass still make sense through
-[SubsOnly][]. If you’re madly overloading it, there won’t be groove, just a lot
-of thunder and noise, at elevated levels. These go on at the end of your master
+[SubsOnly]. If you’re madly overloading it, there won’t be groove, just a lot of
+ thunder and noise, at elevated levels. These go on at the end of your master
 buss, so you can hear what your 2-buss chain did to the sound. Especially if you
  try and go for ‘commercially loud’ volumes, sanity checking with these tools
 can be a real silver bullet.
@@ -12522,11 +12762,11 @@ can be a real silver bullet.
 <a name="plugins_subtight"></a>
 ### SubTight
 
-_SubTight uses a variation on the [Creature][] algorithm to tighten sub-lows._
+_SubTight uses a variation on the [Creature] algorithm to tighten sub-lows._
 
 So here's another interesting little tool that's not been seen before.
 
-[Creature][] has a special mode where you can set the dry/wet to 'inverse',
+[Creature] has a special mode where you can set the dry/wet to 'inverse',
 cancelling out what the algorithm produces. It's a soft slew clipper, not a
 normal algorithm or a simple filter, so what it cancels isn't easily
 controllable. However, for the most part it darkens and distorts the sound, and
@@ -12543,11 +12783,11 @@ softclipped, not amplitude. This is why I initially released it believing it
 shouldn't be scaled by sample rate: it's a very odd sort of processing.
 
 Having put out a Redux version that applies corrections to make it consistent
-across sample rates, what do we get? [SubTight][] does NOT get steeper as you
+across sample rates, what do we get? [SubTight] does NOT get steeper as you
 increase the 'steep' control, unless you think of it as 'low settings are pretty
  weak tea, and cranking it up gets you a much stronger and more intense brew'.
 
-What you'll get is a behavior: as you increase the trim on [SubTight][], the
+What you'll get is a behavior: as you increase the trim on [SubTight], the
 weakness and flabbiness will get sucked out of the bass. With very low Steep
 settings it's pretty across the board, really. It's not hyping the highs so much
  as it is pulling softness and 'glue' out of all the frequencies, more as it
@@ -12584,23 +12824,22 @@ Or, since this is Airwindows and we don’t do no steenkin’ meters, ballistics
 the way dynamics hit this compressor to produce outrageous groove.
 
 This is also a good reason to keep me around working on stuff… this plugin
-wouldn’t exist if not for an earlier free VST plug from me, called
-[SurgeTide][]. That one controls dynamics by altering the rate of change of the
-rate of change OF the rate of change of the audio. What, you may ask, would
-happen if you did that? I’ll tell you: firstly, there is no smoother compressor.
- It’s utterly, totally fluid and artifact-less, organic to the Nth degree. But,
-it doesn’t sound like it’s doing anything until suddenly it kicks in and starts
-making the dynamics swing up wildly to boost every beat. Incredibly hard to
-control. You really can get a sense of ‘huge surges of the musical tide’
-emphasizing the deepest rhythms, but it’s a bear to set up!
+wouldn’t exist if not for an earlier free VST plug from me, called [SurgeTide].
+That one controls dynamics by altering the rate of change of the rate of change
+OF the rate of change of the audio. What, you may ask, would happen if you did
+that? I’ll tell you: firstly, there is no smoother compressor. It’s utterly,
+totally fluid and artifact-less, organic to the Nth degree. But, it doesn’t
+sound like it’s doing anything until suddenly it kicks in and starts making the
+dynamics swing up wildly to boost every beat. Incredibly hard to control. You
+really can get a sense of ‘huge surges of the musical tide’ emphasizing the
+deepest rhythms, but it’s a bear to set up!
 
 And since I’m still out there working on stuff thanks to my Patreon, now there’s
- a whole new version, so different it counts as a separate compressor:
-[Surge][].
+ a whole new version, so different it counts as a separate compressor: [Surge].
 
 Here’s the thing. Compressors are as unique as, say, guitar overdrives. You can
 search for the magic one, but there can be all different sorts of ‘right one’,
-with hugely different characters to ’em. I made [Pyewacket][] as a free VST. It
+with hugely different characters to ’em. I made [Pyewacket] as a free VST. It
 delivers a super-articulate attack transient and leans out the sound rather than
  simply turning it down, and gives a ‘British Classic Rock’ vibe without any
 silly adding of faux-analog mud: that one clamps down on the body of sounds
@@ -12608,16 +12847,16 @@ while leaving tons of intensity and headroom to the tone. Its ‘ballistics’ a
 very simple and it’s more about delivering a certain kind of attack, and making
 stuff more even and consistent.
 
-[Surge][] isn’t anything like that. It’s [SurgeTide][], but easier to control:
-just bring it up until it starts compressing enough, and don’t go too far to
-where it inverts the dynamics. You can hear it easily, unlike [SurgeTide][]. But
- it still retains most of the uncanny fluid organic quality [SurgeTide][] has,
-and most importantly, it has the ballistics. That means that if you put a
-pumping, rhythmic mix through it… it will accentuate the beats in a very
-aggressive way that’s not like anything you’ve heard before. The attacks pop way
- out, including the deepest bass pulses: this is yet another way to handle
-compressed bassy mixes and transform them into something punchier. And unlike
-[SurgeTide][], it’s very controllable.
+[Surge] isn’t anything like that. It’s [SurgeTide], but easier to control: just
+bring it up until it starts compressing enough, and don’t go too far to where it
+ inverts the dynamics. You can hear it easily, unlike [SurgeTide]. But it still
+retains most of the uncanny fluid organic quality [SurgeTide] has, and most
+importantly, it has the ballistics. That means that if you put a pumping,
+rhythmic mix through it… it will accentuate the beats in a very aggressive way
+that’s not like anything you’ve heard before. The attacks pop way out, including
+ the deepest bass pulses: this is yet another way to handle compressed bassy
+mixes and transform them into something punchier. And unlike [SurgeTide], it’s
+very controllable.
 
 You might want to push it hard enough that the dynamics jump way out. You might
 want to use it as ‘glue’ and hit it only very gently, and take advantage of that
@@ -12625,11 +12864,10 @@ want to use it as ‘glue’ and hit it only very gently, and take advantage of 
 again, it alters the rate of change of the rate of change OF the rate of
 change). The one thing it won’t do at all is limiter-like behavior, it’s way too
  funky for that! So anywhere you need to use a compressor that is just
-ultimately funky, bouncy, squishy… try [Surge][]. It might be right up your
-alley.
+ultimately funky, bouncy, squishy… try [Surge]. It might be right up your alley.
 
-Summary: [Surge][] is more obvious and responds easier, [SurgeTide][] is cleaner
- and harder to control.
+Summary: [Surge] is more obvious and responds easier, [SurgeTide] is cleaner and
+ harder to control.
 
 
 <a name="plugins_surgetide"></a>
@@ -12640,8 +12878,8 @@ _SurgeTide is a surge and flow dynamics plugin._
 This is a sort of dynamics plugin.
 
 It comes from an experiment, where I had to find a way to make a behavior
-useful: [SurgeTide][] runs on three different compression time constants stacked
- onto each other like the waves in an FM synthesizer. You don’t usually see a
+useful: [SurgeTide] runs on three different compression time constants stacked
+onto each other like the waves in an FM synthesizer. You don’t usually see a
 compressor work with the rate of the rate of the rate of change, because for
 normal sounds and time constants, the result sounds bizarre and unmusical.
 
@@ -12659,19 +12897,19 @@ of bass underneath the downbeat. You can practically pull any degree of thump
 out of a track, but it’s tricky to dial in because mostly you can’t hear it
 working. It’s like an invisible size boost for subs.
 
-The way to get [SurgeTide][] working is to adjust the [Surge][] Node until it
-squishes away the sound on the beat, then find the right speed for [Surge][]
-Rate to work, and then back off [Surge][] Node until it’s no longer inverting
-the dynamics. (unless you really want to: I’m not the boss of you.) It works
-really well as a subtle accentuation of mix low-end movement, giving some of the
- effect of a buss compressor but in an unusual and much cleaner way. Also works
-to subtly act as a level control and restrain dense mix moments so they can hit
+The way to get [SurgeTide] working is to adjust the [Surge] Node until it
+squishes away the sound on the beat, then find the right speed for [Surge] Rate
+to work, and then back off [Surge] Node until it’s no longer inverting the
+dynamics. (unless you really want to: I’m not the boss of you.) It works really
+well as a subtle accentuation of mix low-end movement, giving some of the effect
+ of a buss compressor but in an unusual and much cleaner way. Also works to
+subtly act as a level control and restrain dense mix moments so they can hit
 something like loudenation with more consistency.
 
 It doesn’t work in any useful way on isolated tracks, particularly not staccato
 drum tracks: just maybe it would do helpful things with say, a lead vocal or a
-synth pad. Just remember that [SurgeTide][] is for powerful, whole-mix movements
- rather than the usual compressor things, and that it can have effects on the
+synth pad. Just remember that [SurgeTide] is for powerful, whole-mix movements
+rather than the usual compressor things, and that it can have effects on the
 extreme low bass, and build up the swing and flow of a mix. It’ll work on some
 things and be useless on others. I hope you like it.
 
@@ -12681,33 +12919,32 @@ things and be useless on others. I hope you like it.
 
 _Sweeten is where you can find super-clean second harmonic._
 
-So this serves a few purposes. [Sweeten][] is one of the super-minimal, one knob
- plugins. It makes second harmonic: much like [SingleEndedTriode][], or
-[Inflamer][]. The first purpose is to exist, so if you're thinking 'I gotta
-sweeten this sound, now which Airwindows plugin of the three billion and twelve
-does that? Conflagration? No, that can't be it' then you can go 'is there one
-literally called [Sweeten][]', and now there is! And it does what you'd expect,
-even harmonics (second harmonic, specifically). That's all it does.
+So this serves a few purposes. [Sweeten] is one of the super-minimal, one knob
+plugins. It makes second harmonic: much like [SingleEndedTriode], or [Inflamer].
+ The first purpose is to exist, so if you're thinking 'I gotta sweeten this
+sound, now which Airwindows plugin of the three billion and twelve does that?
+Conflagration? No, that can't be it' then you can go 'is there one literally
+called [Sweeten]', and now there is! And it does what you'd expect, even
+harmonics (second harmonic, specifically). That's all it does.
 
 Another purpose is because I use stuff like this in my designs. So it's useful
 to have a chunk of code that I can take and put in the midrange section of an
-[EQ][], or something, if I think it's lacking that subtle nonlinearity which
-comes out of some circuits. [Sweeten][] is specifically designed to let me do
-that quickly and easily, and if I make a tool for myself which is actually neat
-and efficient, I give it to people.
+[EQ], or something, if I think it's lacking that subtle nonlinearity which comes
+ out of some circuits. [Sweeten] is specifically designed to let me do that
+quickly and easily, and if I make a tool for myself which is actually neat and
+efficient, I give it to people.
 
-The only thing [Sweeten][] can do that you can't already do with [Inflamer][] is
- be simple, and maybe one or two fewer math operations, and that's IT. This
-isn't new (second harmonic isn't new, either). My hope is that it's such an
-elegant, easily identifiable little device that it'll come in handy. It's also
-using the stepped-control, bit-shift-gain thing I do lately, so one thing about
-it is that it'll prevent you overprocessing. If you turn it up until you can
-hear it a little too well, drop back a step and then you can't tell it's doing
-anything, but it very much still is. For many types of processing (second
-harmonic emphatically included!) the optimal setting is where it's doing its
-thing but at no point is it ever distracting or sticking out as a mixing
-mistake. [Sweeten][] is predisposed to quickly get you to that point with no
-fuss.
+The only thing [Sweeten] can do that you can't already do with [Inflamer] is be
+simple, and maybe one or two fewer math operations, and that's IT. This isn't
+new (second harmonic isn't new, either). My hope is that it's such an elegant,
+easily identifiable little device that it'll come in handy. It's also using the
+stepped-control, bit-shift-gain thing I do lately, so one thing about it is that
+ it'll prevent you overprocessing. If you turn it up until you can hear it a
+little too well, drop back a step and then you can't tell it's doing anything,
+but it very much still is. For many types of processing (second harmonic
+emphatically included!) the optimal setting is where it's doing its thing but at
+ no point is it ever distracting or sticking out as a mixing mistake. [Sweeten]
+is predisposed to quickly get you to that point with no fuss.
 
 I'll be using it: if anybody else finds it useful, that's even better :)
 
@@ -12734,12 +12971,12 @@ Specifically, it seemed possible to treat ‘full volume’ as a ‘floor’ and
 there, but it could have a similar envelope as the fall-off of natural reverb,
 just upside down.
 
-If that sounds odd, don’t worry about it, just try [Swell][]. It has a threshold
- like a gate, and the [Swell][] control handles the attack speed once the gate
+If that sounds odd, don’t worry about it, just try [Swell]. It has a threshold
+like a gate, and the [Swell] control handles the attack speed once the gate
 opens. The dry/wet works as you’d expect. Sort of like Deadmau5’s LFO trick, it
 doesn’t have to be a real sidechain, and is independent of whatever kick you
-have going on. Unlike the LFO trick, it’s also not tied to tempo: [Swell][]
-reacts to EVERY attack that comes along, provided the threshold’s set right.
+have going on. Unlike the LFO trick, it’s also not tied to tempo: [Swell] reacts
+ to EVERY attack that comes along, provided the threshold’s set right.
 
 What this does is very interesting. I expect to see this turn up in an EDM
 channel strip at some point. Essentially, you can play with the controls in
@@ -12748,12 +12985,12 @@ relates to GROOVE and the layering of stuff in a dance mix: any element, no
 matter what it is, can be turned into a pad and back again, just by squishing
 away its attack. You can do it live, you can take an element (snare, punchy
 chord) and manipulate how it hits inside the groove. Extreme values make stuff
-extra soft and quiet and squishy, and then if you drop the threshold or
-[Swell][], you can have the element jump right back out again, and the control
-is direct, not relative to a sidechained track or LFO setting. It’s a more
-organic approach, more hands-on, and I think it’ll fit into a lot of people’s
-mixes. There’s always a place for balancing the intensity of the attacks of your
- tracks, and that’s literally what [Swell][] does.
+extra soft and quiet and squishy, and then if you drop the threshold or [Swell],
+ you can have the element jump right back out again, and the control is direct,
+not relative to a sidechained track or LFO setting. It’s a more organic
+approach, more hands-on, and I think it’ll fit into a lot of people’s mixes.
+There’s always a place for balancing the intensity of the attacks of your
+tracks, and that’s literally what [Swell] does.
 
 
 <a name="plugins_tape"></a>
@@ -12765,46 +13002,45 @@ This one’s for me. It’s very similar to last week’s ToTape, but with the
 following differences:
 
 -simpler name
--overdrive uses [Spiral][], not the [Mojo][] algorithm
+-overdrive uses [Spiral], not the [Mojo] algorithm
 -simpler controls (not exactly ‘input gain’ but close)
 -changes to the Head Bump algorithm
 -no flutter
 
-This is what I WANTED to do with [ToTape6][], and didn’t. In some ways, that’s
+This is what I WANTED to do with [ToTape6], and didn’t. In some ways, that’s
 good: if I’d axed flutter I would not have spent all day struggling with it and
 coming up with a better algorithm that more closely resembles real physical
 tape, something that could come in handy for future echo plugins etc. If I’d
-done the things I’ve done with [Tape][], to [ToTape6][], then [ToTape6][]
-wouldn’t be as adjustable as it is. There’s room for both, and I gave people the
- complicated many-knobs version because I know you too well ;) and I know what
-people like, and I’m there for you.
+done the things I’ve done with [Tape], to [ToTape6], then [ToTape6] wouldn’t be
+as adjustable as it is. There’s room for both, and I gave people the complicated
+ many-knobs version because I know you too well ;) and I know what people like,
+and I’m there for you.
 
 But I also have dreams of my own. So, the plugin (first ever from Airwindows)
-that carries just the generic name ‘[Tape][]’ is Airwindows tape emulation MY
-way.
+that carries just the generic name ‘[Tape]’ is Airwindows tape emulation MY way.
 
 I’ve heard a lot of tape in my time, being over 50 years old. I’ve dubbed and
-re-dubbed tapes a lot. So I dialed in (and re-programmed) [Tape][] by loading up
- eight instances of it, in a row, and making it behave itself as well as could
-be expected while running audio through eight instances of [Tape][]. It’s not
-meant to be clean if you do that: it’s meant to be eightfold trash, but the
-right kind of trash I’m familiar with when you’ve got that much generation loss
-and head bump buildup. I knew that if I could get that right, if I could get it
-to behave okay under that kind of duress, I could rely on it as a go-to output
-stage (going just before [Monitoring][]) that would condition the sound in the
-right kind of way.
+re-dubbed tapes a lot. So I dialed in (and re-programmed) [Tape] by loading up
+eight instances of it, in a row, and making it behave itself as well as could be
+ expected while running audio through eight instances of [Tape]. It’s not meant
+to be clean if you do that: it’s meant to be eightfold trash, but the right kind
+ of trash I’m familiar with when you’ve got that much generation loss and head
+bump buildup. I knew that if I could get that right, if I could get it to behave
+ okay under that kind of duress, I could rely on it as a go-to output stage
+(going just before [Monitoring]) that would condition the sound in the right
+kind of way.
 
 And so it does.
 
-[Tape][] will be heard from again, but much as [ToTape5][] bore the standard for
- Airwindows tape emulation for years, [Tape][] is my personal choice for ‘mix
-into’ DAW output stage and it’ll stand for a while, I think. If you need more
-phat or more flutter or more controls etc etc, use [ToTape6][], which is just as
- good in many ways. This is just my ‘director’s cut’ version, designed to my
-tastes, for if you trust my ears and my choices. Since it’s Airwindows,
-[ToTape6][] (and 5) still works and you can have both. This one is for those of
-you who pursue the simple creed: I have a (virtual) tape machine. I record to my
- tape machine. I am happy. :)
+[Tape] will be heard from again, but much as [ToTape5] bore the standard for
+Airwindows tape emulation for years, [Tape] is my personal choice for ‘mix into’
+ DAW output stage and it’ll stand for a while, I think. If you need more phat or
+ more flutter or more controls etc etc, use [ToTape6], which is just as good in
+many ways. This is just my ‘director’s cut’ version, designed to my tastes, for
+if you trust my ears and my choices. Since it’s Airwindows, [ToTape6] (and 5)
+still works and you can have both. This one is for those of you who pursue the
+simple creed: I have a (virtual) tape machine. I record to my tape machine. I am
+ happy. :)
 
 This plugin came out with an original version and then had a Redux update in
 which I added a control: a slider for the head bump, as people were finding the
@@ -12817,13 +13053,13 @@ but I defaulted it to 0.5.
 
 _TapeDelay is an old school tape echo with pitch swerve effects._
 
-[Tape][] Delay is the reissue (in updated and VST-ified form) of one of my first
- plugins. This is a precursor to Iron Oxide: it uses a technique for tone
-shaping that’s like a simplified Iron Oxide. Instead of being a direct [EQ][],
-it’s a huge cluster of delay taps, and also a little bit like a convolution
-impulse combined with an averaging: you get an averaging of just prime-numbered
-sample delay times. This turns out to work quite well (a direct version of this
-tone shaper by itself is also coming out)
+[Tape] Delay is the reissue (in updated and VST-ified form) of one of my first
+plugins. This is a precursor to Iron Oxide: it uses a technique for tone shaping
+ that’s like a simplified Iron Oxide. Instead of being a direct [EQ], it’s a
+huge cluster of delay taps, and also a little bit like a convolution impulse
+combined with an averaging: you get an averaging of just prime-numbered sample
+delay times. This turns out to work quite well (a direct version of this tone
+shaper by itself is also coming out)
 
 The delay part is what makes this a fun toy. It can do some outlandish things,
 and also has some gotchas. It chases the delay setting in such a way that you
@@ -12845,7 +13081,7 @@ doing a tape slapback or decaying into bright airyness. Because of the
 prime-number based tone shaping, regeneration doesn’t produce reinforced
 artifacts, just continues to emphasize the tone shift you dialed in. (the
 tone-only version of this that’s coming, could be used in Blue Cat’s Late
-Replies plugin to make that a [Tape][] Delay-alike, but without the delay time
+Replies plugin to make that a [Tape] Delay-alike, but without the delay time
 weirdness.)
 
 Again, be careful using this on audio regions that are tightly trimmed to the
@@ -12858,9 +13094,9 @@ using it to sound like a normal delay. Or, you can just do whatever you like :)
 
 _TapeDelay2 is a new implementation of a flexible tape echo._
 
-[TapeDelay2][] gives you substantial changes over my original [TapeDelay][].
-It’s no longer trying to do the ‘Iron Oxide’ style tone shaping the original one
- did. In fact, it’s not even a delay in the same sense as its predecessor.
+[TapeDelay2] gives you substantial changes over my original [TapeDelay]. It’s no
+ longer trying to do the ‘Iron Oxide’ style tone shaping the original one did.
+In fact, it’s not even a delay in the same sense as its predecessor.
 
 Instead, it’s a brand new, undersampled, Airwindows-bandpassed monster ready to
 make a whole pile of very convincing sounds. As plugin delays go, this covers a
@@ -12876,7 +13112,7 @@ it’ll give the same subtle highpassing and lowpassing no matter what sample ra
 proper tape emulation). You can tighten the bandwidth by increasing resonance.
 You can adjust the region you’re highlighting. And you can still adjust the
 frequency control even when set to full wide, which gives you more of a tilt
-[EQ][]. It really turned out to have a lot of flexibility, and there’s two
+[EQ]. It really turned out to have a lot of flexibility, and there’s two
 separate bandpasses so that you can shape the overall tone and also focus in on
 the regenerations if you like. Vintage sounds in the classic Airwindows way,
 meaning ‘no overprocessing, just high fidelity clean and simple processing’.
@@ -12885,18 +13121,18 @@ wet, so you can bring in subtle echoes without altering the gain of your
 underlying track. Use it like a kind of reverb, with whatever tone and resonance
  works for you!
 
-And lastly, just to top it off, [Tape][] [Flutter][]. This is a new
-implementation that I’ve never tried before. Instead of a simple vibrato, in
-[TapeDelay2][] the flutter keys off the amplitude of the underlying track,
-making it a lot more wavery and irregular. Subtle effects are easily achieved in
- most settings, and crank it up for more of a warbly dirty-tape quality. It
-should be irregular enough to sound like real tape wobble. It’s done by
-modulating the tape speed… because unlike any previous Airwindows tape effect,
-[TapeDelay2][] works by taking a full-length tape loop and literally speeding it
- up, rather than trying to change the length of the delay in any way. So both
-the warble, and any manipulations you make to the delay time, act like messing
-with the pitch of a physical tape machine with a set record and playback head…
-which turns out to be the best way to do this :)
+And lastly, just to top it off, [Tape] [Flutter]. This is a new implementation
+that I’ve never tried before. Instead of a simple vibrato, in [TapeDelay2] the
+flutter keys off the amplitude of the underlying track, making it a lot more
+wavery and irregular. Subtle effects are easily achieved in most settings, and
+crank it up for more of a warbly dirty-tape quality. It should be irregular
+enough to sound like real tape wobble. It’s done by modulating the tape speed…
+because unlike any previous Airwindows tape effect, [TapeDelay2] works by taking
+ a full-length tape loop and literally speeding it up, rather than trying to
+change the length of the delay in any way. So both the warble, and any
+manipulations you make to the delay time, act like messing with the pitch of a
+physical tape machine with a set record and playback head… which turns out to be
+ the best way to do this :)
 
 This is one of the good ones. Hope ya like it!
 
@@ -12907,8 +13143,8 @@ This is one of the good ones. Hope ya like it!
 _TapeDither is TPDF dither with noise like reel-to-reel tape._
 
 I thought I had it all worked out. Put out a proper, well-coded TPDF dither, the
- highpassed variation on it I’ve called [PaulDither][], and move on to the fancy
- boutique stuff.
+ highpassed variation on it I’ve called [PaulDither], and move on to the fancy
+boutique stuff.
 
 But there was this one experiment I had in mind. If you could do the highpass by
  delaying and then subtracting the random noise (and it gained you a bit of
@@ -12919,7 +13155,7 @@ right down to around 1.5K?
 Surely this would give me a nice cancellation notch right where the ear is most
 sensitive, and heightened clarity. What could go wrong?
 
-Nope! I made a prototype, called it ‘[NodeDither][]’, began experimenting, and
+Nope! I made a prototype, called it ‘[NodeDither]’, began experimenting, and
 immediately found that I’d made… a flanger! The long delay settings were
 useless. It made obvious overtones just out of the dither noise, a blatant tone
 color cast that wouldn’t produce the desired effect. It didn’t even produce an
@@ -12928,9 +13164,9 @@ continue to function as a working TPDF dither no matter what the setting was
 (more on this later).
 
 But, something else turned up in the experiments, and that’s what brought you
-[TapeDither][].
+[TapeDither].
 
-If you use one sample of delay and inverting the noise, you get [PaulDither][]:
+If you use one sample of delay and inverting the noise, you get [PaulDither]:
 simple one-pole highpass. If you use two samples of delay, you get another sort
 of texture: kind of silky, but still digitally bright and intrusive. Using lots
 of delay, such as ten samples, starts to sound like the flanger, undesirable.
@@ -12956,9 +13192,9 @@ where digital audio can’t go. Compare that to any normal flat, TPDF, or
 highpassed dither. Those keep putting out noise energy right up to the frequency
  limit.
 
-[TapeDither][] is every bit a TPDF dither, technically correct and flawless as
-far as dither goes. But it also is a highpassed dither with a softer tonal
-voicing that resembles good tape machines, and that doesn’t affect the dither
+[TapeDither] is every bit a TPDF dither, technically correct and flawless as far
+ as dither goes. But it also is a highpassed dither with a softer tonal voicing
+that resembles good tape machines, and that doesn’t affect the dither
 performance at all. It doesn’t attenuate the audio content at all. Only the
 background dither noise is turned into what you’d get off a tape deck, all while
  the audio is protected from truncation and digital artifacts.
@@ -12967,7 +13203,7 @@ I would use this anywhere I was sending processed stems or tracks outboard to a
 multichannel DAC, for mixing in the analog domain or summing with an outboard
 summing box. Without hesitation. I’d use fancier boutique dithers on the 2-buss,
  though this will work there too… but if I was doing an analog mix from a
-multichannel converter, there is nothing I’d rather use than [TapeDither][].
+multichannel converter, there is nothing I’d rather use than [TapeDither].
 (maybe Naturalize. Maybe.)
 
 That’s because it’s one thing to apply an interesting dither (like Spatialize,
@@ -12975,17 +13211,17 @@ for instance, or some noise shaper) on the 2-buss and get a unique texture or
 presentation on the audio. But if you’re stacking up lots of tracks and all of
 them get the same treatment, it’s vital to use something that won’t develop an
 exaggerated tone signature when multiplied that way. For dither, TPDF gives you
-that behavior, and [TapeDither][] is the TPDF that most closely mimics the
-reality of analog mixing back in the days of big reel-to-reel machines. The tone
- of its noise floor is already more pillowy, mellow and relaxing than most TPDF
-or highpassed TPDF, and then when you stack up lots of tracks of it, the
-texture’s better still.
+that behavior, and [TapeDither] is the TPDF that most closely mimics the reality
+ of analog mixing back in the days of big reel-to-reel machines. The tone of its
+ noise floor is already more pillowy, mellow and relaxing than most TPDF or
+highpassed TPDF, and then when you stack up lots of tracks of it, the texture’s
+better still.
 
 I’m still excited to bring out Naturalize, but I’m just as excited about what
-[TapeDither][] means. It makes me want to build analog consoles and mix into
-them, just so I can put [TapeDither][] on any output that’s not playing raw 24
-bit data exactly as captured. Anything with processing or gain on it would get a
- dithered output, and it would be a matter of—faders up—hello, Seventies :)
+[TapeDither] means. It makes me want to build analog consoles and mix into them,
+ just so I can put [TapeDither] on any output that’s not playing raw 24 bit data
+ exactly as captured. Anything with processing or gain on it would get a
+dithered output, and it would be a matter of—faders up—hello, Seventies :)
 
 Well, I like audio from the Seventies. I suppose I’d better work out how to do
 some of the sonic quirks of Doubly while I’m at it! Not that a rock band would
@@ -13003,8 +13239,8 @@ the biggest hype to date: but hey! Thanks to Patreon I’m free of all that, and
 can follow my vision.
 
 It helps that I put out a lot of plugins: it’d be weird to do this as my only
-plugin for the month. But, while I work on [Desk4][] and [StarChild][] from the
-greatest-hits list, I thought I’d sprinkle a little [TapeDust][] for you.
+plugin for the month. But, while I work on [Desk4] and [StarChild] from the
+greatest-hits list, I thought I’d sprinkle a little [TapeDust] for you.
 
 This is slightly different from the tape noise in Iron Oxide, though it’s the
 same general principle. It is a slew noise plugin. What that means is, the noise
@@ -13020,15 +13256,15 @@ beauty of it if you can master where to use this plugin.
 Basses? Probably no way. Full mix? Getouttahere, no chance outside very low
 settings. Guitar? Hmmm. Drums, loops? A pattern emerges.
 
-[TapeDust][] can convert ugly sharp treble attacks on pointy percussive atonal
+[TapeDust] can convert ugly sharp treble attacks on pointy percussive atonal
 sounds to pretty much any degree of dense, noisy, natural-sounding crunch. It’s
 a type of noise, so it also gives analog-style variance to repeated samples that
  might sound over-digital. And the less tonal, or the less ‘pure clear note’ the
- signal is, the more [TapeDust][] you can get away with. Since it’s a slew
-noise, it hits the treble of your signal HARD, but since it’s a noise, it’s not
+ signal is, the more [TapeDust] you can get away with. Since it’s a slew noise,
+it hits the treble of your signal HARD, but since it’s a noise, it’s not
 filtering or softening the sound as much as it’s just eroding it, weathering it,
  making it more natural. Anywhere you’ve got bright highs on a nonpure sound,
-you can grind them off with [TapeDust][].
+you can grind them off with [TapeDust].
 
 Of course, if you’re cool with using super-low settings, you can do that
 anywhere: it’s just important to register that this very specialized and
@@ -13036,9 +13272,9 @@ dedicated tool is super picky about what it likes to work on. It’s a beautiful
 example of taking your production skills deeper: use something that can sound
 horrible and wrong, and find places where it’s in its element. You can do
 outlandish textural things, taking something like a clean electro mix with deep
-clean bass, and sticking heavy [TapeDust][] on just one element in the mix to
-contrast with the un-grungy elements. I hope you like [TapeDust][]. It’s the
-kind of plugin I love to make.
+clean bass, and sticking heavy [TapeDust] on just one element in the mix to
+contrast with the un-grungy elements. I hope you like [TapeDust]. It’s the kind
+of plugin I love to make.
 
 (note: there has been a bug in this plugin causing it to sound different than
 intended)
@@ -13047,11 +13283,11 @@ intended)
 <a name="plugins_tapefat"></a>
 ### TapeFat
 
-_TapeFat is the tone control from [TapeDelay][]._
+_TapeFat is the tone control from [TapeDelay]._
 
-[TapeFat][] is just the tone control from [TapeDelay][]. It works like an
-averaging filter that you can use to either roll off highs (or eventually mids),
- or subtract the effect to create a highpass and take out the lows.
+[TapeFat] is just the tone control from [TapeDelay]. It works like an averaging
+filter that you can use to either roll off highs (or eventually mids), or
+subtract the effect to create a highpass and take out the lows.
 
 The reason this is interesting is, that tone control is completely bizarre. It’s
  an averaging filter, but on a pile of delay taps arranged according to prime
@@ -13084,10 +13320,9 @@ gotta vibe it, listen and embrace the magic, and then you’ll believe…
 People were, shall we say, critical of this approach :)
 
 Since I’m free to code what I like, thanks to Patreon and all (and thank you,
-all who’re pitching in there) I took an interest, and now you have
-[Texturize][]. It is NOT literally this other plugin, or their patents, or the
-specific method by which they make the magic concealed noise that makes
-everything better.
+all who’re pitching in there) I took an interest, and now you have [Texturize].
+It is NOT literally this other plugin, or their patents, or the specific method
+by which they make the magic concealed noise that makes everything better.
 
 But what it IS, is a riff on several previous plugins I’ve had for years and
 years, to produce a very similar function… but THIS one, you can tweak and you
@@ -13125,26 +13360,26 @@ I might well start using it. It really does seem to work. Go ahead and fool with
 _TexturizeMS is a hidden-noise plugin for adding mid-side sonic texture to
 things._
 
-This is further development on my earlier plugin, [Texturize][]. It existed to
+This is further development on my earlier plugin, [Texturize]. It existed to
 blend sculpted noise with the direct signal in a way that can enhance the
 qualities of your audio… depending on what that was, and whether you liked the
 results. It 'does something', that's for sure, but what? My code for doing it
 already existed, but there was a lot of buzz over another plugin which did a
 variation of this effect with a great deal of mystery and hype. I thought it was
  useful to do an open source version where you could clearly hear what the thing
- did, and that's [Texturize][].
+ did, and that's [Texturize].
 
 But what if a simple stereo effect isn't enough?
 
-[TexturizeMS][] breaks the effect into mid/side processing, and then lets you
-set them independently. That means you can add a bit of extra zip in the highs
-to just the side, while keeping the center cleaner. If you have synthetic
-elements that show obvious noise using [Texturize][], and they're centered, you
-can tune just the middle. I think it's a major upgrade in terms of actually
-using the effect usefully.
+[TexturizeMS] breaks the effect into mid/side processing, and then lets you set
+them independently. That means you can add a bit of extra zip in the highs to
+just the side, while keeping the center cleaner. If you have synthetic elements
+that show obvious noise using [Texturize], and they're centered, you can tune
+just the middle. I think it's a major upgrade in terms of actually using the
+effect usefully.
 
-It's still [Texturize][]. It's still a sort of funky snake oil (or maybe truffle
- oil?) It's a flavor and is absolutely doing a thing, but you don't have to
+It's still [Texturize]. It's still a sort of funky snake oil (or maybe truffle
+oil?) It's a flavor and is absolutely doing a thing, but you don't have to
 consider it useful. But if you liked the flavor and atmosphere of this one, I
 think it's your lucky day. Hope you like it!
 
@@ -13163,39 +13398,39 @@ There’s a crude way to deal with the low-end problem, which is to put in a
 crossover: either to split into multiband compression, or simply highpass the
 sense circuit so the compressor can’t compress extreme lows and just lets them
 through. I’ve been asked to do this and have actually tried it on
-[PurestSquish][], but I was never satisfied with the results. It seemed like
-just half-breaking the compressor and I felt there had to be a better way…
+[PurestSquish], but I was never satisfied with the results. It seemed like just
+half-breaking the compressor and I felt there had to be a better way…
 
-[Thunder][] is that better way. Instead of passing through the bass, it
-transforms it in a way similar to [FathomFive][], and uses that live, active
-signal to modulate what the compressor sees, where in turn the compressor’s
-output is modulated by the intense lows. It’s a little complicated, so you can
-watch the video or simply download it and try it. [Thunder][] is free (bear in
-mind that my only compensation is the Patreon I’ve created. To do this onward
-into the future, that Patreon must succeed)
+[Thunder] is that better way. Instead of passing through the bass, it transforms
+ it in a way similar to [FathomFive], and uses that live, active signal to
+modulate what the compressor sees, where in turn the compressor’s output is
+modulated by the intense lows. It’s a little complicated, so you can watch the
+video or simply download it and try it. [Thunder] is free (bear in mind that my
+only compensation is the Patreon I’ve created. To do this onward into the
+future, that Patreon must succeed)
 
-If you’re auditioning [Thunder][], a word of warning. You’re going to have to
+If you’re auditioning [Thunder], a word of warning. You’re going to have to
 monitor the extreme lows. This plugin can prepare music for the hugest sound
 systems or the finest audiophile playback, but if you can’t hear what it’s doing
  you may get in trouble with it. Decent headphones ought to suffice (not
 earbuds!). If you have subwoofers, this will test them. You can also use the
-mix-check plugin [SubsOnly][] to test how you’re doing, that will spotlight the
+mix-check plugin [SubsOnly] to test how you’re doing, that will spotlight the
 subs for you.
 
 The range of adjustment starts with gentle ‘glue’ compression as the subsonics
 begin to open up the mix. Then, a bottom octave will appear anchoring
 everything. Push beyond that and you start to get into more compressed 2-buss,
 with the extreme lows taking on a punchier, thumpier character. Add more
-[Thunder][] and the bass gets frisky and aggressive and dominates. Then, when
-you go even beyond that, we’re talking about ridiculous monstrous mega-bass, and
- more or less wrecking the sound of everything else (it’s useful to be able to
-go to weird broken settings in case you want to step back just a bit and have a
+[Thunder] and the bass gets frisky and aggressive and dominates. Then, when you
+go even beyond that, we’re talking about ridiculous monstrous mega-bass, and
+more or less wrecking the sound of everything else (it’s useful to be able to go
+ to weird broken settings in case you want to step back just a bit and have a
 really extreme effect). This is not a multiband compressor (there’s only one
 stereo comp in the plugin) but when driven really hard it can go even more
 bonkers than a multiband compressor.
 
-Remember, the low [Thunder][] settings are useful too as a glue comp, for a buss
- compressor that’s extremely transparent and true to the tone of the mix! The
+Remember, the low [Thunder] settings are useful too as a glue comp, for a buss
+compressor that’s extremely transparent and true to the tone of the mix! The
 middle settings are just as functional. All of these settings have their own
 usefulness. Choose wisely (or unwisely, if you prefer).
 
@@ -13203,18 +13438,18 @@ usefulness. Choose wisely (or unwisely, if you prefer).
 <a name="plugins_toneslant"></a>
 ### ToneSlant
 
-_ToneSlant is a super-transparent ‘tilt [EQ][]’ with very low Q._
+_ToneSlant is a super-transparent ‘tilt [EQ]’ with very low Q._
 
 This is a new plugin, not a port from an existing Audio Unit. It’s based on a
-variation on the [Average][] concept. Turns out, it’s the tail end of the
-‘averaged samples block’ that causes the cancellation node. [ToneSlant][]
+variation on the [Average] concept. Turns out, it’s the tail end of the
+‘averaged samples block’ that causes the cancellation node. [ToneSlant]
 implements a much bigger sample block (100 taps) but linearly fades the samples
 off between the first and last sample in the block.
 
-What that does, is produce an extremely transparent ’tilt [EQ][]’ with a
+What that does, is produce an extremely transparent ’tilt [EQ]’ with a
 controllable corner point. And, it’s implemented in such a way that you can set
 it to null out (at extreme high boosts) and then bring in only the brightest
-highs (shown in the video). Quirky, maybe, but it broadens the [ToneSlant][]
+highs (shown in the video). Quirky, maybe, but it broadens the [ToneSlant]
 toolkit. So, the main uses are:
 
 -Extremely low Q treble rolloff above a set point (with a fixed dB/oct)
@@ -13229,11 +13464,11 @@ controllable with the Highs control
 
 These come out of the algorithm: the reason it performs so well sonically is
 both the extremely low Q and the simplicity of the algorithm. Not everything I
-make belongs in a mastering studio, but [ToneSlant][] is peculiarly suited to
-that use: it’s like those specialty EQs that have very few parts and impart no
-color to the sound. You should be careful applying [ToneSlant][], because it
-‘hides’ and tries not to be apparent as [EQ][]. Use it as such, when you need
-perhaps a strong ’tilt’ but don’t want the result to sound equalized.
+make belongs in a mastering studio, but [ToneSlant] is peculiarly suited to that
+ use: it’s like those specialty EQs that have very few parts and impart no color
+ to the sound. You should be careful applying [ToneSlant], because it ‘hides’
+and tries not to be apparent as [EQ]. Use it as such, when you need perhaps a
+strong ’tilt’ but don’t want the result to sound equalized.
 
 
 <a name="plugins_totape5"></a>
@@ -13241,7 +13476,7 @@ perhaps a strong ’tilt’ but don’t want the result to sound equalized.
 
 _ToTape5 is Airwindows analog tape emulation._
 
-[ToTape5][] is the best Airwindows analog tape emulation. It builds upon the
+[ToTape5] is the best Airwindows analog tape emulation. It builds upon the
 previous four versions (which have been some of my best sellers) and
 incorporates everything learned from the Purest series of plugins, to produce a
 tape emulation that does what analog does. (Analog tape does really good things
@@ -13255,7 +13490,7 @@ else that can stand as much scrutiny as ToTape will: it’s developed on
 mastering-grade gear and when used in its most optimized state, it’s not a toy.
 It should be more transparent and musical than most plugins (never mind ‘tape
 emulation’ plugins, which are generally not even as transparent and musical as a
- good digital [EQ][] plugin).
+ good digital [EQ] plugin).
 
 It has six controls: four if you don’t count Output and Dry/Wet, which are
 pretty obvious.
@@ -13281,16 +13516,16 @@ bass, leave this at 0! Boosting it will introduce deep lows very cleanly and you
  might not hear them unless your monitoring is up to scratch. You will also have
  to turn down Output if you boost this a lot.
 
-[Flutter][] is the tape flutter. Defaults to 0 which is OFF, see comment on
+[Flutter] is the tape flutter. Defaults to 0 which is OFF, see comment on
 ‘dry/wet’. The most amazingly awesome tape recorders did NOT have loads of
 flutter, but if you want a little ‘spaciness’ or ‘atmosphere’ you can put in
 small amounts of this, like 0.1 or so. Go by feel, if you can hear it fluttering
  it’s kind of too much. If you’re using this, please don’t use Dry/Wet to
 combine the result with dry: you’ll create a flangey effect and it’ll be more
-obvious than it should be. By design, [Flutter][] is made so you can increase it
- until it’s too much, so please remember that realistic levels are more like
-0.1: too subtle to immediately hear. Go by feel, or pretend you have a really
-terrific tape machine and leave it off entirely, set [Flutter][] to 0. (For
+obvious than it should be. By design, [Flutter] is made so you can increase it
+until it’s too much, so please remember that realistic levels are more like 0.1:
+ too subtle to immediately hear. Go by feel, or pretend you have a really
+terrific tape machine and leave it off entirely, set [Flutter] to 0. (For
 instance, anyone who’s mastering and intentionally adds flutter ought to think
 hard about whether that’s really helping.)
 
@@ -13300,21 +13535,20 @@ hard about whether that’s really helping.)
 
 _ToTape6 is Airwindows tape emulation for 2020!_
 
-Here’s [ToTape6][]. There are still things I want (simplification) but this is
-all the things you wanted :)
+Here’s [ToTape6]. There are still things I want (simplification) but this is all
+ the things you wanted :)
 
-[ToTape6][] brings in tech from [UnBox][], from [Mojo][], from
-[BiquadOneHalf][]… it’s quite literally the culmination of all the stuff I’ve
-been doing over the last year (or indeed three years). I think it’ll register
-immediately as a killer tape emulation, perhaps THE killer tape emulation to
-beat for all that it’s an abstraction and not meant to be any specific tape
-machine. No GUI, no brandnames: just the tone, and the ability to soak up
-intense audio gracefully. And of course those delicious tape-machine lows,
-courtesy of the new head bump.
+[ToTape6] brings in tech from [UnBox], from [Mojo], from [BiquadOneHalf]… it’s
+quite literally the culmination of all the stuff I’ve been doing over the last
+year (or indeed three years). I think it’ll register immediately as a killer
+tape emulation, perhaps THE killer tape emulation to beat for all that it’s an
+abstraction and not meant to be any specific tape machine. No GUI, no
+brandnames: just the tone, and the ability to soak up intense audio gracefully.
+And of course those delicious tape-machine lows, courtesy of the new head bump.
 
-Unlike [ToTape5][], the new [ToTape6][] is extremely well behaved in the
+Unlike [ToTape5], the new [ToTape6] is extremely well behaved in the
 sub-octaves. By that I mean it has them, tons of them, it’s got that
-ToTape/[BassKit][] ability to uncork profoundly deep subs, but thanks to the
+ToTape/[BassKit] ability to uncork profoundly deep subs, but thanks to the
 interleaved biquad filters it cuts them right off and doesn’t let DC through.
 It’s got a special kind of servo damping built in because I found when you
 stacked them up four deep, the tape machines started subtly motorboating around
@@ -13323,23 +13557,23 @@ head bump beyond its default halfway setting as it’ll produce a LOT of serious
 lows, with an interesting compressed quality you won’t hear outside of ToTape
 and the real thing.
 
-Due to the influences of [UnBox][] and [Mojo][], the new [ToTape6][] puts forth
-a lot of sonority when you hit it: warm harmonics stand out and project, due to
-the boosting happening in an overall midrange band that covers most of the audio
- range. The Soften control is subtly improved as well: if you’re looking to tape
- to warm up digital overtones and edges, [ToTape6][] does that effortlessly.
+Due to the influences of [UnBox] and [Mojo], the new [ToTape6] puts forth a lot
+of sonority when you hit it: warm harmonics stand out and project, due to the
+boosting happening in an overall midrange band that covers most of the audio
+range. The Soften control is subtly improved as well: if you’re looking to tape
+to warm up digital overtones and edges, [ToTape6] does that effortlessly.
 
-[Flutter][] is so profoundly improved that [ToTape6][] defaults to having it on,
- at 0.5. That causes the plugin to run a small, varying latency (bear this in
-mind). It’s also a step into a weirder realm: I was being asked to do a ‘trashed
- tape’ plugin. This might not be ALL of that, but the new [Flutter][] algorithm
-is both clean up to extreme settings, and more capable of bonkers warble and
-wacky over-flutter. Check that out at the far reaches of the [Flutter][]
-control. At settings below 0.5 the flutter is more usable in serious contexts,
-and as always if you set [Flutter][] to zero you bypass the whole thing and get
-zero latency and a lack of interpolation between samples, giving you clearer
-highs to use Soften on. For serious mastering purposes I still recommend not
-using flutter, plus there are some electronic genres where it’d be disruptive.
+[Flutter] is so profoundly improved that [ToTape6] defaults to having it on, at
+0.5. That causes the plugin to run a small, varying latency (bear this in mind).
+ It’s also a step into a weirder realm: I was being asked to do a ‘trashed tape’
+ plugin. This might not be ALL of that, but the new [Flutter] algorithm is both
+clean up to extreme settings, and more capable of bonkers warble and wacky
+over-flutter. Check that out at the far reaches of the [Flutter] control. At
+settings below 0.5 the flutter is more usable in serious contexts, and as always
+ if you set [Flutter] to zero you bypass the whole thing and get zero latency
+and a lack of interpolation between samples, giving you clearer highs to use
+Soften on. For serious mastering purposes I still recommend not using flutter,
+plus there are some electronic genres where it’d be disruptive.
 
 The dry/wet control has a trick in store: it only works in the normal way if
 you’re NOT using flutter. If you’re full-wet you can flutter as you please, but
@@ -13353,10 +13587,10 @@ tape flutter effects and then seamlessly fade into an obvious full-mix flange,
 and then back to the solid, loud tape effect. This will work differently each
 time you do it, so be sure to print your results: flutter is a random process.
 
-Oh, one more thing: [ToTape6][] has the guts of ADClip built into it as a safety
- clipper. So you can use it as a final loudenator, at which it ought to be about
- as good as they get: if the tape slam isn’t getting you there, you can push the
- output volume past 0 dB to intentionally clip harder, or pull it back to make
+Oh, one more thing: [ToTape6] has the guts of ADClip built into it as a safety
+clipper. So you can use it as a final loudenator, at which it ought to be about
+as good as they get: if the tape slam isn’t getting you there, you can push the
+output volume past 0 dB to intentionally clip harder, or pull it back to make
 sure ToTape is the only distortion stage. If you’re seeing extended periods of
 -0.09 dB you’re seeing ADClip working.
 
@@ -13391,14 +13625,14 @@ up, and you can combine it with the acceleration limiter to get pretty much any
 sparkle: it’s not all darken, in fact Groove Wear is very much its own thing
 distortion-wise.
 
-Combine it all together and you’ve got [ToVinyl4][], the up-to-date version of a
- classic Airwindows for-pay plugin.
+Combine it all together and you’ve got [ToVinyl4], the up-to-date version of a
+classic Airwindows for-pay plugin.
 
 
 <a name="plugins_tpdfdither"></a>
 ### TPDFDither
 
-_TPDFDither is TPDF dither. With 16/24 bit output and a [DeRez][] control._
+_TPDFDither is TPDF dither. With 16/24 bit output and a [DeRez] control._
 
 TPDF is the industry standard technically correct boring dither. It does nothing
  strange or interesting, makes no effort to optimize the sound in any way
@@ -13406,15 +13640,15 @@ TPDF is the industry standard technically correct boring dither. It does nothing
 even Naturalize only has a limited amount of output bits to work with.)
 
 TPDF uses two sources of noise to make what’s called a Triangular Probability
-[Density][] Function, which gives it its name. If you had only one noise source,
- you’d get what’s called flat dither (I’m not offering that, but it’s in
-[Ditherbox][], along with truncation.) When you only have one noise source (at
-the correct volume, which is one bit wide) you get dithering and sounds
-correctly transition into silence instead of going insane with grating
-gnarlyness (which is what happens with truncation, anywhere and everywhere it
-happens) but with only the one noise source you get an effect where the noise
-level flutters and shifts depending on what the audio’s doing. I demonstrate
-this in the video, it’s quite noticeable.
+[Density] Function, which gives it its name. If you had only one noise source,
+you’d get what’s called flat dither (I’m not offering that, but it’s in
+[Ditherbox], along with truncation.) When you only have one noise source (at the
+ correct volume, which is one bit wide) you get dithering and sounds correctly
+transition into silence instead of going insane with grating gnarlyness (which
+is what happens with truncation, anywhere and everywhere it happens) but with
+only the one noise source you get an effect where the noise level flutters and
+shifts depending on what the audio’s doing. I demonstrate this in the video,
+it’s quite noticeable.
 
 With the two noise sources, TPDF transitions sounds into silence, and still
 keeps a totally unvarying noise profile. In a very real way, this is more
@@ -13428,22 +13662,22 @@ well. If you don’t have good reasons to use something fancier, or you want
 something guaranteed to work on everything in any situation, TPDF dither’s the
 one for you. Airwindows TPDF dither is a nice high-resolution well-coded
 implementation, one that does the truncating for you so you can compare it (for
-instance, with [BitShiftGain][] like in the video) but it’s also exactly the
-same as any other properly done TPDF dither out there. There’s no fancy tricks,
-it’s just the boring but useful TPDF dither.
+instance, with [BitShiftGain] like in the video) but it’s also exactly the same
+as any other properly done TPDF dither out there. There’s no fancy tricks, it’s
+just the boring but useful TPDF dither.
 
 I guess there are a few Airwindowsy things about it but they’re not sound
 quality related. If you’re using the AU on Macs, it’s ‘N to N’ meaning it works
 on quad and 5.1 channels automatically, and is more efficient on mono channels.
 And just like all the Airwindows dithers that are coming out, it is 24 bit only
 and has no controls. That means if you want 16 bit you could get the AU
-[Ditherbox][], wait for it to be ported to VST, or use two copies of
-[BitShiftGain][] that I just released. (I’m discouraging emphasis on 16 bit
+[Ditherbox], wait for it to be ported to VST, or use two copies of
+[BitShiftGain] that I just released. (I’m discouraging emphasis on 16 bit
 because I think it’s obsolete and should be deprecated.) This also means if
-you’re using [TPDFDither][] as intended, it’s a ‘non-fiddly’ plugin that won’t
+you’re using [TPDFDither] as intended, it’s a ‘non-fiddly’ plugin that won’t
 distract you. There’s no window, no GUI, no reason ever to open it in the DAW:
 if you’ve placed it in the correct spot you can see it there (clearly marked
-[TPDFDither][]) and that’s all you need to know.
+[TPDFDither]) and that’s all you need to know.
 
 Making plugins that simple and self-effacing is a very ‘Patreon-supported‘ thing
  to do. When you have to sell plugins to stay alive as a company, you’ve got to
@@ -13459,8 +13693,8 @@ I continue to delight in the latter. Let your music be the focus. Hope you enjoy
 reasonably release them :)
 
 This got a Redux edition, meaning some added controls. Not only 16/24 bit TPDF
-with a [DeRez][] control (and a clamp for how loud it gets so it doesn’t blow up
- your ears at super low bit depths), it’s also the Airwindows TPDF algorithm.
+with a [DeRez] control (and a clamp for how loud it gets so it doesn’t blow up
+your ears at super low bit depths), it’s also the Airwindows TPDF algorithm.
 Which is to say it’s not exactly like everyone else’s TPDF algorithm, even
 though it adds exactly two noise sources each one bit in loudness.
 
@@ -13484,10 +13718,10 @@ NEXT week)
 ### TPDFWide
 
 _TPDFWide is still TPDF dither but better and wider. With 16/24 bit output and a
- [DeRez][] control._
+ [DeRez] control._
 
-TPDF is Triangular Probability [Density][] Function. It’s about using two random
- sources of EXACTLY the right amplitude (one Least Significant Bit each) to
+TPDF is Triangular Probability [Density] Function. It’s about using two random
+sources of EXACTLY the right amplitude (one Least Significant Bit each) to
 render anything else, including the noise floor, free of quantization distortion
  so you can hear deeply INTO the noise floor and have it sound musical. Dither
 is important, and TPDF is the industry standard.
@@ -13505,9 +13739,9 @@ Turns out there’s more that can be done. If you have purely random sources, th
 similar to the dither being in mono, which is known to narrow soundstage and
 hurt the sensation of wideness. But what if you could avoid that?
 
-[TPDFWide][] is purely random-source Triangular Probability [Density][] Function
- dither, but once it’s rolled up its random numbers, it checks to see if the two
- channels came out the same (or close to the same). If they are… it rerolls a
+[TPDFWide] is purely random-source Triangular Probability [Density] Function
+dither, but once it’s rolled up its random numbers, it checks to see if the two
+channels came out the same (or close to the same). If they are… it rerolls a
 channel. If they still are… it rerolls the other channel. If they still are, it
 rerolls the first channel again, and then gives up so as not to hurt itself. In
 every case these are still random numbers: we’re just rejecting ones where
@@ -13519,12 +13753,12 @@ at the noise floor, without actually being any louder. And secondly, it resists
 ‘mono dither’ which causes it to sound wider and more spatial than ordinary TPDF
  dithers. And yet it’s still a TPDF dither, at heart. If you would like
 something a little special, but don’t like my more unusual wordlength reduction
-techniques like NJAD or Spatialize or [Dark][] or [Beam][] etc. then you might
-enjoy [TPDFWide][]. It has a ‘[DeRez][]’ control that lets you go to low-bit
-realms and hear what the noise floor really sounds like, and it’s got 24 and 16
-bit modes when you have [DeRez][] set to 0 (which you should, for normal
-operation). You can use it as a 24 bit dither for monitoring and file-making,
-and as a 16 bit dither when you need to export to 16 bit. I hope you like it :)
+techniques like NJAD or Spatialize or [Dark] or [Beam] etc. then you might enjoy
+ [TPDFWide]. It has a ‘[DeRez]’ control that lets you go to low-bit realms and
+hear what the noise floor really sounds like, and it’s got 24 and 16 bit modes
+when you have [DeRez] set to 0 (which you should, for normal operation). You can
+ use it as a 24 bit dither for monitoring and file-making, and as a 16 bit
+dither when you need to export to 16 bit. I hope you like it :)
 
 
 <a name="plugins_transdesk"></a>
@@ -13532,30 +13766,30 @@ and as a 16 bit dither when you need to export to 16 bit. I hope you like it :)
 
 _TransDesk is more of a transistory, rock desk analog modeling._
 
-Continue the look into classic Airwindows analog modeling with [TransDesk][]!
+Continue the look into classic Airwindows analog modeling with [TransDesk]!
 
 There’s a famous analog console known for rock mixes. It might not have the
 preamplifiers to hang with the APIs and Neves of the world, but it’s been a
 watchword for mixdowns, both for the sound and for the extreme flexibility it
-offers (automation, effective [EQ][], compression). I’m not going to name it,
-but I was tuning [TransDesk][] to get into a similar area: in particular, I
-wanted to get a comparable aggressiveness into the highs. This isn’t a plugin
-for making things soft and sweet, it’s for rocking out.
+offers (automation, effective [EQ], compression). I’m not going to name it, but
+I was tuning [TransDesk] to get into a similar area: in particular, I wanted to
+get a comparable aggressiveness into the highs. This isn’t a plugin for making
+things soft and sweet, it’s for rocking out.
 
 That said, there are many paths to this ocean of sonic mayhem, and what
-distinguishes [TransDesk][] is that it gets its sound with very little
-processing. You don’t lose much mojo just to get that coat of sonic paint. In
-some ways the immediacy of this approach is closer to the analog truth. In other
- ways, it’s less a would-be clone of a classic big console, more a way to get
-some of that energy. (Technically, I’m doing it by trying to match the overload
+distinguishes [TransDesk] is that it gets its sound with very little processing.
+ You don’t lose much mojo just to get that coat of sonic paint. In some ways the
+ immediacy of this approach is closer to the analog truth. In other ways, it’s
+less a would-be clone of a classic big console, more a way to get some of that
+energy. (Technically, I’m doing it by trying to match the overload
 characteristics, including power supply idiosyncrasies that affect the way
 energy can be drawn for the highs.)
 
-The result is another [Desk][]-style plugin, with a completely different sound.
-It’s not calibrated to work with Console (that’s the for-pay version of [Desk][]
- that consolidated these and calibrated them all) and it doesn’t have special
+The result is another [Desk]-style plugin, with a completely different sound.
+It’s not calibrated to work with Console (that’s the for-pay version of [Desk]
+that consolidated these and calibrated them all) and it doesn’t have special
 requirements for where it should go. Place it where you want that style of tone
-coloring: like [Desk][], you can use it on auxes and submixes (including ones
+coloring: like [Desk], you can use it on auxes and submixes (including ones
 ‘inside’ Console) to better emulate running through a lot of circuitry.
 
 
@@ -13574,16 +13808,16 @@ effect). But they don’t have that organic pulsating thing that takes a sound a
 
 So I made this!
 
-This [Tremolo][] uses saturation and antisaturation curves like you’d find in
-[Density][], and does the tremolo with that. It’s the same trick I use on the
-compressor ‘[Pyewacket][]’. The result is, the loud parts develop a density and
+This [Tremolo] uses saturation and antisaturation curves like you’d find in
+[Density], and does the tremolo with that. It’s the same trick I use on the
+compressor ‘[Pyewacket]’. The result is, the loud parts develop a density and
 thickness mere volume won’t give you, and the lean parts hang on to a skeletal
 form of the transient attacks so your music comes through. This is not just
-‘analog color’ like a coat of paint, [Tremolo][] works quite differently from
-your DAW tremolo. It doesn’t sync to tempo, but that’s partly because I don’t
-know what to read (in AU and VST) that’d give me that information: could be
-added in future if the secrets are forthcoming, but there’s no sense withholding
- [Tremolo][] just because of that!
+‘analog color’ like a coat of paint, [Tremolo] works quite differently from your
+ DAW tremolo. It doesn’t sync to tempo, but that’s partly because I don’t know
+what to read (in AU and VST) that’d give me that information: could be added in
+future if the secrets are forthcoming, but there’s no sense withholding
+[Tremolo] just because of that!
 
 
 <a name="plugins_tremosquare"></a>
@@ -13594,11 +13828,11 @@ crossings._
 
 Surprise! More sound design, texture-making, mix-blendering fun from Airwindows.
 
-I meant to put out [BassAmp][] today, but it’s not ready: needs more work. But I
- had this weird little critter handy, and so it’s skipping ahead whether you
-like it or not!
+I meant to put out [BassAmp] today, but it’s not ready: needs more work. But I
+had this weird little critter handy, and so it’s skipping ahead whether you like
+ it or not!
 
-And that depends on what you get up to, signal processing wise. [TremoSquare][]
+And that depends on what you get up to, signal processing wise. [TremoSquare]
 comes out of one of my livestreams, where I coded a plugin from scratch one
 Monday so people could watch the process. (I do that now.) It’s a squarewave
 tremolo, but it only transitions from silent to full volume on the zero
@@ -13621,19 +13855,19 @@ this lying around…
 <a name="plugins_triplespread"></a>
 ### TripleSpread
 
-_TripleSpread is a stereo tripler with extra wideness and [GlitchShifter][]
+_TripleSpread is a stereo tripler with extra wideness and [GlitchShifter]
 processing._
 
 Here’s a fun little toy that might make it into the toolkits of some otherwise
 non-Airwindows types :)
 
-[TripleSpread][] is based off the code of [GlitchShifter][], but it’s designed
+[TripleSpread] is based off the code of [GlitchShifter], but it’s designed
 around one task, and that is the ‘split a track into three, pan one hard left
 and pitch it down a few cents, pan another hard right and pitch it up a few
 cents’. That’s what it does. It’s a tripler. Alternately, if you put it on a LR
 pair of instruments, it’ll double each of those instruments and stay very
 stereo. Or if you put it on an LCR submix, it can sound like about twelve
-instruments. That’s the specialty of [TripleSpread][]: making a big wide stereo
+instruments. That’s the specialty of [TripleSpread]: making a big wide stereo
 effect.
 
 Except that it adds a new twist: as you bring up dry/wet, introducing the effect
@@ -13656,10 +13890,9 @@ you like: it’s certainly capable of widening LCR guitars while keeping the
 percussive sounds as long as you’re OK with it either glitching, or blurring the
  timing.
 
-So, the key distinction between this and [StereoDoubler][] is that
-[TripleSpread][] pushes the width of the added widening voices rather than just
-putting them hard left and hard right. You do that by pushing the dry/wet
-harder.
+So, the key distinction between this and [StereoDoubler] is that [TripleSpread]
+pushes the width of the added widening voices rather than just putting them hard
+ left and hard right. You do that by pushing the dry/wet harder.
 
 
 <a name="plugins_tube"></a>
@@ -13685,12 +13918,12 @@ will never let you down! :D :D ;D
 
 Okay, good. Who’s still here? For those of you who’re still reading, and those
 who like to know how things work, let me nerd out a little and explain (a) why
-all that is true, and (b) exactly how it’s done. [Tube][] is a combination of
+all that is true, and (b) exactly how it’s done. [Tube] is a combination of
 things. It’s the fruit of some work I’m doing on dialing in distortion types,
-based on stuff I made for [Mackity][] etc. and it lets you dial in the same clip
- style I used for [Mackity][], but scale it up and down, make it simpler or more
- and more complex and linear. The maximum linearity it can do is when it’s set
-to zero: then it’s a soft-clip with a nice clean center region. The minimum
+based on stuff I made for [Mackity] etc. and it lets you dial in the same clip
+style I used for [Mackity], but scale it up and down, make it simpler or more
+and more complex and linear. The maximum linearity it can do is when it’s set to
+ zero: then it’s a soft-clip with a nice clean center region. The minimum
 linearity it can do is at full crank, and then it’s inputSample –
 inputSample*fabs(inputSample), scaled just right… and then gain-adjusted right
 back up again.
@@ -13704,24 +13937,24 @@ at full crank, it takes the RMS loudness of a triangle wave (not unlike music
 content) and boosts it EXACTLY to where it’s now the RMS loudness of a sine
 wave. Everything else is just applying these things with the Airwindows house
 sound… in fact it’s a new high-water mark for the Airwindows house sound,
-nothing short of [BitShiftGain][] is quite as good as far as ‘minimal processing
- to get the result, and insane overkill for word length and linearity’.
+nothing short of [BitShiftGain] is quite as good as far as ‘minimal processing
+to get the result, and insane overkill for word length and linearity’.
 
 It goes even beyond that. Unlike my normal ‘mimic the sound of hardware’
 plugins, which use (more complicated) biquad filters to get exact voicings of
-tone, [Tube][] is designed to be dropped in literally anywhere. So, instead of
-the usual approach, I’ve got a radical approach to aliasing suppression: since
-it’s already so soft, at 88.2k and up we just do a single averaging of adjacent
+tone, [Tube] is designed to be dropped in literally anywhere. So, instead of the
+ usual approach, I’ve got a radical approach to aliasing suppression: since it’s
+ already so soft, at 88.2k and up we just do a single averaging of adjacent
 samples before the clipping, and then a single averaging after the clipping.
 Period. That’s all. This is shall we say not as effective as brickwall filters
-and [Ultrasonic][]… but it’s applying a linearizing effect, twice, that applies
-to all the audible frequencies and does basically nothing else. It’s not the
-ideal thing for handling problem aliasing cases, but for your tubey midrange
-lushness there is NO other possible approach that performs as well. And, again,
-the most aggressively minimal approach you could have. That’s key to how I get
-plugins to sound right.
+and [Ultrasonic]… but it’s applying a linearizing effect, twice, that applies to
+ all the audible frequencies and does basically nothing else. It’s not the ideal
+ thing for handling problem aliasing cases, but for your tubey midrange lushness
+ there is NO other possible approach that performs as well. And, again, the most
+ aggressively minimal approach you could have. That’s key to how I get plugins
+to sound right.
 
-So, there you have it… and you do, I hope you enjoy [Tube][]. I’ll be using the
+So, there you have it… and you do, I hope you enjoy [Tube]. I’ll be using the
 algorithms a lot, and using it to dial in more sophisticated plugins. And some
 folks will lose their minds and believe the magic… and some will get cross I
 didn’t set it up for proper A/Bing, which kind of defeats the purpose for the
@@ -13733,7 +13966,7 @@ into any track, mix, or mastering that you just want… bigger.
 <a name="plugins_tube2"></a>
 ### Tube2
 
-_Tube2 extends [Tube][], with more sophisticated processing and input trim._
+_Tube2 extends [Tube], with more sophisticated processing and input trim._
 
 Hi again! :D
 
@@ -13743,36 +13976,35 @@ things people were talking about… while retaining some of the bloody-mindednes
 that makes people so mad at me.
 
 Folks who actually know what they’re talking about had me digging up copies of
-the RCA Receiving [Tube][] Manual, to study how the electron field’s impedance
-can fluctuate changing the behavior of preceding stages, and how this is
-affected by unavoidable time delays as the electrons transit from cathode to
-plate through grid. (If I have that backwards, please turn your DAW upside down
-to compensate). There’s good reason to expect second harmonics both on the low
-end and as higher harmonics: all that’s in there. I did my best to find
-algorithms that’d sharpen corners going one direction and loosen them going the
-other. It’s been quite a ride. It did motivate me to code an update to
-[Monitoring][] that you’ll be seeing pretty soon: adding the ‘[Tube][] used as a
- safety clipper) tiny pad for appropriate output levels, and switching the new
-[Monitoring][] to use [Dark][] as its wordlength reducer. You’re hearing all
-that in the video too.
+the RCA Receiving [Tube] Manual, to study how the electron field’s impedance can
+ fluctuate changing the behavior of preceding stages, and how this is affected
+by unavoidable time delays as the electrons transit from cathode to plate
+through grid. (If I have that backwards, please turn your DAW upside down to
+compensate). There’s good reason to expect second harmonics both on the low end
+and as higher harmonics: all that’s in there. I did my best to find algorithms
+that’d sharpen corners going one direction and loosen them going the other. It’s
+ been quite a ride. It did motivate me to code an update to [Monitoring] that
+you’ll be seeing pretty soon: adding the ‘[Tube] used as a safety clipper) tiny
+pad for appropriate output levels, and switching the new [Monitoring] to use
+[Dark] as its wordlength reducer. You’re hearing all that in the video too.
 
-Most of all: this is the version of [Tube][] that’s pretty close to level
-matched if you have the input trim at 0.5. You can pad it more if you like.
-[Tube2][] still lets you make the audio REALLY BIG, because that’s what it’s
-for: I needed a safety clipper stage before I needed anything else, and it’s
-still designed to accurately top out at 0dB exactly, and anything you hit it
-with from well below to quite a bit above should all sound right.
+Most of all: this is the version of [Tube] that’s pretty close to level matched
+if you have the input trim at 0.5. You can pad it more if you like. [Tube2]
+still lets you make the audio REALLY BIG, because that’s what it’s for: I needed
+ a safety clipper stage before I needed anything else, and it’s still designed
+to accurately top out at 0dB exactly, and anything you hit it with from well
+below to quite a bit above should all sound right.
 
 If you need more gain than you can get from cranking the input pad until it’s
-wide open, THAT is when you should break out [Tube][] (1) and use it as a feeder
- for [Tube][] (2). I don’t think there’s much to be gained from running
-[Tube2][] into [Tube2][], though I’m not your Mom and you can do as you like.
-I’m just saying the whole thing’s designed around finishing up in [Tube2][],
-with whatever degree of ‘[Tube][]’ you see fit, and similar behaviors of the
-control: regardless of what your levels are doing, more TUBE means softer and
-more saturated distortion, plus all the new behaviors making stuff interesting.
-When you back off the TUBE control, you’re going for more linearity in every
-sense, and you should be able to dial in the right vibe without trouble.
+wide open, THAT is when you should break out [Tube] (1) and use it as a feeder
+for [Tube] (2). I don’t think there’s much to be gained from running [Tube2]
+into [Tube2], though I’m not your Mom and you can do as you like. I’m just
+saying the whole thing’s designed around finishing up in [Tube2], with whatever
+degree of ‘[Tube]’ you see fit, and similar behaviors of the control: regardless
+ of what your levels are doing, more TUBE means softer and more saturated
+distortion, plus all the new behaviors making stuff interesting. When you back
+off the TUBE control, you’re going for more linearity in every sense, and you
+should be able to dial in the right vibe without trouble.
 
 I have no idea whether this is gonna get me a fresh new wave of, uh, criticism
 :) I’m not even sure whether that would be good or whether it’s more likely to
@@ -13792,25 +14024,25 @@ This is an upgrade. Hope you like it :)
 
 _TubeDesk is a tube recording console type tone coloring._
 
-More classic Airwindows analog modeling with [TubeDesk][]!
+More classic Airwindows analog modeling with [TubeDesk]!
 
 Tubes aren’t necessarily ‘mellow’. They’re also known for clarity, realism.
-[TubeDesk][] isn’t a mud-ifier, but it might bring you some effects reminiscent
-of vintage recordings.
+[TubeDesk] isn’t a mud-ifier, but it might bring you some effects reminiscent of
+ vintage recordings.
 
-Like the other [Desk][] plugins, it’s got a kind of saturation going on, a
-distinct flavor to how it distorts. However, unlike [TransDesk][], its power
-supply is very different. [TubeDesk][] is so old school it acts like there’s a
+Like the other [Desk] plugins, it’s got a kind of saturation going on, a
+distinct flavor to how it distorts. However, unlike [TransDesk], its power
+supply is very different. [TubeDesk] is so old school it acts like there’s a
 vintage tube rectifier, imparting an obvious rectifier sag. This conditions the
 sound, affecting how dynamics work through the plugin.
 
 You have a distinct ‘analog modeling’ tone then, which is no specific console,
 no arbitrary color: just sort of retro vibe, generalized. It’s not calibrated to
- work with Console (that’s the for-pay version of [Desk][] that consolidated
-these and calibrated them all) and it doesn’t have special requirements for
-where it should go. Place it where you want that style of tone coloring: like
-[Desk][], you can use it on auxes and submixes (including ones ‘inside’ Console)
- to better emulate running through a lot of circuitry.
+ work with Console (that’s the for-pay version of [Desk] that consolidated these
+ and calibrated them all) and it doesn’t have special requirements for where it
+should go. Place it where you want that style of tone coloring: like [Desk], you
+ can use it on auxes and submixes (including ones ‘inside’ Console) to better
+emulate running through a lot of circuitry.
 
 
 <a name="plugins_ulawdecode"></a>
@@ -13841,18 +14073,18 @@ puts it all back. uLaw (the Airwindows plugin) does the high-resolution
 calculation of this process, so you can get exactly the compansion to a high
 degree of accuracy.
 
-What you do then, is you put a bitcrusher like [DeRez][] in between the two uLaw
- plugins, and it suddenly sounds a lot cleaner with less roaring bit noise,
+What you do then, is you put a bitcrusher like [DeRez] in between the two uLaw
+plugins, and it suddenly sounds a lot cleaner with less roaring bit noise,
 because you’ve remapped where the quantization points are. It’s in the video,
-and easy to do with [DeRez][].
+and easy to do with [DeRez].
 
 And then… you can do all manner of other strange things, because you can put any
- plugin between [uLawEncode][] and [uLawDecode][]. Not just a bitcrusher. But,
+ plugin between [uLawEncode] and [uLawDecode]. Not just a bitcrusher. But,
 anything you put there is going to turn into a monster in a rather pronounced
-way. For instance, if you put an [EQ][] in there, it will go crazy and any
-changes you make become loud, distorted parodies of what you meant. If you put a
- delay or ambience, it’ll get warped very harshly. If you put pitch shifts,
-flanges, who-knows-what in there, you get shockingly horrible versions back out.
+way. For instance, if you put an [EQ] in there, it will go crazy and any changes
+ you make become loud, distorted parodies of what you meant. If you put a delay
+or ambience, it’ll get warped very harshly. If you put pitch shifts, flanges,
+who-knows-what in there, you get shockingly horrible versions back out.
 
 So, you can stick to the bitcrushers (mine or any other one you like: it’s a
 discrete pair for sandwiching any other plugin or plugins!) or you can treat it
@@ -13874,9 +14106,9 @@ before in Max/MSP. :)
 I make these things because I have a Patreon that frees me from starving, and
 also frees me from having to release popular and sensible plugins that are nice
 and approachable. Mind you, some of my plugins can be approachable, and I like
-making those too… I have progress on the mono-bass version of [DubSub][], and
-I’m happy with [BassKit][], the streamlined and polished mono-bass-enhancer that
- lets you beef up tapey or bassbin-y fatness in mono or add literal subsonic
+making those too… I have progress on the mono-bass version of [DubSub], and I’m
+happy with [BassKit], the streamlined and polished mono-bass-enhancer that lets
+you beef up tapey or bassbin-y fatness in mono or add literal subsonic
 thunderousness with the octave divider… but thanks to the freedom of the Patreon
  I can make things that are truly themselves, with no nod to popularity
 whatsoever.
@@ -13920,12 +14152,12 @@ music, and you’ll experience aliasing through nearly anything you do.
 
 But what if you just took those problem frequencies away?
 
-[Ultrasonic][] is very simple. It has no controls. It’s a really steep lowpass
+[Ultrasonic] is very simple. It has no controls. It’s a really steep lowpass
 filter at 20K (five poles, and it works out to 10th order Butterworth
 filtering). Unlike some ‘audible’ Airwindows filters that are supposed to sound
-interesting, [Ultrasonic][] doesn’t use internal Console processing: that would
-be a nonlinearity, and defeat the purpose. Instead, it’s a super high resolution
- very boring and plain supersonic filter, calculating stuff at long double
+interesting, [Ultrasonic] doesn’t use internal Console processing: that would be
+ a nonlinearity, and defeat the purpose. Instead, it’s a super high resolution
+very boring and plain supersonic filter, calculating stuff at long double
 resolution, dithering its result to whatever floating point buss your DAW uses,
 and otherwise having no sound of its own.
 
@@ -13937,8 +14169,8 @@ but any aliasing that turns up in ConsoleChannel doesn’t get taken away by
 ConsoleBuss. Digital only gets worse, not better, and the trick is to make it
 get worse as slowly as possible while you work with it.
 
-When you use [Ultrasonic][], for instance on every channel in a Console mix, you
- trade a degree of rawness and immediacy for an ease and smoothness that is
+When you use [Ultrasonic], for instance on every channel in a Console mix, you
+trade a degree of rawness and immediacy for an ease and smoothness that is
 immediately apparent if your stuff is running into nonlinearities anywhere. In
 many ways it makes the digital mix sound more analog. The tradeoff is, it’s
 still five poles of biquad filtering, and it will make stuff sound a bit slick,
@@ -13975,49 +14207,49 @@ _UltrasonicLite is just one stage of supersonic filter, for using inside digital
 _UltrasonicMed is two stages of supersonic filter, for using inside digital
 mixes._
 
-Hi! This is just what it says on the tin. Airwindows [Ultrasonic][] is the
+Hi! This is just what it says on the tin. Airwindows [Ultrasonic] is the
 stacked-up, five-biquad filter that rolls off everything above 20k, so in theory
  it has no sound of its own. It’s there to work in high sample rate mixes,
 between plugins that have nonlinearities and don’t have their own filtering
 (some of mine do, like Console7) and it will clean up the top-end of a digital
 mix.
 
-But, the original [Ultrasonic][] has SO many stages of filtering that it starts
-to become audible, softening the highs, and if you used lots of them you’d eat
+But, the original [Ultrasonic] has SO many stages of filtering that it starts to
+ become audible, softening the highs, and if you used lots of them you’d eat
 your CPU and would be over-processing.
 
-So, enter [Ultrasonic][] Lite (and [Ultrasonic][] Medium).
+So, enter [Ultrasonic] Lite (and [Ultrasonic] Medium).
 
-These are the same sort of thing, except [Ultrasonic][] Lite has only one stage
-of filtering, and [Ultrasonic][] Medium has two. They also start a teeny bit
-higher, on the assumption that if you’re reaching for a Lite version of the
-filter, you’re looking to not hammer your highs too much. [Ultrasonic][] Medium
-also subtly staggers the placement of its filters so it has a two-stage roll-off
- that is hopefully more natural sounding than just doubling up [Ultrasonic][]
-Lite on its own.
+These are the same sort of thing, except [Ultrasonic] Lite has only one stage of
+ filtering, and [Ultrasonic] Medium has two. They also start a teeny bit higher,
+ on the assumption that if you’re reaching for a Lite version of the filter,
+you’re looking to not hammer your highs too much. [Ultrasonic] Medium also
+subtly staggers the placement of its filters so it has a two-stage roll-off that
+ is hopefully more natural sounding than just doubling up [Ultrasonic] Lite on
+its own.
 
-Use these just like you would use [Ultrasonic][], if there are places in your
+Use these just like you would use [Ultrasonic], if there are places in your
 digital mix where you think you’d benefit from suppressing ultrasonic
 frequencies. These are not brickwalls: the idea here is that you can sprinkle
 these throughout your mix, anywhere you like, both before and after things that
 are nonlinear and distorty. For the strongest possible effect, use the original
-[Ultrasonic][]… but in places where you don’t need that much help with the
+[Ultrasonic]… but in places where you don’t need that much help with the
 ultra-highs, try Medium or Lite and apply a cleaner, subtler filter that lets
 more of the air through.
 
 If you’ve got something that’s causing an aliasing that will give problems
-further down the mix chain, and you put [Ultrasonic][] Lite in front of it and
-the aliasing that would’ve bounced back down to 40k is turned down before it
-even aliases, making that unwanted 40k quieter… and then there’s another
-[Ultrasonic][] Lite afterwards and that directly turns down the unwanted,
-aliasing 40k… then you’ve got a gentle, distributed aliasing suppression across
-your whole mix, that will really control the tendency of aliasing to just build
-up and go critical on ya :)
+further down the mix chain, and you put [Ultrasonic] Lite in front of it and the
+ aliasing that would’ve bounced back down to 40k is turned down before it even
+aliases, making that unwanted 40k quieter… and then there’s another [Ultrasonic]
+ Lite afterwards and that directly turns down the unwanted, aliasing 40k… then
+you’ve got a gentle, distributed aliasing suppression across your whole mix,
+that will really control the tendency of aliasing to just build up and go
+critical on ya :)
 
 (followup: turns out using many instances of this WILL tend to roll off your
 highs, where using the full version won't. This is because the full version's
 doing more processing, but creating a steeper filter. This insight led to
-[UltrasonX][], and later versions of Console)
+[UltrasonX], and later versions of Console)
 
 
 <a name="plugins_ultrasonx"></a>
@@ -14026,25 +14258,25 @@ doing more processing, but creating a steeper filter. This insight led to
 _UltrasonX is a method for rolling your own Console-type systems with total
 control over your ultrasonic filtering._
 
-A little while back, I made a simpler ‘[Ultrasonic][]’ filter, with the
-intention of making a lighter-weight utility that could be used where
-[Ultrasonic][] might go. The idea was, [Ultrasonic][] (which is already
-available) was too heavy: it uses five stages of biquad filtering and I thought
-doing the same thing with just one or two stages would be better.
+A little while back, I made a simpler ‘[Ultrasonic]’ filter, with the intention
+of making a lighter-weight utility that could be used where [Ultrasonic] might
+go. The idea was, [Ultrasonic] (which is already available) was too heavy: it
+uses five stages of biquad filtering and I thought doing the same thing with
+just one or two stages would be better.
 
 Turns out you can do that, but if you stack them up you start losing the
 super-highs. The one or two-stage versions weren’t steep enough: didn’t bring
 out the super highs close enough to the ultrasonic zone. But, the five stage
 version is still just too much processing to put all over the mix. What do?
 
-[UltrasonX][] solves this problem (that maybe nobody but me had :) ).
+[UltrasonX] solves this problem (that maybe nobody but me had :) ).
 
-This is a plugin that does any one of the five stages in [Ultrasonic][], one at
-a time. It’s got settings for A, B, C, D and E stages. Each of these are a
+This is a plugin that does any one of the five stages in [Ultrasonic], one at a
+time. It’s got settings for A, B, C, D and E stages. Each of these are a
 carefully calibrated resonance value, that add up to nice and flat and clear all
  the way up to the supersonic region.
 
-[Console7Cascade][] does something like this, internally, and gets a particular
+[Console7Cascade] does something like this, internally, and gets a particular
 tone because its ‘more resonant A stage filter) is before distortion, and the
 softer unresonant filters that compensate for this are after the distortions.
 
@@ -14055,12 +14287,12 @@ aren’t overly brightening, but you’re feeding a submix buss that is more cru
 
 To do that, construct a Console system, using an earlier Console or
 PurestConsole (the original) and see to it that there are exactly five instances
- of [UltrasonX][] in each signal path. Maybe two on each channel, two on the
+ of [UltrasonX] in each signal path. Maybe two on each channel, two on the
 submix, one on the 2-buss! Or, one on each channel before hitting the
-[PurestConsoleChannel][], one on the 2-buss before the [PurestConsoleBuss][],
-and then three more sprinkled between your 2-buss processing. And any of these
-can be the ‘pre-brightening’ or ‘complementary darkening’ ones, meaning you
-could have the brightness boost after summing for a bit of air in between your
+[PurestConsoleChannel], one on the 2-buss before the [PurestConsoleBuss], and
+then three more sprinkled between your 2-buss processing. And any of these can
+be the ‘pre-brightening’ or ‘complementary darkening’ ones, meaning you could
+have the brightness boost after summing for a bit of air in between your
 instruments, or early on for softening saturation and adding glue.
 
 Or, you could use it anywhere, or on one single channel (that didn’t have
@@ -14076,7 +14308,7 @@ _UnBox is a distortion where only the harmonics that don't alias are allowed to
 distort._
 
 While I’m putting out my library of plugins according to plan, sometimes I need
-to take a detour into new stuff. [UnBox][] is one example.
+to take a detour into new stuff. [UnBox] is one example.
 
 The idea’s as follows: if you distort stuff digitally, it aliases. This can be
 seen as harmonics seemingly bouncing off the highest frequency, and going back
@@ -14096,18 +14328,18 @@ If you DO have that sort of high frequency content, what then? It occurred to me
  I could take the difference between dry and distorted, store it in an averaging
  filter, and average it. This would suppress high frequency content in only the
 distortion artifacts. (I then learned that I needed to average the signal being
-fed to the distortion part, which is [Spiral][] again: it got a little
+fed to the distortion part, which is [Spiral] again: it got a little
 complicated)
 
 And I could even highpass the distortion part… and all this is applying only to
 the distortion part. It’s all handled as a single subtract from the raw signal
 coming in.
 
-What that means is this: [UnBox][] is a distortion that cuts down the level of
-the signal, but ONLY the mids. Depending on how it’s set, it will let through
-more and more of the ‘dry’ highs, unaffected. It’ll also let through a hint of
-bass for definition. Underneath this layer of clarity, the distorted part can be
- made pretty distorted, but it’ll stay free of aliasing even up into the high
+What that means is this: [UnBox] is a distortion that cuts down the level of the
+ signal, but ONLY the mids. Depending on how it’s set, it will let through more
+and more of the ‘dry’ highs, unaffected. It’ll also let through a hint of bass
+for definition. Underneath this layer of clarity, the distorted part can be made
+ pretty distorted, but it’ll stay free of aliasing even up into the high
 frequencies, because those frequencies aren’t actually getting applied to the
 distortion, and the distortion output’s also being smoothed after the fact. So
 you’ve got a texture-thickener, an energy-adder, that retains a very analog
@@ -14122,25 +14354,25 @@ clarity comes from.
 _VariMu is a more organic variation on Pressure (a compressor)_
 
 I’ve got something nice: everybody likes yet another compressor, right? I’ve got
- [ButterComp][], [Swell][], [Logical4][], the one in [CStrip][], [Surge][],
-[SurgeTide][], [Pyewacket][], [Thunder][], and of course [Pressure4][]. All
-those are free (and I’m working on getting them open source as well, but first I
- want to get the actual plugins out).
+ [ButterComp], [Swell], [Logical4], the one in [CStrip], [Surge], [SurgeTide],
+[Pyewacket], [Thunder], and of course [Pressure4]. All those are free (and I’m
+working on getting them open source as well, but first I want to get the actual
+plugins out).
 
 So clearly what we need is YET ANOTHER free compressor as we plainly don’t have
 nearly enough. We must run all the compressors, in a row, until everything is so
  compressed we can’t even stand ourselves! :D
 
 No… there’s a non-joke reason. And that reason is, all those sound very
-different. They won’t all work for everyone: for instance, [Pyewacket][] is all
+different. They won’t all work for everyone: for instance, [Pyewacket] is all
 about retaining the attack transients of things and just stepping on the tails
-of envelopes. [Swell][] is about stomping out those very attack transients until
- they’re all gone. [Surge][] is about very smooth gain shifts that are totally
-transparent and more like an automatic gain control. [SurgeTide][] is the same
-but more so, it’s almost completely unmanageable. [Logical4][] is about acting
-like a hardware stereo 2-buss compressor, and so on.
+of envelopes. [Swell] is about stomping out those very attack transients until
+they’re all gone. [Surge] is about very smooth gain shifts that are totally
+transparent and more like an automatic gain control. [SurgeTide] is the same but
+ more so, it’s almost completely unmanageable. [Logical4] is about acting like a
+ hardware stereo 2-buss compressor, and so on.
 
-[VariMu][] comes from Pressure, originally. What it does differently is trigger
+[VariMu] comes from Pressure, originally. What it does differently is trigger
 using different math: it uses the square of the input signal, not just the
 signal alone, and it also handles brief transients differently. This makes it
 sound very different from Pressure, so if you like Pressure you should try it…
@@ -14152,12 +14384,12 @@ That’s really the essence of all these Airwindows compressors (perhaps more th
 weird ones, and sound very different from each other. So you have to pick which
 ones fit with your type of music… but also, you don’t have to pick, because
 they’re all available to you for experimenting with, and if I come up with
-something weird and non-useful ([SurgeTide][] comes to mind) then thanks to the
+something weird and non-useful ([SurgeTide] comes to mind) then thanks to the
 Patreon I can put it out anyway, without worrying that it would kill the buzz
 and have people wondering if Airwindows has lost it. Even if it’s useful to just
  one person, I can release anything, no matter how weird.
 
-But this time, I don’t think I’ll be making excuses like that. [VariMu][] has a
+But this time, I don’t think I’ll be making excuses like that. [VariMu] has a
 good sound to it. I hope you like it :)
 
 
@@ -14171,23 +14403,23 @@ reverb. At least, best for me. Perhaps it’ll count as ‘best’ in general, w
 shall see, that is rather a matter of taste but it’s my new favorite and is
 inspiring me a lot.
 
-Meet [Verbity][].
+Meet [Verbity].
 
 This came from experiments in feedforward reverb topology, something Casey from
-Bricasti likes to recommend. Well, I can see why! [Verbity][] uses the same
-Householder reverb matrices as the previous [Reverb][] and [MatrixVerb][], but
+Bricasti likes to recommend. Well, I can see why! [Verbity] uses the same
+Householder reverb matrices as the previous [Reverb] and [MatrixVerb], but
 instead of each bank feeding back on itself, each bank feeds another bank and
 only the very last one of three, feeds back to the start again. I’m going to
 call this innovative not because it’s such a novel concept, but because it’s
 innovative to me, as I’d never figured that stuff out before. There are
 interesting things having to do with how you arrange the delay times across the
-three banks, and I’ve got some concepts from [MV][] going for less sustainy
-spaces that should help spatial plausibility, and I’ve made some choices around
-the wetness and filter controls that are a little unusual.
+three banks, and I’ve got some concepts from [MV] going for less sustainy spaces
+ that should help spatial plausibility, and I’ve made some choices around the
+wetness and filter controls that are a little unusual.
 
 Bottom line is, listen to this thing! I’m real happy with the tone of it. I feel
  it sort of kills all my previous reverbs, which is awkward when I named one of
-them ‘[Reverb][]’, but my namespace issues won’t affect your reverb tones. Just
+them ‘[Reverb]’, but my namespace issues won’t affect your reverb tones. Just
 listen! Casey’s a wise man, and was certainly right about the usefulness of
 feedforward networks. I haven’t got any of his code or any other hints from him…
  but all the same, that one detail made a huge difference.
@@ -14202,22 +14434,22 @@ that high anyhow.
 
 The Wetness control is not exactly a traditional Dry/Wet, so I’m using Wetness
 as the name. What it does is, as you increase it you add Wet up to 0.5 setting
-without turning down Dry AT ALL. [Verbity][] can be used on stems and busses in
-a Console mix to put excellent custom reverb spaces on things, and set up this
-way you’re not constantly shifting your dry-signal level when adjusting, you’re
+without turning down Dry AT ALL. [Verbity] can be used on stems and busses in a
+Console mix to put excellent custom reverb spaces on things, and set up this way
+ you’re not constantly shifting your dry-signal level when adjusting, you’re
 just adjusting the verb level in there. If you go beyond 0.5, you start
 attenuating Dry while leaving Wet at full crank, and for sends you’ll want
 Wetness to be 1.0 just as it would be with a Dry/Wet.
 
-This is a dual mono verb, so for now you don’t gain anything adding [Srsly2][]
+This is a dual mono verb, so for now you don’t gain anything adding [Srsly2]
 unless you have actual stereo content going in. Centered stuff is going to stay
 centered. You might not notice right off since it’s so deep, so I’m telling you.
- This is consistent with my other reverbs, except that [MatrixVerb][] and
-[Reverb][] are able to add stereo pitch bending which will spread center
-content. [Verbity][] is your basic Airwindows Bricasti-style reverb, which also
-means it doesn’t have pitch shifting: Casey doesn’t like it, and this is an
-exploration into the things Casey’s talked about publically, to see if his
-wisdom leads to better reverbs.
+ This is consistent with my other reverbs, except that [MatrixVerb] and [Reverb]
+ are able to add stereo pitch bending which will spread center content.
+[Verbity] is your basic Airwindows Bricasti-style reverb, which also means it
+doesn’t have pitch shifting: Casey doesn’t like it, and this is an exploration
+into the things Casey’s talked about publically, to see if his wisdom leads to
+better reverbs.
 
 Signs point to yes :)
 
@@ -14225,52 +14457,51 @@ Signs point to yes :)
 <a name="plugins_verbity2"></a>
 ### Verbity2
 
-_Verbity2 adds stereo crossmodulation and expands [Verbity][]'s feedforward
-reverb topology._
+_Verbity2 adds stereo crossmodulation and expands [Verbity]'s feedforward reverb
+ topology._
 
-Firstly, listen. [Verbity2][] might beat [Galactic][], for you, for deep
-reverbs. There are specific reasons why that might be. Listen and see if
-[Verbity2][] is the best reverb you can have… because you can have it, it's open
- source plugins supported by Patreon. If you can't do without it, you won't have
- to, it's yours. If you would have paid for a reverb this good, throw an
-additional $50 this year onto my Patreon, and we'll see if I can make another
-plugin by the year after that, working on these as my full-time job.
+Firstly, listen. [Verbity2] might beat [Galactic], for you, for deep reverbs.
+There are specific reasons why that might be. Listen and see if [Verbity2] is
+the best reverb you can have… because you can have it, it's open source plugins
+supported by Patreon. If you can't do without it, you won't have to, it's yours.
+ If you would have paid for a reverb this good, throw an additional $50 this
+year onto my Patreon, and we'll see if I can make another plugin by the year
+after that, working on these as my full-time job.
 
-So, how is it different from [Verbity][]? You do still have [Verbity][], after
-all.
+So, how is it different from [Verbity]? You do still have [Verbity], after all.
 
-First, [Verbity2][] is an expansion. These are what's called Householder matrix
-reverbs, with a feedforward topology. [Verbity][], and [Galactic][], and
-[Chamber][], use blocks of reverb elements all of which feed directly into all
-the other elements, in a four-by-four matrix. A Householder matrix that's
-four-by-four lets you do infinite reverb while having all the elements either be
- unity gain, or inverted unity gain, and all my Householder stuff thus far has
-been like this.
+First, [Verbity2] is an expansion. These are what's called Householder matrix
+reverbs, with a feedforward topology. [Verbity], and [Galactic], and [Chamber],
+use blocks of reverb elements all of which feed directly into all the other
+elements, in a four-by-four matrix. A Householder matrix that's four-by-four
+lets you do infinite reverb while having all the elements either be unity gain,
+or inverted unity gain, and all my Householder stuff thus far has been like
+this.
 
 Until now!
 
-[Verbity2][] uses a five-by-five matrix for each stage, and where [Verbity][]
-has three banks of matrices, [Verbity2][] has five banks of matrices. So where
-[Verbity][] uses its twelve echo banks to make four thousand distinct echoes…
-[Verbity2][] uses its twenty-five echo banks to make NINE MILLION distinct
-echoes… before feedback. That's not automatically 'better', but it's different,
-like more than three orders of magnitude different. That's going to affect the
-reverb texture.
+[Verbity2] uses a five-by-five matrix for each stage, and where [Verbity] has
+three banks of matrices, [Verbity2] has five banks of matrices. So where
+[Verbity] uses its twelve echo banks to make four thousand distinct echoes…
+[Verbity2] uses its twenty-five echo banks to make NINE MILLION distinct echoes…
+ before feedback. That's not automatically 'better', but it's different, like
+more than three orders of magnitude different. That's going to affect the reverb
+ texture.
 
-About that feedback… there's a change. So, [Galactic][] is stereo: it applies a
+About that feedback… there's a change. So, [Galactic] is stereo: it applies a
 subtle offset vibrato to both sides on input making mono things stereo (come to
 think of it, would anybody like this as standalone?) and then it feeds back in a
  ping-pong fashion for maximum width from any source. All left reverb has to go
 through the entire right reverb in order to reach the left again.
 
-[Verbity][] is the opposite: dual mono. It was designed from the start to be an
+[Verbity] is the opposite: dual mono. It was designed from the start to be an
 ambience-maker, filling out space around individual elements wherever they are
 in the stereo field. People used to buy dual hardware reverbs specifically to do
  this in mixes: it's a secret mix trick, putting the verb only where it's
-needed. That's what [Verbity][] does. And if you use NO feedback at all,
-[Verbity2][] will still do this.
+needed. That's what [Verbity] does. And if you use NO feedback at all,
+[Verbity2] will still do this.
 
-But if you extend the reverb tail in [Verbity2][], it's a hybrid. For each
+But if you extend the reverb tail in [Verbity2], it's a hybrid. For each
 channel, two out of three of the output echo banks will stay put, and three will
  cross over. Half stereo spread, half keeping stuff where it is. For very long
 reverb tails this will always end up as a totally stereo wash. For really short
@@ -14281,12 +14512,12 @@ to experimenting with this for future designs :)
 
 There are also adjustments to tone control: the Darkness control is replaced
 with a control for Mulch. This is meant to be a kind of naturalness factor:
-[Verbity][], like [Galactic][], tends to hang on to thunderous bass, as if it
+[Verbity], like [Galactic], tends to hang on to thunderous bass, as if it
 expands into huge caverns. Mulch means the sound can darken, but it can also
 absorb some of the extreme lows, mimicking a physical room made out of wood and
 plaster, not stone or concrete. I should be able to expand on this a lot.
 
-So [Verbity2][] is a new level of reverb realism from me. Looking forward to
+So [Verbity2] is a new level of reverb realism from me. Looking forward to
 further developments of this!
 
 
@@ -14295,8 +14526,8 @@ further developments of this!
 
 _Vibrato lets you vibrato, chorus, flange, and make odd FM noises._
 
-The heart of [Vibrato][] is the Airwindows moving-delay-tap interpolation code
-also found in [Chorus][] and Flanger, but here there’s some extra functionality
+The heart of [Vibrato] is the Airwindows moving-delay-tap interpolation code
+also found in [Chorus] and Flanger, but here there’s some extra functionality
 plus ways to partially simulate those other plugins: while you can make the
 full-wet sound do a nice vibrato (automate to taste), there are other fun things
  to do. You can use the dry/wet to get a chorusing effect, or with less depth, a
@@ -14313,13 +14544,13 @@ at low speeds to provide an interesting modulation to the main vibrato, flange
 or chorus, or crank it up to produce distinctive overtones. And again, automate
 it to do even more interesting things.
 
-[Vibrato][] is a nice little utility plugin, and I think it deserves a place as
-a go-to ‘time modulation’ plugin for people who have a solid understanding of
-how these effects work. It’s not hugely complex, or specialized, and it’s just
-complicated enough to be sophisticated. Want a lush chorus? [Vibrato][]. Warbly
-effect? [Vibrato][]. Thin things out in a way that sounds airy and interesting?
-[Vibrato][], inverse-zone, near 0.5 for maximum effect. Funny overtones and
-resonances? [Vibrato][], full-wet, up in the audio range. Even more metallic?
+[Vibrato] is a nice little utility plugin, and I think it deserves a place as a
+go-to ‘time modulation’ plugin for people who have a solid understanding of how
+these effects work. It’s not hugely complex, or specialized, and it’s just
+complicated enough to be sophisticated. Want a lush chorus? [Vibrato]. Warbly
+effect? [Vibrato]. Thin things out in a way that sounds airy and interesting?
+[Vibrato], inverse-zone, near 0.5 for maximum effect. Funny overtones and
+resonances? [Vibrato], full-wet, up in the audio range. Even more metallic?
 Bring in some FM.
 
 
@@ -14353,41 +14584,40 @@ to use a really intense noise shaper, not just dither noise. Then, you’d have 
 accuracy. And lastly, you’d pay the same price: it’d drive the error of the
 system into the highs and do a lot of unpredictable, ugly things there.
 
-Meet [VinylDither][]! It’s the extension of an old dither I had called Ten
-Nines, which does exactly this. With Ten Nines I was able to get a noise floor
-under -200db on 16 bit audio (if I remember correctly)… but only at frequencies
-ten hertz and below! It also spit out loudish crackling noises at high
-frequencies. The experiment worked, but not everybody loved it.
+Meet [VinylDither]! It’s the extension of an old dither I had called Ten Nines,
+which does exactly this. With Ten Nines I was able to get a noise floor under
+-200db on 16 bit audio (if I remember correctly)… but only at frequencies ten
+hertz and below! It also spit out loudish crackling noises at high frequencies.
+The experiment worked, but not everybody loved it.
 
 However, if you weren’t paying close attention, the noise behavior was kind of
 like record surface noise, and that gave me ideas.
 
-[VinylDither][] is the result of pursuing those ideas. It’s a dither/noise
-shaper which completely removes the ‘steady white noise’ noise floor of normal
-dithered digital, and replaces it with a more crackly, surface-noise kind of
-sound. That’s produced from storing up error energy that would mess up your
-midrange and bass, and releasing it in bursts and sparks. [VinylDither][] is the
- first of three dithers I’m releasing that are professional quality, boutique
-dithers and sonically better than TPDF. If it’s really important to you for your
- noise floor to be featureless and sound like white noise down there, you won’t
-want this. However, if you’re an analogophile and like vinyl records, you’ll
-instantly recognize the ‘vibe’ of this one. It does an incredibly good job at
-giving ‘vinyl’ clues down at the threshold of hearing but this is not a ‘sound
-effect’ being added, it’s the natural digital error being rearranged to get that
- effect.
+[VinylDither] is the result of pursuing those ideas. It’s a dither/noise shaper
+which completely removes the ‘steady white noise’ noise floor of normal dithered
+ digital, and replaces it with a more crackly, surface-noise kind of sound.
+That’s produced from storing up error energy that would mess up your midrange
+and bass, and releasing it in bursts and sparks. [VinylDither] is the first of
+three dithers I’m releasing that are professional quality, boutique dithers and
+sonically better than TPDF. If it’s really important to you for your noise floor
+ to be featureless and sound like white noise down there, you won’t want this.
+However, if you’re an analogophile and like vinyl records, you’ll instantly
+recognize the ‘vibe’ of this one. It does an incredibly good job at giving
+‘vinyl’ clues down at the threshold of hearing but this is not a ‘sound effect’
+being added, it’s the natural digital error being rearranged to get that effect.
 
 So, if you want ‘vinyl’ effects added to your mix so it sounds like a retro
 vinyl record coming off the computer, this is the single subtlest way you can do
  that, plus you could combine it with other things (like the Audio Unit
-‘ToVinyl’ which does elliptical [EQ][] and has an amazing groove wear emulation
+‘ToVinyl’ which does elliptical [EQ] and has an amazing groove wear emulation
 built in) and get a completely different vibe. Wrecking your sounds with heavy
 overprocessing isn’t necessary! You can just pick specific things to give a more
- subtle vinyl feel, and [VinylDither][] is the perfect dither choice for it.
-Yes, it’s got more depth and warmth and vibe than plain old TPDF (or
-truncation), but I think the interesting part is examining the faults of
-[VinylDither][] (crackling noises, not smooth noise) and understanding how they
-can be turned into advantages (crackling noises OK, do not correct! As it says
-on my vinyl copy of Live At Leeds cooge )
+ subtle vinyl feel, and [VinylDither] is the perfect dither choice for it. Yes,
+it’s got more depth and warmth and vibe than plain old TPDF (or truncation), but
+ I think the interesting part is examining the faults of [VinylDither]
+(crackling noises, not smooth noise) and understanding how they can be turned
+into advantages (crackling noises OK, do not correct! As it says on my vinyl
+copy of Live At Leeds cooge )
 
 
 <a name="plugins_voiceofthestarship"></a>
@@ -14395,7 +14625,7 @@ on my vinyl copy of Live At Leeds cooge )
 
 _VoiceOfTheStarship is a deep noise tone source._
 
-This is the core of [Noise][], in maybe a more approachable form. The algorithm
+This is the core of [Noise], in maybe a more approachable form. The algorithm
 works like this: you do a random noise wander, where the audio output drifts
 around randomly with random amounts being added and subtracted from it. This is
 known as a random walk, and even if the amounts are equally positive and
@@ -14434,7 +14664,7 @@ No, really, that’s actually the idea. I have to explain the trick or the plugi
 will make no sense at all, but if you know what to do you can record vocals with
  monitor speakers or open-ear headphones and get great results. Here we go.
 
-[VoiceTrick][] isn’t meant to be heard by end listeners and doesn’t do anything
+[VoiceTrick] isn’t meant to be heard by end listeners and doesn’t do anything
 useful for the sound. Instead, it exploits some quirks of microphones and the
 human ear to make it so you can put up a mic, blast your backing tracks, and
 record (mostly) just the vocals and not so much the backing tracks coming out of
@@ -14451,14 +14681,14 @@ mirror image, pointed away from the speakers and towards the vocalist. The
 closer you can get to a perfect mirror image the better your results will be: if
  the bounce off the back wall is still a perfect mirror image, that’ll cancel
 too. Eventually you’ll get into a room reverb off the speakers, but that’s
-probably OK, and if you need that room reverb to be darker, that’s what the
-[EQ][] is for. It’s the lowpass from Airwindows [Capacitor][]. You’ll have NO
-vocal in the monitors at all, it’s all acoustic volume from the singer. If you
-take some time and effort to set up the perfect cancellation (Peter Gabriel
-would take days to do this) you might want to use a heavy sturdy stand that
-really locks the mic in one position. If you’ve got that perfect, you can sing
-into the mic and crank it WAY up in the mix without issues, or compress it. If
-the mic is off-center, you’ll hear a flangey hint of the backing tracks.
+probably OK, and if you need that room reverb to be darker, that’s what the [EQ]
+ is for. It’s the lowpass from Airwindows [Capacitor]. You’ll have NO vocal in
+the monitors at all, it’s all acoustic volume from the singer. If you take some
+time and effort to set up the perfect cancellation (Peter Gabriel would take
+days to do this) you might want to use a heavy sturdy stand that really locks
+the mic in one position. If you’ve got that perfect, you can sing into the mic
+and crank it WAY up in the mix without issues, or compress it. If the mic is
+off-center, you’ll hear a flangey hint of the backing tracks.
 
 Another thing you can do is use open-ear headphones the same way. With those,
 it’s even more likely that the earpieces will move relative to the mic (which
@@ -14469,15 +14699,15 @@ the sound field in stereo and the mic can only hear what’s exactly at its poin
 of sound collection. If the earpieces move, they won’t be as loud as speakers
 but they’re much closer to the microphone. On the other hand, they’re closer to
 each other, so they’ll always cancel a lot of bass and low midrange no matter
-how off-axis they get. If the flangey stuff is bothersome, use the [EQ][] to
-roll off the extreme highs until you can live with the results. Pretty simple.
+how off-axis they get. If the flangey stuff is bothersome, use the [EQ] to roll
+off the extreme highs until you can live with the results. Pretty simple.
 
 This is all the more important in the age of DAWs, because if you’re monitoring
 through a DAW (especially if you’re tracking through plugins or into a big dense
  mix) you might be dealing with a lot of latency. Latency in vocal monitoring
 can completely obliterate your ability to sing or even talk, and the better a
-singer or performer you are, the worse it will hurt you. [VoiceTrick][] lets you
- go back to a capella, where there’s no latency or even headphones to interfere
+singer or performer you are, the worse it will hurt you. [VoiceTrick] lets you
+go back to a capella, where there’s no latency or even headphones to interfere
 with your performance.
 
 This One Weird (Voice)Trick is free. It’s real simple, it’s a convenience
@@ -14489,55 +14719,54 @@ virality. In the complete absence of internet virality, I’m happy to say I’m
 still here and able to give you the proverbial One Weird Trick for vocal
 tracking. Hope it makes your life better. :)
 
-[VoiceTrick][] is in current versions of [Monitoring][] as one of the monitoring
- options.
+[VoiceTrick] is in current versions of [Monitoring] as one of the monitoring
+options.
 
 
 <a name="plugins_weight"></a>
 ### Weight
 
-_Weight is a very accurate sub-bass boost based on [Holt][]._
+_Weight is a very accurate sub-bass boost based on [Holt]._
 
-[Weight][] is a plugin I made for me. Especially when I record live drums to
+[Weight] is a plugin I made for me. Especially when I record live drums to
 simple stereo mics, or a DI bass, or indeed a guitar through an iso cab, I'll
 often want a little extra deep sub-bass. There's plenty of EQs I could reach
 for, to do that.
 
-Recently I worked on [Holt2][], which [Weight][] is based on, and I found it had
- an ability to bring up a really vivid, resonant bass boost. It's a somewhat
-nonlinear algorithm, and with [Holt2][] I added a bunch of stages, more poles of
- filtering, with controls for how much resonance you wanted to get to.
+Recently I worked on [Holt2], which [Weight] is based on, and I found it had an
+ability to bring up a really vivid, resonant bass boost. It's a somewhat
+nonlinear algorithm, and with [Holt2] I added a bunch of stages, more poles of
+filtering, with controls for how much resonance you wanted to get to.
 
-[Weight][] just focuses on the 'very resonant' zone. I tuned it using Voxengo
-SPAN (as there's no specific formula for tuning this to any particular
-frequency, I had to discover what produced the right tunings) and set it up to
-gently go from pretty resonant, to very resonant at full crank. [Weight][] can
-be tuned from 20 hz to 120 hz, which should cover a good range of sub-bass. The
-boost is to be applied by ear, and in many situations will be a change in
-character, not a big jump in overall bass level. The [Weight][] control goes
-from 0 to 1, and unlike [Holt][] it's not a dry/wet: it's added to what is
-otherwise a totally untouched signal, dry to dry-plus.
+[Weight] just focuses on the 'very resonant' zone. I tuned it using Voxengo SPAN
+ (as there's no specific formula for tuning this to any particular frequency, I
+had to discover what produced the right tunings) and set it up to gently go from
+ pretty resonant, to very resonant at full crank. [Weight] can be tuned from 20
+hz to 120 hz, which should cover a good range of sub-bass. The boost is to be
+applied by ear, and in many situations will be a change in character, not a big
+jump in overall bass level. The [Weight] control goes from 0 to 1, and unlike
+[Holt] it's not a dry/wet: it's added to what is otherwise a totally untouched
+signal, dry to dry-plus.
 
 To use this, you should have extremely good subwoofers. I'm not convinced even
 the best headphones can really represent what this does. The Q of the filtering
 (zero latency, nonlinear, unusual) comes out so sharp that you can really hunt
-down finely grained distinctions of bass frequencies. My [Monitoring][] plugins
-set to 'Subs' or the plugin [SubsOnly][], can help, by focusing in on the subs
-in a way that overdrives them and brings the harmonics up into the audible
-range. But you have to be able to hear what's being done because it's very
-specific.
+down finely grained distinctions of bass frequencies. My [Monitoring] plugins
+set to 'Subs' or the plugin [SubsOnly], can help, by focusing in on the subs in
+a way that overdrives them and brings the harmonics up into the audible range.
+But you have to be able to hear what's being done because it's very specific.
 
 The concept here is sub-bass boosting in 'areas of power' rather than just
 'areas of preponderant energy' (thanks to 'Slipperman' for these concepts). To
-work with [Weight][], you will end up finding distinct frequencies for each
+work with [Weight], you will end up finding distinct frequencies for each
 instrument, in order to bring up subsonic weight in places where it is NOT
 already obvious. You'll not want to reinforce muddy deep stuff that's already
-there, [Weight][] is for being able to focus in on spots where the muscle is,
-not just the rumble.
+there, [Weight] is for being able to focus in on spots where the muscle is, not
+just the rumble.
 
 It's a specialty tool, though variations on it are very likely to appear in
 other things, perhaps alongside a much broader, more easy to hear bass control.
-You can have [Weight][] now: hope you like it :)
+You can have [Weight] now: hope you like it :)
 
 
 <a name="plugins_wider"></a>
@@ -14550,22 +14779,22 @@ AU, you won’t see it available on mono tracks): it’s a stereo space adjuster
 
 It works like this: you’ve got mid and side channels, but taken up several
 notches. Instead of being adjusted by level controls, the sliders use the
-[Density][] algorithm. That means if you’re boosting, they get fattened up, and
-if you cut, they retain some of the edge and definition. This technique from
-[Density][] has a way of moving audio’s position in space: boost comes forward,
+[Density] algorithm. That means if you’re boosting, they get fattened up, and if
+ you cut, they retain some of the edge and definition. This technique from
+[Density] has a way of moving audio’s position in space: boost comes forward,
 and cut moves backward. It turns out that’s perfect for manipulating the shape
 of a stereo space.
 
-But that’s not all: as a final space-manipulating technique, [Wider][] applies
-an itty-bitty time delay and interpolation (it can be as small as sub-sample) to
- whichever is the least forward, mid or side. That causes a delicate roll-off
-and sits the relevant part just a tiny bit back, spatially… and then the audio’s
- recombined into stereo again. It’s a bold thing to try, but it’s done very
+But that’s not all: as a final space-manipulating technique, [Wider] applies an
+itty-bitty time delay and interpolation (it can be as small as sub-sample) to
+whichever is the least forward, mid or side. That causes a delicate roll-off and
+ sits the relevant part just a tiny bit back, spatially… and then the audio’s
+recombined into stereo again. It’s a bold thing to try, but it’s done very
 subtly so you wouldn’t know it was happening except I’ve just told you, so my
 secret is out :)
 
-The result is this: you can kinda-sorta use [Wider][] to produce extreme stereo
-effects (look for [StereoFX][], coming soon, as a better way to get aggressive
+The result is this: you can kinda-sorta use [Wider] to produce extreme stereo
+effects (look for [StereoFX], coming soon, as a better way to get aggressive
 with space) but it really comes into its own when used to redesign stereo
 soundfields. With tiny, small adjustments, you can get hugely effective results
 that sound totally natural. This is the mastering-grade one, where you can
@@ -14577,7 +14806,7 @@ corrections, will make this a go-to plugin for real stereo work.
 <a name="plugins_xbandpass"></a>
 ### XBandpass
 
-_XBandpass is a distorted digital [EQ][], inspired by retro sampler DSP._
+_XBandpass is a distorted digital [EQ], inspired by retro sampler DSP._
 
 Hi! This is the bandpass version of the X series Airwindows filters. If you know
  what a bandpass is you can probably figure out what’s going on here. More
@@ -14590,7 +14819,7 @@ they are more CPU-efficient: it's a tradeoff.
 <a name="plugins_xhighpass"></a>
 ### XHighpass
 
-_XHighpass is a distorted digital [EQ][], inspired by retro sampler DSP._
+_XHighpass is a distorted digital [EQ], inspired by retro sampler DSP._
 
 Continuing the weird filter pursuits while I work on the M1 compiled VSTs! This
 is another distorted filter, except that if you distort the insides of a biquad
@@ -14609,12 +14838,12 @@ literally a zapper :)
 <a name="plugins_xlowpass"></a>
 ### XLowpass
 
-_XLowpass is a distorted digital [EQ][], inspired by retro sampler DSP._
+_XLowpass is a distorted digital [EQ], inspired by retro sampler DSP._
 
 Welcome to the Airwindows journey into vintage sampler land! This might prove to
  be a long journey, but every journey starts with a first step.
 
-Maybe the first step was [Mackity][] and [MackEQ][]: hardware mixer emulations.
+Maybe the first step was [Mackity] and [MackEQ]: hardware mixer emulations.
 (that’s not necessarily done, either: it’s the 1202, beloved to French House
 music, that I did, but the DnB-hounds liked the 8-buss.) But the follow-up is
 just the sort of thing I might want to look into: certain of the E-mu Z-plane
@@ -14625,27 +14854,27 @@ nobody’s that interested in exploring that, because these are not analog filte
 
 And we know some stuff about them, because the information is out there… but a
 lot of devs don’t think of them as interesting. They’re biquads, with hard
-clipping inside the [EQ][] code, and implemented in certain ways for efficiency:
- and if you can have properly made stock DAW filters, why would you want
+clipping inside the [EQ] code, and implemented in certain ways for efficiency:
+and if you can have properly made stock DAW filters, why would you want
 lower-bit calculation or clipping or stuff like that?
 
-[XLowpass][]… is NOT the end destination. There will be more like it but the X
+[XLowpass]… is NOT the end destination. There will be more like it but the X
 series of Airwindows filters (handy to look up in the plugin list) are NOT the
 carefully tailored E-mu emulation (or at least tone-alike, to the best of my
-ability?) [XLowpass][] is getting familiar with the CONCEPT, an internally
+ability?) [XLowpass] is getting familiar with the CONCEPT, an internally
 distorted multi-stage biquad and how I can manipulate it to get sounds out of
 it. It’s not meant to itself sound like an E-mu e6400 (that being the sampler I
 have, so far), but it’s a plugin that can dial in a whole range of the craziness
  people had to go to a lot of trouble to do in the real sampler (internal
-distorting and so on). And you can run it into [Mackity][] and see whether
-you’re within striking distance of some of the more gnarly DnB tones that
-belonged to the 90s, seemingly lost to time.
+distorting and so on). And you can run it into [Mackity] and see whether you’re
+within striking distance of some of the more gnarly DnB tones that belonged to
+the 90s, seemingly lost to time.
 
 And when the Y series comes out, things will be even more off the hook, because
 Y stands for “WHY would you DO that?!?” and it means I do the same thing, except
  with wavefolding on the internal distortion. So those should get GNARLY.
 
-And then when I get to work on the eventual [ZLowpass][] etc, and stack them up
+And then when I get to work on the eventual [ZLowpass] etc, and stack them up
 against real Z-plane hardware (note, however, I will not be cloning the
 algorithms, I am just going to try and get the tone the same), then I’ll have
 some practice under my belt.
@@ -14654,7 +14883,7 @@ some practice under my belt.
 <a name="plugins_xnotch"></a>
 ### XNotch
 
-_XNotch is a distorted digital [EQ][], not as glitchy as the others._
+_XNotch is a distorted digital [EQ], not as glitchy as the others._
 
 This is a little different from some of the X series filters. I was asked
 whether I could do a notch filter like the other stuff I’d been doing: all these
@@ -14662,11 +14891,11 @@ whether I could do a notch filter like the other stuff I’d been doing: all the
 
 This is not quite like that.
 
-[XNotch][] is the same topology: biquad filters, with distortion stages in
-there. But instead of distorting inside the filter for crazy behavior and weird
-noises, this one distorts BETWEEN stages of filtering and that makes it act much
- more normal. So… why would I include it in the weird-zone with stuff like
-[XHighpass][]?
+[XNotch] is the same topology: biquad filters, with distortion stages in there.
+But instead of distorting inside the filter for crazy behavior and weird noises,
+ this one distorts BETWEEN stages of filtering and that makes it act much more
+normal. So… why would I include it in the weird-zone with stuff like
+[XHighpass]?
 
 Because the combination of those things and the dry/wet control makes it
 INCREDIBLY useful.
@@ -14689,8 +14918,8 @@ became easy to just dial this stuff in, with very few controls, and no fuss.
 
 It doesn’t do crazy things (unless you count allowing for heavy distortion) but
 the thing it does, is a thing I’ve been needing. I think it might replace
-[Console7Cascade][] for some of my drum tracks, just because it can saturate and
- also notch, which will give me a way broader spectrum of available, useful
+[Console7Cascade] for some of my drum tracks, just because it can saturate and
+also notch, which will give me a way broader spectrum of available, useful
 tones.
 
 And now you’ve got that, too :)
@@ -14701,11 +14930,10 @@ And now you’ve got that, too :)
 
 _XRegion is distorted staggered bandpasses, for extreme soundmangling._
 
-[XNotch][] too normal for you? HERE YA GO :D
+[XNotch] too normal for you? HERE YA GO :D
 
-[XRegion][] is made out of bandpasses, like [XBandpass][], and if you keep the
-First and Last controls set the same it does act like an increasingly manic
-bandpass.
+[XRegion] is made out of bandpasses, like [XBandpass], and if you keep the First
+ and Last controls set the same it does act like an increasingly manic bandpass.
 
 But, if they’re set differently and the Nuke control is up (engaging more poles
 of filtering) here’s what happens: first we go into the First bandpass,
@@ -14729,14 +14957,14 @@ something, and carefully control the gain and ‘Nuke’ (less of that means les
 bandpasses, and it won’t go all the way towards ‘Last’ anymore). But you can
 also just go nuts with it for some filter-sweepy, very distorted effects that
 won’t be like anything you’ve heard. I suspect the ‘nice’ uses of this will be
-much more limited, though in theory it should be as good at those as
-[XBandpass][] is (to get a nice smooth distort, don’t spread First and Last too
-wide, or set them too high or too low, and balance the result with Dry/Wet)
+much more limited, though in theory it should be as good at those as [XBandpass]
+ is (to get a nice smooth distort, don’t spread First and Last too wide, or set
+them too high or too low, and balance the result with Dry/Wet)
 
 There are a lot of people who won’t need this… at ALL. For those who do… hope
 you like it :)
 
-As an aside, [XRegion][] can do a really killer overdriven bass amp kind of a
+As an aside, [XRegion] can do a really killer overdriven bass amp kind of a
 tone.
 
 
@@ -14745,9 +14973,9 @@ tone.
 
 _YBandpass is soft and smooth to nasty, edgy texture-varying filtering._
 
-[YBandpass][] has various uses. One I was trying out in the video, was setting
-it up as a ‘walkie-talkie’ sort of tone on my voice, and then turning up ResEdge
- to really trash the hell out of the audio in a characteristic way that’s not
+[YBandpass] has various uses. One I was trying out in the video, was setting it
+up as a ‘walkie-talkie’ sort of tone on my voice, and then turning up ResEdge to
+ really trash the hell out of the audio in a characteristic way that’s not
 easily found anywhere else. In some ways I think bandpassing is the ideal way to
  use ResEdge (but we’ll see: haven’t tried it on a Notch filter yet)
 
@@ -14769,17 +14997,17 @@ traditional biquad, while still not quite being one)
 _YNotBandpass is soft and smooth to nasty, edgy texture-varying filtering, no
 control smoothing._
 
-[YNotBandpass][] has various uses. One I was trying out in the original video,
-was setting it up as a ‘walkie-talkie’ sort of tone on my voice, and then
-turning up ResEdge to really trash the hell out of the audio in a characteristic
- way that’s not easily found anywhere else.
+[YNotBandpass] has various uses. One I was trying out in the original video, was
+ setting it up as a ‘walkie-talkie’ sort of tone on my voice, and then turning
+up ResEdge to really trash the hell out of the audio in a characteristic way
+that’s not easily found anywhere else.
 
-In the video for [YNotBandpass][], the version without control smoothing, I
-demoed it on a bunch of huge reverb, alternating between a Bricasti Cathedral
-and my version of that same sound… and the more rapid switching between Freq
-settings turns out to sound pretty nice! Except when the ResEdge control is used
- to give a mean, electrical, circuit-bendy quality that still retains a lot of
-the depth of the underlying sound.
+In the video for [YNotBandpass], the version without control smoothing, I demoed
+ it on a bunch of huge reverb, alternating between a Bricasti Cathedral and my
+version of that same sound… and the more rapid switching between Freq settings
+turns out to sound pretty nice! Except when the ResEdge control is used to give
+a mean, electrical, circuit-bendy quality that still retains a lot of the depth
+of the underlying sound.
 
 
 <a name="plugins_yhighpass"></a>
@@ -14787,12 +15015,12 @@ the depth of the underlying sound.
 
 _YHighpass is soft and smooth to nasty, edgy texture-varying filtering._
 
-See [YLowpass][], except it’s a highpass :) but there are several ‘one more
+See [YLowpass], except it’s a highpass :) but there are several ‘one more
 things’, most notably an upgrade to what I’ve been using for denormalization. I
-ran into issues with [YLowpass][] munching too much CPU. The fixes I came up
-with, worked so well, that I’ve applied them to Console7, [Console7Cascade][],
-[Chamber][], [Galactic][], and several plugins that haven’t come out yet :) As a
- result, my previous video using [YLowpass][] crept up to 70% CPU at times, and
+ran into issues with [YLowpass] munching too much CPU. The fixes I came up with,
+ worked so well, that I’ve applied them to Console7, [Console7Cascade],
+[Chamber], [Galactic], and several plugins that haven’t come out yet :) As a
+result, my previous video using [YLowpass] crept up to 70% CPU at times, and
 this video using the exact same setup and plugins idles around 35%. I call that
 a good day (OK, week) of work.
 
@@ -14803,19 +15031,19 @@ a good day (OK, week) of work.
 _YNotHighpass is soft and smooth to nasty, edgy texture-varying filtering, no
 control smoothing._
 
-See [YNotLowpass][], except it’s a highpass :) interestingly, the original
-[YHighpass][] saw some significant improvements in CPU usage. Turns out that
-going to YNot mode, with no control smoothing, boosts performance even more.
+See [YNotLowpass], except it’s a highpass :) interestingly, the original
+[YHighpass] saw some significant improvements in CPU usage. Turns out that going
+ to YNot mode, with no control smoothing, boosts performance even more.
 
-You can use [YNotHighpass][] (or the control-smoothed version, [YHighpass][]) to
- do a really unnatural, abrasive sweep up into the supersonic. It's not just
-about increasing resonance: the ResEdge does an unusual, nasty thing to the
-tone, and used as a highpass it's a really distinctive sound. I don't think it
-would work as a consistent part of anybody's tone for anything, but for that
-very reason it might be great as an unexpected move :)
+You can use [YNotHighpass] (or the control-smoothed version, [YHighpass]) to do
+a really unnatural, abrasive sweep up into the supersonic. It's not just about
+increasing resonance: the ResEdge does an unusual, nasty thing to the tone, and
+used as a highpass it's a really distinctive sound. I don't think it would work
+as a consistent part of anybody's tone for anything, but for that very reason it
+ might be great as an unexpected move :)
 
-Hope you like [YNotHighpass][], and I'm working on a whole bunch of more
-generally useful things that take longer to develop.
+Hope you like [YNotHighpass], and I'm working on a whole bunch of more generally
+ useful things that take longer to develop.
 
 
 <a name="plugins_ylowpass"></a>
@@ -14824,23 +15052,23 @@ generally useful things that take longer to develop.
 _YLowpass is soft and smooth to nasty, edgy texture-varying filtering._
 
 Introducing the Y filters! Where the X filters were eXperimental and the Z
-filters are emulations meant to sound like hardware, [YLowpass][] is further
+filters are emulations meant to sound like hardware, [YLowpass] is further
 researches before going back into the Z filters for refinements. I’m using these
- to perfect the designs, and [YLowpass][] is an important step in doing that.
+ to perfect the designs, and [YLowpass] is an important step in doing that.
 
 It’s got interpolated coefficients on everything, reducing zipper noise. And
-double ultrasonic filtering. But it’s got a lot more than that: [YLowpass][]
+double ultrasonic filtering. But it’s got a lot more than that: [YLowpass]
 introduces a new way to internally distort filters, and a new control… Resonant
-[Edge][]! The ‘normal’ position for this is around 0.1 on the control. If you
-make it less, you get a slightly asymmetrical distortion that lets you get
-really warm analog filter sounds, even when they’re resonant. I stacked a couple
- of these up in the video to get Alpha Juno saturated filter sounds, that being
-one of my favorite analog synths, and I demonstrate it directly against the real
- authentic Alpha Juno run into the computer using API pres for input gain, an
-unmistakably analog tone. [YLowpass][] holds up pretty well under that scrutiny.
- And then, I bring in a drum breakbeat, and start showing off how crazy
-[YLowpass][] can get. The Resonant [Edge][] lets you go to very aggressive,
-glitchy sounds that are a lot more like circuit bending than bit-banging.
+[Edge]! The ‘normal’ position for this is around 0.1 on the control. If you make
+ it less, you get a slightly asymmetrical distortion that lets you get really
+warm analog filter sounds, even when they’re resonant. I stacked a couple of
+these up in the video to get Alpha Juno saturated filter sounds, that being one
+of my favorite analog synths, and I demonstrate it directly against the real
+authentic Alpha Juno run into the computer using API pres for input gain, an
+unmistakably analog tone. [YLowpass] holds up pretty well under that scrutiny.
+And then, I bring in a drum breakbeat, and start showing off how crazy
+[YLowpass] can get. The Resonant [Edge] lets you go to very aggressive, glitchy
+sounds that are a lot more like circuit bending than bit-banging.
 
 I’ll be doing further Y series, and as I go I’ll be trying to refine the set
 every step of the way. For instance, in Bespoke I was getting some CPU issues
@@ -14856,22 +15084,22 @@ general thing: experimentation will tell me the answers.
 _YNotLowpass is soft and smooth to nasty, edgy texture-varying filtering, no
 control smoothing._
 
-[YNotLowpass][] introduces a new way to internally distort filters, and a new
-control… Resonant [Edge][]! The ‘normal’ position for this is around 0.1 on the
+[YNotLowpass] introduces a new way to internally distort filters, and a new
+control… Resonant [Edge]! The ‘normal’ position for this is around 0.1 on the
 control. If you make it less, you get a slightly asymmetrical distortion that
 lets you get really warm analog filter sounds, even when they’re resonant. If
-you crank it up, the Resonant [Edge][] lets you go to very aggressive, glitchy
+you crank it up, the Resonant [Edge] lets you go to very aggressive, glitchy
 sounds that are a lot more like circuit bending than bit-banging.
 
-This is the alternate version of [YLowpass][], except without control smoothing.
- That means it'll be slightly less CPU-hungry, and might be preferable for
+This is the alternate version of [YLowpass], except without control smoothing.
+That means it'll be slightly less CPU-hungry, and might be preferable for
 situations like use in VCV Rack at very small buffer sizes. These are also
 buying me some time to work on the upcoming ConsoleMC, which is beginning to
 take shape… and on a new update for ToTape, for which I've got an idea for a
-bias control. So, use [YNotLowpass][] if you'd like slightly more CPU
-efficiency, if you run tiny buffers, if you are using it as a fixed filter
-sound, or if you want that 'neuro' glitchy zipper-noise sound, at which it'll be
- really good since it already has an aggressively unnatural filter tone :)
+bias control. So, use [YNotLowpass] if you'd like slightly more CPU efficiency,
+if you run tiny buffers, if you are using it as a fixed filter sound, or if you
+want that 'neuro' glitchy zipper-noise sound, at which it'll be really good
+since it already has an aggressively unnatural filter tone :)
 
 
 <a name="plugins_ynotch"></a>
@@ -14882,12 +15110,12 @@ _YNotch is soft and smooth to nasty, edgy texture-varying filtering._
 Let’s get through the December doldrums with a new plugin and some new sounds…
 because Y Not? (-ch)
 
-[YNotch][] is the final incarnation of the Y series plugins, done to give me
-more experience with smoothing plugin controls. It’s got a smoothed biquad
-filter with more than a little extra: the Y filters all have a ResEdge control.
-This defaults to 0.1 (like the gain control) but it can be lowered to 0 for a
-softer, somewhat more organic tone… or, turned up and up and up until the filter
- begins to distort and act weird in very unusual ways.
+[YNotch] is the final incarnation of the Y series plugins, done to give me more
+experience with smoothing plugin controls. It’s got a smoothed biquad filter
+with more than a little extra: the Y filters all have a ResEdge control. This
+defaults to 0.1 (like the gain control) but it can be lowered to 0 for a softer,
+ somewhat more organic tone… or, turned up and up and up until the filter begins
+ to distort and act weird in very unusual ways.
 
 This is NOT like a sampler model. It’s a whole other algorithm, putting weird
 edges on the way the filter resonates when the Resonance is turned up. You can
@@ -14900,7 +15128,7 @@ very first hints of the Resonance control to dial in an extreme low or high cut.
 And then either soften or sharpen the hell out of the edge, to get tones that
 don’t really exist anywhere else. Demoed with a Moog Sub Phatty using a M32 as a
  spare oscillator with a different portamento speed, filter wide open so the
-[YNotch][] can do all the filtering and produce a mad hybrid bass grind sound.
+[YNotch] can do all the filtering and produce a mad hybrid bass grind sound.
 
 
 <a name="plugins_ynotnotch"></a>
@@ -14909,7 +15137,7 @@ don’t really exist anywhere else. Demoed with a Moog Sub Phatty using a M32 as
 _YNotNotch is soft and smooth to nasty, edgy texture-varying filtering, no
 control smoothing._
 
-[YNotNotch][] is the final incarnation of the Y series plugins, done to give me
+[YNotNotch] is the final incarnation of the Y series plugins, done to give me
 more experience with smoothing plugin controls. It’s got a biquad filter with
 more than a little extra: the Y filters all have a ResEdge control. This
 defaults to 0.1 (like the gain control) but it can be lowered to 0 for a softer,
@@ -14925,11 +15153,11 @@ an ultra-shallow slope cut, put the frequency to either extreme, and use the
 very first hints of the Resonance control to dial in an extreme low or high cut.
 
 And then either soften or sharpen the hell out of the edge, to get tones that
-don’t really exist anywhere else. This is the alternate version of [YNotch][],
+don’t really exist anywhere else. This is the alternate version of [YNotch],
 except without control smoothing. That means it'll be slightly less CPU-hungry,
 and might be preferable for situations like use in VCV Rack at very small buffer
- sizes. So, use [YNotNotch][] if you'd like slightly more CPU efficiency, if you
- run tiny buffers, if you are using it as a fixed filter sound, or if you want
+ sizes. So, use [YNotNotch] if you'd like slightly more CPU efficiency, if you
+run tiny buffers, if you are using it as a fixed filter sound, or if you want
 that 'neuro' glitchy zipper-noise sound, at which it'll be really good since it
 already has an aggressively unnatural filter tone :)
 
@@ -14941,7 +15169,7 @@ _ZBandpass is a bandpass made to sound and act like the Emu e6400 Ultra
 bandpass._
 
 On we go! If you’re following this project, well, this is the Bandpass version.
-This and [ZHighpass][] have been adjusted to allow for more output gain (so you
+This and [ZHighpass] have been adjusted to allow for more output gain (so you
 can work with less distorted things and balance them better with dry signal,
 using the left half of the Poles control to do it).
 
@@ -14952,8 +15180,8 @@ using the left half of the Poles control to do it).
 _ZBandpass2 acts more like the Emu e6400 Ultra bandpass in motion, with
 coefficient interpolation._
 
-[ZBandpass2][] is the followup that adds coefficient interpolation to my Z-Plane
- Filter emulation. Which of course is not to say that I had the code, or took
+[ZBandpass2] is the followup that adds coefficient interpolation to my Z-Plane
+Filter emulation. Which of course is not to say that I had the code, or took
 apart the machine and cloned the schematic: no, these plugins are about running
 a reference sound into the real live Emu e6400 Ultra sampler, and smashing the
 crud out of it to get the most out of the filters and their distinct color and
@@ -14963,11 +15191,11 @@ The original Airwindows Z filters run more efficiently because they’re not ask
  to do as much: they have the same tone but aren’t trying to smooth zipper noise
  and interpolate, so if you need fixed filter settings don’t overlook those.
 However, half the fun of a real live sampler is to get funky with it, and so
-[ZBandpass2][] follows [ZLowpass2][] in adding the smoothing to everything, so
-you can automate whatever you like. Remember it’s set up to have lots of
-distortion and gain on tap, keep the input and output real low if you’re not
-just trying to melt the thing down (0.1 will give you basically unity gain, and
-the output will let you pad things a whole lot if you need to)
+[ZBandpass2] follows [ZLowpass2] in adding the smoothing to everything, so you
+can automate whatever you like. Remember it’s set up to have lots of distortion
+and gain on tap, keep the input and output real low if you’re not just trying to
+ melt the thing down (0.1 will give you basically unity gain, and the output
+will let you pad things a whole lot if you need to)
 
 
 <a name="plugins_zhighpass"></a>
@@ -14981,7 +15209,7 @@ And here… we… go!
 I picked the highpass to attempt first off the e6400 because it’s way harder. In
  recordings of the real unit, if you overdrive the samples you can hear how the
 machine flips out when you sweep the highpass up real high. Part of this is from
- the output stages of the device having characteristics not unlike [Mackity][]:
+ the output stages of the device having characteristics not unlike [Mackity]:
 you get a strange overshoot, and that’s from the hardware.
 
 These are not exactly ’emulations’ in the sense of stealing all the code out of
@@ -14990,14 +15218,14 @@ thing. That’s not what I do, and that stuff always ends up sounding very plast
  to my ear (way too much overprocessing to try and get the fiddly details the
 same: you end up with a clone, but soulless)
 
-Instead, [ZHighpass][] is first in a series of Z-plugins, building on what I
+Instead, [ZHighpass] is first in a series of Z-plugins, building on what I
 learned with the X series, and designed to act and respond the same as the real
 deal, but in the box. I got as close as I could with my own techniques, using
 some details (like where the filters hard-clip, and the likely Q factors) to
 zero in further. My hope is not as much that I’ve perfectly duplicated every
 detail of the hardware device… but that I made a plugin with enough of the soul
 of that device, that you can get equally musical results out of it. You should
-be able to USE [ZHighpass][] much the way you’d use the real sampler and its
+be able to USE [ZHighpass] much the way you’d use the real sampler and its
 genuine Z-Plane filters, to get filter swoops and voicings that deliver as much
 of the aggressive mojo you’d enjoy from the real thing.
 
@@ -15006,9 +15234,9 @@ available on the real-deal sampler, to your taste. ‘Cos we’re not here just 
 clone what DnB maestros did in the Nineties. We’re playing with this particular
 sampler and mimicking some of its tricks because it turns out that was an
 amazing-sounding instrument, that gave you stuff typical DAW EQs don’t even come
- close to offering. And now, with [ZHighpass][], you can easily turn your DAW
-into that kind of instrument, on as many tracks as you like, anytime and
-anywhere you like.
+ close to offering. And now, with [ZHighpass], you can easily turn your DAW into
+ that kind of instrument, on as many tracks as you like, anytime and anywhere
+you like.
 
 And the cooling fan’s (probably) way quieter. And it’s easier to patch. Props to
  the real e6400 Ultra, though. You’ll be hearing more from that, in upcoming
@@ -15021,10 +15249,10 @@ weeks.
 _ZHighpass2 acts more like the Emu e6400 Ultra highpass in motion, with
 coefficient interpolation._
 
-By request, here’s the followup to [ZHighpass][]!
+By request, here’s the followup to [ZHighpass]!
 
-[ZHighpass2][] is the followup that adds coefficient interpolation to my Z-Plane
- Filter emulation. Which of course is not to say that I had the code, or took
+[ZHighpass2] is the followup that adds coefficient interpolation to my Z-Plane
+Filter emulation. Which of course is not to say that I had the code, or took
 apart the machine and cloned the schematic: no, these plugins are about running
 a reference sound into the real live Emu e6400 Ultra sampler, and smashing the
 crud out of it to get the most out of the filters and their distinct color and
@@ -15034,13 +15262,13 @@ The original Airwindows Z filters run more efficiently because they’re not ask
  to do as much: they have the same tone but aren’t trying to smooth zipper noise
  and interpolate, so if you need fixed filter settings don’t overlook those.
 However, half the fun of a real live sampler is to get funky with it, and so
-[ZHighpass2][] follows [ZLowpass2][] in adding the smoothing to everything, so
-you can automate whatever you like. Remember it’s set up to have lots of
-distortion and gain on tap, keep the input and output real low if you’re not
-just trying to melt the thing down (0.1 will give you basically unity gain, and
-the output will let you pad things a whole lot if you need to)
+[ZHighpass2] follows [ZLowpass2] in adding the smoothing to everything, so you
+can automate whatever you like. Remember it’s set up to have lots of distortion
+and gain on tap, keep the input and output real low if you’re not just trying to
+ melt the thing down (0.1 will give you basically unity gain, and the output
+will let you pad things a whole lot if you need to)
 
-Note also that I found an uninitialized variable in the previous [ZLowpass2][]:
+Note also that I found an uninitialized variable in the previous [ZLowpass2]:
 the smoothing of the Wet control wasn’t being started out correctly. It didn’t
 seem to do anything but all the same I’ve fixed it: redownload it if you’re
 concerned, or use the updated version that’s in the big plugin collections
@@ -15052,8 +15280,8 @@ below.
 
 _ZLowpass is a lowpass made to sound and act like the Emu e6400 Ultra lowpass._
 
-Onward! Today we have [ZLowpass][]. I think this one might be the closest to the
- hardware yet! It works like my previous Z series filters, except it’s the
+Onward! Today we have [ZLowpass]. I think this one might be the closest to the
+hardware yet! It works like my previous Z series filters, except it’s the
 lowpass this time.
 
 You might notice my video looks a bit different: that’s because my Blackmagic
@@ -15082,7 +15310,7 @@ sweet if it wasn’t for the thing melting under the strain. (Replacement of the
 ATEM will NOT be out of what I’m saving up for getting a bigger and more classic
  sampler. Never fear, that journey will progress unhindered.)
 
-Anyway, here’s [ZLowpass][] :D
+Anyway, here’s [ZLowpass] :D
 
 (followup: I did in fact replace the ATEM Mini, put it on a heatsink with a blue
  heatsink pad between, and used it extensively, and the replacement didn't melt.
@@ -15107,7 +15335,7 @@ Emu e6400 Z-Plane filters’. At the time I hadn’t worked out the tech involve
 A bunch of plugins and a set of Y series filters (which have their own
 interesting qualities, in their own right) later… and the Y plugins were the
 ones I chose to learn the ways of filter coefficient interpolation, and all of
-it implemented with the Airwindows sound… we have… [ZLowpass2][]!
+it implemented with the Airwindows sound… we have… [ZLowpass2]!
 
 Oh, and I think some changes I had to make to alter the biquad distortion
 factors, actually got me CLOSER to the classic-sampler sound.
@@ -15115,13 +15343,13 @@ factors, actually got me CLOSER to the classic-sampler sound.
 So this is a sampler filter, designed to give you a seamless blend through
 several options the real unit offered. It also gives you a HUGE amount of gain
 on tap, because the DnB folks liked to internally clip stuff in the sampler and
-then hit the filter with it. Even with the first [ZLowpass][], I got some
-special quirks of the sampler represented in the sound. This one’s even better,
-particularly if you’re sweeping the controls around to ‘play’ the sampler
-[EQ][]. If you want a more glitchy effect for some neuro-sparkle, or if you just
- want more CPU free, [ZLowpass][] (original) is still there for you. I think if
-I got [ZLowpass2][] sounding better for static, unchanging settings, it’s not by
- a lot: it’s mostly in motion that this one is meant to shine.
+then hit the filter with it. Even with the first [ZLowpass], I got some special
+quirks of the sampler represented in the sound. This one’s even better,
+particularly if you’re sweeping the controls around to ‘play’ the sampler [EQ].
+If you want a more glitchy effect for some neuro-sparkle, or if you just want
+more CPU free, [ZLowpass] (original) is still there for you. I think if I got
+[ZLowpass2] sounding better for static, unchanging settings, it’s not by a lot:
+it’s mostly in motion that this one is meant to shine.
 
 Hope you like it! I’ll be working through some of the not-posted yet plugins and
  will not be addressing the other Z2 filters just yet. I want to hear whether
@@ -15138,7 +15366,7 @@ able to do this work :)
 _ZNotch is a notch filter made to sound and act like the Emu e6400 Phaser._
 
 And finally, the fourth filter type (I’m doing basic filters, not trying to
-compete with real Z-Plane releases), [ZNotch][]!
+compete with real Z-Plane releases), [ZNotch]!
 
 This is made to sound like the Emu Phaser, which has notchlike qualities. At
 heart it’s an extension of the Airwindows Z series, not anything specifically
@@ -15169,25 +15397,25 @@ interpolation._
 
 This completes the reboot of my original Z-style filters! These are all based on
  study of a real hardware Emu e6400 sampler. (If my Patreon does well, I’ll be
-able to study more interesting hardware gear like I did this one). [ZNotch][] is
- based on the ‘phaser’ settings, and [ZNotch2][] brings the coefficient
+able to study more interesting hardware gear like I did this one). [ZNotch] is
+based on the ‘phaser’ settings, and [ZNotch2] brings the coefficient
 interpolation people longed to have in this filter.
 
-Bear in mind, [ZNotch][] also has its place. It’s meant to sound exactly the
-same (I may possibly have improved the tone a tiny bit with [ZNotch2][], not
-sure of that) but the original [ZNotch][] does NOT have coefficient smoothing.
-That means it started out less than the real hardware filter, ‘not as good yet’,
- BUT if you’re not modulating the controls, you can get the same tone with a lot
- less CPU by choosing the Z filter that is not the 2 version. The originals will
- use less CPU because they’re not recalculating so much every sample, and that
-means you should probably have both installed if you like this type of filter. I
- demonstrate [ZNotch2][] on an electronic kick drum to great effect, and there’s
- nothing I’m doing there which I couldn’t do with the original [ZNotch][] at
-lower CPU cost.
+Bear in mind, [ZNotch] also has its place. It’s meant to sound exactly the same
+(I may possibly have improved the tone a tiny bit with [ZNotch2], not sure of
+that) but the original [ZNotch] does NOT have coefficient smoothing. That means
+it started out less than the real hardware filter, ‘not as good yet’, BUT if
+you’re not modulating the controls, you can get the same tone with a lot less
+CPU by choosing the Z filter that is not the 2 version. The originals will use
+less CPU because they’re not recalculating so much every sample, and that means
+you should probably have both installed if you like this type of filter. I
+demonstrate [ZNotch2] on an electronic kick drum to great effect, and there’s
+nothing I’m doing there which I couldn’t do with the original [ZNotch] at lower
+CPU cost.
 
 That said, this one will move more fluidly, and the ‘Phaser’ sound is very
 special in motion! I hope you like it. We’re starting 2022 with the full DnB
-arsenal available ITB: [Mackity][], [MackEQ][], and the Z-style filters! I hope
+arsenal available ITB: [Mackity], [MackEQ], and the Z-style filters! I hope
 people have a lot of fun with this.
 
 
@@ -15244,8 +15472,8 @@ sound with gain boosts in order to get maximum color out of the Emu filters).
 
 But what if there's a filter type that didn't even exist on the original device?
 
-[ZRegion][] is that filter. The original Airwindows Region wasn't written in the
- context of an Emu Z emulation, more like just experimentation. It uses the
+[ZRegion] is that filter. The original Airwindows Region wasn't written in the
+context of an Emu Z emulation, more like just experimentation. It uses the
 cascading filter stages and distortions in an interesting way: you're using
 bandpass filters and distorting them, but Region lets you stagger the bandpass
 frequencies so that you're successively distorting through series of different
@@ -15256,8 +15484,8 @@ that effect with higher frequencies.
 The reason I might be needing this one is, I can get pretty killer bass tones
 using it. I'll set the first filter higher for midrange articulation, set the
 last filter very low for heavy bass mojo, and it's instantly a bass-amp type of
-sound. And if I intend to leave the setting as a fixed setting, [ZRegion][] will
- give me that with the same flavor as my other Z filters.
+sound. And if I intend to leave the setting as a fixed setting, [ZRegion] will
+give me that with the same flavor as my other Z filters.
 
 But if I want to automate or move the controls as part of the mix…
 
@@ -15268,12 +15496,11 @@ But if I want to automate or move the controls as part of the mix…
 _ZRegion2 is an Emu e6400 style Airwindows Region filter, with coefficient
 smoothing._
 
-[ZRegion2][] comes out at the same time as [ZRegion][], but note that I'm still
-putting out [ZRegion][]. This is because [ZRegion][] will always run at lower
-CPU than [ZRegion2][], because the first plugin doesn't do coefficient
-smoothing. It's for if you have a fixed tone setting to use, OR if you want to
-have a slight glitchy/zipper-noise quality on some audio and you're moving the
-controls.
+[ZRegion2] comes out at the same time as [ZRegion], but note that I'm still
+putting out [ZRegion]. This is because [ZRegion] will always run at lower CPU
+than [ZRegion2], because the first plugin doesn't do coefficient smoothing. It's
+ for if you have a fixed tone setting to use, OR if you want to have a slight
+glitchy/zipper-noise quality on some audio and you're moving the controls.
 
 If you're going for automation, the Z2 filters are the ones that interpolate the
  coefficients across the sample buffer, meaning they'll make control changes
@@ -15281,7 +15508,7 @@ smooth. No crackling! This eats more CPU, but a lot of the fun with these
 filters comes from actively manipulating them. The original sampler never had a
 Region filter type, but now you can make believe it did, and produce aggressive
 and textural bandpass-y effects across a broader range than the original
-sampler's [ZBandpass][]. Hope you like it!
+sampler's [ZBandpass]. Hope you like it!
 
 
 <a name="conclusion"></a>
@@ -15294,383 +15521,383 @@ instruments, eventually…
 _-chris_
 
 
-[Acceleration]: #plugins_acceleration
-[Acceleration2]: #plugins_acceleration2
-[ADClip7]: #plugins_adclip7
-[ADT]: #plugins_adt
-[Air]: #plugins_air
-[Air2]: #plugins_air2
-[Apicolypse]: #plugins_apicolypse
-[AQuickVoiceClip]: #plugins_aquickvoiceclip
-[AtmosphereBuss]: #plugins_atmospherebuss
-[AtmosphereChannel]: #plugins_atmospherechannel
-[Aura]: #plugins_aura
-[AutoPan]: #plugins_autopan
-[Average]: #plugins_average
-[AverMatrix]: #plugins_avermatrix
-[Balanced]: #plugins_balanced
-[BassAmp]: #plugins_bassamp
-[BassDrive]: #plugins_bassdrive
-[BassKit]: #plugins_basskit
-[Baxandall]: #plugins_baxandall
-[Baxandall2]: #plugins_baxandall2
-[Beam]: #plugins_beam
-[BigAmp]: #plugins_bigamp
-[Biquad]: #plugins_biquad
-[Biquad2]: #plugins_biquad2
-[BiquadDouble]: #plugins_biquaddouble
-[BiquadOneHalf]: #plugins_biquadonehalf
-[BiquadPlus]: #plugins_biquadplus
-[BiquadTriple]: #plugins_biquadtriple
-[Bite]: #plugins_bite
-[BitGlitter]: #plugins_bitglitter
-[BitShiftGain]: #plugins_bitshiftgain
-[BitShiftPan]: #plugins_bitshiftpan
-[BlockParty]: #plugins_blockparty
-[BrassRider]: #plugins_brassrider
-[BrightAmbience]: #plugins_brightambience
-[BrightAmbience2]: #plugins_brightambience2
-[BrightAmbience3]: #plugins_brightambience3
-[BuildATPDF]: #plugins_buildatpdf
-[BussColors4]: #plugins_busscolors4
-[ButterComp]: #plugins_buttercomp
-[ButterComp2]: #plugins_buttercomp2
-[C5RawBuss]: #plugins_c5rawbuss
-[C5RawConsole]: #plugins_c5rawconsole
-[Cabs]: #plugins_cabs
-[Calibre]: #plugins_calibre
-[Capacitor]: #plugins_capacitor
-[Capacitor2]: #plugins_capacitor2
-[Chamber]: #plugins_chamber
-[Chamber2]: #plugins_chamber2
-[Channel4]: #plugins_channel4
-[Channel5]: #plugins_channel5
-[Channel6]: #plugins_channel6
-[Channel7]: #plugins_channel7
-[Channel8]: #plugins_channel8
-[Channel9]: #plugins_channel9
-[Chorus]: #plugins_chorus
-[ChorusEnsemble]: #plugins_chorusensemble
-[ChromeOxide]: #plugins_chromeoxide
-[Cider]: #plugins_cider
-[ClearCoat]: #plugins_clearcoat
-[ClipOnly]: #plugins_cliponly
-[ClipOnly2]: #plugins_cliponly2
-[ClipSoftly]: #plugins_clipsoftly
-[Coils]: #plugins_coils
-[Coils2]: #plugins_coils2
-[Cojones]: #plugins_cojones
-[Compresaturator]: #plugins_compresaturator
-[Console0Buss]: #plugins_console0buss
-[Console0Channel]: #plugins_console0channel
-[Console4Buss]: #plugins_console4buss
-[Console4Channel]: #plugins_console4channel
-[Console5Buss]: #plugins_console5buss
-[Console5Channel]: #plugins_console5channel
-[Console5DarkCh]: #plugins_console5darkch
-[Console6Buss]: #plugins_console6buss
-[Console6Channel]: #plugins_console6channel
-[Console7Buss]: #plugins_console7buss
-[Console7Cascade]: #plugins_console7cascade
-[Console7Channel]: #plugins_console7channel
-[Console7Crunch]: #plugins_console7crunch
-[Console8BussHype]: #plugins_console8busshype
-[Console8BussIn]: #plugins_console8bussin
-[Console8BussOut]: #plugins_console8bussout
-[Console8ChannelHype]: #plugins_console8channelhype
-[Console8ChannelIn]: #plugins_console8channelin
-[Console8ChannelOut]: #plugins_console8channelout
-[Console8LiteBuss]: #plugins_console8litebuss
-[Console8LiteChannel]: #plugins_console8litechannel
-[Console8SubHype]: #plugins_console8subhype
-[Console8SubIn]: #plugins_console8subin
-[Console8SubOut]: #plugins_console8subout
-[ConsoleLABuss]: #plugins_consolelabuss
-[ConsoleLAChannel]: #plugins_consolelachannel
-[ConsoleMCBuss]: #plugins_consolemcbuss
-[ConsoleMCChannel]: #plugins_consolemcchannel
-[ConsoleMDBuss]: #plugins_consolemdbuss
-[ConsoleMDChannel]: #plugins_consolemdchannel
-[Creature]: #plugins_creature
-[CrickBass]: #plugins_crickbass
-[CrunchyGrooveWear]: #plugins_crunchygroovewear
-[Crystal]: #plugins_crystal
-[CStrip]: #plugins_cstrip
-[CStrip2]: #plugins_cstrip2
-[curve]: #plugins_curve
-[Dark]: #plugins_dark
-[DarkNoise]: #plugins_darknoise
-[DCVoltage]: #plugins_dcvoltage
-[DeBess]: #plugins_debess
-[Deckwrecka]: #plugins_deckwrecka
-[DeEss]: #plugins_deess
-[DeHiss]: #plugins_dehiss
-[Density]: #plugins_density
-[Density2]: #plugins_density2
-[DeRez]: #plugins_derez
-[DeRez2]: #plugins_derez2
-[Desk]: #plugins_desk
-[Desk4]: #plugins_desk4
-[DigitalBlack]: #plugins_digitalblack
-[Dirt]: #plugins_dirt
-[Distance]: #plugins_distance
-[Distance2]: #plugins_distance2
-[Distortion]: #plugins_distortion
-[Ditherbox]: #plugins_ditherbox
-[DitherFloat]: #plugins_ditherfloat
-[DitherMeDiskers]: #plugins_dithermediskers
-[DitherMeTimbers]: #plugins_dithermetimbers
-[Doublelay]: #plugins_doublelay
-[DoublePaul]: #plugins_doublepaul
-[Drive]: #plugins_drive
-[DrumSlam]: #plugins_drumslam
-[DubCenter]: #plugins_dubcenter
-[Dubly]: #plugins_dubly
-[DubSub]: #plugins_dubsub
-[DustBunny]: #plugins_dustbunny
-[Dynamics]: #plugins_dynamics
-[Dyno]: #plugins_dyno
-[Edge]: #plugins_edge
-[EdIsDim]: #plugins_edisdim
-[Elation]: #plugins_elation
-[ElectroHat]: #plugins_electrohat
-[Energy]: #plugins_energy
-[Energy2]: #plugins_energy2
-[Ensemble]: #plugins_ensemble
-[EQ]: #plugins_eq
-[EveryConsole]: #plugins_everyconsole
-[EverySlew]: #plugins_everyslew
-[EveryTrim]: #plugins_everytrim
-[Exciter]: #plugins_exciter
-[Facet]: #plugins_facet
-[FathomFive]: #plugins_fathomfive
-[FireAmp]: #plugins_fireamp
-[Flipity]: #plugins_flipity
-[Floor]: #plugins_floor
-[Flutter]: #plugins_flutter
-[Focus]: #plugins_focus
-[Fracture]: #plugins_fracture
-[Fracture2]: #plugins_fracture2
-[FromTape]: #plugins_fromtape
-[Galactic]: #plugins_galactic
-[Galactic2]: #plugins_galactic2
-[GalacticVibe]: #plugins_galacticvibe
-[Gatelope]: #plugins_gatelope
-[GlitchShifter]: #plugins_glitchshifter
-[GoldenSlew]: #plugins_goldenslew
-[Golem]: #plugins_golem
-[GrindAmp]: #plugins_grindamp
-[Gringer]: #plugins_gringer
-[GrooveWear]: #plugins_groovewear
-[GuitarConditioner]: #plugins_guitarconditioner
-[HardVacuum]: #plugins_hardvacuum
-[Hermepass]: #plugins_hermepass
-[HermeTrim]: #plugins_hermetrim
-[HighGlossDither]: #plugins_highglossdither
-[HighImpact]: #plugins_highimpact
-[Highpass]: #plugins_highpass
-[Highpass2]: #plugins_highpass2
-[Holt]: #plugins_holt
-[Holt2]: #plugins_holt2
-[Hombre]: #plugins_hombre
-[Huge]: #plugins_huge
-[Hull]: #plugins_hull
-[Hull2]: #plugins_hull2
-[Hype]: #plugins_hype
-[Hypersonic]: #plugins_hypersonic
-[HypersonX]: #plugins_hypersonx
-[Infinity]: #plugins_infinity
-[Infinity2]: #plugins_infinity2
-[Inflamer]: #plugins_inflamer
-[Infrasonic]: #plugins_infrasonic
-[Interstage]: #plugins_interstage
-[IronOxide5]: #plugins_ironoxide5
-[IronOxideClassic]: #plugins_ironoxideclassic
-[IronOxideClassic2]: #plugins_ironoxideclassic2
-[Isolator]: #plugins_isolator
-[Isolator2]: #plugins_isolator2
-[kCathedral]: #plugins_kcathedral
-[kChamberAR]: #plugins_kchamberar
-[kPlateA]: #plugins_kplatea
-[kPlateB]: #plugins_kplateb
-[kPlateC]: #plugins_kplatec
-[kPlateD]: #plugins_kplated
-[LeadAmp]: #plugins_leadamp
-[LeftoMono]: #plugins_leftomono
-[LilAmp]: #plugins_lilamp
-[Logical4]: #plugins_logical4
-[Loud]: #plugins_loud
-[Lowpass]: #plugins_lowpass
-[Lowpass2]: #plugins_lowpass2
-[LRFlipTimer]: #plugins_lrfliptimer
-[Luxor]: #plugins_luxor
-[MackEQ]: #plugins_mackeq
-[Mackity]: #plugins_mackity
-[MatrixVerb]: #plugins_matrixverb
-[Melt]: #plugins_melt
-[MidAmp]: #plugins_midamp
-[MidSide]: #plugins_midside
-[Mojo]: #plugins_mojo
-[Monitoring]: #plugins_monitoring
-[Monitoring2]: #plugins_monitoring2
-[Monitoring3]: #plugins_monitoring3
-[MoNoam]: #plugins_monoam
-[MultiBandDistortion]: #plugins_multibanddistortion
-[MV]: #plugins_mv
-[MV2]: #plugins_mv2
-[NaturalizeDither]: #plugins_naturalizedither
-[NCSeventeen]: #plugins_ncseventeen
-[Neverland]: #plugins_neverland
-[Nikola]: #plugins_nikola
-[NodeDither]: #plugins_nodedither
-[Noise]: #plugins_noise
-[NonlinearSpace]: #plugins_nonlinearspace
-[NotJustAnotherCD]: #plugins_notjustanothercd
-[NotJustAnotherDither]: #plugins_notjustanotherdither
-[OneCornerClip]: #plugins_onecornerclip
-[OrbitKick]: #plugins_orbitkick
-[Pafnuty]: #plugins_pafnuty
-[Pafnuty2]: #plugins_pafnuty2
-[PaulDither]: #plugins_pauldither
-[PaulWide]: #plugins_paulwide
-[PDBuss]: #plugins_pdbuss
-[PDChannel]: #plugins_pdchannel
-[PeaksOnly]: #plugins_peaksonly
-[Pear]: #plugins_pear
-[PhaseNudge]: #plugins_phasenudge
-[PitchDelay]: #plugins_pitchdelay
-[PitchNasty]: #plugins_pitchnasty
-[PlatinumSlew]: #plugins_platinumslew
-[PocketVerbs]: #plugins_pocketverbs
-[Pockey]: #plugins_pockey
-[Pockey2]: #plugins_pockey2
-[Podcast]: #plugins_podcast
-[PodcastDeluxe]: #plugins_podcastdeluxe
-[Point]: #plugins_point
-[Pop]: #plugins_pop
-[Pop2]: #plugins_pop2
-[PowerSag]: #plugins_powersag
-[PowerSag2]: #plugins_powersag2
-[Precious]: #plugins_precious
-[Preponderant]: #plugins_preponderant
-[Pressure4]: #plugins_pressure4
-[Pressure5]: #plugins_pressure5
-[PurestAir]: #plugins_purestair
-[PurestConsole2Buss]: #plugins_purestconsole2buss
-[PurestConsole2Channel]: #plugins_purestconsole2channel
-[PurestConsole3Buss]: #plugins_purestconsole3buss
-[PurestConsole3Channel]: #plugins_purestconsole3channel
-[PurestConsoleBuss]: #plugins_purestconsolebuss
-[PurestConsoleChannel]: #plugins_purestconsolechannel
-[PurestDrive]: #plugins_purestdrive
-[PurestEcho]: #plugins_purestecho
-[PurestFade]: #plugins_purestfade
-[PurestGain]: #plugins_purestgain
-[PurestSquish]: #plugins_purestsquish
-[PurestWarm]: #plugins_purestwarm
-[PurestWarm2]: #plugins_purestwarm2
-[Pyewacket]: #plugins_pyewacket
-[RawGlitters]: #plugins_rawglitters
-[RawTimbers]: #plugins_rawtimbers
-[Recurve]: #plugins_recurve
-[Remap]: #plugins_remap
-[ResEQ]: #plugins_reseq
-[ResEQ2]: #plugins_reseq2
-[Reverb]: #plugins_reverb
-[Righteous4]: #plugins_righteous4
-[RightoMono]: #plugins_rightomono
-[SampleDelay]: #plugins_sampledelay
-[Shape]: #plugins_shape
-[SideDull]: #plugins_sidedull
-[Sidepass]: #plugins_sidepass
-[Silhouette]: #plugins_silhouette
-[Sinew]: #plugins_sinew
-[SingleEndedTriode]: #plugins_singleendedtriode
-[Slew]: #plugins_slew
-[Slew2]: #plugins_slew2
-[Slew3]: #plugins_slew3
-[SlewOnly]: #plugins_slewonly
-[SlewSonic]: #plugins_slewsonic
-[Smooth]: #plugins_smooth
-[SoftGate]: #plugins_softgate
-[SpatializeDither]: #plugins_spatializedither
-[Spiral]: #plugins_spiral
-[Spiral2]: #plugins_spiral2
-[Srsly]: #plugins_srsly
-[Srsly2]: #plugins_srsly2
-[StarChild]: #plugins_starchild
-[StarChild2]: #plugins_starchild2
-[StereoChorus]: #plugins_stereochorus
-[StereoDoubler]: #plugins_stereodoubler
-[StereoEnsemble]: #plugins_stereoensemble
-[StereoFX]: #plugins_stereofx
-[StudioTan]: #plugins_studiotan
-[SubsOnly]: #plugins_subsonly
-[SubTight]: #plugins_subtight
-[Surge]: #plugins_surge
-[SurgeSynthesizer]: https://surge-synthesizer.github.io/
-[SurgeTide]: #plugins_surgetide
-[Sweeten]: #plugins_sweeten
-[Swell]: #plugins_swell
-[Tape]: #plugins_tape
-[TapeDelay]: #plugins_tapedelay
-[TapeDelay2]: #plugins_tapedelay2
-[TapeDither]: #plugins_tapedither
-[TapeDust]: #plugins_tapedust
-[TapeFat]: #plugins_tapefat
-[Texturize]: #plugins_texturize
-[TexturizeMS]: #plugins_texturizems
-[Thunder]: #plugins_thunder
-[ToneSlant]: #plugins_toneslant
-[ToTape5]: #plugins_totape5
-[ToTape6]: #plugins_totape6
-[ToVinyl4]: #plugins_tovinyl4
-[TPDFDither]: #plugins_tpdfdither
-[TPDFWide]: #plugins_tpdfwide
-[TransDesk]: #plugins_transdesk
-[Tremolo]: #plugins_tremolo
-[TremoSquare]: #plugins_tremosquare
-[TripleSpread]: #plugins_triplespread
-[Tube]: #plugins_tube
-[Tube2]: #plugins_tube2
-[TubeDesk]: #plugins_tubedesk
-[uLawDecode]: #plugins_ulawdecode
-[uLawEncode]: #plugins_ulawencode
-[Ultrasonic]: #plugins_ultrasonic
-[UltrasonicLite]: #plugins_ultrasoniclite
-[UltrasonicMed]: #plugins_ultrasonicmed
-[UltrasonX]: #plugins_ultrasonx
-[UnBox]: #plugins_unbox
-[VariMu]: #plugins_varimu
-[Verbity]: #plugins_verbity
-[Verbity2]: #plugins_verbity2
-[Vibrato]: #plugins_vibrato
-[VinylDither]: #plugins_vinyldither
-[VoiceOfTheStarship]: #plugins_voiceofthestarship
-[VoiceTrick]: #plugins_voicetrick
-[Weight]: #plugins_weight
-[Wider]: #plugins_wider
-[XBandpass]: #plugins_xbandpass
-[XHighpass]: #plugins_xhighpass
-[XLowpass]: #plugins_xlowpass
-[XNotch]: #plugins_xnotch
-[XRegion]: #plugins_xregion
-[YBandpass]: #plugins_ybandpass
-[YHighpass]: #plugins_yhighpass
-[YLowpass]: #plugins_ylowpass
-[YNotBandpass]: #plugins_ynotbandpass
-[YNotch]: #plugins_ynotch
-[YNotHighpass]: #plugins_ynothighpass
-[YNotLowpass]: #plugins_ynotlowpass
-[YNotNotch]: #plugins_ynotnotch
-[ZBandpass]: #plugins_zbandpass
-[ZBandpass2]: #plugins_zbandpass2
-[ZHighpass]: #plugins_zhighpass
-[ZHighpass2]: #plugins_zhighpass2
-[ZLowpass]: #plugins_zlowpass
-[ZLowpass2]: #plugins_zlowpass2
-[ZNotch]: #plugins_znotch
-[ZNotch2]: #plugins_znotch2
-[ZOutputStage]: #plugins_zoutputstage
-[ZRegion]: #plugins_zregion
-[ZRegion2]: #plugins_zregion2
+[Acceleration]:       #plugins_acceleration
+[Acceleration2]:      #plugins_acceleration2
+[ADClip7]:            #plugins_adclip7
+[ADT]:                #plugins_adt
+[Air]:                #plugins_air
+[Air2]:               #plugins_air2
+[Apicolypse]:         #plugins_apicolypse
+[AQuickVoiceClip]:    #plugins_aquickvoiceclip
+[AtmosphereBuss]:     #plugins_atmospherebuss
+[AtmosphereChannel]:  #plugins_atmospherechannel
+[Aura]:               #plugins_aura
+[AutoPan]:            #plugins_autopan
+[Average]:            #plugins_average
+[AverMatrix]:         #plugins_avermatrix
+[Balanced]:           #plugins_balanced
+[BassAmp]:            #plugins_bassamp
+[BassDrive]:          #plugins_bassdrive
+[BassKit]:            #plugins_basskit
+[Baxandall]:          #plugins_baxandall
+[Baxandall2]:         #plugins_baxandall2
+[Beam]:               #plugins_beam
+[BigAmp]:             #plugins_bigamp
+[Biquad]:             #plugins_biquad
+[Biquad2]:            #plugins_biquad2
+[BiquadDouble]:       #plugins_biquaddouble
+[BiquadOneHalf]:      #plugins_biquadonehalf
+[BiquadPlus]:         #plugins_biquadplus
+[BiquadTriple]:       #plugins_biquadtriple
+[Bite]:               #plugins_bite
+[BitGlitter]:         #plugins_bitglitter
+[BitShiftGain]:       #plugins_bitshiftgain
+[BitShiftPan]:        #plugins_bitshiftpan
+[BlockParty]:         #plugins_blockparty
+[BrassRider]:         #plugins_brassrider
+[BrightAmbience]:     #plugins_brightambience
+[BrightAmbience2]:    #plugins_brightambience2
+[BrightAmbience3]:    #plugins_brightambience3
+[BuildATPDF]:         #plugins_buildatpdf
+[BussColors4]:        #plugins_busscolors4
+[ButterComp]:         #plugins_buttercomp
+[ButterComp2]:        #plugins_buttercomp2
+[C5RawBuss]:          #plugins_c5rawbuss
+[C5RawConsole]:       #plugins_c5rawconsole
+[Cabs]:               #plugins_cabs
+[Calibre]:            #plugins_calibre
+[Capacitor]:          #plugins_capacitor
+[Capacitor2]:         #plugins_capacitor2
+[Chamber]:            #plugins_chamber
+[Chamber2]:           #plugins_chamber2
+[Channel4]:           #plugins_channel4
+[Channel5]:           #plugins_channel5
+[Channel6]:           #plugins_channel6
+[Channel7]:           #plugins_channel7
+[Channel8]:           #plugins_channel8
+[Channel9]:           #plugins_channel9
+[Chorus]:             #plugins_chorus
+[ChorusEnsemble]:     #plugins_chorusensemble
+[ChromeOxide]:        #plugins_chromeoxide
+[Cider]:              #plugins_cider
+[ClearCoat]:          #plugins_clearcoat
+[ClipOnly]:           #plugins_cliponly
+[ClipOnly2]:          #plugins_cliponly2
+[ClipSoftly]:         #plugins_clipsoftly
+[Coils]:              #plugins_coils
+[Coils2]:             #plugins_coils2
+[Cojones]:            #plugins_cojones
+[Compresaturator]:    #plugins_compresaturator
+[Console0Buss]:       #plugins_console0buss
+[Console0Channel]:    #plugins_console0channel
+[Console4Buss]:       #plugins_console4buss
+[Console4Channel]:    #plugins_console4channel
+[Console5Buss]:       #plugins_console5buss
+[Console5Channel]:    #plugins_console5channel
+[Console5DarkCh]:     #plugins_console5darkch
+[Console6Buss]:       #plugins_console6buss
+[Console6Channel]:    #plugins_console6channel
+[Console7Buss]:       #plugins_console7buss
+[Console7Cascade]:    #plugins_console7cascade
+[Console7Channel]:    #plugins_console7channel
+[Console7Crunch]:     #plugins_console7crunch
+[Console8BussHype]:   #plugins_console8busshype
+[Console8BussIn]:     #plugins_console8bussin
+[Console8BussOut]:    #plugins_console8bussout
+[Console8ChannelHype]:  #plugins_console8channelhype
+[Console8ChannelIn]:  #plugins_console8channelin
+[Console8ChannelOut]:  #plugins_console8channelout
+[Console8LiteBuss]:   #plugins_console8litebuss
+[Console8LiteChannel]:  #plugins_console8litechannel
+[Console8SubHype]:    #plugins_console8subhype
+[Console8SubIn]:      #plugins_console8subin
+[Console8SubOut]:     #plugins_console8subout
+[ConsoleLABuss]:      #plugins_consolelabuss
+[ConsoleLAChannel]:   #plugins_consolelachannel
+[ConsoleMCBuss]:      #plugins_consolemcbuss
+[ConsoleMCChannel]:   #plugins_consolemcchannel
+[ConsoleMDBuss]:      #plugins_consolemdbuss
+[ConsoleMDChannel]:   #plugins_consolemdchannel
+[Creature]:           #plugins_creature
+[CrickBass]:          #plugins_crickbass
+[CrunchyGrooveWear]:  #plugins_crunchygroovewear
+[Crystal]:            #plugins_crystal
+[CStrip]:             #plugins_cstrip
+[CStrip2]:            #plugins_cstrip2
+[curve]:              #plugins_curve
+[Dark]:               #plugins_dark
+[DarkNoise]:          #plugins_darknoise
+[DCVoltage]:          #plugins_dcvoltage
+[DeBess]:             #plugins_debess
+[Deckwrecka]:         #plugins_deckwrecka
+[DeEss]:              #plugins_deess
+[DeHiss]:             #plugins_dehiss
+[Density]:            #plugins_density
+[Density2]:           #plugins_density2
+[DeRez]:              #plugins_derez
+[DeRez2]:             #plugins_derez2
+[Desk]:               #plugins_desk
+[Desk4]:              #plugins_desk4
+[DigitalBlack]:       #plugins_digitalblack
+[Dirt]:               #plugins_dirt
+[Distance]:           #plugins_distance
+[Distance2]:          #plugins_distance2
+[Distortion]:         #plugins_distortion
+[Ditherbox]:          #plugins_ditherbox
+[DitherFloat]:        #plugins_ditherfloat
+[DitherMeDiskers]:    #plugins_dithermediskers
+[DitherMeTimbers]:    #plugins_dithermetimbers
+[Doublelay]:          #plugins_doublelay
+[DoublePaul]:         #plugins_doublepaul
+[Drive]:              #plugins_drive
+[DrumSlam]:           #plugins_drumslam
+[DubCenter]:          #plugins_dubcenter
+[Dubly]:              #plugins_dubly
+[DubSub]:             #plugins_dubsub
+[DustBunny]:          #plugins_dustbunny
+[Dynamics]:           #plugins_dynamics
+[Dyno]:               #plugins_dyno
+[Edge]:               #plugins_edge
+[EdIsDim]:            #plugins_edisdim
+[Elation]:            #plugins_elation
+[ElectroHat]:         #plugins_electrohat
+[Energy]:             #plugins_energy
+[Energy2]:            #plugins_energy2
+[Ensemble]:           #plugins_ensemble
+[EQ]:                 #plugins_eq
+[EveryConsole]:       #plugins_everyconsole
+[EverySlew]:          #plugins_everyslew
+[EveryTrim]:          #plugins_everytrim
+[Exciter]:            #plugins_exciter
+[Facet]:              #plugins_facet
+[FathomFive]:         #plugins_fathomfive
+[FireAmp]:            #plugins_fireamp
+[Flipity]:            #plugins_flipity
+[Floor]:              #plugins_floor
+[Flutter]:            #plugins_flutter
+[Focus]:              #plugins_focus
+[Fracture]:           #plugins_fracture
+[Fracture2]:          #plugins_fracture2
+[FromTape]:           #plugins_fromtape
+[Galactic]:           #plugins_galactic
+[Galactic2]:          #plugins_galactic2
+[GalacticVibe]:       #plugins_galacticvibe
+[Gatelope]:           #plugins_gatelope
+[GlitchShifter]:      #plugins_glitchshifter
+[GoldenSlew]:         #plugins_goldenslew
+[Golem]:              #plugins_golem
+[GrindAmp]:           #plugins_grindamp
+[Gringer]:            #plugins_gringer
+[GrooveWear]:         #plugins_groovewear
+[GuitarConditioner]:  #plugins_guitarconditioner
+[HardVacuum]:         #plugins_hardvacuum
+[Hermepass]:          #plugins_hermepass
+[HermeTrim]:          #plugins_hermetrim
+[HighGlossDither]:    #plugins_highglossdither
+[HighImpact]:         #plugins_highimpact
+[Highpass]:           #plugins_highpass
+[Highpass2]:          #plugins_highpass2
+[Holt]:               #plugins_holt
+[Holt2]:              #plugins_holt2
+[Hombre]:             #plugins_hombre
+[Huge]:               #plugins_huge
+[Hull]:               #plugins_hull
+[Hull2]:              #plugins_hull2
+[Hype]:               #plugins_hype
+[Hypersonic]:         #plugins_hypersonic
+[HypersonX]:          #plugins_hypersonx
+[Infinity]:           #plugins_infinity
+[Infinity2]:          #plugins_infinity2
+[Inflamer]:           #plugins_inflamer
+[Infrasonic]:         #plugins_infrasonic
+[Interstage]:         #plugins_interstage
+[IronOxide5]:         #plugins_ironoxide5
+[IronOxideClassic]:   #plugins_ironoxideclassic
+[IronOxideClassic2]:  #plugins_ironoxideclassic2
+[Isolator]:           #plugins_isolator
+[Isolator2]:          #plugins_isolator2
+[kCathedral]:         #plugins_kcathedral
+[kChamberAR]:         #plugins_kchamberar
+[kPlateA]:            #plugins_kplatea
+[kPlateB]:            #plugins_kplateb
+[kPlateC]:            #plugins_kplatec
+[kPlateD]:            #plugins_kplated
+[LeadAmp]:            #plugins_leadamp
+[LeftoMono]:          #plugins_leftomono
+[LilAmp]:             #plugins_lilamp
+[Logical4]:           #plugins_logical4
+[Loud]:               #plugins_loud
+[Lowpass]:            #plugins_lowpass
+[Lowpass2]:           #plugins_lowpass2
+[LRFlipTimer]:        #plugins_lrfliptimer
+[Luxor]:              #plugins_luxor
+[MackEQ]:             #plugins_mackeq
+[Mackity]:            #plugins_mackity
+[MatrixVerb]:         #plugins_matrixverb
+[Melt]:               #plugins_melt
+[MidAmp]:             #plugins_midamp
+[MidSide]:            #plugins_midside
+[Mojo]:               #plugins_mojo
+[Monitoring]:         #plugins_monitoring
+[Monitoring2]:        #plugins_monitoring2
+[Monitoring3]:        #plugins_monitoring3
+[MoNoam]:             #plugins_monoam
+[MultiBandDistortion]:  #plugins_multibanddistortion
+[MV]:                 #plugins_mv
+[MV2]:                #plugins_mv2
+[NaturalizeDither]:   #plugins_naturalizedither
+[NCSeventeen]:        #plugins_ncseventeen
+[Neverland]:          #plugins_neverland
+[Nikola]:             #plugins_nikola
+[NodeDither]:         #plugins_nodedither
+[Noise]:              #plugins_noise
+[NonlinearSpace]:     #plugins_nonlinearspace
+[NotJustAnotherCD]:   #plugins_notjustanothercd
+[NotJustAnotherDither]:  #plugins_notjustanotherdither
+[OneCornerClip]:      #plugins_onecornerclip
+[OrbitKick]:          #plugins_orbitkick
+[Pafnuty]:            #plugins_pafnuty
+[Pafnuty2]:           #plugins_pafnuty2
+[PaulDither]:         #plugins_pauldither
+[PaulWide]:           #plugins_paulwide
+[PDBuss]:             #plugins_pdbuss
+[PDChannel]:          #plugins_pdchannel
+[PeaksOnly]:          #plugins_peaksonly
+[Pear]:               #plugins_pear
+[PhaseNudge]:         #plugins_phasenudge
+[PitchDelay]:         #plugins_pitchdelay
+[PitchNasty]:         #plugins_pitchnasty
+[PlatinumSlew]:       #plugins_platinumslew
+[PocketVerbs]:        #plugins_pocketverbs
+[Pockey]:             #plugins_pockey
+[Pockey2]:            #plugins_pockey2
+[Podcast]:            #plugins_podcast
+[PodcastDeluxe]:      #plugins_podcastdeluxe
+[Point]:              #plugins_point
+[Pop]:                #plugins_pop
+[Pop2]:               #plugins_pop2
+[PowerSag]:           #plugins_powersag
+[PowerSag2]:          #plugins_powersag2
+[Precious]:           #plugins_precious
+[Preponderant]:       #plugins_preponderant
+[Pressure4]:          #plugins_pressure4
+[Pressure5]:          #plugins_pressure5
+[PurestAir]:          #plugins_purestair
+[PurestConsole2Buss]:  #plugins_purestconsole2buss
+[PurestConsole2Channel]:  #plugins_purestconsole2channel
+[PurestConsole3Buss]:  #plugins_purestconsole3buss
+[PurestConsole3Channel]:  #plugins_purestconsole3channel
+[PurestConsoleBuss]:  #plugins_purestconsolebuss
+[PurestConsoleChannel]:  #plugins_purestconsolechannel
+[PurestDrive]:        #plugins_purestdrive
+[PurestEcho]:         #plugins_purestecho
+[PurestFade]:         #plugins_purestfade
+[PurestGain]:         #plugins_purestgain
+[PurestSquish]:       #plugins_purestsquish
+[PurestWarm]:         #plugins_purestwarm
+[PurestWarm2]:        #plugins_purestwarm2
+[Pyewacket]:          #plugins_pyewacket
+[RawGlitters]:        #plugins_rawglitters
+[RawTimbers]:         #plugins_rawtimbers
+[Recurve]:            #plugins_recurve
+[Remap]:              #plugins_remap
+[ResEQ]:              #plugins_reseq
+[ResEQ2]:             #plugins_reseq2
+[Reverb]:             #plugins_reverb
+[Righteous4]:         #plugins_righteous4
+[RightoMono]:         #plugins_rightomono
+[SampleDelay]:        #plugins_sampledelay
+[Shape]:              #plugins_shape
+[SideDull]:           #plugins_sidedull
+[Sidepass]:           #plugins_sidepass
+[Silhouette]:         #plugins_silhouette
+[Sinew]:              #plugins_sinew
+[SingleEndedTriode]:  #plugins_singleendedtriode
+[Slew]:               #plugins_slew
+[Slew2]:              #plugins_slew2
+[Slew3]:              #plugins_slew3
+[SlewOnly]:           #plugins_slewonly
+[SlewSonic]:          #plugins_slewsonic
+[Smooth]:             #plugins_smooth
+[SoftGate]:           #plugins_softgate
+[SpatializeDither]:   #plugins_spatializedither
+[Spiral]:             #plugins_spiral
+[Spiral2]:            #plugins_spiral2
+[Srsly]:              #plugins_srsly
+[Srsly2]:             #plugins_srsly2
+[StarChild]:          #plugins_starchild
+[StarChild2]:         #plugins_starchild2
+[StereoChorus]:       #plugins_stereochorus
+[StereoDoubler]:      #plugins_stereodoubler
+[StereoEnsemble]:     #plugins_stereoensemble
+[StereoFX]:           #plugins_stereofx
+[StudioTan]:          #plugins_studiotan
+[SubsOnly]:           #plugins_subsonly
+[SubTight]:           #plugins_subtight
+[Surge]:              #plugins_surge
+[SurgeSynthesizer]:   https://surge-synthesizer.github.io/
+[SurgeTide]:          #plugins_surgetide
+[Sweeten]:            #plugins_sweeten
+[Swell]:              #plugins_swell
+[Tape]:               #plugins_tape
+[TapeDelay]:          #plugins_tapedelay
+[TapeDelay2]:         #plugins_tapedelay2
+[TapeDither]:         #plugins_tapedither
+[TapeDust]:           #plugins_tapedust
+[TapeFat]:            #plugins_tapefat
+[Texturize]:          #plugins_texturize
+[TexturizeMS]:        #plugins_texturizems
+[Thunder]:            #plugins_thunder
+[ToneSlant]:          #plugins_toneslant
+[ToTape5]:            #plugins_totape5
+[ToTape6]:            #plugins_totape6
+[ToVinyl4]:           #plugins_tovinyl4
+[TPDFDither]:         #plugins_tpdfdither
+[TPDFWide]:           #plugins_tpdfwide
+[TransDesk]:          #plugins_transdesk
+[Tremolo]:            #plugins_tremolo
+[TremoSquare]:        #plugins_tremosquare
+[TripleSpread]:       #plugins_triplespread
+[Tube]:               #plugins_tube
+[Tube2]:              #plugins_tube2
+[TubeDesk]:           #plugins_tubedesk
+[uLawDecode]:         #plugins_ulawdecode
+[uLawEncode]:         #plugins_ulawencode
+[Ultrasonic]:         #plugins_ultrasonic
+[UltrasonicLite]:     #plugins_ultrasoniclite
+[UltrasonicMed]:      #plugins_ultrasonicmed
+[UltrasonX]:          #plugins_ultrasonx
+[UnBox]:              #plugins_unbox
+[VariMu]:             #plugins_varimu
+[Verbity]:            #plugins_verbity
+[Verbity2]:           #plugins_verbity2
+[Vibrato]:            #plugins_vibrato
+[VinylDither]:        #plugins_vinyldither
+[VoiceOfTheStarship]:  #plugins_voiceofthestarship
+[VoiceTrick]:         #plugins_voicetrick
+[Weight]:             #plugins_weight
+[Wider]:              #plugins_wider
+[XBandpass]:          #plugins_xbandpass
+[XHighpass]:          #plugins_xhighpass
+[XLowpass]:           #plugins_xlowpass
+[XNotch]:             #plugins_xnotch
+[XRegion]:            #plugins_xregion
+[YBandpass]:          #plugins_ybandpass
+[YHighpass]:          #plugins_yhighpass
+[YLowpass]:           #plugins_ylowpass
+[YNotBandpass]:       #plugins_ynotbandpass
+[YNotch]:             #plugins_ynotch
+[YNotHighpass]:       #plugins_ynothighpass
+[YNotLowpass]:        #plugins_ynotlowpass
+[YNotNotch]:          #plugins_ynotnotch
+[ZBandpass]:          #plugins_zbandpass
+[ZBandpass2]:         #plugins_zbandpass2
+[ZHighpass]:          #plugins_zhighpass
+[ZHighpass2]:         #plugins_zhighpass2
+[ZLowpass]:           #plugins_zlowpass
+[ZLowpass2]:          #plugins_zlowpass2
+[ZNotch]:             #plugins_znotch
+[ZNotch2]:            #plugins_znotch2
+[ZOutputStage]:       #plugins_zoutputstage
+[ZRegion]:            #plugins_zregion
+[ZRegion2]:           #plugins_zregion2

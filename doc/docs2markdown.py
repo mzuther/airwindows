@@ -22,9 +22,30 @@ def paragraphify(contents):
             output += '''## Categories
 ### Starterkit
 
-Baxandall, Capacitor2, Channel9, ClipOnly2, Console7Buss, Console7Cascade, Console7Channel, DeBess, Focus, Galactic, Hypersonic, Interstage, Monitoring, Pressure5, PurestGain, Srsly2, Verbity
-
 '''
+
+            plugins = [
+                'Baxandall',
+                'Capacitor2',
+                'Channel9',
+                'ClipOnly2',
+                'Console7Buss',
+                'Console7Cascade',
+                'Console7Channel',
+                'DeBess',
+                'Focus',
+                'Galactic',
+                'Hypersonic',
+                'Interstage',
+                'Monitoring',
+                'Pressure5',
+                'PurestGain',
+                'Srsly2',
+                'Verbity'
+            ]
+
+            output += ',\n'.join(plugins)
+            output += '\n\n'
 
             for subparagraph in categories.split('\n'):
                 if not subparagraph:
@@ -32,6 +53,10 @@ Baxandall, Capacitor2, Channel9, ClipOnly2, Console7Buss, Console7Cascade, Conso
 
                 category, plugins = subparagraph.split(': ', maxsplit=1)
                 output += f'### {category}\n\n'
+
+                # untangle plugin list
+                plugins = plugins.replace(' ', '\n')
+                plugins = re.sub(r',(\w)', r',\n\1', plugins)
                 output += f'{plugins}\n\n'
 
             output += '\n## Plugins'
@@ -99,7 +124,8 @@ def add_internal_links(contents):
 
     for header in sorted(headers.keys(), key=str.lower):
         _, header_link = headers[header]
-        link_definitions += f'[{header}]: {header_link}\n'
+        header = f'[{header}]:'
+        link_definitions += f'{(header):20}  {header_link}\n'
 
     # add guards to headers
     contents = re.sub(r'([#]+) (\w+)', r'\1\2', contents)
@@ -107,7 +133,7 @@ def add_internal_links(contents):
     output = ''
     for word in re.split(r'([#]?\w+)', contents):
         if word in headers:
-            word = f'[{word}][]'
+            word = f'[{word}]'
         output += word
 
     # remove guards from headers
