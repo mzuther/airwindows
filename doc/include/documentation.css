@@ -1,15 +1,18 @@
 html {
     background-color: #ccc;
+    background: repeating-linear-gradient(45deg, #ddd, #ccc 2px, #ddd 4px) fixed;
     font-size: 1.1em;
 }
 
 body {
     margin: 0 auto;
-    padding: 0.75em 3em;
+    padding: 0.75em 2.75em;
     width: 40em;
     color: #111;
     background-color: #fff;
-    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.25);
+    border-left: solid #bbb 2px;
+    border-right: solid #bbb 2px;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.25);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     line-height: 1.4em;
     text-align: left;
@@ -27,12 +30,15 @@ a:visited {
 @media (prefers-color-scheme: dark) {
     html {
         background-color: #111;
+        background: repeating-linear-gradient(45deg, #111, #222 2px, #111 4px) fixed;
     }
 
     body {
         color: #fff;
         background-color: #333;
-        box-shadow: 1px 2px 4px rgba(255, 255, 255, 0.25);
+        border-left: solid #444 2px;
+        border-right: solid #444 2px;
+        box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.25);
     }
 
     a {
